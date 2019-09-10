@@ -7,6 +7,10 @@ This repository should contain:
 * Processed CLDR localization data
 * List of supported languages
 * Taxonomy: schemas and metadata
+* Integration data
+    - webhooks
+    - badge URLs
+    - project IDs on SaaS platforms
 * Markdown templates
     - for wiki pages
     - for merge requests, issues, and stuff on GitLab
