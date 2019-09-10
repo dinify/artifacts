@@ -1,0 +1,4650 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<!-- Copyright © 1991-2019 Unicode, Inc.
+For terms of use, see http://www.unicode.org/copyright.html
+Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
+CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
+-->
+<ldml>
+	<identity>
+		<version number="$Revision$"/>
+		<language type="ff"/>
+		<script type="Adlm"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="aa">𞤢𞤬𞤢𞥄𞤪𞤫</language>
+			<language type="af">𞤀𞤬𞤪𞤭𞤳𞤢𞤲𞤪𞤫</language>
+			<language type="ak">𞤀𞤳𞤢𞤲𞤪𞤫</language>
+			<language type="am">𞤀𞤥𞤸𞤢𞤪𞤭𞥅𞤪𞤫</language>
+			<language type="an">𞤀𞤪𞤢𞤺𞤮𞤲𞤪𞤫</language>
+			<language type="anp">𞤀𞤲𞤺𞤭𞤳𞤢𞥄𞤪𞤫</language>
+			<language type="ar">𞤀𞥄𞤪𞤫𞤦𞤫𞥅𞤪𞤫</language>
+			<language type="arp">𞤀𞤪𞤢𞤨𞤢𞤸𞤮𞥅𞤪𞤫</language>
+			<language type="as">𞤀𞤧𞤢𞤥𞤫𞥅𞤪𞤫</language>
+			<language type="asa">𞤀𞤧𞤵𞥅𞤪𞤫</language>
+			<language type="ast">𞤀𞤧𞤼𞤵𞤪𞤭𞥅𞤪𞤫</language>
+			<language type="av">𞤀𞤬𞤱𞤢𞤪𞤭𞥅𞤪𞤫</language>
+			<language type="awa">𞤀𞤱𞤢𞤣𞤭𞥅𞤪𞤫</language>
+			<language type="ay">𞤀𞤴𞤥𞤢𞤪𞤢𞥄𞤪𞤫</language>
+			<language type="az">𞤀𞤶𞤢𞤪𞤦𞤢𞤴𞤭𞤶𞤢𞤲𞤭𞥅𞤪𞤫</language>
+			<language type="az" alt="short">𞤀𞤶𞤢𞤪𞤭𞥅𞤪𞤫</language>
+			<language type="ba">𞤄𞤢𞤧𞤳𞤭𞥅𞤪𞤫</language>
+			<language type="ban">𞤄𞤢𞥄𞤤𞤭𞥅𞤪𞤫</language>
+			<language type="bas">𞤄𞤢𞤧𞤢𞥄𞤪𞤫</language>
+			<language type="be">𞤄𞤫𞤤𞤢𞤪𞤭𞥅𞤧𞤭𞥅𞤪𞤫</language>
+			<language type="bem">𞤄𞤫𞤥𞤦𞤢𞥄𞤪𞤫</language>
+			<language type="bez">𞤄𞤫𞤲𞤢𞥄𞤪𞤫</language>
+			<language type="bg">𞤄𞤭𞤤𞤺𞤢𞥄𞤪𞤫</language>
+			<language type="bho">𞤄𞤮𞤧𞤨𞤵𞤪𞤭𞥅𞤪𞤫</language>
+			<language type="bi">𞤄𞤭𞤧𞤤𞤢𞤥𞤢𞥄𞤪𞤫</language>
+			<language type="bin">𞤄𞤭𞤲𞤭𞥅𞤪𞤫</language>
+			<language type="bm">𞤄𞤢𞤥𞤦𞤢𞤪𞤢𞥄𞤪𞤫</language>
+			<language type="bn">𞤄𞤫𞤲𞤺𞤢𞤤𞤭𞥅𞤪𞤫</language>
+			<language type="br">𞤄𞤫𞤪𞤫𞤼𞤮𞤲𞤪𞤫</language>
+			<language type="brx">𞤄𞤮𞤣𞤮𞥅𞤪𞤫</language>
+			<language type="bs">𞤄𞤮𞤧𞤲𞤭𞤴𞤢𞥄𞤪𞤫</language>
+			<language type="bug">𞤄𞤵𞤺𞤭𞤧𞤢𞥄𞤪𞤫</language>
+			<language type="byn">𞤄𞤭𞤤𞤭𞤲𞤪𞤫</language>
+			<language type="ca">𞤑𞤢𞤼𞤢𞤤𞤢𞤲𞤪𞤫</language>
+			<language type="ce">𞤕𞤫𞤷𞤫𞤲𞤪𞤫</language>
+			<language type="ceb">𞤅𞤫𞤦𞤱𞤢𞤲𞤮𞥅𞤪𞤫</language>
+			<language type="cgg">𞤕𞤭𞤺𞤢𞥄𞤪𞤫</language>
+			<language type="ch">𞤕𞤢𞤥𞤮𞤪𞤮𞥅𞤪𞤫</language>
+			<language type="chk">𞤕𞤵𞥅𞤳𞤵𞥅𞤪𞤫</language>
+			<language type="cho">𞤕𞤢𞤸𞤼𞤢𞥄𞤪𞤫</language>
+			<language type="chr">𞤕𞤫𞥅𞤪𞤮𞤳𞤭𞥅𞤪𞤫</language>
+			<language type="chy">𞤅𞤢𞥄𞤴𞤢𞤲𞤪𞤫</language>
+			<language type="ckb">𞤑𞤵𞤪𞤣𞤵𞥅𞤪𞤫</language>
+			<language type="co">𞤑𞤮𞤪𞤧𞤭𞤳𞤢𞥄𞤪𞤫</language>
+			<language type="cs">𞤕𞤫𞤳𞤧𞤭𞤲𞤢𞥄𞤪𞤫</language>
+			<language type="cy">𞤘𞤢𞤤𞤭𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="da">𞤁𞤢𞥄𞤲𞤭𞤧𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="dak">𞤁𞤢𞤳𞤮𞤼𞤢𞥄𞤪𞤫</language>
+			<language type="dar">𞤁𞤢𞤪𞤺𞤭𞤲𞤢𞥄𞤪𞤫</language>
+			<language type="dje">𞤔𞤢𞤪𞤥𞤢𞥄𞤪𞤫</language>
+			<language type="dua">𞤁𞤵𞤱𞤢𞤤𞤢𞥄𞤪𞤫</language>
+			<language type="dv">𞤁𞤭𞥅𞤬𞤫𞤸𞤭𞥅𞤪𞤫</language>
+			<language type="dyo">𞤔𞤮𞥅𞤤𞤢𞥄𞤪𞤫</language>
+			<language type="dz">𞤄𞤵𞥅𞤼𞤢𞤲𞤪𞤫</language>
+			<language type="dzg">𞤁𞤢𞤶𞤢𞤺𞤢𞥄𞤪𞤫</language>
+			<language type="eu">𞤄𞤢𞤧𞤳𞤢𞤪𞤢𞥄𞤪𞤫</language>
+			<language type="fy">𞤊𞤭𞤪𞤭𞥅𞤧𞤭𞤴𞤢𞤲𞤳𞤮𞥅𞤪𞤫 𞤖𞤭𞤪𞤲𞤢</language>
+			<language type="ga">𞤋𞤪𞤤𞤢𞤲𞤣𞤫𞥅𞤪𞤫</language>
+			<language type="hr">𞤑𞤮𞤪𞤮𞤱𞤢𞤧𞤭𞥅𞤪𞤫</language>
+			<language type="hy">𞤀𞤪𞤥𞤫𞤲𞤭𞥅𞤪𞤫</language>
+			<language type="ia">𞤉𞤲𞤼𞤫𞤪𞤤𞤭𞤺𞤢𞥄𞤪𞤫</language>
+			<language type="id">𞤉𞤲𞤣𞤮𞤲𞤮𞥅𞤧𞤭𞤴𞤢𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="ilo">𞤋𞤤𞤮𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="inh">𞤋𞤲𞤺𞤮𞤧𞤫𞥅𞤪𞤫</language>
+			<language type="it">𞤋𞤼𞤢𞤤𞤭𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="iu">𞤋𞤲𞤵𞤳𞤼𞤫𞥅𞤪𞤫</language>
+			<language type="ja">𞤔𞤢𞤨𞤮𞤲𞤫𞥅𞤪𞤫</language>
+			<language type="jgo">𞤐𞤺𞤮𞤥𞤦𞤢𞥄𞤪𞤫</language>
+			<language type="jmc">𞤃𞤢𞤳𞤢𞤥𞤫𞥅𞤪𞤫</language>
+			<language type="jv">𞤔𞤢𞥄𞤱𞤢𞤫𞥅𞤪𞤫</language>
+			<language type="kaj">𞤑𞤢𞤶𞤫𞥅𞤪𞤫</language>
+			<language type="kde">𞤃𞤢𞤳𞤮𞤲𞤣𞤫𞥅𞤪𞤫</language>
+			<language type="ksf">𞤄𞤢𞤬𞤭𞤴𞤢𞥄𞤪𞤫</language>
+			<language type="kw">𞤑𞤮𞤪𞤲𞤭𞥅𞤪𞤫</language>
+			<language type="lus">𞤃𞤭𞤧𞤮𞥅𞤪𞤫</language>
+			<language type="mad">𞤃𞤢𞤣𞤵𞤪𞤫𞥅𞤪𞤫</language>
+			<language type="mag">𞤃𞤢𞤺𞤢𞤸𞤭𞥅𞤪𞤫</language>
+			<language type="mai">𞤃𞤢𞤴𞤭𞤼𞤭𞤤𞤭𞥅𞤪𞤫</language>
+			<language type="mak">𞤃𞤢𞤳𞤢𞤧𞤢𞤪𞤢𞥄𞤪𞤫</language>
+			<language type="mas">𞤃𞤢𞤧𞤢𞤴𞤭𞥅𞤪𞤫</language>
+			<language type="mdf">𞤃𞤮𞤳𞤧𞤢𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="men">𞤃𞤫𞤲𞤣𞤫𞥅𞤪𞤫</language>
+			<language type="mer">𞤃𞤫𞤪𞤵𞥅𞤪𞤫</language>
+			<language type="mfe">𞤃𞤮𞤪𞤭𞥅𞤧𞤭𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="mg">𞤃𞤢𞤤𞤢𞤺𞤢𞤧𞤭𞥅𞤪𞤫</language>
+			<language type="mgh">𞤃𞤢𞤳𞤵𞤱𞤢𞥄𞤪𞤫</language>
+			<language type="mgo">𞤃𞤫𞤼𞤢𞥄𞤪𞤫</language>
+			<language type="mh">𞤃𞤢𞤪𞤧𞤢𞤤𞤫𞥅𞤪𞤫</language>
+			<language type="mk">𞤃𞤢𞤧𞤫𞤣𞤮𞤲𞤭𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="ml">𞤃𞤢𞤤𞤢𞤴𞤢𞤤𞤢𞤥𞤪𞤫</language>
+			<language type="mn">𞤃𞤮𞤲𞤺𞤮𞤤𞤭𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="mni">𞤃𞤢𞤲𞤭𞤨𞤵𞥅𞤪𞤫</language>
+			<language type="moh">𞤃𞤮𞥅𞤸𞤢𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="mos">𞤃𞤮𞥅𞤧𞤭𞥅𞤪𞤫</language>
+			<language type="ms">𞤃𞤢𞤤𞤫𞥅𞤪𞤫</language>
+			<language type="mt">𞤃𞤢𞤤𞤼𞤭𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="mua">𞤃𞤵𞤲𞤣𞤢𞤲𞤪𞤫</language>
+			<language type="mul">𞤍𞤫𞤲𞤯𞤫 𞤅𞤫𞤪𞤼𞤵𞤯𞤫</language>
+			<language type="mus">𞤃𞤵𞤧𞤳𞤮𞤳𞤭𞥅𞤪𞤫</language>
+			<language type="mwl">𞤃𞤭𞤪𞤢𞤲𞤣𞤫𞥅𞤪𞤫</language>
+			<language type="my">𞤄𞤵𞤪𞤥𞤢𞥄𞤪𞤫</language>
+			<language type="na">𞤐𞤢𞤱𞤵𞤪𞤵𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="nap">𞤐𞤢𞥄𞤨𞤮𞤤𞤭𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="naq">𞤐𞤢𞤥𞤢𞥄𞤪𞤫</language>
+			<language type="ne">𞤐𞤫𞤨𞤢𞤤𞤭𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="new">𞤐𞤫𞤱𞤢𞤪𞤭𞥅𞤪𞤫</language>
+			<language type="ng">𞤐𞤣𞤮𞤲𞤺𞤢𞥄𞤪𞤫</language>
+			<language type="nia">𞤙𞤢𞤧𞤭𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="nl">𞤁𞤮𞥅𞤷𞤪𞤫</language>
+			<language type="nnh">𞤐𞤶𞤢𞤥𞤦𞤵𞥅𞤪𞤫</language>
+			<language type="nqo">𞤐𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="nv">𞤐𞤢𞤬𞤱𞤢𞤸𞤮𞥅𞤪𞤫</language>
+			<language type="rup">𞤀𞤪𞤮𞤥𞤢𞤲𞤭𞥅𞤪𞤫</language>
+			<language type="smn">𞤋𞤲𞤢𞤪𞤭𞤧𞤳𞤢𞤤𞤭𞥅𞤪𞤫</language>
+			<language type="sq">𞤀𞤤𞤦𞤢𞤲𞤭𞥅𞤪𞤫</language>
+			<language type="swb">𞤑𞤮𞤥𞤮𞤪𞤭𞥅𞤪𞤫</language>
+			<language type="ug">𞤓𞥅𞤴𞤺𞤵𞥅𞤪𞤫</language>
+			<language type="ur">𞤓𞤪𞤣𞤵𞥅𞤪𞤫</language>
+			<language type="uz">𞤓𞥅𞤧𞤦𞤫𞤳𞤪𞤫</language>
+			<language type="vai">𞤾𞤢𞥄𞤴𞤪𞤫</language>
+			<language type="ve">𞤏𞤫𞤲𞤣𞤢𞥄𞤪𞤫</language>
+			<language type="vi">𞤏𞤭𞤴𞤫𞤼𞤲𞤢𞤥𞤭𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="vo">𞤏𞤮𞤤𞤢𞤨𞤵𞤳𞤪𞤫</language>
+			<language type="vun">𞤏𞤵𞤲𞤶𞤮𞥅𞤪𞤫</language>
+			<language type="wa">𞤏𞤢𞥄𞤤𞤮𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="wae">𞤏𞤢𞤤𞤧𞤫𞥅𞤪𞤫</language>
+			<language type="wal">𞤏𞤮𞥅𞤤𞤢𞤴𞤼𞤢𞥄𞤪𞤫</language>
+			<language type="war">𞤏𞤢𞤪𞤢𞤴𞤫𞥅𞤪𞤫</language>
+			<language type="wo">𞤏𞤮𞤤𞤮𞤬𞤪𞤫</language>
+			<language type="xh">𞤑𞤮𞥅𞤧𞤢𞥄𞤪𞤫</language>
+			<language type="yav">𞤒𞤢𞤲𞤺𞤦𞤫𞥅𞤪𞤫</language>
+			<language type="ybb">𞤒𞤫𞤥𞤦𞤢𞥄𞤪𞤫</language>
+			<language type="yi">𞤒𞤭𞤣𞤭𞤧𞤢𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="yo">𞤒𞤮𞥅𞤪𞤵𞤦𞤢𞥄𞤪𞤫</language>
+			<language type="yue">𞤑𞤢𞤲𞤼𞤮𞤲𞤫𞥅𞤪𞤫</language>
+			<language type="zh">𞤅𞤭𞥅𞤲𞤭𞤴𞤢𞤲𞤳𞤮𞥅𞤪𞤫</language>
+			<language type="zh_Hans">𞤅𞤭𞥅𞤲𞤭𞤴𞤢𞤲𞤳𞤮𞥅𞤪𞤫 𞤐𞤫𞤱𞤭𞥅𞤲𞥋𞤣𞤫</language>
+			<language type="zh_Hant">𞤅𞤭𞥅𞤲𞤭𞤴𞤢𞤲𞤳𞤮𞥅𞤪𞤫 𞤚𞤢𞤱𞤢𞥄𞤲𞥋𞤣𞤫</language>
+			<language type="zu">𞥁𞤵𞤤𞤵𞥅𞤪𞤫</language>
+		</languages>
+		<keys>
+			<key type="calendar">𞤙𞤢𞤤𞤯𞤭𞤥𞤫𞤪𞤫</key>
+			<key type="cf">𞤃𞤢𞥄𞤲𞥋𞤣𞤫 𞤐𞥋𞤄𞤵𞥅𞤯𞤭</key>
+			<key type="collation">𞤈𞤫𞤱𞤲𞤭𞤲𞥋𞤣𞤭𞤪𞤮 𞤔𞤭𞤩𞤼𞤢𞤲𞤣𞤫</key>
+			<key type="currency">𞤐𞥋𞤄𞤵𞥅𞤯𞤭</key>
+			<key type="hc">𞤃𞤢𞥄𞤲𞥋𞤣𞤫 𞤚𞤢𞥄𞤪𞤮 𞤐𞥋𞤄𞤵𞥅𞤯𞤭 (𞥑𞥒 𞤥𞤢𞥄 𞥒𞥔)</key>
+			<key type="lb">𞤐𞥋𞤄𞤢𞥄𞤣𞤭 𞤕𞤮𞤣𞤢𞤲𞤣𞤫 𞤁𞤭𞥅𞤣𞤮𞤤</key>
+			<key type="ms">𞤐𞥋𞤔𞤵𞤩𞥆𞤵𞤣𞤭 𞤇𞤫𞤼𞤵</key>
+			<key type="numbers">𞤈𞤢𞤽𞤢𞤥𞤫</key>
+		</keys>
+		<types>
+			<type key="calendar" type="buddhist">𞤙𞤢𞤤𞤯𞤭𞤥𞤫𞤪𞤫 𞤄𞤵𞥅𞤣𞤢𞤴𞤢𞤲𞤳𞤮</type>
+			<type key="calendar" type="chinese">𞤙𞤢𞤤𞤯𞤭𞤥𞤫𞤪𞤫 𞤅𞤭𞥅𞤲𞤭𞤲𞤳𞤮</type>
+			<type key="calendar" type="dangi">𞤙𞤢𞤤𞤯𞤭𞤥𞤫𞤪𞤫 𞤁𞤢𞤲𞤺𞤭𞤲𞤳𞤮</type>
+			<type key="calendar" type="ethiopic">𞤙𞤢𞤤𞤯𞤭𞤥𞤫𞤪𞤫 𞤀𞤦𞤢𞤧𞤭𞤴𞤢𞤲𞤳𞤮</type>
+			<type key="calendar" type="gregorian">𞤙𞤢𞤤𞤯𞤭𞤥𞤫𞤪𞤫 𞤘𞤫𞤪𞤺𞤮𞤪𞤭𞤴𞤢𞤲𞤳𞤮</type>
+			<type key="calendar" type="hebrew">𞤙𞤢𞤤𞤯𞤭𞤥𞤫𞤪𞤫 𞤋𞤦𞤪𞤭𞤴𞤢𞤲𞤳𞤮</type>
+			<type key="calendar" type="islamic">𞤙𞤢𞤤𞤥𞤫𞤪𞤫 𞤂𞤭𞤧𞤤𞤢𞥄𞤥𞤴𞤢𞤲𞤳𞤮</type>
+			<type key="calendar" type="islamic-civil">𞤙𞤢𞤤𞤯𞤭𞤥𞤫𞤪𞤫 𞤂𞤭𞤧𞤤𞤢𞥄𞤥𞤴𞤢𞤲𞤳𞤮 (𞤢𞤤𞥆𞤵𞤱𞤢𞤤, 𞤬𞤫𞤱𞤲𞥋𞤣𞤮 𞤲𞥋𞤦𞤫𞤯𞥆𞤢𞥄𞤳𞤵)</type>
+			<type key="calendar" type="islamic-tbla">𞤙𞤢𞤤𞤯𞤭𞤥𞤫𞤪𞤫 𞤂𞤭𞤧𞤤𞤢𞥄𞤥𞤵 (𞤀𞤤𞥆𞤵𞤲𞤳𞤮, 𞤊𞤫𞤱𞤣𞤮 𞤋𞤲𞤳𞤮𞥅𞤣𞤭𞤲𞤳𞤮)</type>
+			<type key="calendar" type="iso8601">𞤙𞤢𞤤𞤯𞤭𞤥𞤫𞤪𞤫 ISO-8601</type>
+			<type key="calendar" type="japanese">𞤙𞤢𞤤𞤯𞤭𞤥𞤫𞤪𞤫 𞤔𞤢𞥄𞤨𞤮𞤲𞤭𞤲𞤳𞤮</type>
+			<type key="calendar" type="persian">𞤙𞤢𞤤𞤯𞤭𞤥𞤫𞤪𞤫 𞤊𞤢𞥄𞤪𞤭𞤧𞤭𞤴𞤢𞤲𞤳𞤮</type>
+			<type key="calendar" type="roc">𞤙𞤢𞤤𞤯𞤭𞤥𞤫𞤪𞤫 𞤘𞤫𞤲𞤣𞤭𞤴𞤢𞤲𞤳𞤮 𞤅𞤭𞥅𞤲</type>
+			<type key="cf" type="account">𞤃𞤢𞥄𞤲𞥋𞤣𞤫 𞤂𞤭𞤥𞤭𞤲𞤳𞤮 𞤐𞥋𞤄𞤵𞥅𞤯𞤭</type>
+			<type key="cf" type="standard">𞤃𞤢𞥄𞤲𞥋𞤣𞤫 𞤚𞤢𞤦𞤵𞤼𞤵𞤲𞥋𞤣𞤫 𞤐𞥋𞤄𞤵𞥅𞤯𞤭</type>
+			<type key="collation" type="ducet">𞤈𞤫𞤱𞤲𞤭𞤲𞥋𞤣𞤭𞤪𞤮 𞤔𞤭𞤩𞤼𞤢𞤲𞤣𞤫 𞤊𞤭𞤩𞤢𞤲𞤣𞤫 Unicode</type>
+			<type key="collation" type="search">𞤏𞤭𞤯𞤢𞤲𞤣𞤫 𞤖𞤵𞥅𞤩𞤵𞤲𞥋𞤣𞤫</type>
+			<type key="collation" type="standard">𞤖𞤢𞤱𞤪𞤭𞤼𞤢𞤲𞤣𞤫 𞤈𞤫𞤱𞤲𞤭𞤲𞥋𞤣𞤭𞤪𞤮 𞤔𞤭𞤩𞤼𞤢𞤲𞤣𞤫</type>
+			<type key="hc" type="h11">𞤐𞥋𞤔𞤵𞤩𞥆𞤵𞤣𞤭 𞤁𞤵𞤥𞤵𞤲𞥆𞤢 𞤐𞥋𞤔𞤢𞤥𞤲𞥋𞤣𞤭 𞥑𞥒 (𞥐-𞥑𞥒)</type>
+			<type key="hc" type="h12">𞤐𞥋𞤔𞤵𞤩𞥆𞤵𞤣𞤭 𞤁𞤵𞤥𞤵𞤲𞥆𞤢 𞤐𞥋𞤔𞤢𞤥𞤲𞥋𞤣𞤭 𞥑𞥒 (𞥑-𞥑𞥒)</type>
+			<type key="hc" type="h23">𞤐𞥋𞤔𞤵𞤩𞥆𞤵𞤣𞤭 𞤁𞤵𞤥𞤵𞤲𞥆𞤢 𞤐𞥋𞤔𞤢𞤥𞤲𞥋𞤣𞤭 𞥒𞥔 (𞥐-𞥒𞥓)</type>
+			<type key="hc" type="h24">𞤐𞥋𞤔𞤵𞤩𞥆𞤵𞤣𞤭 𞤁𞤵𞤥𞤵𞤲𞥆𞤢 𞤐𞥋𞤔𞤢𞤥𞤲𞥋𞤣𞤭 𞥒𞥔 (𞥑-𞥒𞥔)</type>
+			<type key="lb" type="loose">𞤐𞥋𞤄𞤢𞥄𞤣𞤭 𞤒𞤢𞤲𞤻𞤮 𞤕𞤮𞤣𞤢𞤲𞤣𞤫 𞤁𞤭𞥅𞤣𞤮𞤤</type>
+			<type key="lb" type="normal">𞤐𞥋𞤄𞤢𞥄𞤣𞤭 𞤖𞤵𞥅𞤩𞤵𞤲𞥋𞤣𞤭 𞤕𞤮𞤣𞤢𞤲𞤣𞤫 𞤁𞤭𞥅𞤣𞤮𞤤</type>
+			<type key="lb" type="strict">𞤐𞥋𞤄𞤢𞥄𞤣𞤭 𞤊𞤮𞤷𞥆𞤭𞥅𞤲𞥋𞤣𞤭 𞤕𞤮𞤣𞤢𞤲𞤣𞤫 𞤁𞤭𞥅𞤣𞤮𞤤</type>
+			<type key="ms" type="metric">𞤐𞥋𞤔𞤵𞤩𞥆𞤵𞤣𞤭 𞤃𞤫𞥅𞤼𞤭𞤲𞤳𞤮</type>
+			<type key="ms" type="uksystem">𞤐𞥋𞤔𞤵𞤩𞥆𞤵𞤣𞤭 𞤇𞤫𞤼𞤵 𞤋𞤥𞤦𞤭𞤪𞤢𞥄𞤼𞤵</type>
+			<type key="ms" type="ussystem">𞤐𞥋𞤔𞤵𞤩𞤵𞤣𞤭 𞤇𞤫𞤼𞤵 𞤁𞤂𞤀</type>
+			<type key="numbers" type="arab">𞤂𞤭𞤥𞤪𞤫 𞤀𞥄𞤪𞤢𞤦𞤭𞤲𞤳𞤮-𞤋𞤲𞤣𞤭𞤲𞤳𞤮</type>
+			<type key="numbers" type="arabext">𞤂𞤭𞤥𞤪𞤫 𞤀𞥄𞤪𞤢𞤦𞤭𞤲𞤳𞤮-𞤋𞤲𞤣𞤭𞤲𞤳𞤮 𞤙𞤢𞤲𞤻𞤢𞥄𞤲𞥋𞤣𞤫</type>
+			<type key="numbers" type="armn">𞤈𞤢𞤽𞤢𞤥𞤫 𞤀𞤪𞤥𞤫𞤲𞤭𞤲𞤳𞤮</type>
+			<type key="numbers" type="armnlow">𞤈𞤢𞤽𞤢𞤥𞤫 𞤚𞤮𞤧𞤮𞥅𞤳𞤫 𞤀𞤪𞤥𞤫𞤲𞤭𞤲𞤳𞤮</type>
+			<type key="numbers" type="beng">𞤂𞤭𞤥𞤫 𞤄𞤢𞤲𞤺𞤭𞤤𞤢𞤲𞤳𞤮</type>
+			<type key="numbers" type="deva">𞤂𞤭𞤥𞤫 𞤁𞤢𞤾𞤢𞤲𞤢𞤲𞤳𞤮</type>
+			<type key="numbers" type="ethi">𞤈𞤢𞤽𞤢𞤥𞤫 𞤀𞤦𞤢𞤧𞤭𞤲𞤳𞤮</type>
+			<type key="numbers" type="fullwide">𞤂𞤭𞤥𞤫 𞤑𞤵𞥅𞤩𞤵𞤯𞤫</type>
+			<type key="numbers" type="geor">𞤈𞤢𞤽𞤢𞤥𞤫 𞤔𞤮𞤪𞤶𞤭𞤲𞤳𞤮</type>
+			<type key="numbers" type="grek">𞤈𞤢𞤽𞤢𞤥𞤫 𞤘𞤭𞤪𞤭𞤧𞤢𞤲𞤳𞤮</type>
+			<type key="numbers" type="greklow">𞤈𞤢𞤽𞤢𞤥𞤫 𞤚𞤮𞤧𞤮𞥅𞤳𞤫 𞤘𞤭𞤪𞤭𞤧𞤢𞤲𞤳𞤮</type>
+			<type key="numbers" type="gujr">𞤂𞤭𞤥𞤫 𞤘𞤵𞤶𞤵𞤪𞤢𞤲𞤳𞤮</type>
+			<type key="numbers" type="guru">𞤂𞤭𞤥𞤫 𞤘𞤵𞤪𞤥𞤭𞤲𞤳𞤮</type>
+			<type key="numbers" type="hanidec">𞤈𞤢𞤽𞤢𞤥𞤫 𞤁𞤫𞥅𞤧𞤭𞤥𞤶𞤫 𞤅𞤭𞥅𞤲𞤭𞤲𞤳𞤮</type>
+			<type key="numbers" type="hans">𞤈𞤢𞤽𞤢𞤥𞤫 𞤐𞤫𞤱𞤭𞤲𞤢𞥄𞤯𞤫 𞤅𞤭𞥅𞤲𞤭𞤲𞤳𞤮</type>
+			<type key="numbers" type="hansfin">𞤈𞤢𞤽𞤢𞤥𞤫 𞤅𞤭𞥅𞤲𞤭𞤲𞤳𞤮 𞤐𞤫𞤱𞤭𞤲𞤢𞥄𞤯𞤫 𞤐𞥋𞤘𞤢𞤤𞤵</type>
+			<type key="numbers" type="hant">𞤈𞤢𞤽𞤢𞤥𞤫 𞤅𞤭𞥅𞤲𞤭𞤲𞤳𞤮 𞤊𞤭𞤲𞤼𞤢𞤱𞤢𞥄𞤶𞤫</type>
+			<type key="numbers" type="hantfin">𞤈𞤢𞤽𞤢𞤥𞤫 𞤅𞤭𞥅𞤲𞤭𞤲𞤳𞤮 𞤊𞤭𞤲𞤼𞤢𞤱𞤢𞥄𞤶𞤫 𞤐𞥋𞤘𞤢𞤤𞤵</type>
+			<type key="numbers" type="hebr">𞤈𞤢𞤽𞤢𞤥𞤫 𞤖𞤭𞥅𞤦𞤭𞤪𞤭𞤲𞤳𞤮</type>
+			<type key="numbers" type="jpan">𞤈𞤢𞤽𞤢𞤥𞤫 𞤔𞤢𞥄𞤨𞤢𞤲𞤭𞤲𞤳𞤮</type>
+			<type key="numbers" type="jpanfin">𞤈𞤢𞤽𞤢𞤥𞤫 𞤔𞤢𞥄𞤨𞤢𞤲𞤭𞤲𞤳𞤮 𞤐𞥋𞤔𞤢𞤤𞤵</type>
+			<type key="numbers" type="khmr">𞤂𞤭𞤥𞤫 𞤝𞤭𞥅𞤥𞤭𞤪𞤭𞤲𞤳𞤮</type>
+			<type key="numbers" type="knda">𞤂𞤭𞤥𞤫 𞤑𞤢𞥄𞤲𞤢𞤣𞤢𞤲𞤳𞤮</type>
+			<type key="numbers" type="laoo">𞤂𞤭𞤥𞤫 𞤂𞤢𞥄𞤱𞤮𞤴𞤢𞤲𞤳𞤮</type>
+			<type key="numbers" type="latn">𞤂𞤭𞤥𞤫 𞤖𞤭𞥅𞤪𞤲𞤢𞤲𞤳𞤮</type>
+			<type key="numbers" type="mlym">𞤂𞤭𞤥𞤫 𞤃𞤢𞤤𞤢𞤴𞤢𞤥𞤳𞤮</type>
+			<type key="numbers" type="mymr">𞤂𞤭𞤥𞤫 𞤃𞤭𞤴𞤢𞤥𞤢𞤪𞤳𞤮</type>
+			<type key="numbers" type="orya">𞤂𞤭𞤥𞤫 𞤌𞤣𞤭𞤴𞤢𞤲𞤳𞤮</type>
+			<type key="numbers" type="roman">𞤈𞤢𞤽𞤢𞤥𞤫 𞤈𞤵𞥅𞤥𞤭𞤴𞤢𞤲𞤳𞤮</type>
+			<type key="numbers" type="romanlow">𞤈𞤢𞤽𞤢𞤥𞤫 𞤚𞤮𞤧𞤮𞥅𞤳𞤫 𞤈𞤵𞥅𞤥𞤭𞤴𞤢𞤲𞤳𞤮</type>
+			<type key="numbers" type="taml">𞤈𞤢𞤽𞤢𞤥𞤫 𞤊𞤭𞤲𞤼𞤢𞤱𞤢𞥄𞤶𞤫 𞤚𞤢𞥄𞤥𞤭𞤤𞤭𞥅𞤴𞤢</type>
+			<type key="numbers" type="tamldec">𞤂𞤭𞤥𞤫 𞤚𞤢𞥄𞤥𞤭𞤤𞤭𞥅𞤴𞤢</type>
+			<type key="numbers" type="telu">𞤂𞤭𞤥𞤫 𞤚𞤫𞤤𞤵𞤺𞤵𞤲𞤳𞤮</type>
+			<type key="numbers" type="thai">𞤂𞤭𞤥𞤫 𞤚𞤢𞥄𞤴𞤭𞤲𞤳𞤮</type>
+			<type key="numbers" type="tibt">𞤂𞤭𞤥𞤫 𞤚𞤭𞤦𞤫𞤼𞤭𞤲𞤳𞤮</type>
+		</types>
+		<measurementSystemNames>
+			<measurementSystemName type="metric">𞤃𞤫𞤼𞤭𞤪𞤭𞤲𞤳𞤮</measurementSystemName>
+			<measurementSystemName type="UK">𞤁𞤫𞤲𞤼𞤢𞤤 𞤐𞤁𞤫𞤱𞤲𞤺𞤵𞥅𞤶𞤭 𞤁𞤘</measurementSystemName>
+			<measurementSystemName type="US">𞤁𞤫𞤲𞤼𞤢𞤤 𞤂𞤢𞤪𞤫 𞤀𞤥𞤫𞤪𞤭𞤳 𞤁𞤂𞤀</measurementSystemName>
+		</measurementSystemNames>
+	</localeDisplayNames>
+	<layout>
+		<orientation>
+			<characterOrder>right-to-left</characterOrder>
+			<lineOrder>top-to-bottom</lineOrder>
+		</orientation>
+	</layout>
+	<characters>
+		<exemplarCharacters>[\U0001E944\U0001E945\U0001E946 𞤢 𞤣 𞤤 𞤥 𞤦 𞤧 𞤨 𞤩 𞤪 𞤫 𞤬 𞤭 𞤮 𞤯 𞤰 𞤱 𞤲 𞤳 𞤴 𞤵 𞤶 𞤷 𞤸 𞤹 𞤺 𞤻 𞤼 𞤽 𞥋]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[𞤾 𞤿 𞥀 𞥁 𞥂 𞥃]</exemplarCharacters>
+		<exemplarCharacters type="index">[𞤀 𞤛]</exemplarCharacters>
+		<exemplarCharacters type="numbers" draft="contributed">[𞥐 𞥑 𞥒 𞥓 𞥔 𞥕 𞥖 𞥗 𞥘 𞥙]</exemplarCharacters>
+		<exemplarCharacters type="punctuation">[\- 𞥞 𞥟 . % ‰]</exemplarCharacters>
+	</characters>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">𞤅𞤭𞥅𞤤𞤮</month>
+							<month type="2">𞤕𞤮𞤤𞤼𞤮</month>
+							<month type="3">𞤐𞥋𞤄𞤮𞥅𞤴𞤮</month>
+							<month type="4">𞤅𞤫𞥅𞤼𞤮</month>
+							<month type="5">𞤁𞤵𞥅𞤶𞤮</month>
+							<month type="6">𞤑𞤮𞤪𞤧𞤮</month>
+							<month type="7">𞤃𞤮𞤪𞤧𞤮</month>
+							<month type="8">𞤔𞤵𞤳𞤮</month>
+							<month type="9">𞤅𞤭𞤤𞤼𞤮</month>
+							<month type="10">𞤒𞤢𞤪𞤳𞤮</month>
+							<month type="11">𞤔𞤮𞤤𞤮</month>
+							<month type="12">𞤐𞥋𞤄𞤮𞤱𞤼𞤮</month>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<month type="1">𞤅</month>
+							<month type="2">𞤕</month>
+							<month type="3">𞤄</month>
+							<month type="4">𞤅</month>
+							<month type="5">𞤁</month>
+							<month type="6">𞤑</month>
+							<month type="7">𞤃</month>
+							<month type="8">𞤔</month>
+							<month type="9">𞤅</month>
+							<month type="10">𞤒</month>
+							<month type="11">𞤔</month>
+							<month type="12">𞤄</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">𞤅𞤭𞥅𞤤𞤮</month>
+							<month type="2">𞤕𞤮𞤤𞤼𞤮</month>
+							<month type="3">𞤐𞥋𞤄𞤮𞥅𞤴𞤮</month>
+							<month type="4">𞤅𞤫𞥅𞤼𞤮</month>
+							<month type="5">𞤁𞤵𞥅𞤶𞤮</month>
+							<month type="6">𞤑𞤮𞤪𞤧𞤮</month>
+							<month type="7">𞤃𞤮𞤪𞤧𞤮</month>
+							<month type="8">𞤔𞤵𞤳𞤮</month>
+							<month type="9">𞤅𞤭𞤤𞤼𞤮</month>
+							<month type="10">𞤒𞤢𞤪𞤳𞤮</month>
+							<month type="11">𞤔𞤮𞤤𞤮</month>
+							<month type="12">𞤐𞥋𞤄𞤮𞤱𞤼𞤮</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="abbreviated">
+							<month type="1">𞤅𞤭𞥅𞤤</month>
+							<month type="2">𞤕𞤮𞤤</month>
+							<month type="3">𞤄𞤮𞥅𞤴</month>
+							<month type="4">𞤅𞤫𞥅𞤼</month>
+							<month type="5">𞤁𞤵𞥅𞤶</month>
+							<month type="6">𞤑𞤮𞤪</month>
+							<month type="7">𞤃𞤮𞤪</month>
+							<month type="8">𞤔𞤵𞤳</month>
+							<month type="9">𞤅𞤭𞤤</month>
+							<month type="10">𞤒𞤢𞤪</month>
+							<month type="11">𞤔𞤮𞤤</month>
+							<month type="12">𞤄𞤮𞤱</month>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<month type="1">𞤅</month>
+							<month type="2">𞤕</month>
+							<month type="3">𞤄</month>
+							<month type="4">𞤅</month>
+							<month type="5">𞤁</month>
+							<month type="6">𞤑</month>
+							<month type="7">𞤃</month>
+							<month type="8">𞤔</month>
+							<month type="9">𞤅</month>
+							<month type="10">𞤒</month>
+							<month type="11">𞤄</month>
+							<month type="12">𞤄</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">𞤅𞤭𞥅𞤤𞤮</month>
+							<month type="2">𞤕𞤮𞤤𞤼𞤮</month>
+							<month type="3">𞤐𞥋𞤄𞤮𞥅𞤴𞤮</month>
+							<month type="4">𞤅𞤫𞥅𞤼𞤮</month>
+							<month type="5">𞤁𞤵𞥅𞤶𞤮</month>
+							<month type="6">𞤑𞤮𞤪𞤧𞤮</month>
+							<month type="7">𞤃𞤮𞤪𞤧𞤮</month>
+							<month type="8">𞤔𞤵𞤳𞤮</month>
+							<month type="9">𞤅𞤭𞤤𞤼𞤮</month>
+							<month type="10">𞤒𞤢𞤪𞤳𞤮</month>
+							<month type="11">𞤔𞤮𞤤𞤮</month>
+							<month type="12">𞤐𞥋𞤄𞤮𞤱𞤼𞤮</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<days>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="sun">𞤈𞤫𞤬</day>
+							<day type="mon">𞤀𞥄𞤩𞤵</day>
+							<day type="tue">𞤃𞤢𞤦</day>
+							<day type="wed">𞤔𞤫𞤧</day>
+							<day type="thu">𞤐𞤢𞥄𞤧</day>
+							<day type="fri">𞤃𞤢𞤣</day>
+							<day type="sat">𞤖𞤮𞤪</day>
+						</dayWidth>
+						<dayWidth type="narrow">
+							<day type="sun">𞤈</day>
+							<day type="mon">𞤀𞥄</day>
+							<day type="tue">𞤃</day>
+							<day type="wed">𞤔</day>
+							<day type="thu">𞤐</day>
+							<day type="fri">𞤃</day>
+							<day type="sat">𞤖</day>
+						</dayWidth>
+						<dayWidth type="short">
+							<day type="sun">𞤈𞤫𞤬</day>
+							<day type="mon">𞤀𞥄𞤩𞤵</day>
+							<day type="tue">𞤃𞤢𞤦</day>
+							<day type="wed">𞤔𞤫𞤧</day>
+							<day type="thu">𞤐𞤢𞥄𞤧</day>
+							<day type="fri">𞤃𞤢𞤣</day>
+							<day type="sat">𞤖𞤮𞤪</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫</day>
+							<day type="mon">𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫</day>
+							<day type="tue">𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫</day>
+							<day type="wed">𞤐𞥋𞤔𞤫𞤧𞤤𞤢𞥄𞤪𞤫</day>
+							<day type="thu">𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞥋𞤣𞤫</day>
+							<day type="fri">𞤃𞤢𞤱𞤲𞥋𞤣𞤫</day>
+							<day type="sat">𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫</day>
+						</dayWidth>
+					</dayContext>
+					<dayContext type="stand-alone">
+						<dayWidth type="abbreviated">
+							<day type="sun">𞤈𞤫𞤬</day>
+							<day type="mon">𞤀𞥄𞤩𞤵</day>
+							<day type="tue">𞤃𞤢𞤦</day>
+							<day type="wed">𞤔𞤫𞤧</day>
+							<day type="thu">𞤐𞤢𞥄𞤧</day>
+							<day type="fri">𞤃𞤢𞤣</day>
+							<day type="sat">𞤖𞤮𞤪</day>
+						</dayWidth>
+						<dayWidth type="narrow">
+							<day type="sun">𞤈</day>
+							<day type="mon">𞤀𞥄</day>
+							<day type="tue">𞤃</day>
+							<day type="wed">𞤔</day>
+							<day type="thu">𞤐</day>
+							<day type="fri">𞤃</day>
+							<day type="sat">𞤖</day>
+						</dayWidth>
+						<dayWidth type="short">
+							<day type="sun">𞤈𞤫𞤬</day>
+							<day type="mon">𞤀𞥄𞤩𞤵</day>
+							<day type="tue">𞤃𞤢𞤦</day>
+							<day type="wed">𞤔𞤫𞤧</day>
+							<day type="thu">𞤐𞤢𞥄𞤧</day>
+							<day type="fri">𞤃𞤢𞤣</day>
+							<day type="sat">𞤖𞤮𞤪</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫</day>
+							<day type="mon">𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫</day>
+							<day type="tue">𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫</day>
+							<day type="wed">𞤐𞥋𞤔𞤫𞤧𞤤𞤢𞥄𞤪𞤫</day>
+							<day type="thu">𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞥋𞤣𞤫</day>
+							<day type="fri">𞤃𞤢𞤱𞤲𞥋𞤣𞤫</day>
+							<day type="sat">𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫</day>
+						</dayWidth>
+					</dayContext>
+				</days>
+				<quarters>
+					<quarterContext type="format">
+						<quarterWidth type="abbreviated">
+							<quarter type="2">𞤐𞥒</quarter>
+							<quarter type="3">𞤐𞥓</quarter>
+							<quarter type="4">𞤐𞥔</quarter>
+						</quarterWidth>
+						<quarterWidth type="narrow">
+							<quarter type="1">𞥑</quarter>
+							<quarter type="2">𞥒</quarter>
+							<quarter type="3">𞥓</quarter>
+							<quarter type="4">𞥔</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">𞤒𞥑</quarter>
+							<quarter type="2">𞤐𞥒</quarter>
+							<quarter type="3">𞤐𞥓</quarter>
+							<quarter type="4">𞤐𞥔</quarter>
+						</quarterWidth>
+					</quarterContext>
+					<quarterContext type="stand-alone">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">𞤐𞥑</quarter>
+							<quarter type="2">𞤐𞥒</quarter>
+							<quarter type="3">𞤐𞥓</quarter>
+							<quarter type="4">𞤐𞥔</quarter>
+						</quarterWidth>
+						<quarterWidth type="narrow">
+							<quarter type="1">𞥑</quarter>
+							<quarter type="2">𞥒</quarter>
+							<quarter type="3">𞥓</quarter>
+							<quarter type="4">𞥔</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">𞤐𞤢𞤴𞤩𞤭𞥅𞤪𞤫 𞥑𞤪𞤫</quarter>
+							<quarter type="2">𞤐𞤢𞤴𞤩𞤭𞥅𞤪𞤫 𞥒𞤪𞤫</quarter>
+							<quarter type="3">𞤐𞤢𞤴𞤩𞤭𞥅𞤪𞤫 𞥓𞤪𞤫</quarter>
+							<quarter type="4">𞤐𞤢𞤴𞤩𞤭𞥅𞤪𞤫 𞥔𞤪𞤫</quarter>
+						</quarterWidth>
+					</quarterContext>
+				</quarters>
+				<dayPeriods>
+					<dayPeriodContext type="format">
+						<dayPeriodWidth type="abbreviated">
+							<dayPeriod type="am">𞤀𞤎</dayPeriod>
+							<dayPeriod type="pm">𞤇𞤎</dayPeriod>
+						</dayPeriodWidth>
+						<dayPeriodWidth type="narrow">
+							<dayPeriod type="am">𞤢</dayPeriod>
+							<dayPeriod type="pm">𞤩</dayPeriod>
+						</dayPeriodWidth>
+						<dayPeriodWidth type="wide">
+							<dayPeriod type="am">𞤀𞤎</dayPeriod>
+							<dayPeriod type="pm">𞤇𞤎</dayPeriod>
+						</dayPeriodWidth>
+					</dayPeriodContext>
+					<dayPeriodContext type="stand-alone">
+						<dayPeriodWidth type="abbreviated">
+							<dayPeriod type="am">𞤀𞤎</dayPeriod>
+							<dayPeriod type="pm">𞤇𞤎</dayPeriod>
+						</dayPeriodWidth>
+						<dayPeriodWidth type="narrow">
+							<dayPeriod type="am">𞤀𞤎</dayPeriod>
+							<dayPeriod type="pm">𞤇𞤎</dayPeriod>
+						</dayPeriodWidth>
+						<dayPeriodWidth type="wide">
+							<dayPeriod type="am">𞤀𞤎</dayPeriod>
+							<dayPeriod type="pm">𞤇𞤎</dayPeriod>
+						</dayPeriodWidth>
+					</dayPeriodContext>
+				</dayPeriods>
+				<eras>
+					<eraNames>
+						<era type="0">𞤀𞤣𞤮 𞤀𞤲𞥆𞤢𞤦𞤭 𞤋𞥅𞤧𞤢𞥄</era>
+						<era type="0" alt="variant">𞤀𞤣𞤮 𞤘𞤭𞤪𞤢𞤤 𞤖𞤢𞤲𞤣𞤫</era>
+						<era type="1">𞤇𞤢𞥄𞤱𞤮 𞤀𞤲𞥆𞤢𞤦𞤭 𞤋𞥅𞤧𞤢𞥄</era>
+						<era type="1" alt="variant">𞤘𞤭𞤪𞤢𞤤 𞤖𞤢𞤲𞤣𞤫</era>
+					</eraNames>
+					<eraAbbr>
+						<era type="0">𞤀𞤀𞤋</era>
+						<era type="0" alt="variant">𞤀𞤘𞤖</era>
+						<era type="1">𞤇𞤀𞤋</era>
+					</eraAbbr>
+				</eras>
+				<dateTimeFormats>
+					<dateTimeFormatLength type="full">
+						<dateTimeFormat>
+							<pattern>{1}{0}</pattern>
+						</dateTimeFormat>
+					</dateTimeFormatLength>
+					<availableFormats>
+						<dateFormatItem id="MMMMW" count="one">𞤴𞤮𞤲𞤼𞤫𞤪𞤫 W 𞤲𞤣𞤫𞤪 MMMM</dateFormatItem>
+						<dateFormatItem id="MMMMW" count="other">𞤴𞤮𞤲𞤼𞤫𞤪𞤫 W 𞤲𞤣𞤫𞤪 MMMM</dateFormatItem>
+						<dateFormatItem id="yw" count="one">𞤴𞤮𞤲𞤼𞤫𞤪𞤫 w 𞤲𞤣𞤫𞤪 Y</dateFormatItem>
+						<dateFormatItem id="yw" count="other">𞤴𞤮𞤲𞤼𞤫𞤪𞤫 w 𞤲𞤣𞤫𞤪 Y</dateFormatItem>
+					</availableFormats>
+				</dateTimeFormats>
+			</calendar>
+			<calendar type="islamic">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">𞤔𞤮𞤦.</month>
+							<month type="2">𞤅𞤢𞤨.</month>
+							<month type="3">𞤆𞤢𞤪.</month>
+							<month type="4">𞤃𞤭𞤨.</month>
+							<month type="5">𞤄𞤢𞤨.</month>
+							<month type="6">𞤅𞤢𞤪.</month>
+							<month type="7">𞤈𞤢𞤶.</month>
+							<month type="8">𞤅𞤢𞤧.</month>
+							<month type="9">𞤅𞤵𞤥.</month>
+							<month type="10">𞤔𞤵𞤤.</month>
+							<month type="11">𞤅𞤢𞤣.</month>
+							<month type="12">𞤁𞤮𞤲.</month>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<month type="1">𞥑</month>
+							<month type="2">𞥒</month>
+							<month type="3">𞥓</month>
+							<month type="4">𞥔</month>
+							<month type="5">𞥕</month>
+							<month type="6">𞥖</month>
+							<month type="7">𞥗</month>
+							<month type="8">𞥘</month>
+							<month type="9">𞥙</month>
+							<month type="10">𞥑𞥐</month>
+							<month type="11">𞥑𞥑</month>
+							<month type="12">𞥑𞥒</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">𞤔𞤮𞤥𞤦𞤫𞤲𞤼𞤫</month>
+							<month type="2">𞤅𞤢𞤦𞥆𞤮𞤪𞤣𞤵-𞤆𞤢𞤪𞤢𞤲</month>
+							<month type="3">𞤆𞤢𞤪𞤢𞤲</month>
+							<month type="4">𞤃𞤭𞤥𞤨𞤢𞤪𞤢𞤲</month>
+							<month type="5">𞤄𞤢𞤨𞥆𞤢𞤪𞤢𞤲</month>
+							<month type="6">𞤅𞤢𞤦𞥆𞤮𞤪𞤣𞤵-𞤈𞤢𞥄𞤶𞤭𞤦𞤭</month>
+							<month type="7">𞤈𞤢𞥄𞤶𞤭𞤦𞤭</month>
+							<month type="8">𞤅𞤢𞤦𞥆𞤮𞤪𞤣𞤵-𞤅𞤵𞥅𞤥𞤢𞤴𞤫𞥅</month>
+							<month type="9">𞤅𞤵𞥅𞤥𞤢𞤴𞤫𞥅</month>
+							<month type="10">𞤔𞤵𞥅𞤤𞤣𞤢𞥄𞤲𞥋𞤣𞤵</month>
+							<month type="11">𞤅𞤢𞤦𞥆𞤮𞤪𞤣𞤵-𞤁𞤮𞤲𞤳𞤭𞤲</month>
+							<month type="12">𞤁𞤵𞤲𞤳𞤭𞤲</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="abbreviated">
+							<month type="1">𞤔𞤮𞤦.</month>
+							<month type="2">𞤅𞤢𞤨.</month>
+							<month type="3">𞤆𞤢𞤪.</month>
+							<month type="4">𞤃𞤭𞤨.</month>
+							<month type="5">𞤄𞤢𞤨.</month>
+							<month type="6">𞤅𞤢𞤪.</month>
+							<month type="7">𞤈𞤢𞤶.</month>
+							<month type="8">𞤅𞤢𞤧.</month>
+							<month type="9">𞤅𞤵𞤥.</month>
+							<month type="10">𞤔𞤵𞤤.</month>
+							<month type="11">𞤅𞤢𞤣.</month>
+							<month type="12">𞤁𞤮𞤲.</month>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<month type="1">𞥑</month>
+							<month type="2">𞥒</month>
+							<month type="3">𞥓</month>
+							<month type="4">𞥔</month>
+							<month type="5">𞥕</month>
+							<month type="6">𞥖</month>
+							<month type="7">𞥗</month>
+							<month type="8">𞥘</month>
+							<month type="9">𞥙</month>
+							<month type="10">𞥑𞥐</month>
+							<month type="11">𞥑𞥑</month>
+							<month type="12">𞥑𞥒</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">𞤔𞤮𞤥𞤦𞤫𞤲𞤼𞤫</month>
+							<month type="2">𞤅𞤢𞤦𞥆𞤮𞤪𞤣𞤵-𞤆𞤢𞤪𞤢𞤲</month>
+							<month type="3">𞤆𞤢𞤪𞤢𞤲</month>
+							<month type="4">𞤃𞤭𞤥𞤨𞤢𞤪𞤢𞤲</month>
+							<month type="5">𞤄𞤢𞤨𞥆𞤢𞤪𞤢𞤲</month>
+							<month type="6">𞤅𞤢𞤦𞥆𞤮𞤪𞤣𞤵-𞤈𞤢𞥄𞤶𞤭𞤦𞤭</month>
+							<month type="7">𞤈𞤢𞥄𞤶𞤭𞤦𞤭</month>
+							<month type="8">𞤅𞤢𞤦𞥆𞤮𞤪𞤣𞤵-𞤅𞤵𞥅𞤥𞤢𞤴𞤫𞥅</month>
+							<month type="9">𞤅𞤵𞥅𞤥𞤢𞤴𞤫𞥅</month>
+							<month type="10">𞤔𞤵𞥅𞤤𞤣𞤢𞥄𞤲𞥋𞤣𞤵</month>
+							<month type="11">𞤅𞤢𞤦𞥆𞤮𞤪𞤣𞤵-𞤁𞤮𞤲𞤳𞤭𞤲</month>
+							<month type="12">𞤁𞤵𞤲𞤳𞤭𞤲</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<eras>
+					<eraAbbr>
+						<era type="0">𞤇𞤊</era>
+					</eraAbbr>
+				</eras>
+			</calendar>
+		</calendars>
+		<fields>
+			<field type="era">
+				<displayName>𞤺𞤭𞤪𞤢𞤤</displayName>
+			</field>
+			<field type="era-short">
+				<displayName>𞤺𞤭𞤪𞤢𞤤</displayName>
+			</field>
+			<field type="era-narrow">
+				<displayName>𞤺𞤭𞤪𞤢𞤤</displayName>
+			</field>
+			<field type="year">
+				<displayName>𞤸𞤭𞤼𞤢𞥄𞤲𞥋𞤣𞤫</displayName>
+				<relative type="-1">𞤸𞤭𞤼𞤢𞥄𞤲𞥋𞤣𞤫 𞤪𞤫𞤱𞤢𞤲𞤭</relative>
+				<relative type="0">𞤸𞤭𞤼𞤢𞥄𞤲𞥋𞤣𞤫 𞤸𞤭𞤳𞥆𞤢</relative>
+				<relative type="1">𞤸𞤭𞤼𞤢𞥄𞤲𞥋𞤣𞤫 𞤸𞤭𞤳𞥆𞤭𞥅𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤸𞤭𞤼𞤢𞥄𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤳𞤭𞤼𞤢𞥄𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤸𞤭𞤼𞤢𞥄𞤲𞥋𞤣𞤫 𞤪𞤫𞤱𞤢𞤲𞤭</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤳𞤭𞤼𞤢𞥄𞤯𞤫 𞤪𞤫𞤱𞤢𞤲𞤭</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="year-short">
+				<displayName>𞤸𞤭𞤼.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤸𞤭𞤼.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤸𞤭𞤼.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤸𞤭𞤼. 𞤪𞤫𞤱𞤢𞤲𞤭</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤳𞤭𞤼. 𞤪𞤫𞤱𞤢𞤲𞤭</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="year-narrow">
+				<displayName>𞤸𞤭𞤼.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤸𞤭𞤼.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤸𞤭𞤼.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤸𞤭𞤼. 𞤪𞤫𞤱𞤢𞤲𞤭</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤳𞤭𞤼. 𞤪𞤫𞤱𞤢𞤲𞤭</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="quarter">
+				<displayName>𞤲𞤢𞤴𞤢𞤩𞤭𞥅𞤪𞤫</displayName>
+				<relative type="-1">𞤲𞤢𞤴𞤩𞤭𞥅𞤪𞤫 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤲𞤢𞤴𞤩𞤭𞥅𞤪𞤫</relative>
+				<relative type="1">𞤲𞤢𞤴𞤩𞤭𞥅𞤪𞤫 𞤸𞤭𞤳𞥆𞤭𞥅𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤲𞤢𞤴𞤩𞤭𞥅𞤪𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤲𞤢𞤴𞤩𞤭𞥅𞤶𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤲𞤢𞤴𞤩𞤭𞥅𞤪𞤫 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤲𞤢𞤴𞤢𞤩𞤭𞥅𞤶𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="quarter-short">
+				<displayName>𞤲𞤢𞤴.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤲𞤢𞤴.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤲𞤢𞤴𞤶.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤲𞤢𞤴. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤲𞤢𞤴𞤶. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="quarter-narrow">
+				<displayName>𞤲𞤢𞤴.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤲𞤢𞤴.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤲𞤢𞤴𞤶.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤲𞤢𞤴. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤲𞤢𞤴𞤶. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="month">
+				<displayName>𞤤𞤫𞤱𞤪𞤵</displayName>
+				<relative type="-1">𞤤𞤫𞤱𞤪𞤵 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤵</relative>
+				<relative type="0">𞤲𞥋𞤣𞤵𞥅 𞤯𞤮𞤮 𞤤𞤫𞤱𞤪𞤵</relative>
+				<relative type="1">𞤤𞤫𞤱𞤪𞤵 𞤢𞤪𞤢𞤴𞤲𞥋𞤣𞤵</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤤𞤫𞤱𞤪𞤵</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤤𞤫𞤦𞥆𞤭</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤤𞤫𞤱𞤪𞤵 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤵</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤤𞤫𞤦𞥆𞤭 𞤱𞤵𞤤𞤭𞥅𞤯𞤭</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="month-short">
+				<displayName>𞤤𞤫𞤱.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤤𞤫𞤱.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤤𞤫𞤦.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤤𞤫𞤱. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤵</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤤𞤫𞤦. 𞤱𞤵𞤤𞤭𞥅𞤯𞤭</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="month-narrow">
+				<displayName>𞤤𞤫𞤱.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤤𞤫𞤱.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤤𞤫𞤦.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤤𞤫𞤱. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤵</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤤𞤫𞤦. 𞤱𞤵𞤤𞤭𞥅𞤯𞤭</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="week">
+				<displayName>𞤴𞤮𞤲𞤼𞤫𞤪𞤫</displayName>
+				<relative type="-1">𞤴𞤮𞤲𞤼𞤫𞤪𞤫 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤴𞤮𞤲𞤼𞤫𞤪𞤫</relative>
+				<relative type="1">𞤴𞤮𞤲𞤼𞤫𞤪𞤫 𞤢𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤴𞤮𞤲𞤼𞤫𞤪𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤶𞤮𞤲𞤼𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤴𞤮𞤲𞤼𞤫𞤪𞤫 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤶𞤮𞤲𞤼𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativePeriod>𞤴𞤮𞤲𞤼𞤫𞤪𞤫 {0}</relativePeriod>
+			</field>
+			<field type="week-short">
+				<displayName>𞤴𞤼.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤴𞤼.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤶𞤼.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤴𞤼. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤶𞤼. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativePeriod>𞤴𞤮𞤲𞤼𞤫𞤪𞤫 {0}</relativePeriod>
+			</field>
+			<field type="week-narrow">
+				<displayName>𞤴𞤼.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤴𞤼.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤶𞤼.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤴𞤼. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤶𞤼. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativePeriod>𞤴𞤮𞤲𞤼𞤫𞤪𞤫 {0}</relativePeriod>
+			</field>
+			<field type="weekOfMonth">
+				<displayName>𞤴𞤮𞤲𞤼𞤫𞤪𞤫 𞤳𞤢 𞤤𞤫𞤱𞤪𞤵</displayName>
+			</field>
+			<field type="weekOfMonth-short">
+				<displayName>𞤴𞤼. 𞤳𞤢 𞤤𞤫𞤱.</displayName>
+			</field>
+			<field type="weekOfMonth-narrow">
+				<displayName>𞤴𞤼. 𞤳𞤢 𞤤𞤫𞤱.</displayName>
+			</field>
+			<field type="day">
+				<displayName>𞤻𞤢𞤤𞥆𞤢𞤤</displayName>
+				<relative type="-1">𞤸𞤢𞤲𞤳𞤭</relative>
+				<relative type="0">𞤸𞤢𞤲𞤣𞤫</relative>
+				<relative type="1">𞤶𞤢𞤲𞤺𞤮</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤻𞤢𞤤𞥆𞤢𞤤</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤻𞤢𞤤𞥆𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤻𞤢𞤤𞥆𞤢𞤤 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤻𞤢𞤤𞥆𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="day-short">
+				<displayName>𞤻𞤢𞤤.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤻𞤢𞤤𞥆𞤢𞤤</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤻𞤢𞤤𞥆𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤻𞤢𞤤𞥆𞤢𞤤 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤻𞤢𞤤𞥆𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="day-narrow">
+				<displayName>𞤻𞤢𞤤.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤻𞤢𞤤𞥆𞤢𞤤</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤻𞤢𞤤𞥆𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤻𞤢𞤤𞥆𞤢𞤤 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤻𞤢𞤤𞥆𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="dayOfYear">
+				<displayName>𞤻𞤢𞤤𞥆𞤢𞤤 𞤳𞤢 𞤸𞤭𞤼𞤢𞥄𞤲𞥋𞤣𞤫</displayName>
+			</field>
+			<field type="dayOfYear-short">
+				<displayName>𞤻𞤢𞤤. 𞤳𞤢 𞤸𞤼.</displayName>
+			</field>
+			<field type="dayOfYear-narrow">
+				<displayName>𞤻𞤢𞤤. 𞤳𞤢 𞤸𞤼.</displayName>
+			</field>
+			<field type="weekday">
+				<displayName>𞤻𞤢𞤤𞥆𞤢𞤤 𞤳𞤢 𞤴𞤮𞤲𞤼𞤫𞤪𞤫</displayName>
+			</field>
+			<field type="weekday-short">
+				<displayName>𞤻𞤢𞤤. 𞤳𞤢 𞤴𞤼.</displayName>
+			</field>
+			<field type="weekday-narrow">
+				<displayName>𞤻𞤢𞤤. 𞤳𞤢 𞤴𞤼.</displayName>
+			</field>
+			<field type="weekdayOfMonth">
+				<displayName>𞤻𞤢𞤤𞥆𞤢𞤤 𞤳𞤢 𞤴𞤮𞤲𞤼𞤫𞤪𞤫</displayName>
+			</field>
+			<field type="weekdayOfMonth-short">
+				<displayName>𞤻𞤢𞤤. 𞤳𞤢 𞤤𞤫𞤱.</displayName>
+			</field>
+			<field type="weekdayOfMonth-narrow">
+				<displayName>𞤻𞤢𞤤. 𞤳𞤢 𞤤𞤫𞤱.</displayName>
+			</field>
+			<field type="sun">
+				<relative type="-1">𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫</relative>
+				<relative type="1">𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫 𞤢𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤈𞤫𞤬𞤦𞤭𞤪𞤶𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤈𞤫𞤬𞤦𞤭𞤪𞤶𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="sun-short">
+				<relative type="-1">𞤈𞤫𞤬. 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤈𞤫𞤬.</relative>
+				<relative type="1">𞤈𞤫𞤬. 𞤢𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤈𞤫𞤬.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤈𞤫𞤬.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤈𞤫𞤬. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤈𞤫𞤬. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="sun-narrow">
+				<relative type="-1">𞤈𞤫 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤈𞤫</relative>
+				<relative type="1">𞤈𞤫 𞤢𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤈𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤈𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤈𞤫 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤈𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="mon">
+				<relative type="-1">𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="1">𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫 𞤀𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤀𞥄𞤩𞤵𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤀𞥄𞤩𞤵𞤯𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="mon-short">
+				<relative type="-1">𞤀𞥄𞤩𞤵. 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤀𞥄𞤩𞤵.</relative>
+				<relative type="1">𞤀𞥄𞤩𞤵. 𞤀𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤀𞥄𞤩𞤵.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤀𞥄𞤩𞤵.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤀𞥄𞤩𞤵. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤀𞥄𞤩𞤵. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="mon-narrow">
+				<relative type="-1">𞤀 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤀</relative>
+				<relative type="1">𞤀 𞤀𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤀</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤀</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤀 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤀 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="tue">
+				<relative type="-1">𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫</relative>
+				<relative type="1">𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫 𞤀𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤃𞤢𞤱𞤦𞤢𞥄𞤶𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤃𞤢𞤱𞤦𞤢𞥄𞤶𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="tue-short">
+				<relative type="-1">𞤃𞤢𞤱. 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤃𞤢𞤱.</relative>
+				<relative type="1">𞤃𞤢𞤱. 𞤀𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤃𞤢𞤱.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤃𞤢𞤱.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤃𞤢𞤱. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤃𞤢𞤱. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="tue-narrow">
+				<relative type="-1">𞤃𞤢 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤃𞤢</relative>
+				<relative type="1">𞤃𞤢 𞤀𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤃𞤢</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤃𞤢</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤃𞤢 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤃𞤢 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="wed">
+				<relative type="-1">𞤐𞥋𞤔𞤫𞤧𞤤𞤢𞥄𞤪𞤫 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤐𞥋𞤔𞤫𞤧𞤤𞤢𞥄𞤪𞤫</relative>
+				<relative type="1">𞤐𞥋𞤔𞤫𞤧𞤤𞤢𞥄𞤪𞤫 𞤀𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤐𞥋𞤔𞤫𞤧𞤤𞤢𞥄𞤪𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤐𞥋𞤔𞤫𞤧𞤤𞤢𞥄𞤶𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤐𞥋𞤔𞤫𞤧𞤤𞤢𞥄𞤪𞤫 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤐𞥋𞤔𞤫𞤧𞤤𞤢𞥄𞤶𞤫 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="wed-short">
+				<relative type="-1">𞤔𞤫𞤧. 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤔𞤫𞤧.</relative>
+				<relative type="1">𞤔𞤫𞤧. 𞤀𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤔𞤫𞤧.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤔𞤫𞤧.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤔𞤫𞤧. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤔𞤫𞤧. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="wed-narrow">
+				<relative type="-1">𞤐𞥋𞤔 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤐𞥋𞤔</relative>
+				<relative type="1">𞤐𞥋𞤔 𞤀𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤐𞥋𞤔</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤐𞥋𞤔</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤐𞥋𞤔 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤐𞥋𞤔 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="thu">
+				<relative type="-1">𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞥋𞤣𞤫 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞥋𞤣𞤫</relative>
+				<relative type="1">𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞥋𞤣𞤫 𞤀𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤐𞤢𞥄𞤧𞤢𞥄𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞥋𞤣𞤫 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤐𞤢𞥄𞤧𞤢𞥄𞤯𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="thu-short">
+				<relative type="-1">𞤐𞤢𞥄𞤧. 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤐𞤢𞥄𞤧.</relative>
+				<relative type="1">𞤐𞤢𞥄𞤧. 𞤀𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤐𞤢𞥄𞤧.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤐𞤢𞥄𞤧.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤐𞤢𞥄𞤧. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤐𞤢𞥄𞤧. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="thu-narrow">
+				<relative type="-1">𞤐𞤢𞥄 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤐𞤢𞥄</relative>
+				<relative type="1">𞤐𞤢𞥄 𞤀𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤐𞤢𞥄</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤐𞤢𞥄</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤐𞤢𞥄 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤐𞤢𞥄 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="fri">
+				<relative type="-1">𞤃𞤢𞤱𞤲𞥋𞤣𞤫 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤮𞥅 𞤯𞤮𞤮 𞤃𞤢𞤱𞤲𞥋𞤣𞤫</relative>
+				<relative type="1">𞤃𞤢𞤱𞤲𞥋𞤣𞤫 𞤢𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤃𞤢𞤱𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤃𞤢𞤱𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤃𞤢𞤱𞤲𞥋𞤣𞤫 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤃𞤢𞤱𞤯𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="fri-short">
+				<relative type="-1">𞤃𞤢𞤣. 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤮𞥅 𞤯𞤮𞤮 𞤃𞤢𞤣.</relative>
+				<relative type="1">𞤃𞤢𞤣. 𞤢𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤃𞤢𞤣.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤃𞤢𞤣.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤃𞤢𞤣. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤃𞤢𞤣. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="fri-narrow">
+				<relative type="-1">𞤃𞤣 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤮𞥅 𞤯𞤮𞤮 𞤃𞤣</relative>
+				<relative type="1">𞤃𞤣 𞤢𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤃𞤣</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤃𞤣</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤃𞤣 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤃𞤣 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="sat">
+				<relative type="-1">𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫</relative>
+				<relative type="1">𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫 𞤢𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤖𞤮𞤪𞤦𞤭𞤪𞤶𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤖𞤮𞤪𞤦𞤭𞤪𞤶𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="sat-short">
+				<relative type="-1">𞤖𞤮𞤪. 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤖𞤮𞤪.</relative>
+				<relative type="1">𞤖𞤮𞤪. 𞤢𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤖𞤮𞤪.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤖𞤮𞤪.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤖𞤮𞤪. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤖𞤮𞤪. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="sat-narrow">
+				<relative type="-1">𞤖𞤮 𞤬𞤫𞤰𞥆𞤵𞤲𞥋𞤣𞤫</relative>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤖𞤮</relative>
+				<relative type="1">𞤖𞤮 𞤢𞤪𞤢𞤴𞤲𞥋𞤣𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤖𞤮</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤖𞤮</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤖𞤮 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤖𞤮 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="dayperiod-short">
+				<displayName>𞤀𞤎/𞤇𞤎</displayName>
+			</field>
+			<field type="dayperiod">
+				<displayName>𞤀𞤎/𞤇𞤎</displayName>
+			</field>
+			<field type="dayperiod-narrow">
+				<displayName>𞤀𞤎/𞤇𞤎</displayName>
+			</field>
+			<field type="hour">
+				<displayName>𞤲𞥋𞤶𞤢𞤥𞤲𞥋𞤣𞤭</displayName>
+				<relative type="0">𞤲𞥋𞤣𞤭𞥅 𞤯𞤮𞤮 𞤲𞥋𞤶𞤢𞤥𞤲𞥋𞤣𞤭</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤲𞥋𞤶𞤢𞤥𞤲𞥋𞤣𞤭</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤲𞥋𞤶𞤢𞤥𞤤𞤭</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤲𞥋𞤶𞤢𞤥𞤲𞥋𞤣𞤭 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤭</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤲𞥋𞤶𞤢𞤥𞤤𞤭 𞤱𞤵𞤤𞤭𞥅𞤯𞤭</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="hour-short">
+				<displayName>𞤶𞤢.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤶𞤢.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤶𞤢.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤶𞤢. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤭</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤶𞤢. 𞤱𞤵𞤤𞤭𞥅𞤯𞤭</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="hour-narrow">
+				<displayName>𞤶𞤢.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤶𞤢.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤶𞤢.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤶𞤢. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤭</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤶𞤢. 𞤱𞤵𞤤𞤭𞥅𞤯𞤭</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="minute">
+				<displayName>𞤸𞤮𞤶𞤮𞤥𞤪𞤫</displayName>
+				<relative type="0">𞤲𞥋𞤣𞤫𞥅 𞤯𞤮𞤮 𞤸𞤮𞤶𞤮𞤥𞤪𞤫</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤸𞤮𞤶𞤮𞤥𞤪𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤳𞤮𞤶𞤮𞤥𞤶𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤸𞤮𞤶𞤮𞤥𞤪𞤫 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤳𞤮𞤶𞤮𞤥𞤶𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="minute-short">
+				<displayName>𞤸𞤮𞤶.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤸𞤮𞤶.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤸𞤮𞤶.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤸𞤮𞤶. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤳𞤮𞤶. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="minute-narrow">
+				<displayName>𞤸𞤮𞤶.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤸𞤮𞤶.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤸𞤮𞤶.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤸𞤮𞤶. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤣𞤫</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤸𞤮𞤶. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="second">
+				<displayName>𞤸𞤭𞤲𞤰𞤫𞤪𞤫</displayName>
+				<relative type="0">𞤶𞤮𞥅𞤲𞤭</relative>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤳𞤭𞤲𞤰𞤢𞤤</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤳𞤭𞤲𞤰𞤫</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤳𞤭𞤲𞤰𞤢𞤤 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤺𞤢𞤤</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤳𞤭𞤲𞤰𞤫 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="second-short">
+				<displayName>𞤸𞤭𞤲.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤳𞤭𞤲.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤳𞤭𞤲.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤳𞤭𞤲. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤺𞤢𞤤</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤳𞤭𞤲. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="second-narrow">
+				<displayName>𞤸𞤭𞤲.</displayName>
+				<relativeTime type="future">
+					<relativeTimePattern count="one">𞤲𞥋𞤣𞤫𞤪 {0} 𞤳𞤭𞤲.</relativeTimePattern>
+					<relativeTimePattern count="other">𞤲𞥋𞤣𞤫𞤪 {0} 𞤳𞤭𞤲.</relativeTimePattern>
+				</relativeTime>
+				<relativeTime type="past">
+					<relativeTimePattern count="one">{0} 𞤳𞤭𞤲. 𞤱𞤵𞤤𞤭𞥅𞤲𞥋𞤺𞤢𞤤</relativeTimePattern>
+					<relativeTimePattern count="other">{0} 𞤳𞤭𞤲. 𞤱𞤵𞤤𞤭𞥅𞤯𞤫</relativeTimePattern>
+				</relativeTime>
+			</field>
+			<field type="zone">
+				<displayName>𞤳𞤭𞤶𞤮𞥅𞤪𞤫 𞤲𞤮𞤳𞥆𞤵𞥅𞤪𞤫</displayName>
+			</field>
+			<field type="zone-short">
+				<displayName>𞤲𞤮𞤳𞥆𞤵𞥅𞤪𞤫</displayName>
+			</field>
+			<field type="zone-narrow">
+				<displayName>𞤲𞤮𞤳𞥆𞤵</displayName>
+			</field>
+		</fields>
+		<timeZoneNames>
+			<gmtFormat>𞤑𞤖𞤏{0}</gmtFormat>
+			<gmtZeroFormat>𞤑𞤖𞤏</gmtZeroFormat>
+			<regionFormat>{0} 𞤑𞤭𞤶𞤮𞥅𞤪𞤫</regionFormat>
+			<regionFormat type="daylight">{0} 𞤐𞥋𞤔𞤢𞤥𞤲𞥋𞤣𞤭 𞤕𞤫𞥅𞤯𞤵</regionFormat>
+			<regionFormat type="standard">{0} 𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫</regionFormat>
+			<zone type="Etc/UTC">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤏𞤭𞤲𞤣𞤫𞤪𞤫𞤴𞤢𞤲𞤳𞤮𞥅𞤪𞤫 𞤊𞤮𞤼𞥆𞤢𞤲𞤢𞥄𞤲𞥋𞤣𞤫</standard>
+				</long>
+			</zone>
+			<zone type="Etc/Unknown">
+				<exemplarCity>𞤅𞤢𞤸𞤪𞤫 𞤀𞤧-𞤢𞤲𞤣𞤢𞥄𞤲𞥋𞤣𞤫</exemplarCity>
+			</zone>
+			<zone type="Europe/Andorra">
+				<exemplarCity>𞤀𞤲𞤣𞤮𞥅𞤪𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Dubai">
+				<exemplarCity>𞤁𞤵𞤦𞤢𞤴</exemplarCity>
+			</zone>
+			<zone type="Asia/Kabul">
+				<exemplarCity>𞤑𞤢𞤦𞤵𞤤</exemplarCity>
+			</zone>
+			<zone type="America/Antigua">
+				<exemplarCity>𞤀𞤲𞤼𞤭𞤺𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Anguilla">
+				<exemplarCity>𞤀𞤲𞤺𞤭𞤤𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="Europe/Tirane">
+				<exemplarCity>𞤚𞤭𞤪𞤢𞤲𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Yerevan">
+				<exemplarCity>𞤒𞤫𞤪𞤫𞤾𞤢𞥄𞤲</exemplarCity>
+			</zone>
+			<zone type="Africa/Luanda">
+				<exemplarCity>𞤂𞤵𞤱𞤢𞤲𞤣𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Rothera">
+				<exemplarCity>𞤈𞤮𞤼𞤫𞤪𞤢</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Palmer">
+				<exemplarCity>𞤆𞤢𞤤𞤥𞤫𞥅𞤪</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Troll">
+				<exemplarCity>𞤚𞤢𞤪𞤮𞥅𞤤</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Syowa">
+				<exemplarCity>𞤅𞤢𞥄𞤴𞤵𞤱𞤢</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Mawson">
+				<exemplarCity>𞤃𞤢𞤱𞤧𞤮𞤲</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Davis">
+				<exemplarCity>𞤁𞤢𞤾𞤭𞥅𞤧</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Vostok">
+				<exemplarCity>𞤜𞤮𞤧𞤼𞤮𞤳</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Casey">
+				<exemplarCity>𞤑𞤢𞤴𞤧𞤫</exemplarCity>
+			</zone>
+			<zone type="Antarctica/DumontDUrville">
+				<exemplarCity>𞤁𞤭𞤥𞤮𞤲𞤼𞤵-𞤁𞤵𞤪𞤾𞤭𞤤</exemplarCity>
+			</zone>
+			<zone type="Antarctica/McMurdo">
+				<exemplarCity>𞤃𞤢𞤳𞤥𞤵𞥅𞤪𞤣𞤮</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/Rio_Gallegos">
+				<exemplarCity>𞤈𞤭𞤮-𞤘𞤢𞤤𞤫𞤺𞤮𞤧</exemplarCity>
+			</zone>
+			<zone type="America/Mendoza">
+				<exemplarCity>𞤃𞤫𞤲𞤣𞤮𞥅𞥁𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/San_Juan">
+				<exemplarCity>𞤅𞤢𞤲-𞤝𞤵𞤱𞤢𞥄𞤲</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/Ushuaia">
+				<exemplarCity>𞤓𞤧𞤱𞤢𞤭𞥅𞤶</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/La_Rioja">
+				<exemplarCity>𞤂𞤢-𞤈𞤭𞤴𞤮𞤸𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/San_Luis">
+				<exemplarCity>𞤅𞤢𞤲-𞤂𞤵𞤱𞤭𞥅𞤧</exemplarCity>
+			</zone>
+			<zone type="America/Catamarca">
+				<exemplarCity>𞤑𞤢𞤼𞤢𞤥𞤢𞤪𞤳𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/Salta">
+				<exemplarCity>𞤅𞤢𞤤𞤼𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Jujuy">
+				<exemplarCity>𞤔𞤵𞤶𞤵𞤴</exemplarCity>
+			</zone>
+			<zone type="America/Argentina/Tucuman">
+				<exemplarCity>𞤚𞤵𞤳𞤵𞤥𞤢𞥄𞤲</exemplarCity>
+			</zone>
+			<zone type="America/Cordoba">
+				<exemplarCity>𞤑𞤮𞤪𞤣𞤮𞤦𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Buenos_Aires">
+				<exemplarCity>𞤄𞤭𞤴𞤲𞤮𞤧-𞤉𞥅𞤶𞤫𞤪𞤫𞥅𞤧</exemplarCity>
+			</zone>
+			<zone type="Pacific/Pago_Pago">
+				<exemplarCity>𞤆𞤢𞤺𞤮-𞤆𞤢𞤺𞤮</exemplarCity>
+			</zone>
+			<zone type="Europe/Vienna">
+				<exemplarCity>𞤜𞤭𞤴𞤫𞤲𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="Australia/Perth">
+				<exemplarCity>𞤆𞤫𞤪𞤧𞤭</exemplarCity>
+			</zone>
+			<zone type="Australia/Eucla">
+				<exemplarCity>𞤓𞥅𞤳𞤵𞤤𞤢</exemplarCity>
+			</zone>
+			<zone type="Australia/Darwin">
+				<exemplarCity>𞤁𞤢𞥄𞤪𞤱𞤭𞤲</exemplarCity>
+			</zone>
+			<zone type="Australia/Adelaide">
+				<exemplarCity>𞤀𞤣𞤢𞤤𞤢𞤴𞤣𞤭</exemplarCity>
+			</zone>
+			<zone type="Australia/Broken_Hill">
+				<exemplarCity>𞤄𞤪𞤮𞤳𞤭𞤲-𞤖𞤭𞥅𞤤</exemplarCity>
+			</zone>
+			<zone type="Australia/Currie">
+				<exemplarCity>𞤑𞤵𞥅𞤪𞤭𞥅</exemplarCity>
+			</zone>
+			<zone type="Australia/Melbourne">
+				<exemplarCity>𞤃𞤫𞤤𞤦𞤵𞥅𞤪𞤲𞤵</exemplarCity>
+			</zone>
+			<zone type="Australia/Hobart">
+				<exemplarCity>𞤖𞤵𞥅𞤦𞤢𞤪𞤼𞤵</exemplarCity>
+			</zone>
+			<zone type="Australia/Lindeman">
+				<exemplarCity>𞤂𞤭𞤲𞤣𞤭𞥅𞤥𞤢𞥄𞤲</exemplarCity>
+			</zone>
+			<zone type="Australia/Sydney">
+				<exemplarCity>𞤅𞤭𞤣𞤭𞤲𞤫𞥅</exemplarCity>
+			</zone>
+			<zone type="Australia/Brisbane">
+				<exemplarCity>𞤄𞤭𞤪𞤧𞤭𞤦𞤢𞥄𞤲𞤵</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Macquarie">
+				<exemplarCity>𞤃𞤢𞤳𞤢𞥄𞤪𞤭</exemplarCity>
+			</zone>
+			<zone type="Australia/Lord_Howe">
+				<exemplarCity>𞤂𞤮𞤪𞤣𞤵-𞤖𞤮𞤱𞤫</exemplarCity>
+			</zone>
+			<zone type="America/Aruba">
+				<exemplarCity>𞤀𞤪𞤵𞤦𞤢</exemplarCity>
+			</zone>
+			<zone type="Europe/Mariehamn">
+				<exemplarCity>𞤃𞤢𞤪𞤭𞤴𞤢𞤸𞤢𞥄𞤥𞤢𞥄𞤲</exemplarCity>
+			</zone>
+			<zone type="Asia/Baku">
+				<exemplarCity>𞤄𞤢𞥄𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Europe/Sarajevo">
+				<exemplarCity>𞤅𞤢𞤪𞤢𞤴𞤫𞤾𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Barbados">
+				<exemplarCity>𞤄𞤢𞤪𞤦𞤫𞤣𞤮𞥅𞤧</exemplarCity>
+			</zone>
+			<zone type="Asia/Dhaka">
+				<exemplarCity>𞤁𞤢𞤳𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="Europe/Brussels">
+				<exemplarCity>𞤄𞤭𞤪𞤭𞤳𞤧𞤫𞤤</exemplarCity>
+			</zone>
+			<zone type="Africa/Ouagadougou">
+				<exemplarCity>𞤏𞤢𞤺𞤢𞤣𞤴𞤺𞤵</exemplarCity>
+			</zone>
+			<zone type="Europe/Sofia">
+				<exemplarCity>𞤅𞤮𞤬𞤭𞤴𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Bahrain">
+				<exemplarCity>𞤄𞤢𞤸𞤪𞤢𞤴𞤲𞤵</exemplarCity>
+			</zone>
+			<zone type="Africa/Bujumbura">
+				<exemplarCity>𞤄𞤵𞤶𞤵𞤥𞤦𞤵𞤪𞤢</exemplarCity>
+			</zone>
+			<zone type="Africa/Porto-Novo">
+				<exemplarCity>𞤆𞤮𞤪𞤼𞤮-𞤐𞤮𞤾𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="America/St_Barthelemy">
+				<exemplarCity>𞤅𞤫𞤲𞤼-𞤄𞤢𞤼𞤫𞤤𞤫𞤥𞤭𞥅</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Bermuda">
+				<exemplarCity>𞤄𞤢𞥄𞤪𞤥𞤵𞥅𞤣𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Brunei">
+				<exemplarCity>𞤄𞤵𞤪𞤲𞤢𞤴</exemplarCity>
+			</zone>
+			<zone type="America/La_Paz">
+				<exemplarCity>𞤂𞤢-𞤆𞤢𞥄𞥁</exemplarCity>
+			</zone>
+			<zone type="America/Kralendijk">
+				<exemplarCity>𞤑𞤪𞤢𞤤𞤫𞤲𞤶𞤭𞥅𞤳</exemplarCity>
+			</zone>
+			<zone type="America/Eirunepe">
+				<exemplarCity>𞤉𞤪𞤵𞤲𞤫𞤨𞤫</exemplarCity>
+			</zone>
+			<zone type="America/Rio_Branco">
+				<exemplarCity>𞤈𞤭𞤴𞤮-𞤄𞤪𞤢𞤲𞤳𞤮</exemplarCity>
+			</zone>
+			<zone type="America/Porto_Velho">
+				<exemplarCity>𞤆𞤮𞤪𞤼𞤮-𞤜𞤫𞤤𞤸𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Boa_Vista">
+				<exemplarCity>𞤄𞤮𞤱𞤢-𞤜𞤭𞤧𞤼𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Manaus">
+				<exemplarCity>𞤃𞤢𞤲𞤵𞥅𞤧</exemplarCity>
+			</zone>
+			<zone type="America/Cuiaba">
+				<exemplarCity>𞤑𞤵𞤶𞤢𞤦𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Santarem">
+				<exemplarCity>𞤅𞤢𞤲𞤼𞤢𞤪𞤫𞥅𞤥</exemplarCity>
+			</zone>
+			<zone type="America/Campo_Grande">
+				<exemplarCity>𞤑𞤢𞤥𞤨𞤮-𞤘𞤪𞤢𞤲𞤣𞤫</exemplarCity>
+			</zone>
+			<zone type="America/Belem">
+				<exemplarCity>𞤄𞤫𞤤𞤫𞤥</exemplarCity>
+			</zone>
+			<zone type="America/Araguaina">
+				<exemplarCity>𞤀𞤪𞤢𞤺𞤵𞤱𞤢𞤲𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Sao_Paulo">
+				<exemplarCity>𞤅𞤢𞥄𞤱-𞤆𞤮𞤤𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Bahia">
+				<exemplarCity>𞤄𞤢𞤸𞤭𞤴𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Fortaleza">
+				<exemplarCity>𞤊𞤮𞤪𞤼𞤢𞤤𞤫𞥅𞥁𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Maceio">
+				<exemplarCity>𞤃𞤢𞤧𞤫𞤴𞤮</exemplarCity>
+			</zone>
+			<zone type="America/Recife">
+				<exemplarCity>𞤈𞤫𞤧𞤭𞤬𞤭</exemplarCity>
+			</zone>
+			<zone type="America/Noronha">
+				<exemplarCity>𞤃𞤢𞤪𞤮𞤲𞤿𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Nassau">
+				<exemplarCity>𞤐𞤢𞤧𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="Asia/Thimphu">
+				<exemplarCity>𞤚𞤭𞤥𞤨𞤵</exemplarCity>
+			</zone>
+			<zone type="Africa/Gaborone">
+				<exemplarCity>𞤘𞤢𞤦𞤮𞤪𞤮𞥅𞤲</exemplarCity>
+			</zone>
+			<zone type="Europe/Minsk">
+				<exemplarCity>𞤃𞤭𞤲𞤧𞤭𞤳𞤭</exemplarCity>
+			</zone>
+			<zone type="America/Belize">
+				<exemplarCity>𞤄𞤫𞤤𞤭𞥅𞤶</exemplarCity>
+			</zone>
+			<zone type="America/Dawson">
+				<exemplarCity>𞤁𞤮𞥅𞤧𞤮𞤲</exemplarCity>
+			</zone>
+			<zone type="America/Whitehorse">
+				<exemplarCity>𞤏𞤢𞤴𞤼𞤸𞤮𞤪𞤧𞤫</exemplarCity>
+			</zone>
+			<zone type="America/Inuvik">
+				<exemplarCity>𞤋𞤲𞤵𞤾𞤭𞤳</exemplarCity>
+			</zone>
+			<zone type="America/Vancouver">
+				<exemplarCity>𞤜𞤫𞤲𞤳𞤵𞥅𞤾𞤮</exemplarCity>
+			</zone>
+			<zone type="America/Fort_Nelson">
+				<exemplarCity>𞤊𞤮𞤪𞤼-𞤐𞤫𞤤𞤧𞤮𞤲;</exemplarCity>
+			</zone>
+			<zone type="America/Dawson_Creek">
+				<exemplarCity>𞤁𞤮𞥅𞤧𞤮𞤲-𞤑𞤪𞤫𞤳</exemplarCity>
+			</zone>
+			<zone type="America/Creston">
+				<exemplarCity>𞤑𞤪𞤫𞤧𞤼𞤮𞤲</exemplarCity>
+			</zone>
+			<zone type="America/Yellowknife">
+				<exemplarCity>𞤒𞤫𞤤𞤮𞥅𞤲𞤢𞤴𞤬</exemplarCity>
+			</zone>
+			<zone type="America/Edmonton">
+				<exemplarCity>𞤉𞤣𞤥𞤮𞤲𞤼𞤮𞤲</exemplarCity>
+			</zone>
+			<zone type="America/Swift_Current">
+				<exemplarCity>𞤅𞤭𞤬𞤼-𞤑𞤭𞤪𞥆𞤢𞤲𞤼</exemplarCity>
+			</zone>
+			<zone type="America/Cambridge_Bay">
+				<exemplarCity>𞤑𞤢𞤥𞤦𞤭𞤪𞤭𞥅𞤶-𞤄𞤫𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Regina">
+				<exemplarCity>𞤈𞤭𞤺𞤭𞤲𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Winnipeg">
+				<exemplarCity>𞤏𞤭𞤲𞤭𞤨𞤫𞥅𞤺</exemplarCity>
+			</zone>
+			<zone type="America/Resolute">
+				<exemplarCity>𞤈𞤭𞤧𞤮𞤤𞤵𞥅𞤼</exemplarCity>
+			</zone>
+			<zone type="America/Rainy_River">
+				<exemplarCity>𞤈𞤫𞤲𞤭𞥅-𞤈𞤭𞤾𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Rankin_Inlet">
+				<exemplarCity>𞤈𞤢𞤲𞤳𞤭𞤲 𞤋𞤲𞤤𞤫𞤼</exemplarCity>
+			</zone>
+			<zone type="America/Coral_Harbour">
+				<exemplarCity>𞤀𞤼𞤭𞤳𞤮𞤳𞤢𞤲</exemplarCity>
+			</zone>
+			<zone type="America/Thunder_Bay">
+				<exemplarCity>𞤚𞤵𞤲𞤣𞤮𞥅 𞤄𞤫𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Nipigon">
+				<exemplarCity>𞤐𞤭𞤨𞤭𞤺𞤮𞤲</exemplarCity>
+			</zone>
+			<zone type="America/Toronto">
+				<exemplarCity>𞤚𞤮𞤪𞤮𞤲𞤼𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Iqaluit">
+				<exemplarCity>𞤋𞤳𞤢𞤤𞤵𞤱𞤭𞤼</exemplarCity>
+			</zone>
+			<zone type="America/Pangnirtung">
+				<exemplarCity>𞤆𞤢𞤲𞤺</exemplarCity>
+			</zone>
+			<zone type="America/Moncton">
+				<exemplarCity>𞤃𞤮𞤲𞤳𞤼𞤮𞥅𞤲</exemplarCity>
+			</zone>
+			<zone type="America/Halifax">
+				<exemplarCity>𞤖𞤢𞤤𞤭𞤬𞤢𞤳𞤧𞤭</exemplarCity>
+			</zone>
+			<zone type="America/Goose_Bay">
+				<exemplarCity>𞤘𞤮𞥅𞤧-𞤄𞤫𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Glace_Bay">
+				<exemplarCity>𞤘𞤤𞤫𞤧-𞤄𞤫𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Blanc-Sablon">
+				<exemplarCity>𞤄𞤢𞤤𞤢𞤲𞤳-𞤅𞤢𞤦𞤢𞤤𞤮𞤲</exemplarCity>
+			</zone>
+			<zone type="America/St_Johns">
+				<exemplarCity>𞤅𞤫𞤲𞤼-𞤔𞤮𞥅𞤲𞤧</exemplarCity>
+			</zone>
+			<zone type="Indian/Cocos">
+				<exemplarCity>𞤑𞤮𞥅𞤳𞤮𞤧</exemplarCity>
+			</zone>
+			<zone type="Africa/Kinshasa">
+				<exemplarCity>𞤑𞤭𞤲𞤧𞤢𞤧𞤢</exemplarCity>
+			</zone>
+			<zone type="Africa/Lubumbashi">
+				<exemplarCity>𞤂𞤵𞤦𞤵𞤥𞤦𞤢𞥃𞤭</exemplarCity>
+			</zone>
+			<zone type="Africa/Bangui">
+				<exemplarCity>𞤄𞤢𞤲𞤺𞤭</exemplarCity>
+			</zone>
+			<zone type="Africa/Brazzaville">
+				<exemplarCity>𞤄𞤢𞤪𞥁𞤢𞤾𞤭𞤤</exemplarCity>
+			</zone>
+			<zone type="Europe/Zurich">
+				<exemplarCity>𞤟𞤵𞤪𞤵𞤳</exemplarCity>
+			</zone>
+			<zone type="Africa/Abidjan">
+				<exemplarCity>𞤀𞤦𞤭𞤶𞤢𞤲</exemplarCity>
+			</zone>
+			<zone type="Pacific/Rarotonga">
+				<exemplarCity>𞤈𞤢𞤪𞤮𞤼𞤮𞤲𞤺𞤢</exemplarCity>
+			</zone>
+			<zone type="Pacific/Easter">
+				<exemplarCity>𞤋𞤧𞤼𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Punta_Arenas">
+				<exemplarCity>𞤆𞤵𞤲𞤼𞤢-𞤀𞤪𞤫𞤲𞤢𞥁</exemplarCity>
+			</zone>
+			<zone type="America/Santiago">
+				<exemplarCity>𞤅𞤢𞤲𞤼𞤭𞤴𞤢𞤺𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="Africa/Douala">
+				<exemplarCity>𞤁𞤵𞤱𞤢𞤤𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Urumqi">
+				<exemplarCity>𞤓𞤪𞤵𞤥𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Shanghai">
+				<exemplarCity>𞤅𞤢𞤲𞤸𞤢𞤴</exemplarCity>
+			</zone>
+			<zone type="America/Bogota">
+				<exemplarCity>𞤄𞤮𞤺𞤮𞤼𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Costa_Rica">
+				<exemplarCity>𞤑𞤮𞤧𞤼𞤢-𞤈𞤭𞤳𞥆𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Havana">
+				<exemplarCity>𞤖𞤢𞤾𞤢𞤲𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Cape_Verde">
+				<exemplarCity>𞤑𞤢𞥄𞤦𞤮-𞤜𞤫𞤪𞤣𞤫</exemplarCity>
+			</zone>
+			<zone type="America/Curacao">
+				<exemplarCity>𞤑𞤵𞤪𞤢𞤧𞤢𞥄𞤱</exemplarCity>
+			</zone>
+			<zone type="Indian/Christmas">
+				<exemplarCity>𞤑𞤭𞤪𞤧𞤭𞤥𞤢𞥄𞤧</exemplarCity>
+			</zone>
+			<zone type="Asia/Nicosia">
+				<exemplarCity>𞤐𞤭𞤳𞤮𞤧𞤭𞤴𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Famagusta">
+				<exemplarCity>𞤊𞤢𞤥𞤢𞤺𞤵𞤧𞤼𞤢</exemplarCity>
+			</zone>
+			<zone type="Europe/Prague">
+				<exemplarCity>𞤆𞤢𞤪𞤢𞥄𞤺𞤭</exemplarCity>
+			</zone>
+			<zone type="Europe/Busingen">
+				<exemplarCity>𞤄𞤵𞤧𞤭𞤲𞤶𞤫𞤲</exemplarCity>
+			</zone>
+			<zone type="Europe/Berlin">
+				<exemplarCity>𞤄𞤫𞤪𞤤𞤫𞤲</exemplarCity>
+			</zone>
+			<zone type="Africa/Djibouti">
+				<exemplarCity>𞤔𞤭𞤦𞤵𞥅𞤼𞤭</exemplarCity>
+			</zone>
+			<zone type="Europe/Copenhagen">
+				<exemplarCity>𞤑𞤮𞤨𞤫𞤲𞥆𞤢𞥄𞤺</exemplarCity>
+			</zone>
+			<zone type="America/Dominica">
+				<exemplarCity>𞤁𞤮𞤥𞤭𞤲𞤭𞤳𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Santo_Domingo">
+				<exemplarCity>𞤅𞤢𞤲𞤼𞤢-𞤁𞤮𞤥𞤭𞤲𞤺𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="Africa/Algiers">
+				<exemplarCity>𞤀𞤤𞤶𞤢𞤪𞤭𞥅</exemplarCity>
+			</zone>
+			<zone type="Pacific/Galapagos">
+				<exemplarCity>𞤘𞤢𞤤𞤢𞤨𞤢𞤺𞤮𞤧</exemplarCity>
+			</zone>
+			<zone type="America/Guayaquil">
+				<exemplarCity>𞤘𞤵𞤴𞤢𞤳𞤭𞤤</exemplarCity>
+			</zone>
+			<zone type="Europe/Tallinn">
+				<exemplarCity>𞤚𞤢𞤤𞤭𞥅𞤲𞤵</exemplarCity>
+			</zone>
+			<zone type="Africa/Cairo">
+				<exemplarCity>𞤑𞤢𞤴𞤪𞤢</exemplarCity>
+			</zone>
+			<zone type="Africa/El_Aaiun">
+				<exemplarCity>𞤂𞤢𞤴𞤵𞥅𞤲𞤢</exemplarCity>
+			</zone>
+			<zone type="Africa/Asmera">
+				<exemplarCity>𞤀𞤧𞤥𞤢𞤪𞤢</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Canary">
+				<exemplarCity>𞤑𞤢𞤲𞤢𞤪𞤭</exemplarCity>
+			</zone>
+			<zone type="Africa/Ceuta">
+				<exemplarCity>𞤅𞤭𞥅𞤼𞤢</exemplarCity>
+			</zone>
+			<zone type="Europe/Madrid">
+				<exemplarCity>𞤃𞤢𞤣𞤭𞤪𞤭𞤣</exemplarCity>
+			</zone>
+			<zone type="Africa/Addis_Ababa">
+				<exemplarCity>𞤀𞤣𞤭𞤧𞤢𞤦𞤢𞤦𞤢</exemplarCity>
+			</zone>
+			<zone type="Europe/Helsinki">
+				<exemplarCity>𞤖𞤫𞤤𞤧𞤭𞤲𞤳𞤭</exemplarCity>
+			</zone>
+			<zone type="Pacific/Fiji">
+				<exemplarCity>𞤊𞤭𞤶𞤭</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Stanley">
+				<exemplarCity>𞤅𞤭𞤼𞤢𞤲𞤤𞤫𞥅</exemplarCity>
+			</zone>
+			<zone type="Pacific/Truk">
+				<exemplarCity>𞤕𞤵𞥅𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Pacific/Ponape">
+				<exemplarCity>𞤆𞤮𞤲𞤢𞤨𞤫</exemplarCity>
+			</zone>
+			<zone type="Pacific/Kosrae">
+				<exemplarCity>𞤑𞤮𞤧𞤪𞤢𞤴</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Faeroe">
+				<exemplarCity>𞤊𞤢𞤪𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="Europe/Paris">
+				<exemplarCity>𞤆𞤢𞤪𞤭</exemplarCity>
+			</zone>
+			<zone type="Africa/Libreville">
+				<exemplarCity>𞤂𞤭𞥅𞤦𞤫𞤪𞤾𞤭𞥅𞤤</exemplarCity>
+			</zone>
+			<zone type="Europe/London">
+				<long>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤄𞤪𞤭𞤼𞤭𞥅𞤧𞤭𞤲𞤳𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵</daylight>
+				</long>
+				<exemplarCity>𞤂𞤮𞤲𞤣𞤮𞤲</exemplarCity>
+			</zone>
+			<zone type="America/Grenada">
+				<exemplarCity>𞤘𞤪𞤫𞤲𞤢𞥄𞤣𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Tbilisi">
+				<exemplarCity>𞤚𞤭𞤦𞤭𞤤𞤭𞤧𞤭𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Cayenne">
+				<exemplarCity>𞤑𞤢𞤴𞤫𞥅𞤲</exemplarCity>
+			</zone>
+			<zone type="Europe/Guernsey">
+				<exemplarCity>𞤔𞤭𞤪𞤲𞤭𞤧𞤫𞤴</exemplarCity>
+			</zone>
+			<zone type="Africa/Accra">
+				<exemplarCity>𞤀𞤳𞤢𞤪𞤢</exemplarCity>
+			</zone>
+			<zone type="Europe/Gibraltar">
+				<exemplarCity>𞤔𞤭𞤦𞤢𞤪𞤢𞤤𞤼𞤢𞤪</exemplarCity>
+			</zone>
+			<zone type="America/Thule">
+				<exemplarCity>𞤚𞤵𞤤𞤫</exemplarCity>
+			</zone>
+			<zone type="America/Godthab">
+				<exemplarCity>𞤐𞤵𞥅𞤳</exemplarCity>
+			</zone>
+			<zone type="America/Scoresbysund">
+				<exemplarCity>‮𞤋𞤼𞥆𞤮𞤳𞤮𞤪𞤼𞤮𞥅𞤪𞤥𞤭𞥅𞤼</exemplarCity>
+			</zone>
+			<zone type="America/Danmarkshavn">
+				<exemplarCity>𞤁𞤢𞥄𞤲𞤥𞤢𞤪𞤳𞥃𞤢𞥄𞤾𞤲</exemplarCity>
+			</zone>
+			<zone type="Africa/Banjul">
+				<exemplarCity>𞤄𞤢𞤲𞤶𞤵𞤤</exemplarCity>
+			</zone>
+			<zone type="Africa/Conakry">
+				<exemplarCity>𞤑𞤮𞤲𞤢𞥄𞤳𞤭𞤪𞤭</exemplarCity>
+			</zone>
+			<zone type="America/Guadeloupe">
+				<exemplarCity>𞤘𞤵𞤱𞤢𞤣𞤫𞤤𞤵𞤨𞥆𞤫𞥅</exemplarCity>
+			</zone>
+			<zone type="Africa/Malabo">
+				<exemplarCity>𞤃𞤢𞤤𞤢𞤦𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="Europe/Athens">
+				<exemplarCity>𞤀𞤼𞤫𞤲𞤧𞤭</exemplarCity>
+			</zone>
+			<zone type="Atlantic/South_Georgia">
+				<exemplarCity>𞤅𞤢𞤱𞤬-𞤔𞤮𞤪𞤶𞤭𞤴𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Guatemala">
+				<exemplarCity>𞤘𞤵𞤱𞤢𞤼𞤫𞤥𞤢𞤤𞤢</exemplarCity>
+			</zone>
+			<zone type="Pacific/Guam">
+				<exemplarCity>𞤘𞤵𞤱𞤢𞤥</exemplarCity>
+			</zone>
+			<zone type="Africa/Bissau">
+				<exemplarCity>𞤄𞤭𞤱𞤢𞤱𞤮</exemplarCity>
+			</zone>
+			<zone type="America/Guyana">
+				<exemplarCity>𞤘𞤵𞤴𞤢𞤲𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="Asia/Hong_Kong">
+				<exemplarCity>𞤖𞤮𞤲𞤳𞤮𞤲</exemplarCity>
+			</zone>
+			<zone type="America/Tegucigalpa">
+				<exemplarCity>𞤚𞤵𞤺𞤵𞤧𞤭𞤺𞤵𞤤𞤨𞤢</exemplarCity>
+			</zone>
+			<zone type="Europe/Zagreb">
+				<exemplarCity>𞤟𞤢𞤺𞤪𞤫𞤦𞤵</exemplarCity>
+			</zone>
+			<zone type="America/Port-au-Prince">
+				<exemplarCity>𞤆𞤮𞤪𞤼-𞤮-𞤆𞤪𞤫𞤲𞤧</exemplarCity>
+			</zone>
+			<zone type="Europe/Budapest">
+				<exemplarCity>𞤄𞤵𞤣𞤢𞤨𞤫𞤧𞤼</exemplarCity>
+			</zone>
+			<zone type="Asia/Jakarta">
+				<exemplarCity>𞤔𞤢𞤳𞤢𞤪𞤼𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="Asia/Pontianak">
+				<exemplarCity>𞤆𞤮𞤲𞤼𞤭𞤴𞤢𞤲𞤢𞤳</exemplarCity>
+			</zone>
+			<zone type="Asia/Makassar">
+				<exemplarCity>𞤃𞤢𞤳𞤢𞤧𞤢𞥄𞤪</exemplarCity>
+			</zone>
+			<zone type="Asia/Jayapura">
+				<exemplarCity>𞤔𞤢𞤴𞤢𞤨𞤵𞤪𞤢</exemplarCity>
+			</zone>
+			<zone type="Europe/Dublin">
+				<long>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤋𞤪𞤤𞤢𞤲𞤣𞤭𞥅𞤳𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫</daylight>
+				</long>
+				<exemplarCity>𞤁𞤵𞤦𞤵𞤤𞤫𞤲</exemplarCity>
+			</zone>
+			<zone type="Asia/Jerusalem">
+				<exemplarCity>𞤗𞤵𞤣𞤵𞤧𞤵</exemplarCity>
+			</zone>
+			<zone type="Europe/Isle_of_Man">
+				<exemplarCity>𞤅𞤵𞤪𞤭𞥅𞤪𞤫-𞤃𞤢𞥄𞤲</exemplarCity>
+			</zone>
+			<zone type="Asia/Calcutta">
+				<exemplarCity>𞤑𞤮𞤤𞤳𞤢𞤼𞤢</exemplarCity>
+			</zone>
+			<zone type="Indian/Chagos">
+				<exemplarCity>𞤅𞤢𞤺𞤮𞤧</exemplarCity>
+			</zone>
+			<zone type="Asia/Baghdad">
+				<exemplarCity>𞤄𞤢𞤿𞤣𞤢𞥄𞤣𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Tehran">
+				<exemplarCity>𞤚𞤫𞤸𞤭𞤪𞤢𞥄𞤲</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Reykjavik">
+				<exemplarCity>𞤈𞤫𞤴𞤳𞤢𞤾𞤭𞤳𞤭</exemplarCity>
+			</zone>
+			<zone type="Europe/Rome">
+				<exemplarCity>𞤈𞤮𞥅𞤥𞤵</exemplarCity>
+			</zone>
+			<zone type="Europe/Jersey">
+				<exemplarCity>𞤔𞤫𞤪𞤧𞤭𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Jamaica">
+				<exemplarCity>𞤔𞤢𞤥𞤢𞥄𞤴𞤳𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Amman">
+				<exemplarCity>𞤀𞤥𞤢𞥄𞤲𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Tokyo">
+				<exemplarCity>𞤚𞤮𞤳𞤭𞤴𞤮</exemplarCity>
+			</zone>
+			<zone type="Africa/Nairobi">
+				<exemplarCity>𞤐𞤢𞤴𞤪𞤮𞤦𞤭</exemplarCity>
+			</zone>
+			<zone type="Asia/Bishkek">
+				<exemplarCity>𞤄𞤭𞤧𞤳𞤫𞥅𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Phnom_Penh">
+				<exemplarCity>𞤆𞤢𞤲𞤮𞤥-𞤆𞤫𞤲</exemplarCity>
+			</zone>
+			<zone type="Pacific/Enderbury">
+				<exemplarCity>𞤉𞤲𞤣𞤫𞤪𞤦𞤵𞥅𞤪𞤭</exemplarCity>
+			</zone>
+			<zone type="Pacific/Kiritimati">
+				<exemplarCity>𞤑𞤭𞤪𞤭𞤼𞤭𞤥𞤢𞤼𞤭</exemplarCity>
+			</zone>
+			<zone type="Pacific/Tarawa">
+				<exemplarCity>𞤚𞤢𞤪𞤢𞤱𞤢</exemplarCity>
+			</zone>
+			<zone type="Indian/Comoro">
+				<exemplarCity>𞤑𞤮𞤥𞤮𞥅𞤪𞤮</exemplarCity>
+			</zone>
+			<zone type="America/St_Kitts">
+				<exemplarCity>𞤅𞤫𞤲𞤼-𞤑𞤭𞤼𞥆𞤭𞤧</exemplarCity>
+			</zone>
+			<zone type="Asia/Pyongyang">
+				<exemplarCity>𞤆𞤭𞤴𞤮𞤲𞤴𞤢𞤲</exemplarCity>
+			</zone>
+			<zone type="Asia/Seoul">
+				<exemplarCity>𞤅𞤫𞤱𞤵𞤤</exemplarCity>
+			</zone>
+			<zone type="Asia/Kuwait">
+				<exemplarCity>𞤑𞤵𞤱𞤢𞤴𞤼𞤭</exemplarCity>
+			</zone>
+			<zone type="America/Cayman">
+				<exemplarCity>𞤑𞤫𞤴𞤥𞤢𞥄𞤲</exemplarCity>
+			</zone>
+			<zone type="Asia/Aqtau">
+				<exemplarCity>𞤀𞤳𞤼𞤢𞥄𞤱𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Oral">
+				<exemplarCity>𞤓𞤪𞤢𞤤</exemplarCity>
+			</zone>
+			<zone type="Asia/Atyrau">
+				<exemplarCity>𞤀𞤼𞤭𞤪𞤢𞤱𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Aqtobe">
+				<exemplarCity>𞤀𞤳𞤼𞤮𞥅𞤦𞤫</exemplarCity>
+			</zone>
+			<zone type="Asia/Qyzylorda">
+				<exemplarCity>𞤑𞤭𞥁𞤭𞤤𞤮𞤪𞤣𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Almaty">
+				<exemplarCity>𞤀𞤤𞤥𞤢𞥄𞤼𞤭</exemplarCity>
+			</zone>
+			<zone type="Asia/Vientiane">
+				<exemplarCity>𞤜𞤭𞤴𞤫𞤲𞤷𞤢𞥄𞤲</exemplarCity>
+			</zone>
+			<zone type="Asia/Beirut">
+				<exemplarCity>𞤄𞤫𞤴𞤪𞤵𞥅𞤼𞤵</exemplarCity>
+			</zone>
+			<zone type="America/St_Lucia">
+				<exemplarCity>𞤅𞤫𞤲𞤼-𞤂𞤵𞤧𞤭𞤢</exemplarCity>
+			</zone>
+			<zone type="Europe/Vaduz">
+				<exemplarCity>𞤜𞤢𞤣𞤵𞥅𞤶𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Colombo">
+				<exemplarCity>𞤑𞤮𞤤𞤮𞤥𞤦𞤢</exemplarCity>
+			</zone>
+			<zone type="Africa/Monrovia">
+				<exemplarCity>𞤃𞤮𞤪𞤮𞤦𞤭𞤴𞤢</exemplarCity>
+			</zone>
+			<zone type="Africa/Maseru">
+				<exemplarCity>𞤃𞤢𞤧𞤫𞤪𞤵</exemplarCity>
+			</zone>
+			<zone type="Europe/Vilnius">
+				<exemplarCity>𞤜𞤫𞤤𞤲𞤵𞥅𞤧</exemplarCity>
+			</zone>
+			<zone type="Europe/Luxembourg">
+				<exemplarCity>𞤂𞤭𞤳𞤧𞤢𞤲𞤦𞤵𞤪𞤺𞤵</exemplarCity>
+			</zone>
+			<zone type="Europe/Riga">
+				<exemplarCity>𞤈𞤭𞤺𞤢</exemplarCity>
+			</zone>
+			<zone type="Africa/Tripoli">
+				<exemplarCity>𞤚𞤪𞤭𞤨𞤮𞤤𞤭</exemplarCity>
+			</zone>
+			<zone type="Africa/Casablanca">
+				<exemplarCity>𞤑𞤢𞥄𞤧𞤢𞤦𞤵𞤤𞤢𞤲𞤳𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="Europe/Monaco">
+				<exemplarCity>𞤃𞤮𞤲𞤢𞤳𞤮𞤸</exemplarCity>
+			</zone>
+			<zone type="Europe/Chisinau">
+				<exemplarCity>𞤕𞤭𞤧𞤭𞥅𞤲𞤮𞤱𞤢</exemplarCity>
+			</zone>
+			<zone type="Europe/Podgorica">
+				<exemplarCity>𞤆𞤮𞤣𞤭𞤺𞤮𞤪𞤭𞤳𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Marigot">
+				<exemplarCity>𞤃𞤢𞤪𞤭𞤺𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="Indian/Antananarivo">
+				<exemplarCity>𞤀𞤲𞤼𞤢𞤲𞤢𞤲𞤢𞤪𞤭𞥅𞤾𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="Pacific/Kwajalein">
+				<exemplarCity>𞤑𞤢𞤱𞤢𞤶𞤢𞤤𞤭𞥅𞤲</exemplarCity>
+			</zone>
+			<zone type="Pacific/Majuro">
+				<exemplarCity>𞤃𞤢𞤶𞤵𞥅𞤪𞤮</exemplarCity>
+			</zone>
+			<zone type="Europe/Skopje">
+				<exemplarCity>𞤅𞤭𞤳𞤮𞥅𞤨𞤭𞤴𞤢</exemplarCity>
+			</zone>
+			<zone type="Africa/Bamako">
+				<exemplarCity>𞤄𞤢𞤥𞤢𞤳𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="Asia/Rangoon">
+				<exemplarCity>𞤈𞤢𞤲𞤺𞤵𞥅𞤲</exemplarCity>
+			</zone>
+			<zone type="Asia/Hovd">
+				<exemplarCity>𞤖𞤮𞤬𞤣𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Ulaanbaatar">
+				<exemplarCity>𞤓𞤤𞤢𞤲𞤦𞤢𞤼𞤢𞤪</exemplarCity>
+			</zone>
+			<zone type="Asia/Choibalsan">
+				<exemplarCity>𞤕𞤮𞤴𞤦𞤢𞤤𞤧𞤢𞤲</exemplarCity>
+			</zone>
+			<zone type="Asia/Macau">
+				<exemplarCity>𞤃𞤢𞤳𞤢𞤱𞤮</exemplarCity>
+			</zone>
+			<zone type="Pacific/Saipan">
+				<exemplarCity>𞤅𞤢𞤴𞤨𞤢𞤲</exemplarCity>
+			</zone>
+			<zone type="America/Martinique">
+				<exemplarCity>𞤃𞤢𞤪𞤼𞤭𞤲𞤭𞤳</exemplarCity>
+			</zone>
+			<zone type="Africa/Nouakchott">
+				<exemplarCity>𞤐𞤵𞤱𞤢𞥄𞤳𞥃𞤵𞥅𞤼</exemplarCity>
+			</zone>
+			<zone type="America/Montserrat">
+				<exemplarCity>𞤃𞤮𞤲𞤼𞤧𞤭𞤪𞤢𞤴𞤼</exemplarCity>
+			</zone>
+			<zone type="Europe/Malta">
+				<exemplarCity>𞤃𞤢𞤤𞤼𞤢</exemplarCity>
+			</zone>
+			<zone type="Indian/Mauritius">
+				<exemplarCity>𞤃𞤮𞤪𞤭𞥅𞤧𞤭</exemplarCity>
+			</zone>
+			<zone type="Indian/Maldives">
+				<exemplarCity>𞤃𞤢𞤤𞤣𞤢𞥄𞤴𞤭𞤧</exemplarCity>
+			</zone>
+			<zone type="Africa/Blantyre">
+				<exemplarCity>𞤄𞤭𞤤𞤢𞤲𞤼𞤭𞤪𞤫</exemplarCity>
+			</zone>
+			<zone type="America/Tijuana">
+				<exemplarCity>𞤚𞤭𞤶𞤵𞤱𞤢𞥄𞤲𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Hermosillo">
+				<exemplarCity>𞤖𞤢𞤪𞤥𞤮𞤧𞤭𞤤𞤭𞤴𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Mazatlan">
+				<exemplarCity>𞤃𞤢𞥁𞤢𞤼𞤤𞤢𞤲</exemplarCity>
+			</zone>
+			<zone type="America/Chihuahua">
+				<exemplarCity>𞤕𞤭𞤱𞤢𞥄𞤱𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Bahia_Banderas">
+				<exemplarCity>𞤄𞤢𞤸𞤭𞤴𞤢𞥄 𞤣𞤫 𞤄𞤢𞤲𞤣𞤫𞤪𞤢𞥄𞤧</exemplarCity>
+			</zone>
+			<zone type="America/Ojinaga">
+				<exemplarCity>𞤌𞤶𞤭𞤲𞤢𞤺𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Monterrey">
+				<exemplarCity>𞤃𞤮𞤲𞤼𞤫𞤪𞤫𞥅𞤴</exemplarCity>
+			</zone>
+			<zone type="America/Mexico_City">
+				<exemplarCity>𞤃𞤫𞤳𞤧𞤭𞤳𞤮𞥅 𞤅𞤭𞤼𞤭𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Matamoros">
+				<exemplarCity>𞤃𞤢𞤼𞤢𞤥𞤮𞤪𞤮𞥅𞤧</exemplarCity>
+			</zone>
+			<zone type="America/Merida">
+				<exemplarCity>𞤃𞤫𞤪𞤭𞤣𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Cancun">
+				<exemplarCity>𞤑𞤢𞤲𞤳𞤵𞥅𞤲</exemplarCity>
+			</zone>
+			<zone type="Asia/Kuala_Lumpur">
+				<exemplarCity>𞤑𞤵𞤱𞤢𞤤𞤢-𞤂𞤮𞤥𞤨𞤵𞥅𞤪</exemplarCity>
+			</zone>
+			<zone type="Asia/Kuching">
+				<exemplarCity>𞤑𞤵𞤷𞤭𞤲</exemplarCity>
+			</zone>
+			<zone type="Africa/Maputo">
+				<exemplarCity>𞤃𞤢𞤨𞤵𞤼𞤮</exemplarCity>
+			</zone>
+			<zone type="Africa/Windhoek">
+				<exemplarCity>𞤏𞤭𞤲𞤣𞤵𞥅𞤳</exemplarCity>
+			</zone>
+			<zone type="Pacific/Noumea">
+				<exemplarCity>𞤐𞤵𞤥𞤫𞤴𞤢</exemplarCity>
+			</zone>
+			<zone type="Africa/Niamey">
+				<exemplarCity>𞤐𞤭𞤴𞤢𞤥𞤫</exemplarCity>
+			</zone>
+			<zone type="Pacific/Norfolk">
+				<exemplarCity>𞤐𞤮𞤪𞤬𞤮𞤤𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Africa/Lagos">
+				<exemplarCity>𞤂𞤢𞤺𞤮𞥅𞤧</exemplarCity>
+			</zone>
+			<zone type="America/Managua">
+				<exemplarCity>𞤃𞤢𞤲𞤢𞤱𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="Europe/Amsterdam">
+				<exemplarCity>𞤀𞤥𞤧𞤭𞤼𞤫𞤪𞤣𞤢𞥄𞤥</exemplarCity>
+			</zone>
+			<zone type="Europe/Oslo">
+				<exemplarCity>𞤌𞤧𞤤𞤮𞤸</exemplarCity>
+			</zone>
+			<zone type="Asia/Katmandu">
+				<exemplarCity>𞤑𞤢𞤼𞤭𞤥𞤢𞤲𞤣𞤵</exemplarCity>
+			</zone>
+			<zone type="Pacific/Nauru">
+				<exemplarCity>𞤐𞤵𞥅𞤪𞤵</exemplarCity>
+			</zone>
+			<zone type="Pacific/Niue">
+				<exemplarCity>𞤐𞤭𞥅𞤴𞤵</exemplarCity>
+			</zone>
+			<zone type="Pacific/Chatham">
+				<exemplarCity>𞤕𞤢𞥃𞤢𞥄𞤥</exemplarCity>
+			</zone>
+			<zone type="Pacific/Auckland">
+				<exemplarCity>𞤌𞤳𞤤𞤢𞤲𞤣𞤭</exemplarCity>
+			</zone>
+			<zone type="Asia/Muscat">
+				<exemplarCity>𞤃𞤵𞤧𞤳𞤢𞤼𞤵</exemplarCity>
+			</zone>
+			<zone type="America/Panama">
+				<exemplarCity>𞤆𞤢𞤲𞤢𞤲𞤥𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Lima">
+				<exemplarCity>𞤂𞤭𞥅𞤥𞤢</exemplarCity>
+			</zone>
+			<zone type="Pacific/Tahiti">
+				<exemplarCity>𞤚𞤢𞤸𞤭𞤼𞤭</exemplarCity>
+			</zone>
+			<zone type="Pacific/Marquesas">
+				<exemplarCity>𞤃𞤢𞤪𞤳𞤫𞤧𞤢𞤧</exemplarCity>
+			</zone>
+			<zone type="Pacific/Gambier">
+				<exemplarCity>𞤘𞤢𞤥𞤦𞤭𞤴𞤫𞤪</exemplarCity>
+			</zone>
+			<zone type="Pacific/Port_Moresby">
+				<exemplarCity>𞤆𞤮𞤪𞤼𞤵-𞤃𞤮𞤪𞤫𞤧𞤦𞤭</exemplarCity>
+			</zone>
+			<zone type="Pacific/Bougainville">
+				<exemplarCity>𞤄𞤵𞤺𞤫𞤲𞤾𞤭𞥅𞤤</exemplarCity>
+			</zone>
+			<zone type="Asia/Manila">
+				<exemplarCity>𞤃𞤢𞤲𞤭𞤤𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Karachi">
+				<exemplarCity>𞤑𞤢𞤪𞤢𞤷𞤭𞥅</exemplarCity>
+			</zone>
+			<zone type="Europe/Warsaw">
+				<exemplarCity>𞤏𞤢𞤪𞤧𞤮</exemplarCity>
+			</zone>
+			<zone type="America/Miquelon">
+				<exemplarCity>𞤃𞤫𞤳𞤫𞤤𞤮𞤲</exemplarCity>
+			</zone>
+			<zone type="Pacific/Pitcairn">
+				<exemplarCity>𞤆𞤭𞤼𞤭𞤳𞤫𞤪𞤲𞤵</exemplarCity>
+			</zone>
+			<zone type="America/Puerto_Rico">
+				<exemplarCity>𞤆𞤮𞤪𞤼-𞤈𞤭𞤳𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="Asia/Gaza">
+				<exemplarCity>𞤘𞤢𞥄𞥁𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Hebron">
+				<exemplarCity>𞤝𞤭𞤤𞤢𞥄𞤤𞤵</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Azores">
+				<exemplarCity>𞤀𞥁𞤮𞤪𞤫𞥅𞤧</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Madeira">
+				<exemplarCity>𞤃𞤢𞤴𞤣𞤫𞤪𞤢</exemplarCity>
+			</zone>
+			<zone type="Europe/Lisbon">
+				<exemplarCity>𞤂𞤭𞤧𞤦𞤮𞥅𞤲</exemplarCity>
+			</zone>
+			<zone type="Pacific/Palau">
+				<exemplarCity>𞤆𞤮𞤤𞤢𞥄𞤱𞤮</exemplarCity>
+			</zone>
+			<zone type="America/Asuncion">
+				<exemplarCity>𞤀𞤧𞤵𞤲𞤧𞤭𞤴𞤮𞤲</exemplarCity>
+			</zone>
+			<zone type="Asia/Qatar">
+				<exemplarCity>𞤗𞤢𞤼𞤢𞤪</exemplarCity>
+			</zone>
+			<zone type="Indian/Reunion">
+				<exemplarCity>𞤈𞤫𞥅𞤲𞤭𞤴𞤮𞤲</exemplarCity>
+			</zone>
+			<zone type="Europe/Bucharest">
+				<exemplarCity>𞤄𞤵𞤳𞤢𞤪𞤫𞤧𞤼𞤭</exemplarCity>
+			</zone>
+			<zone type="Europe/Belgrade">
+				<exemplarCity>𞤄𞤫𞤤𞤺𞤢𞤪𞤢𞥄𞤣</exemplarCity>
+			</zone>
+			<zone type="Europe/Kaliningrad">
+				<exemplarCity>𞤑𞤢𞤤𞤭𞤲𞤺𞤢𞤪𞤣</exemplarCity>
+			</zone>
+			<zone type="Europe/Simferopol">
+				<exemplarCity>𞤅𞤭𞤥𞤬𞤫𞤪𞤨𞤮𞥅𞤤</exemplarCity>
+			</zone>
+			<zone type="Europe/Moscow">
+				<exemplarCity>𞤃𞤮𞤧𞤳𞤮</exemplarCity>
+			</zone>
+			<zone type="Europe/Volgograd">
+				<exemplarCity>𞤜𞤮𞤤𞤺𞤮𞤺𞤢𞤪𞤢𞤣</exemplarCity>
+			</zone>
+			<zone type="Europe/Saratov">
+				<exemplarCity>𞤅𞤢𞤪𞤢𞤼𞤮𞥅𞤾</exemplarCity>
+			</zone>
+			<zone type="Europe/Astrakhan">
+				<exemplarCity>𞤀𞤧𞤼𞤢𞤪𞤿𞤢𞥄𞤲</exemplarCity>
+			</zone>
+			<zone type="Europe/Ulyanovsk">
+				<exemplarCity>𞤓𞤤𞤴𞤢𞤲𞤮𞤾𞤮𞤧𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Europe/Kirov">
+				<exemplarCity>𞤑𞤭𞤪𞤮𞥅𞤾𞤵</exemplarCity>
+			</zone>
+			<zone type="Europe/Samara">
+				<exemplarCity>𞤅𞤢𞤥𞤢𞤪𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Yekaterinburg">
+				<exemplarCity>𞤒𞤢𞤳𞤢𞤼𞤫𞤪𞤭𞤲𞤦𞤵𞤪𞤺𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Omsk">
+				<exemplarCity>𞤌𞤥𞤧𞤵𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Novosibirsk">
+				<exemplarCity>𞤐𞤮𞤾𞤮𞤧𞤭𞤦𞤭𞤪𞤧𞤵𞤳</exemplarCity>
+			</zone>
+			<zone type="Asia/Barnaul">
+				<exemplarCity>𞤄𞤢𞤪𞤲𞤢𞥄𞤤𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Tomsk">
+				<exemplarCity>𞤚𞤮𞤥𞤧𞤵𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Novokuznetsk">
+				<exemplarCity>𞤐𞤮𞤾𞤮𞤳𞤵𞥁𞤲𞤫𞤼𞤭𞤧𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Krasnoyarsk">
+				<exemplarCity>𞤑𞤢𞤪𞤢𞤧𞤲𞤮𞤴𞤢𞤪𞤧𞤵𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Irkutsk">
+				<exemplarCity>𞤋𞤪𞤳𞤵𞤼𞤭𞤧𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Chita">
+				<exemplarCity>𞤕𞤭𞥅𞤼𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Yakutsk">
+				<exemplarCity>𞤒𞤢𞤳𞤵𞤼𞤵𞤧𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Vladivostok">
+				<exemplarCity>𞤜𞤭𞤤𞤢𞤣𞤭𞤾𞤮𞤧𞤼𞤮𞥅𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Khandyga">
+				<exemplarCity>𞤝𞤢𞤲𞤣𞤭𞤺𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Sakhalin">
+				<exemplarCity>𞤅𞤢𞤿𞤢𞤤𞤭𞥅𞤲</exemplarCity>
+			</zone>
+			<zone type="Asia/Ust-Nera">
+				<exemplarCity>𞤓𞤧𞤼𞤢-𞤐𞤫𞤪𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Magadan">
+				<exemplarCity>𞤃𞤢𞤺𞤢𞤣𞤢𞤲</exemplarCity>
+			</zone>
+			<zone type="Asia/Srednekolymsk">
+				<exemplarCity>𞤅𞤭𞤪𞤫𞤣𞤳𞤮𞤤𞤭𞤥𞤧𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Kamchatka">
+				<exemplarCity>𞤑𞤢𞤥𞤷𞤢𞤼𞤭𞤳𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Anadyr">
+				<exemplarCity>𞤀𞤲𞤢𞤣𞤭𞥅𞤪</exemplarCity>
+			</zone>
+			<zone type="Africa/Kigali">
+				<exemplarCity>𞤑𞤭𞤺𞤢𞤤𞤭</exemplarCity>
+			</zone>
+			<zone type="Asia/Riyadh">
+				<exemplarCity>𞤈𞤭𞤴𞤢𞥄𞤣</exemplarCity>
+			</zone>
+			<zone type="Pacific/Guadalcanal">
+				<exemplarCity>𞤘𞤵𞤱𞤢𞤣𞤢𞤤𞤳𞤢𞤲𞤢𞤤</exemplarCity>
+			</zone>
+			<zone type="Indian/Mahe">
+				<exemplarCity>𞤃𞤢𞤸𞤫𞥅</exemplarCity>
+			</zone>
+			<zone type="Africa/Khartoum">
+				<exemplarCity>𞤝𞤢𞤪𞤼𞤵𞥅𞤥</exemplarCity>
+			</zone>
+			<zone type="Europe/Stockholm">
+				<exemplarCity>𞤅𞤭𞤼𞤮𞤳𞤮𞤤𞤥𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Singapore">
+				<exemplarCity>𞤅𞤭𞤲𞤺𞤢𞤨𞤵𞥅𞤪</exemplarCity>
+			</zone>
+			<zone type="Atlantic/St_Helena">
+				<exemplarCity>𞤅𞤫𞤲𞤼-𞤖𞤫𞤤𞤫𞤲𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="Europe/Ljubljana">
+				<exemplarCity>𞤋𞤶𞤵𞤦𞤵𞤤𞤶𞤢𞤲𞤢</exemplarCity>
+			</zone>
+			<zone type="Arctic/Longyearbyen">
+				<exemplarCity>𞤂𞤮𞤲𞤶𞤭𞤪𞤦𞤭𞤴𞤫𞥅𞤲</exemplarCity>
+			</zone>
+			<zone type="Europe/Bratislava">
+				<exemplarCity>𞤄𞤢𞤪𞤢𞤼𞤭𞤧𞤤𞤢𞤾𞤢</exemplarCity>
+			</zone>
+			<zone type="Africa/Freetown">
+				<exemplarCity>𞤊𞤭𞤪𞤼𞤮𞤲</exemplarCity>
+			</zone>
+			<zone type="Europe/San_Marino">
+				<exemplarCity>𞤅𞤢𞤲-𞤃𞤢𞤪𞤭𞤲𞤮</exemplarCity>
+			</zone>
+			<zone type="Africa/Dakar">
+				<exemplarCity>𞤁𞤢𞤳𞤢𞥄𞤪</exemplarCity>
+			</zone>
+			<zone type="Africa/Mogadishu">
+				<exemplarCity>𞤃𞤵𞤹𞥆𞤢𞤧𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Paramaribo">
+				<exemplarCity>𞤆𞤢𞤪𞤢𞤥𞤢𞤪𞤭𞤦𞤮</exemplarCity>
+			</zone>
+			<zone type="Africa/Juba">
+				<exemplarCity>𞤔𞤵𞤦𞤢</exemplarCity>
+			</zone>
+			<zone type="Africa/Sao_Tome">
+				<exemplarCity>𞤅𞤢𞤱𞤮-𞤚𞤮𞤥𞤫𞥅</exemplarCity>
+			</zone>
+			<zone type="America/El_Salvador">
+				<exemplarCity>𞤉𞤤-𞤅𞤢𞤤𞤾𞤢𞤣𞤮𞥅𞤪</exemplarCity>
+			</zone>
+			<zone type="America/Lower_Princes">
+				<exemplarCity>𞤂𞤮𞤱𞤮 𞤆𞤪𞤫𞤲𞤧𞤫𞥅𞤧 𞤑𞤮𞤣𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="Asia/Damascus">
+				<exemplarCity>𞤁𞤢𞤥𞤢𞤧𞤹𞤢</exemplarCity>
+			</zone>
+			<zone type="Africa/Mbabane">
+				<exemplarCity>𞤐𞥋𞤄𞤢𞤦𞤢𞥄𞤲𞤫</exemplarCity>
+			</zone>
+			<zone type="America/Grand_Turk">
+				<exemplarCity>𞤘𞤪𞤢𞤲𞤣-𞤚𞤵𞤪𞤳</exemplarCity>
+			</zone>
+			<zone type="Africa/Ndjamena">
+				<exemplarCity>𞤐𞥋𞤔𞤢𞤥𞤫𞤲𞤢</exemplarCity>
+			</zone>
+			<zone type="Indian/Kerguelen">
+				<exemplarCity>𞤑𞤫𞤪𞤺𞤫𞤤𞤫𞤲</exemplarCity>
+			</zone>
+			<zone type="Africa/Lome">
+				<exemplarCity>𞤂𞤮𞤥𞤫</exemplarCity>
+			</zone>
+			<zone type="Asia/Bangkok">
+				<exemplarCity>𞤄𞤢𞤲𞤳𞤮𞥅𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Dushanbe">
+				<exemplarCity>𞤁𞤵𞤧𞤢𞤲𞤦𞤫</exemplarCity>
+			</zone>
+			<zone type="Pacific/Fakaofo">
+				<exemplarCity>𞤊𞤢𞤳𞤢𞤱𞤬𞤮</exemplarCity>
+			</zone>
+			<zone type="Asia/Dili">
+				<exemplarCity>𞤁𞤫𞤤𞤭</exemplarCity>
+			</zone>
+			<zone type="Asia/Ashgabat">
+				<exemplarCity>𞤀𞤧𞤺𞤢𞤦𞤢𞤼𞤵</exemplarCity>
+			</zone>
+			<zone type="Africa/Tunis">
+				<exemplarCity>𞤚𞤵𞥅𞤲𞤵𞤧</exemplarCity>
+			</zone>
+			<zone type="Pacific/Tongatapu">
+				<exemplarCity>𞤚𞤮𞤲𞤺𞤢𞤼𞤢𞤨𞤵</exemplarCity>
+			</zone>
+			<zone type="Europe/Istanbul">
+				<exemplarCity>𞤋𞤧𞤼𞤢𞤥𞤦𞤵𞤤</exemplarCity>
+			</zone>
+			<zone type="America/Port_of_Spain">
+				<exemplarCity>𞤆𞤮𞤪𞤼 𞤮𞤬 𞤅𞤭𞤨𞤫𞥅𞤲</exemplarCity>
+			</zone>
+			<zone type="Pacific/Funafuti">
+				<exemplarCity>𞤊𞤵𞤲𞤢𞤬𞤵𞤼𞤭</exemplarCity>
+			</zone>
+			<zone type="Asia/Taipei">
+				<exemplarCity>𞤚𞤢𞤴𞤨𞤫𞥅</exemplarCity>
+			</zone>
+			<zone type="Africa/Dar_es_Salaam">
+				<exemplarCity>𞤁𞤢𞥄𞤪𞤫-𞤅𞤢𞤤𞤢𞥄𞤥𞤵</exemplarCity>
+			</zone>
+			<zone type="Europe/Uzhgorod">
+				<exemplarCity>𞤓𞥅𞤶𞤢𞤪𞤵𞥅𞤣𞤵</exemplarCity>
+			</zone>
+			<zone type="Europe/Kiev">
+				<exemplarCity>𞤑𞤭𞤴𞤫𞥅𞤾</exemplarCity>
+			</zone>
+			<zone type="Europe/Zaporozhye">
+				<exemplarCity>𞤟𞤢𞤨𞤮𞤪𞤵𞥅𞥁</exemplarCity>
+			</zone>
+			<zone type="Africa/Kampala">
+				<exemplarCity>𞤑𞤢𞤥𞤨𞤢𞤤𞤢</exemplarCity>
+			</zone>
+			<zone type="Pacific/Midway">
+				<exemplarCity>𞤃𞤭𞤣𞤱𞤫𞥅</exemplarCity>
+			</zone>
+			<zone type="Pacific/Wake">
+				<exemplarCity>𞤏𞤫𞥅𞤳𞤵</exemplarCity>
+			</zone>
+			<zone type="America/Adak">
+				<exemplarCity>𞤀𞤣𞤢𞤳</exemplarCity>
+			</zone>
+			<zone type="America/Nome">
+				<exemplarCity>𞤐𞤮𞤱𞤥𞤵</exemplarCity>
+			</zone>
+			<zone type="Pacific/Johnston">
+				<exemplarCity>𞤔𞤮𞤲𞤧𞤵𞤼𞤮𞤲</exemplarCity>
+			</zone>
+			<zone type="America/Anchorage">
+				<exemplarCity>𞤀𞤲𞤳𞤮𞤪𞤢𞥄𞤶</exemplarCity>
+			</zone>
+			<zone type="America/Yakutat">
+				<exemplarCity>𞤒𞤢𞤳𞤵𞤼𞤢𞤼</exemplarCity>
+			</zone>
+			<zone type="America/Sitka">
+				<exemplarCity>𞤅𞤭𞤼𞤳𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Juneau">
+				<exemplarCity>𞤔𞤵𞥅𞤲𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Metlakatla">
+				<exemplarCity>𞤃𞤫𞤼𞤤𞤢𞤳𞤢𞤼𞤤𞤢</exemplarCity>
+			</zone>
+			<zone type="America/Los_Angeles">
+				<exemplarCity>𞤂𞤮𞤧-𞤀𞤺𞤫𞤤𞤫𞥅𞤧</exemplarCity>
+			</zone>
+			<zone type="America/Boise">
+				<exemplarCity>𞤄𞤮𞤴𞤶𞤭𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Phoenix">
+				<exemplarCity>𞤊𞤭𞤲𞤭𞤳𞤧</exemplarCity>
+			</zone>
+			<zone type="America/Denver">
+				<exemplarCity>𞤁𞤫𞤲𞤾𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="America/North_Dakota/Beulah">
+				<exemplarCity>𞤄𞤵𞤤𞤢𞥄, 𞤐𞤮𞤪𞤬-𞤁𞤢𞤳𞤮𞤼𞤢</exemplarCity>
+			</zone>
+			<zone type="America/North_Dakota/New_Salem">
+				<exemplarCity>𞤐𞤫𞤱-𞤅𞤫𞤤𞤫𞤥, 𞤐𞤮𞤪𞤬-𞤁𞤢𞤳𞤮𞤼𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/North_Dakota/Center">
+				<exemplarCity>𞤅𞤫𞤲𞤼𞤮𞥅, 𞤐𞤮𞤪𞤬-𞤁𞤢𞤳𞤮𞤼𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Chicago">
+				<exemplarCity>𞤕𞤭𞤳𞤢𞥄𞤺𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Menominee">
+				<exemplarCity>𞤃𞤫𞤲𞤮𞤥𞤭𞤲𞤭</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Vincennes">
+				<exemplarCity>𞤜𞤭𞤲𞤧𞤫𞥅𞤲, 𞤋𞤲𞤣𞤭𞤴𞤢𞤲𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Petersburg">
+				<exemplarCity>𞤆𞤫𞤼𞤮𞤧𞤄𞤵𞥅𞤪𞤺, 𞤋𞤲𞤣𞤭𞤴𞤢𞤲𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Tell_City">
+				<exemplarCity>𞤚𞤫𞤤-𞤅𞤭𞤼𞤭𞥅, 𞤋𞤲𞤣𞤭𞤴𞤢𞤲𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Knox">
+				<exemplarCity>𞤐𞤮𞤳𞤧𞤵, 𞤋𞤣𞤭𞤴𞤢𞤲𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Winamac">
+				<exemplarCity>𞤏𞤭𞤲𞤢𞤥𞤢𞤳, 𞤋𞤲𞤣𞤭𞤴𞤢𞤲𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Marengo">
+				<exemplarCity>𞤃𞤢𞤪𞤫𞤲𞤺𞤮, 𞤋𞤲𞤣𞤭𞤴𞤢𞤲𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Indianapolis">
+				<exemplarCity>𞤋𞤲𞤣𞤭𞤴𞤢𞤲𞤢𞥄𞤨𞤮𞤤𞤭𞤧</exemplarCity>
+			</zone>
+			<zone type="America/Louisville">
+				<exemplarCity>𞤂𞤵𞤭𞤾𞤭𞤤</exemplarCity>
+			</zone>
+			<zone type="America/Indiana/Vevay">
+				<exemplarCity>𞤜𞤫𞥅𞤾𞤫𞤴, 𞤋𞤲𞤣𞤭𞤴𞤢𞤲𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/Kentucky/Monticello">
+				<exemplarCity>𞤃𞤮𞤲𞤼𞤭𞤷𞤫𞤤𞤮𞥅, 𞤑𞤫𞤲𞤼𞤮𞥅𞤳𞤭𞥅</exemplarCity>
+			</zone>
+			<zone type="America/Detroit">
+				<exemplarCity>𞤁𞤭𞤼𞤪𞤮𞤴𞤼</exemplarCity>
+			</zone>
+			<zone type="America/New_York">
+				<exemplarCity>𞤐𞤫𞤱-𞤒𞤮𞤪𞤳</exemplarCity>
+			</zone>
+			<zone type="America/Montevideo">
+				<exemplarCity>𞤃𞤮𞤲𞤼𞤫𞤾𞤭𞤣𞤭𞤴𞤮𞥅</exemplarCity>
+			</zone>
+			<zone type="Asia/Samarkand">
+				<exemplarCity>𞤅𞤢𞤥𞤢𞤪𞤳𞤢𞤲𞤣𞤵</exemplarCity>
+			</zone>
+			<zone type="Asia/Tashkent">
+				<exemplarCity>𞤚𞤢𞤧𞤳𞤫𞤲𞤼𞤵</exemplarCity>
+			</zone>
+			<zone type="Europe/Vatican">
+				<exemplarCity>𞤜𞤢𞤼𞤭𞤳𞤢𞤲</exemplarCity>
+			</zone>
+			<zone type="America/St_Vincent">
+				<exemplarCity>𞤅𞤫𞤲𞤼-𞤜𞤫𞤲𞤧𞤫𞤲𞤼</exemplarCity>
+			</zone>
+			<zone type="America/Caracas">
+				<exemplarCity>𞤑𞤢𞤪𞤢𞤳𞤢𞤧</exemplarCity>
+			</zone>
+			<zone type="America/Tortola">
+				<exemplarCity>𞤚𞤮𞤪𞤼𞤮𞤤𞤢𞥄</exemplarCity>
+			</zone>
+			<zone type="America/St_Thomas">
+				<exemplarCity>𞤅𞤫𞤲𞤼-𞤚𞤮𞤥𞤢𞥄𞤧</exemplarCity>
+			</zone>
+			<zone type="Asia/Saigon">
+				<exemplarCity>𞤅𞤢𞤸𞤪𞤫 𞤖𞤮𞥅-𞤕𞤭 𞤃𞤭𞥅𞤲</exemplarCity>
+			</zone>
+			<zone type="Pacific/Efate">
+				<exemplarCity>𞤉𞤬𞤢𞤼𞤵</exemplarCity>
+			</zone>
+			<zone type="Pacific/Wallis">
+				<exemplarCity>𞤏𞤢𞤤𞤭𞥅𞤧</exemplarCity>
+			</zone>
+			<zone type="Pacific/Apia">
+				<exemplarCity>𞤀𞤨𞤭𞤴𞤢</exemplarCity>
+			</zone>
+			<zone type="Asia/Aden">
+				<exemplarCity>𞤀𞤣𞤫𞤲</exemplarCity>
+			</zone>
+			<zone type="Indian/Mayotte">
+				<exemplarCity>𞤃𞤢𞤴𞤮𞥅𞤼𞤵</exemplarCity>
+			</zone>
+			<zone type="Africa/Johannesburg">
+				<exemplarCity>𞤔𞤮𞤸𞤢𞤲𞤢𞤧𞤦𞤵𞥅𞤪</exemplarCity>
+			</zone>
+			<zone type="Africa/Lusaka">
+				<exemplarCity>𞤂𞤵𞤧𞤢𞤳𞤢</exemplarCity>
+			</zone>
+			<zone type="Africa/Harare">
+				<exemplarCity>𞤖𞤢𞤪𞤢𞤪𞤫</exemplarCity>
+			</zone>
+			<metazone type="Afghanistan">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤀𞤬𞤺𞤢𞤲𞤭𞤧𞤼𞤢𞥄𞤲</standard>
+				</long>
+			</metazone>
+			<metazone type="Africa_Central">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤀𞤬𞤪𞤭𞤳𞤭 𞤚𞤵𞤥𞤦𞤮𞥅𞤪𞤭</standard>
+				</long>
+			</metazone>
+			<metazone type="Africa_Eastern">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤣𞤫 𞤀𞤬𞤪𞤭𞤳𞤭</standard>
+				</long>
+			</metazone>
+			<metazone type="Africa_Southern">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤂𞤫𞤧𞤮-𞤀𞤬𞤪𞤭𞤳𞤭</standard>
+				</long>
+			</metazone>
+			<metazone type="Africa_Western">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤬𞤪𞤭𞤳𞤭</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤬𞤪𞤭𞤳𞤭</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤬𞤪𞤭𞤳𞤭</daylight>
+				</long>
+			</metazone>
+			<metazone type="Alaska">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤀𞤤𞤢𞤧𞤳𞤢𞥄</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤀𞤤𞤢𞤧𞤳𞤢𞥄</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤀𞤤𞤢𞤧𞤳𞤢𞥄</daylight>
+				</long>
+			</metazone>
+			<metazone type="Amazon">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤀𞤥𞤢𞥁𞤮𞥅𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤀𞤥𞤢𞥁𞤮𞥅𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤀𞤥𞤢𞥁𞤮𞥅𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="America_Central">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤳𞤢 𞤚𞤵𞤥𞤦𞤮 𞤈𞤫𞤱𞤮-𞤀𞤥𞤫𞤪𞤭𞤳</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤳𞤢 𞤚𞤵𞤥𞤦𞤮 𞤈𞤫𞤱𞤮-𞤀𞤥𞤫𞤪𞤭𞤳</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤳𞤢 𞤚𞤵𞤥𞤦𞤮</daylight>
+				</long>
+			</metazone>
+			<metazone type="America_Eastern">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤁𞤮𞤱𞤪𞤭-𞤀𞤥𞤫𞤪𞤭𞤳</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤁𞤮𞤱𞤪𞤭-𞤀𞤥𞤫𞤪𞤭𞤳</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤳𞤢 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫</daylight>
+				</long>
+			</metazone>
+			<metazone type="America_Mountain">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤆𞤫𞤤𞤫 𞤯𞤫𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤆𞤫𞤤𞤫 𞤯𞤫𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤆𞤫𞤤𞤫 𞤯𞤫𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="America_Pacific">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤆𞤢𞥄𞤧𞤫𞤬𞤭𞤳 𞤁𞤮𞤱𞤪𞤭-𞤀𞤥𞤫𞤪𞤭𞤳</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤆𞤢𞥄𞤧𞤫𞤬𞤭𞤳 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤁𞤮𞤱𞤪𞤭-𞤀𞤥𞤫𞤪𞤭𞤳</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤆𞤢𞥄𞤧𞤫𞤬𞤭𞤳 𞤁𞤮𞤱𞤪𞤭-𞤀𞤥𞤫𞤪𞤭𞤳</daylight>
+				</long>
+			</metazone>
+			<metazone type="Apia">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤀𞤨𞤭𞤴𞤢</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤀𞤨𞤭𞤴𞤢</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤀𞤨𞤭𞤴𞤢</daylight>
+				</long>
+			</metazone>
+			<metazone type="Arabian">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤀𞥄𞤪𞤢𞤦𞤭𞤴𞤢</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤀𞥄𞤪𞤢𞤦𞤭𞤴𞤢</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤀𞥄𞤪𞤢𞤦𞤭𞤴𞤢</daylight>
+				</long>
+			</metazone>
+			<metazone type="Argentina">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤀𞤪𞤶𞤢𞤲𞤼𞤭𞤲𞤢𞥄</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤀𞤪𞤶𞤢𞤲𞤼𞤭𞤲𞤢𞥄</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤀𞤪𞤶𞤢𞤲𞤼𞤭𞤲𞤢𞥄</daylight>
+				</long>
+			</metazone>
+			<metazone type="Argentina_Western">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤪𞤶𞤢𞤲𞤼𞤭𞤲𞤢𞥄</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤪𞤶𞤢𞤲𞤼𞤭𞤲𞤢𞥄</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤪𞤶𞤢𞤲𞤼𞤭𞤲𞤢𞥄</daylight>
+				</long>
+			</metazone>
+			<metazone type="Armenia">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤀𞤪𞤥𞤫𞤲𞤭𞤴𞤢𞥄</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤀𞤪𞤥𞤫𞤲𞤭𞤴𞤢𞥄</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤀𞤪𞤥𞤫𞤲𞤭𞤴𞤢𞥄</daylight>
+				</long>
+			</metazone>
+			<metazone type="Atlantic">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤳𞤢 𞤆𞤢𞥄𞤧𞤫𞤬𞤭𞤳 𞤁𞤮𞤱𞤪𞤭-𞤀𞤥𞤫𞤪𞤭𞤳</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤳𞤢 𞤆𞤢𞥄𞤧𞤫𞤬𞤭𞤳 𞤁𞤮𞤱𞤪𞤭-𞤀𞤥𞤫𞤪𞤭𞤳</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤳𞤢 𞤆𞤢𞥄𞤧𞤫𞤬𞤭𞤳</daylight>
+				</long>
+			</metazone>
+			<metazone type="Australia_Central">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤚𞤵𞤥𞤦𞤮𞥅𞤪𞤭 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞥄</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤚𞤵𞤥𞤦𞤮𞥅𞤪𞤭 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞥄</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤚𞤵𞤥𞤦𞤮𞥅𞤪𞤭 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞥄</daylight>
+				</long>
+			</metazone>
+			<metazone type="Australia_CentralWestern">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤚𞤵𞤥𞤦𞤮 𞤖𞤭𞥅𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞥄</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤚𞤵𞤥𞤦𞤮 𞤖𞤭𞥅𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞥄</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤚𞤵𞤥𞤦𞤮 𞤖𞤭𞥅𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞥄</daylight>
+				</long>
+			</metazone>
+			<metazone type="Australia_Eastern">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞥄</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞥄</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞥄</daylight>
+				</long>
+			</metazone>
+			<metazone type="Australia_Western">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞥄</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞥄</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞥄</daylight>
+				</long>
+			</metazone>
+			<metazone type="Azerbaijan">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤀𞤶𞤫𞤪𞤦𞤢𞤴𞤶𞤢𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤀𞤶𞤫𞤪𞤦𞤢𞤴𞤶𞤢𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤀𞤶𞤫𞤪𞤦𞤢𞤴𞤶𞤢𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="Azores">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤀𞥁𞤮𞤪𞤫𞤧</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤀𞥁𞤮𞤪𞤫𞤧</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤀𞥁𞤮𞤪𞤫𞤧</daylight>
+				</long>
+			</metazone>
+			<metazone type="Bangladesh">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤄𞤢𞤲𞤺𞤭𞤤𞤢𞤣𞤫𞥅𞤧</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤄𞤢𞤲𞤺𞤭𞤤𞤢𞤣𞤫𞥅𞤧</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤄𞤢𞤲𞤺𞤭𞤤𞤢𞤣𞤫𞥅𞤧</daylight>
+				</long>
+			</metazone>
+			<metazone type="Bhutan">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤄𞤵𞤼𞤢𞥄𞤲</standard>
+				</long>
+			</metazone>
+			<metazone type="Bolivia">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤄𞤮𞤤𞤭𞤾𞤭𞤴𞤢𞥄</standard>
+				</long>
+			</metazone>
+			<metazone type="Brasilia">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤄𞤪𞤢𞤧𞤭𞤤𞤭𞤴𞤢𞥄</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤄𞤪𞤢𞤧𞤭𞤤𞤭𞤴𞤢𞥄</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤄𞤪𞤢𞤧𞤭𞤤𞤭𞤴𞤢𞥄</daylight>
+				</long>
+			</metazone>
+			<metazone type="Brunei">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤄𞤵𞤪𞤲𞤢𞤴</standard>
+				</long>
+			</metazone>
+			<metazone type="Cape_Verde">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤑𞤢𞥄𞤦𞤮-𞤜𞤫𞤪𞤣𞤫</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤑𞤢𞥄𞤦𞤮-𞤜𞤫𞤪𞤣𞤫</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤑𞤢𞥄𞤦𞤮-𞤜𞤫𞤪𞤣𞤫</daylight>
+				</long>
+			</metazone>
+			<metazone type="Chamorro">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤕𞤢𞤥𞤮𞤪𞤮</standard>
+				</long>
+			</metazone>
+			<metazone type="Chatham">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤢𞤼𞤢𞤥</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤕𞤢𞤼𞤢𞤥</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤕𞤢𞤼𞤢𞤥</daylight>
+				</long>
+			</metazone>
+			<metazone type="Chile">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤭𞤤𞤫𞥅</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤕𞤭𞤤𞤫𞥅</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤕𞤭𞤤𞤫𞥅</daylight>
+				</long>
+			</metazone>
+			<metazone type="China">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤢𞤴𞤲𞤢</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤕𞤢𞤴𞤲𞤢</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤕𞤢𞤴𞤲𞤢</daylight>
+				</long>
+			</metazone>
+			<metazone type="Choibalsan">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤮𞤴𞤦𞤢𞤤𞤧𞤢𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤅𞤮𞤴𞤦𞤢𞤤𞤧𞤢𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤅𞤮𞤴𞤦𞤢𞤤𞤧𞤢𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="Christmas">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤵𞤪𞤭𞥅𞤪𞤫 𞤑𞤭𞤪𞤧𞤭𞤥𞤢𞥄𞤧</standard>
+				</long>
+			</metazone>
+			<metazone type="Cocos">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤑𞤮𞥅𞤳𞤮𞤧</standard>
+				</long>
+			</metazone>
+			<metazone type="Colombia">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤑𞤮𞤤𞤮𞤥𞤦𞤭𞤴𞤢𞥄</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤑𞤮𞤤𞤮𞤥𞤦𞤭𞤴𞤢𞥄</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤑𞤮𞤤𞤮𞤥𞤦𞤭𞤴𞤢𞥄</daylight>
+				</long>
+			</metazone>
+			<metazone type="Cook">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤮𞤪𞤭𞥅𞤶𞤫 𞤑𞤵𞥅𞤳</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤅𞤮𞤪𞤭𞥅𞤶𞤫 𞤑𞤵𞥅𞤳</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤊𞤫𞤷𞥆𞤫𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤅𞤮𞤪𞤭𞥅𞤶𞤫 𞤑𞤵𞥅𞤳</daylight>
+				</long>
+			</metazone>
+			<metazone type="Cuba">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤑𞤵𞤦𞤢𞥄</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤑𞤵𞤦𞤢𞥄</standard>
+					<daylight>𞤑𞤫𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤑𞤵𞤦𞤢𞥄</daylight>
+				</long>
+			</metazone>
+			<metazone type="Davis">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤁𞤫𞥅𞤾𞤭𞤧</standard>
+				</long>
+			</metazone>
+			<metazone type="DumontDUrville">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤁𞤭𞤥𞤮𞤲𞤼𞤵-𞤁𞤵𞤪𞤾𞤭𞤤</standard>
+				</long>
+			</metazone>
+			<metazone type="East_Timor">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤚𞤭𞥅𞤥𞤮𞤪</standard>
+				</long>
+			</metazone>
+			<metazone type="Easter">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤋𞤧𞤼𞤮𞥅-𞤀𞤴𞤤𞤢𞤲𞤣</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤋𞤧𞤼𞤮𞥅-𞤀𞤴𞤤𞤢𞤲𞤣</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤋𞤧𞤼𞤮𞥅-𞤀𞤴𞤤𞤢𞤲𞤣</daylight>
+				</long>
+			</metazone>
+			<metazone type="Ecuador">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤋𞤳𞤵𞤱𞤢𞤣𞤮𞥅𞤪</standard>
+				</long>
+			</metazone>
+			<metazone type="Europe_Central">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤚𞤵𞤥𞤦𞤮𞥅𞤪𞤭 𞤀𞤪𞤮𞥅𞤦𞤢</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤚𞤵𞤥𞤦𞤮𞥅𞤪𞤭 𞤀𞤪𞤮𞥅𞤦𞤢</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤚𞤵𞤥𞤦𞤮𞥅𞤪𞤭 𞤀𞤪𞤮𞥅𞤦𞤢</daylight>
+				</long>
+			</metazone>
+			<metazone type="Europe_Eastern">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤪𞤮𞥅𞤦𞤢</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤪𞤮𞥅𞤦𞤢</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤪𞤮𞥅𞤦𞤢</daylight>
+				</long>
+			</metazone>
+			<metazone type="Europe_Further_Eastern">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫𞥅𞤪𞤭 𞤀𞤪𞤮𞥅𞤦𞤢</standard>
+				</long>
+			</metazone>
+			<metazone type="Europe_Western">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤪𞤮𞥅𞤦𞤢</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤪𞤮𞥅𞤦𞤢</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤪𞤮𞥅𞤦𞤢</daylight>
+				</long>
+			</metazone>
+			<metazone type="Falkland">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤊𞤮𞤤𞤳𞤤𞤢𞤲𞤣-𞤀𞤴𞤤𞤢𞤲𞤣</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤊𞤮𞤤𞤳𞤤𞤢𞤲𞤣-𞤀𞤴𞤤𞤢𞤲𞤣</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤊𞤮𞤤𞤳𞤤𞤢𞤲𞤣-𞤀𞤴𞤤𞤢𞤲𞤣</daylight>
+				</long>
+			</metazone>
+			<metazone type="Fiji">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤊𞤭𞤶𞤭</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤊𞤭𞤶𞤭</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤊𞤭𞤶𞤭</daylight>
+				</long>
+			</metazone>
+			<metazone type="French_Guiana">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤘𞤢𞤴𞤢𞤲𞤢𞥄-𞤊𞤪𞤢𞤲𞤧𞤭</standard>
+				</long>
+			</metazone>
+			<metazone type="French_Southern">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤂𞤫𞤴𞤪𞤭 𞤊𞤪𞤢𞤲𞤧𞤭 &amp; 𞤀𞤪𞤼𞤢𞤲𞤼𞤭𞤳𞤢</standard>
+				</long>
+			</metazone>
+			<metazone type="Galapagos">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤘𞤢𞤤𞤢𞤨𞤢𞤺𞤮𞥅𞤧</standard>
+				</long>
+			</metazone>
+			<metazone type="Gambier">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤘𞤢𞤥𞤦𞤭𞤴𞤫𞤪</standard>
+				</long>
+			</metazone>
+			<metazone type="Georgia">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤔𞤮𞤪𞤶𞤭𞤴𞤢</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤔𞤮𞤪𞤶𞤭𞤴𞤢</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤔𞤮𞤪𞤶𞤭𞤴𞤢</daylight>
+				</long>
+			</metazone>
+			<metazone type="Gilbert_Islands">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤵𞤪𞤭𞥅𞤶𞤫 𞤘𞤭𞤤𞤦𞤫𞤪𞤼𞤵</standard>
+				</long>
+			</metazone>
+			<metazone type="GMT">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤳𞤭𞤲𞤭𞥅𞤲𞥋𞤣𞤫 𞤘𞤪𞤭𞤲𞤱𞤭𞥅𞤧</standard>
+				</long>
+			</metazone>
+			<metazone type="Greenland_Eastern">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤘𞤪𞤭𞤲𞤤𞤢𞤲𞤣</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤘𞤪𞤭𞤲𞤤𞤢𞤲𞤣</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤘𞤪𞤭𞤲𞤤𞤢𞤲𞤣</daylight>
+				</long>
+			</metazone>
+			<metazone type="Greenland_Western">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤘𞤪𞤭𞤲𞤤𞤢𞤲𞤣</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤘𞤪𞤭𞤲𞤤𞤢𞤲𞤣</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤘𞤪𞤭𞤲𞤤𞤢𞤲𞤣</daylight>
+				</long>
+			</metazone>
+			<metazone type="Gulf">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤂𞤮𞥅𞤻𞤮𞤤𞤣𞤵 𞤀𞤪𞤢𞤦𞤭𞤴𞤢</standard>
+				</long>
+			</metazone>
+			<metazone type="Guyana">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤘𞤢𞤴𞤢𞤲𞤢𞥄</standard>
+				</long>
+			</metazone>
+			<metazone type="Hawaii_Aleutian">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤢𞥄𞤴𞤭𞥅-𞤀𞤤𞤮𞤧𞤭𞤴𞤢𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤖𞤢𞤱𞤢𞥄𞤴𞤭𞥅-𞤀𞤤𞤮𞤧𞤭𞤴𞤢𞤲</standard>
+					<daylight>𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤖𞤢𞤱𞤢𞥄𞤴𞤭𞥅-𞤀𞤤𞤮𞤧𞤭𞤴𞤢𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="Hong_Kong">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤮𞤲𞤳𞤮𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤖𞤮𞤲𞤳𞤮𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤖𞤮𞤲𞤳𞤮𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="Hovd">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤮𞤬𞤣𞤵</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤖𞤮𞤬𞤣𞤵</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤖𞤮𞤬𞤣𞤵</daylight>
+				</long>
+			</metazone>
+			<metazone type="India">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤖𞤭𞤲𞤣𞤵𞤼𞤢𞥄𞤲</standard>
+				</long>
+			</metazone>
+			<metazone type="Indian_Ocean">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤃𞤢𞥄𞤴𞤮 𞤋𞤲𞤣𞤭𞤴𞤢𞤱𞤮</standard>
+				</long>
+			</metazone>
+			<metazone type="Indochina">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤭𞤲𞤣𞤵𞤷𞤢𞤴𞤲𞤢𞥄</standard>
+				</long>
+			</metazone>
+			<metazone type="Indonesia_Central">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤚𞤮𞤥𞤦𞤮𞥅𞤪𞤭 𞤋𞤲𞤣𞤮𞤲𞤭𞥅𞤧𞤭𞤴𞤢</standard>
+				</long>
+			</metazone>
+			<metazone type="Indonesia_Eastern">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤋𞤲𞤣𞤮𞤲𞤭𞥅𞤧𞤭𞤴𞤢</standard>
+				</long>
+			</metazone>
+			<metazone type="Indonesia_Western">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤋𞤲𞤣𞤮𞤲𞤭𞥅𞤧𞤭𞤴𞤢</standard>
+				</long>
+			</metazone>
+			<metazone type="Iran">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤋𞤪𞤢𞥄𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤋𞤪𞤢𞥄𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤋𞤪𞤢𞥄𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="Irkutsk">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤋𞤪𞤳𞤵𞤼𞤭𞤧𞤳𞤵</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤋𞤪𞤳𞤵𞤼𞤭𞤧𞤳𞤵</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤋𞤪𞤳𞤵𞤼𞤭𞤧𞤳𞤵</daylight>
+				</long>
+			</metazone>
+			<metazone type="Israel">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤋𞤧𞤪𞤢𞥄𞤭𞥅𞤤𞤵</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤋𞤧𞤪𞤢𞥄𞤭𞥅𞤤𞤵</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤋𞤧𞤪𞤢𞥄𞤭𞥅𞤤𞤵</daylight>
+				</long>
+			</metazone>
+			<metazone type="Japan">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤔𞤢𞤨𞤢𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤔𞤢𞤨𞤢𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤔𞤢𞤨𞤢𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="Kazakhstan_Eastern">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤑𞤢𞥁𞤢𞤿𞤢𞤧𞤼𞤢𞥄𞤲</standard>
+				</long>
+			</metazone>
+			<metazone type="Kazakhstan_Western">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤭𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤑𞤢𞥁𞤢𞤿𞤢𞤧𞤼𞤢𞥄𞤲</standard>
+				</long>
+			</metazone>
+			<metazone type="Korea">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤑𞤮𞥅𞤪𞤫𞤴𞤢𞥄</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤑𞤮𞥅𞤪𞤫𞤴𞤢𞥄</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤑𞤮𞥅𞤪𞤫𞤴𞤢𞥄</daylight>
+				</long>
+			</metazone>
+			<metazone type="Kosrae">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤑𞤮𞤧𞤪𞤢𞤴</standard>
+				</long>
+			</metazone>
+			<metazone type="Krasnoyarsk">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤑𞤢𞤪𞤢𞤧𞤲𞤮𞤴𞤢𞤪𞤧𞤭𞤳</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤑𞤢𞤪𞤢𞤧𞤲𞤮𞤴𞤢𞤪𞤧𞤭𞤳</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤑𞤢𞤪𞤢𞤧𞤲𞤮𞤴𞤢𞤪𞤧𞤭𞤳</daylight>
+				</long>
+			</metazone>
+			<metazone type="Kyrgystan">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤑𞤭𞤪𞤺𞤭𞤧𞤼𞤢𞥄𞤲</standard>
+				</long>
+			</metazone>
+			<metazone type="Line_Islands">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤵𞤪𞤭𞥅𞤶𞤫 𞤂𞤢𞤴𞤲𞤵</standard>
+				</long>
+			</metazone>
+			<metazone type="Lord_Howe">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤂𞤮𞤪𞤣𞤵-𞤖𞤮𞤱𞤫</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤂𞤮𞤪𞤣𞤵-𞤖𞤮𞤱𞤫</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤂𞤮𞤪𞤣𞤵-𞤖𞤮𞤱𞤫</daylight>
+				</long>
+			</metazone>
+			<metazone type="Macquarie">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤵𞤪𞤭𞥅𞤪𞤫 𞤃𞤢𞤳𞤢𞥄𞤪𞤭</standard>
+				</long>
+			</metazone>
+			<metazone type="Magadan">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤃𞤢𞤺𞤢𞤣𞤢𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤃𞤢𞤺𞤢𞤣𞤢𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤃𞤢𞤺𞤢𞤣𞤢𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="Malaysia">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤃𞤢𞤤𞤫𞥅𞤧𞤭𞤴𞤢</standard>
+				</long>
+			</metazone>
+			<metazone type="Maldives">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤃𞤢𞤤𞤣𞤢𞥄𞤴𞤭𞤧</standard>
+				</long>
+			</metazone>
+			<metazone type="Marquesas">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤃𞤢𞤪𞤳𞤫𞤧𞤢𞤧</standard>
+				</long>
+			</metazone>
+			<metazone type="Marshall_Islands">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤵𞤪𞤭𞥅𞤶𞤫 𞤃𞤢𞤪𞤧𞤢𞤤</standard>
+				</long>
+			</metazone>
+			<metazone type="Mauritius">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤃𞤮𞤪𞤭𞥅𞤧𞤭</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤃𞤮𞤪𞤭𞥅𞤧𞤭</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤃𞤮𞤪𞤭𞥅𞤧𞤭</daylight>
+				</long>
+			</metazone>
+			<metazone type="Mawson">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤃𞤢𞤱𞤧𞤮𞤲</standard>
+				</long>
+			</metazone>
+			<metazone type="Mexico_Northwest">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤁𞤮𞤱𞤪𞤭-𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤃𞤫𞤳𞤧𞤭𞤳𞤮𞥅</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤁𞤮𞤱𞤪𞤭-𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤃𞤫𞤳𞤧𞤭𞤳𞤮𞥅</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤁𞤮𞤱𞤪𞤭-𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤃𞤫𞤳𞤧𞤭𞤳𞤮𞥅</daylight>
+				</long>
+			</metazone>
+			<metazone type="Mexico_Pacific">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤆𞤢𞥄𞤧𞤫𞤬𞤭𞤳 𞤃𞤫𞤳𞤧𞤭𞤲𞤳𞤮</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤆𞤢𞥄𞤧𞤫𞤬𞤭𞤳 𞤃𞤫𞤳𞤧𞤭𞤲𞤳𞤮</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤆𞤢𞥄𞤧𞤫𞤬𞤭𞤳 𞤃𞤫𞤳𞤧𞤭𞤲𞤳𞤮</daylight>
+				</long>
+			</metazone>
+			<metazone type="Mongolia">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤓𞤤𞤢𞤲𞤦𞤢𞤼𞤢𞤪</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤓𞤤𞤢𞤲𞤦𞤢𞤼𞤢𞤪</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤓𞤤𞤢𞤲𞤦𞤢𞤼𞤢𞤪</daylight>
+				</long>
+			</metazone>
+			<metazone type="Moscow">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤃𞤮𞤧𞤳𞤮</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤃𞤮𞤧𞤳𞤮</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤃𞤮𞤧𞤳𞤮</daylight>
+				</long>
+			</metazone>
+			<metazone type="Myanmar">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤃𞤭𞤴𞤢𞤥𞤢𞥄𞤪</standard>
+				</long>
+			</metazone>
+			<metazone type="Nauru">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤐𞤵𞥅𞤪𞤵</standard>
+				</long>
+			</metazone>
+			<metazone type="Nepal">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤐𞤫𞤨𞤢𞤤</standard>
+				</long>
+			</metazone>
+			<metazone type="New_Caledonia">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤑𞤢𞤤𞤭𞤣𞤮𞤲𞤭𞤴𞤢𞥄 𞤖𞤫𞤴𞤯𞤮</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤑𞤢𞤤𞤭𞤣𞤮𞤲𞤭𞤴𞤢𞥄 𞤖𞤫𞤴𞤯𞤮</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤑𞤢𞤤𞤭𞤣𞤮𞤲𞤭𞤴𞤢𞥄 𞤖𞤫𞤴𞤯𞤮</daylight>
+				</long>
+			</metazone>
+			<metazone type="New_Zealand">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤐𞤫𞤱-𞤟𞤫𞤤𞤢𞤲𞤣𞤭</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤐𞤫𞤱-𞤟𞤫𞤤𞤢𞤲𞤣𞤭</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤐𞤫𞤱-𞤟𞤫𞤤𞤢𞤲𞤣𞤭</daylight>
+				</long>
+			</metazone>
+			<metazone type="Newfoundland">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤐𞤫𞤱𞤬𞤵𞤲𞤤𞤢𞤲𞤣</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤐𞤫𞤱𞤬𞤵𞤲𞤤𞤢𞤲𞤣</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤐𞤫𞤱𞤬𞤵𞤲𞤤𞤢𞤲𞤣</daylight>
+				</long>
+			</metazone>
+			<metazone type="Niue">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤐𞤭𞥅𞤴𞤵</standard>
+				</long>
+			</metazone>
+			<metazone type="Norfolk">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤵𞤪𞤭𞥅𞤪𞤫 𞤐𞤮𞤪𞤬𞤮𞤤𞤳𞤵</standard>
+				</long>
+			</metazone>
+			<metazone type="Noronha">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤊𞤫𞤪𞤲𞤢𞤲𞤣𞤮𞥅 𞤣𞤫 𞤐𞤮𞤪𞤮𞤲𞤽𞤢𞥄</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤊𞤫𞤪𞤲𞤢𞤲𞤣𞤮𞥅 𞤣𞤫 𞤐𞤮𞤪𞤮𞤲𞤽𞤢𞥄</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤊𞤫𞤪𞤲𞤢𞤲𞤣𞤮𞥅 𞤣𞤫 𞤐𞤮𞤪𞤮𞤲𞤽𞤢𞥄</daylight>
+				</long>
+			</metazone>
+			<metazone type="Novosibirsk">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤐𞤮𞤾𞤮𞤧𞤦𞤭𞤪𞤧𞤭𞤳</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤐𞤮𞤾𞤮𞤧𞤦𞤭𞤪𞤧𞤭𞤳</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤐𞤮𞤾𞤮𞤧𞤦𞤭𞤪𞤧𞤭𞤳</daylight>
+				</long>
+			</metazone>
+			<metazone type="Omsk">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤌𞤥𞤧𞤵𞤳𞤵</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤌𞤥𞤧𞤵𞤳𞤵</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤌𞤥𞤧𞤵𞤳𞤵</daylight>
+				</long>
+			</metazone>
+			<metazone type="Pakistan">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤆𞤢𞤳𞤭𞤧𞤼𞤢𞥄𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤆𞤢𞤳𞤭𞤧𞤼𞤢𞥄𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤆𞤢𞤳𞤭𞤧𞤼𞤢𞥄𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="Palau">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤆𞤮𞤤𞤢𞥄𞤱𞤮</standard>
+				</long>
+			</metazone>
+			<metazone type="Papua_New_Guinea">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤆𞤢𞤨𞤵𞤱𞤢 𞤘𞤭𞤲𞤫 𞤖𞤫𞤴𞤯𞤮</standard>
+				</long>
+			</metazone>
+			<metazone type="Paraguay">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤆𞤢𞥄𞤪𞤢𞤺𞤮𞤴</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤆𞤢𞥄𞤪𞤢𞤺𞤮𞤴</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤆𞤢𞥄𞤪𞤢𞤺𞤮𞤴</daylight>
+				</long>
+			</metazone>
+			<metazone type="Peru">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤆𞤫𞤪𞤵𞥅</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤆𞤫𞤪𞤵𞥅</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤕𞤫𞥅𞤯𞤵 𞤆𞤫𞤪𞤵𞥅</daylight>
+				</long>
+			</metazone>
+			<metazone type="Philippines">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤊𞤭𞤤𞤭𞤨𞥆𞤭𞥅𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤊𞤭𞤤𞤭𞤨𞥆𞤭𞥅𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤊𞤭𞤤𞤭𞤨𞥆𞤭𞥅𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="Phoenix_Islands">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤵𞤪𞤭𞥅𞤶𞤫 𞤊𞤫𞤲𞤭𞤳𞤧𞤭</standard>
+				</long>
+			</metazone>
+			<metazone type="Pierre_Miquelon">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤫𞤲-𞤆𞤭𞤴𞤫𞥅𞤪 &amp; 𞤃𞤭𞤳𞤫𞤤𞤮𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤅𞤫𞤲-𞤆𞤭𞤴𞤫𞥅𞤪 &amp; 𞤃𞤭𞤳𞤫𞤤𞤮𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤅𞤫𞤲-𞤆𞤭𞤴𞤫𞥅𞤪 &amp; 𞤃𞤭𞤳𞤫𞤤𞤮𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="Pitcairn">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤆𞤭𞤼𞤭𞤳𞤫𞤪𞤲𞤵</standard>
+				</long>
+			</metazone>
+			<metazone type="Ponape">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤆𞤮𞤲𞤢𞤨𞤫</standard>
+				</long>
+			</metazone>
+			<metazone type="Pyongyang">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤆𞤭𞤴𞤮𞤲𞤴𞤢𞤲</standard>
+				</long>
+			</metazone>
+			<metazone type="Reunion">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤈𞤫𞤲𞤭𞤴𞤮𞤲</standard>
+				</long>
+			</metazone>
+			<metazone type="Rothera">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤈𞤮𞤼𞤫𞤪𞤢</standard>
+				</long>
+			</metazone>
+			<metazone type="Sakhalin">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤢𞤿𞤢𞤤𞤭𞥅𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤅𞤢𞤿𞤢𞤤𞤭𞥅𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤅𞤢𞤿𞤢𞤤𞤭𞥅𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="Samoa">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤢𞤥𞤮𞤱𞤢</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤅𞤢𞤥𞤮𞤱𞤢</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤅𞤢𞤥𞤮𞤱𞤢</daylight>
+				</long>
+			</metazone>
+			<metazone type="Seychelles">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤫𞤴𞤭𞤧𞤫𞤤</standard>
+				</long>
+			</metazone>
+			<metazone type="Singapore">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤅𞤭𞤲𞤺𞤢𞤨𞤵𞥅𞤪</standard>
+				</long>
+			</metazone>
+			<metazone type="Solomon">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤵𞤪𞤭𞥅𞤶𞤫 𞤅𞤵𞤤𞤫𞤴𞤥𞤢𞥄𞤲𞤢</standard>
+				</long>
+			</metazone>
+			<metazone type="South_Georgia">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤢𞤱𞤬-𞤔𞤮𞤪𞤶𞤭𞤴𞤢𞥄</standard>
+				</long>
+			</metazone>
+			<metazone type="Suriname">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤭𞤪𞤭𞤲𞤢𞤥</standard>
+				</long>
+			</metazone>
+			<metazone type="Syowa">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤢𞥄𞤴𞤵𞤱𞤢</standard>
+				</long>
+			</metazone>
+			<metazone type="Tahiti">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤚𞤢𞤸𞤭𞤼𞤭</standard>
+				</long>
+			</metazone>
+			<metazone type="Taipei">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤚𞤢𞤴𞤨𞤫𞥅</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤚𞤢𞤴𞤨𞤫𞥅</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤚𞤢𞤴𞤨𞤫𞥅</daylight>
+				</long>
+			</metazone>
+			<metazone type="Tajikistan">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤚𞤢𞤶𞤭𞤳𞤭𞤧𞤼𞤢𞥄𞤲</standard>
+				</long>
+			</metazone>
+			<metazone type="Tokelau">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤚𞤮𞤳𞤫𞤤𞤮𞤱𞤢</standard>
+				</long>
+			</metazone>
+			<metazone type="Tonga">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤚𞤮𞤲𞤺𞤢</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤚𞤮𞤲𞤺𞤢</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤚𞤮𞤲𞤺𞤢</daylight>
+				</long>
+			</metazone>
+			<metazone type="Truk">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤵𞥅𞤳𞤵</standard>
+				</long>
+			</metazone>
+			<metazone type="Turkmenistan">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤚𞤵𞤪𞤳𞤭𞤥𞤫𞤧𞤼𞤢𞥄𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤚𞤵𞤪𞤳𞤭𞤥𞤫𞤧𞤼𞤢𞥄𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤚𞤵𞤪𞤳𞤭𞤥𞤫𞤧𞤼𞤢𞥄𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="Tuvalu">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤚𞤵𞤾𞤢𞤤𞤵</standard>
+				</long>
+			</metazone>
+			<metazone type="Uruguay">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤒𞤵𞥅𞤪𞤺𞤮𞤴</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤒𞤵𞥅𞤪𞤺𞤮𞤴</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤒𞤵𞥅𞤪𞤺𞤮𞤴</daylight>
+				</long>
+			</metazone>
+			<metazone type="Uzbekistan">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤓𞥅𞤶𞤵𞤦𞤫𞤳𞤭𞤧𞤼𞤢𞥄𞤲</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤓𞥅𞤶𞤵𞤦𞤫𞤳𞤭𞤧𞤼𞤢𞥄𞤲</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤓𞥅𞤶𞤵𞤦𞤫𞤳𞤭𞤧𞤼𞤢𞥄𞤲</daylight>
+				</long>
+			</metazone>
+			<metazone type="Vanuatu">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤜𞤢𞤲𞤵𞥅𞤼𞤵</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤜𞤢𞤲𞤵𞥅𞤼𞤵</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤜𞤢𞤲𞤵𞥅𞤼𞤵</daylight>
+				</long>
+			</metazone>
+			<metazone type="Venezuela">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤜𞤫𞤲𞤭𞥅𞥁𞤮𞥅𞤤𞤢</standard>
+				</long>
+			</metazone>
+			<metazone type="Vladivostok">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤜𞤭𞤤𞤢𞤾𞤮𞤧𞤼𞤮𞤳</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤜𞤭𞤤𞤢𞤾𞤮𞤧𞤼𞤮𞤳</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤜𞤭𞤤𞤢𞤾𞤮𞤧𞤼𞤮𞤳</daylight>
+				</long>
+			</metazone>
+			<metazone type="Volgograd">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤜𞤮𞤤𞤺𞤮𞤺𞤢𞤪𞤢𞥄𞤣</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤜𞤮𞤤𞤺𞤮𞤺𞤢𞤪𞤢𞥄𞤣</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤜𞤮𞤤𞤺𞤮𞤺𞤢𞤪𞤢𞥄𞤣</daylight>
+				</long>
+			</metazone>
+			<metazone type="Vostok">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤜𞤮𞤧𞤼𞤮𞤳</standard>
+				</long>
+			</metazone>
+			<metazone type="Wake">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤅𞤵𞤪𞤭𞥅𞤪𞤫 𞤏𞤫𞥅𞤳𞤵</standard>
+				</long>
+			</metazone>
+			<metazone type="Wallis">
+				<long>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤏𞤢𞤤𞤭𞥅𞤧 &amp; 𞤊𞤵𞤼𞤵𞤲𞤢</standard>
+				</long>
+			</metazone>
+			<metazone type="Yakutsk">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤒𞤢𞤳𞤢𞤼𞤭𞤧𞤳𞤵</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤒𞤢𞤳𞤢𞤼𞤭𞤧𞤳𞤵</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤒𞤢𞤳𞤢𞤼𞤭𞤧𞤳𞤵</daylight>
+				</long>
+			</metazone>
+			<metazone type="Yekaterinburg">
+				<long>
+					<generic>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤒𞤫𞤳𞤢𞤼𞤫𞤪𞤭𞤲𞤦𞤵𞤪𞤺𞤵</generic>
+					<standard>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤖𞤢𞤱𞤪𞤭𞤼𞤵𞤲𞥋𞤣𞤫 𞤒𞤫𞤳𞤢𞤼𞤫𞤪𞤭𞤲𞤦𞤵𞤪𞤺𞤵</standard>
+					<daylight>𞤑𞤭𞤶𞤮𞥅𞤪𞤫 𞤕𞤫𞥅𞤯𞤵 𞤒𞤫𞤳𞤢𞤼𞤫𞤪𞤭𞤲𞤦𞤵𞤪𞤺𞤵</daylight>
+				</long>
+			</metazone>
+		</timeZoneNames>
+	</dates>
+	<numbers>
+		<defaultNumberingSystem>adlm</defaultNumberingSystem>
+		<otherNumberingSystems>
+			<native>adlm</native>
+		</otherNumberingSystems>
+		<symbols numberSystem="latn">
+			<nan>𞤱𞤮𞤲𞤢𞥄 𞤪𞤢𞤽𞤢𞤥𞤫𞤪𞤫</nan>
+		</symbols>
+		<decimalFormats numberSystem="latn">
+			<decimalFormatLength>
+				<decimalFormat>
+					<pattern>#,##0.###</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
+		</decimalFormats>
+		<currencyFormats numberSystem="latn">
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="one">¤ 0 𞤘𞤵𞤤</pattern>
+					<pattern type="1000" count="other">¤ 0 𞤘𞤵𞤤</pattern>
+					<pattern type="10000" count="one">¤ 00 𞤘𞤵𞤤</pattern>
+					<pattern type="10000" count="other">¤ 00 𞤘𞤵𞤤</pattern>
+					<pattern type="100000" count="one">¤ 000 𞤘𞤵𞤤</pattern>
+					<pattern type="100000" count="other">¤ 000 𞤘𞤵𞤤</pattern>
+					<pattern type="1000000" count="one">¤ 0 𞤁𞤵</pattern>
+					<pattern type="1000000" count="other">¤ 0 𞤁𞤵</pattern>
+					<pattern type="10000000" count="one">¤ 00 𞤁𞤵</pattern>
+					<pattern type="10000000" count="other">¤ 00 𞤁𞤵</pattern>
+					<pattern type="100000000" count="one">¤ 000 𞤁𞤵</pattern>
+					<pattern type="100000000" count="other">¤ 000𞤁𞤵</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
+		<currencies>
+			<currency type="AED">
+				<displayName>𞤁𞤭𞤪𞤸𞤢𞤥𞤵 𞤋𞤥𞤢𞥄𞤪𞤢𞤼𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤭𞤪𞤸𞤢𞤥𞤵 𞤋𞤥𞤢𞥄𞤪𞤢𞤼𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤭𞤪𞤸𞤢𞤥𞤵𞥅𞤶𞤭 𞤋𞤥𞤢𞥄𞤪𞤢𞤼𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="AFN">
+				<displayName>𞤀𞤬𞤿𞤢𞤲𞤭 𞤀𞤬𞤿𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤢𞤬𞤿𞤢𞤲𞤭 𞤀𞤬𞤿𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤢𞤬𞤿𞤢𞤲𞤭𞥅𞤶𞤭 𞤀𞤬𞤿𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="ALL">
+				<displayName>𞤂𞤫𞤳 𞤀𞤤𞤦𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤤𞤫𞤳 𞤀𞤤𞤦𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤤𞤫𞤳𞤭𞥅𞤶𞤭 𞤀𞤤𞤦𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="AMD">
+				<displayName>𞤁𞤢𞤪𞤢𞤥𞤵 𞤀𞤪𞤥𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤢𞤪𞤢𞤥𞤵 𞤀𞤪𞤥𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤢𞤪𞤢𞤥𞤵𞥅𞤶𞤭 𞤀𞤪𞤥𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="ANG">
+				<displayName>𞤊𞤵𞤤𞤮𞤪𞤭𞤲 𞤀𞤲𞤼𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤊𞤵𞤤𞤮𞤪𞤭𞤲 𞤀𞤲𞤼𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤊𞤵𞤤𞤮𞤪𞤭𞤲𞤶𞤭 𞤀𞤲𞤼𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="AOA">
+				<displayName>𞤑𞤵𞤱𞤢𞤲𞥁𞤢 𞤀𞤲𞤺𞤮𞤤𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤳𞤵𞤱𞤢𞤲𞥁𞤢 𞤀𞤲𞤺𞤮𞤤𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤳𞤵𞤱𞤢𞤲𞥁𞤢𞤢𞥄𞤶𞤭 𞤀𞤲𞤺𞤮𞤤𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="ARS">
+				<displayName>𞤆𞤫𞤧𞤮 𞤀𞤪𞤶𞤢𞤲𞤼𞤭𞤲𞤢</displayName>
+				<displayName count="one">𞤆𞤫𞤧𞤮 𞤀𞤪𞤶𞤢𞤲𞤼𞤭𞤲𞤢</displayName>
+				<displayName count="other">𞤆𞤫𞤧𞤮𞥅𞤶𞤭 𞤀𞤪𞤶𞤢𞤲𞤼𞤭𞤲𞤢</displayName>
+			</currency>
+			<currency type="AUD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤢𞤤𞤢 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤢𞤤𞤢𞥄𞤶𞤭 𞤌𞤧𞤼𞤪𞤢𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="AWG">
+				<displayName>𞤊𞤵𞤤𞤮𞤪𞤭𞤲 𞤀𞤪𞤵𞤦𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤊𞤵𞤤𞤮𞤪𞤭𞤲 𞤀𞤪𞤵𞤦𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤊𞤵𞤤𞤮𞤪𞤭𞤲 𞤀𞤪𞤵𞤦𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="AZN">
+				<displayName>𞤃𞤢𞤲𞤢𞥄𞤼𞤵 𞤀𞥁𞤫𞤪𞤦𞤢𞤴𞤶𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤃𞤢𞤲𞤢𞥄𞤼𞤵 𞤀𞥁𞤫𞤪𞤦𞤢𞤴𞤶𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤃𞤢𞤲𞤢𞥄𞤼𞤵𞥅𞤶𞤭 𞤀𞥁𞤫𞤪𞤦𞤢𞤴𞤶𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="BAM">
+				<displayName>𞤃𞤢𞤪𞤳 𞤄𞤮𞤧𞤲𞤭𞤴𞤢-𞤖𞤫𞤪𞤶𞤫𞤺𞤮𞤾𞤭𞤲𞤳𞤮 𞤱𞤢𞤴𞤤𞤮𞤼𞤮𞥅𞤯𞤭</displayName>
+				<displayName count="one">𞤃𞤢𞤪𞤳 𞤄𞤮𞤧𞤲𞤭𞤴𞤢-𞤖𞤫𞤪𞤶𞤫𞤺𞤮𞤾𞤭𞤲𞤳𞤮 𞤱𞤢𞤴𞤤𞤮𞤼𞤮𞥅𞤯𞤭</displayName>
+			</currency>
+			<currency type="BBD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤄𞤢𞤪𞤦𞤢𞤣𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤁𞤢𞤤𞤢 𞤄𞤢𞤪𞤦𞤢𞤣𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤁𞤢𞤤𞤢𞥄𞤶𞤭 𞤄𞤢𞤪𞤦𞤢𞤣𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="BDT">
+				<displayName>𞤚𞤢𞤪𞤢 𞤄𞤢𞤲𞤺𞤭𞤤𞤢𞤣𞤫𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤼𞤢𞤪𞤢 𞤄𞤢𞤲𞤺𞤭𞤤𞤢𞤣𞤫𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤼𞤢𞤪𞤢𞥄𞤶𞤭 𞤄𞤢𞤲𞤺𞤭𞤤𞤢𞤣𞤫𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="BGN">
+				<displayName>𞤂𞤫𞥅𞤾 𞤄𞤭𞤤𞤺𞤢𞤪𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤤𞤫𞥅𞤾 𞤄𞤭𞤤𞤺𞤢𞤪𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤂𞤫𞥅𞤾𞤢 𞤄𞤭𞤤𞤺𞤢𞤪𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="BHD">
+				<displayName>𞤁𞤭𞤲𞤢𞥄𞤪 𞤄𞤢𞤸𞤢𞤪𞤢𞥄𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤭𞤲𞤢𞥄𞤪 𞤄𞤢𞤸𞤢𞤪𞤢𞥄𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤭𞤲𞤢𞥄𞤪𞤶𞤭 𞤄𞤢𞤸𞤢𞤪𞤢𞥄𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="BIF">
+				<displayName>𞤊𞤢𞤪𞤢𞤲 𞤄𞤵𞤪𞤵𞤲𞤣𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤬𞤢𞤪𞤢𞤲 𞤄𞤵𞤪𞤵𞤲𞤣𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤬𞤢𞤪𞤢𞤲𞤶𞤭 𞤄𞤵𞤪𞤵𞤲𞤣𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="BMD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤄𞤫𞤪𞤥𞤵𞤣𞤢𞥄𞤲</displayName>
+				<displayName count="one">𞤁𞤢𞤤𞤢 𞤄𞤫𞤪𞤥𞤵𞤣𞤢𞥄𞤲</displayName>
+				<displayName count="other">𞤁𞤢𞤤𞤢𞥄𞤶𞤭 𞤄𞤫𞤪𞤥𞤵𞤣𞤢𞥄𞤲</displayName>
+			</currency>
+			<currency type="BND">
+				<displayName>𞤁𞤢𞤤𞤢 𞤄𞤵𞤪𞤲𞤫𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤢𞤤𞤢 𞤄𞤵𞤪𞤲𞤫𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤢𞤤𞤢𞥄𞤶𞤭 𞤄𞤵𞤪𞤲𞤫𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="BOB">
+				<displayName>𞤄𞤮𞤤𞤭𞤾𞤭𞤴𞤢𞤲𞤮 𞤄𞤮𞤤𞤭𞤾𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤄𞤮𞤤𞤭𞤾𞤭𞤴𞤢𞤲𞤮 𞤄𞤮𞤤𞤭𞤾𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤄𞤮𞤤𞤭𞤾𞤭𞤴𞤢𞤲𞤮𞥅𞤶𞤭 𞤄𞤮𞤤𞤭𞤾𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="BRL">
+				<displayName>𞤈𞤭𞤴𞤢𞤤 𞤄𞤪𞤢𞤧𞤭𞤤𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤈𞤭𞤴𞤢𞤤 𞤄𞤪𞤢𞤧𞤭𞤤𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤈𞤭𞤴𞤢𞤤𞤶𞤭 𞤄𞤪𞤢𞤧𞤭𞤤𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="BSD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤄𞤢𞤸𞤢𞤥𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤁𞤢𞤤𞤢 𞤄𞤢𞤸𞤢𞤥𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤁𞤢𞤤𞤢𞥄𞤶𞤭 𞤄𞤢𞤸𞤢𞤥𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="BTN">
+				<displayName>𞤐𞤘𞤵𞤤𞤼𞤵𞤪𞤵𞤥𞤵 𞤄𞤵𞤼𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤲𞤺𞤵𞤤𞤼𞤵𞤪𞤵𞤥𞤵 𞤄𞤵𞤼𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤐𞤘𞤵𞤤𞤼𞤵𞤪𞤵𞤥𞤶𞤭 𞤄𞤵𞤼𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="BWP">
+				<displayName>𞤆𞤵𞤤𞤢 𞤄𞤮𞤼𞤵𞤧𞤱𞤢𞤲𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤨𞤵𞤤𞤢 𞤄𞤮𞤼𞤵𞤧𞤱𞤢𞤲𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤨𞤵𞤤𞤢𞥄𞤶𞤭 𞤄𞤮𞤼𞤵𞤧𞤱𞤢𞤲𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="BYN">
+				<displayName>𞤈𞤵𞥅𞤦𞤮𞤤 𞤄𞤫𞤤𞤢𞤪𞤭𞥅𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤈𞤵𞥅𞤦𞤮𞤤 𞤄𞤫𞤤𞤢𞤪𞤭𞥅𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤈𞤵𞥅𞤦𞤮𞤤𞤶𞤭 𞤄𞤫𞤤𞤢𞤪𞤭𞥅𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="BZD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤄𞤫𞤤𞤭𞥅𞤧</displayName>
+				<displayName count="one">𞤁𞤢𞤤𞤢 𞤄𞤫𞤤𞤭𞥅𞤧</displayName>
+				<displayName count="other">𞤁𞤢𞤤𞤢𞥄𞤶𞤭 𞤄𞤫𞤤𞤭𞥅𞤧</displayName>
+				<symbol draft="contributed">BZD</symbol>
+			</currency>
+			<currency type="CAD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤑𞤢𞤲𞤢𞤣𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤁𞤢𞤤𞤢 𞤑𞤢𞤲𞤢𞤣𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤁𞤢𞤤𞤢𞥄𞤶𞤭 𞤑𞤢𞤲𞤢𞤣𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<symbol draft="contributed">CA$</symbol>
+			</currency>
+			<currency type="CDF">
+				<displayName>𞤊𞤢𞤪𞤢𞤲 𞤑𞤮𞤲𞤺𞤮𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤬𞤢𞤪𞤢𞤲 𞤑𞤮𞤲𞤺𞤮𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤬𞤢𞤪𞤢𞤲𞤶𞤭 𞤑𞤮𞤲𞤺𞤮𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="CHF">
+				<displayName>𞤊𞤢𞤪𞤢𞤲 𞤅𞤵𞤱𞤭𞥅𞤧</displayName>
+				<displayName count="one">𞤊𞤢𞤪𞤢𞤲 𞤅𞤵𞤱𞤭𞥅𞤧</displayName>
+				<displayName count="other">𞤊𞤢𞤪𞤢𞤲𞤶𞤭 𞤅𞤵𞤱𞤭𞥅𞤧</displayName>
+			</currency>
+			<currency type="CLP">
+				<displayName>𞤆𞤫𞤧𞤮 𞤕𞤭𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤆𞤫𞤧𞤮 𞤕𞤭𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤆𞤫𞤧𞤮𞥅𞤶𞤭 𞤕𞤭𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="CNH">
+				<displayName>𞤒𞤵𞤱𞤢𞤲 𞤕𞤢𞤴𞤲𞤭𞤲𞤳𞤮 (𞤺𞤢𞥄𞤲𞤭𞤲𞤳𞤮)</displayName>
+				<displayName count="one">𞤴𞤵𞤱𞤢𞤲 𞤕𞤢𞤴𞤲𞤭𞤲𞤳𞤮 (𞤺𞤢𞥄𞤲𞤭𞤲𞤳𞤮)</displayName>
+				<displayName count="other">𞤴𞤵𞤱𞤢𞤲𞤶𞤭 𞤕𞤢𞤴𞤲𞤭𞤲𞤳𞤮 (𞤺𞤢𞥄𞤲𞤭𞤲𞤳𞤮)</displayName>
+			</currency>
+			<currency type="CNY">
+				<displayName>𞤒𞤵𞤱𞤢𞤲 𞤕𞤢𞤴𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤴𞤵𞤱𞤢𞤲 𞤕𞤢𞤴𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤴𞤵𞤱𞤢𞤲𞤶𞤭 𞤕𞤢𞤴𞤲𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="COP">
+				<displayName>𞤆𞤫𞤧𞤮 𞤑𞤮𞤤𞤮𞤥𞤦𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤆𞤫𞤧𞤮 𞤑𞤮𞤤𞤮𞤥𞤦𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤆𞤫𞤧𞤮𞥅𞤶𞤭 𞤑𞤮𞤤𞤮𞤥𞤦𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="CRC">
+				<displayName>𞤑𞤮𞤤𞤮𞥅𞤲 𞤑𞤮𞤧𞤼𞤢 𞤈𞤭𞤳𞤢𞤲</displayName>
+				<displayName count="one">𞤑𞤮𞤤𞤮𞥅𞤲 𞤑𞤮𞤧𞤼𞤢 𞤈𞤭𞤳𞤢𞤲</displayName>
+				<displayName count="other">𞤑𞤮𞤤𞤮𞥅𞤲𞤶𞤭 𞤑𞤮𞤧𞤼𞤢 𞤈𞤭𞤳𞤢𞤲</displayName>
+			</currency>
+			<currency type="CUC">
+				<displayName>𞤆𞤫𞤧𞤮 𞤑𞤵𞤦𞤢𞤲𞤳𞤮 𞤏𞤢𞤴𞤤𞤮𞤼𞤮𞥅𞤲𞥋𞤺𞤮</displayName>
+				<displayName count="one">𞤆𞤫𞤧𞤮 𞤑𞤵𞤦𞤢𞤲𞤳𞤮 𞤏𞤢𞤴𞤤𞤮𞤼𞤮𞥅𞤲𞥋𞤺𞤮</displayName>
+				<displayName count="other">𞤆𞤫𞤧𞤮𞥅𞤶𞤭 𞤑𞤵𞤦𞤢𞤲𞤳𞤮 𞤏𞤢𞤴𞤤𞤮𞤼𞤮𞥅𞤲𞥋𞤺𞤮</displayName>
+			</currency>
+			<currency type="CUP">
+				<displayName>𞤆𞤫𞤧𞤮 𞤑𞤵𞤦𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤨𞤫𞤧𞤮 𞤑𞤵𞤦𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤨𞤫𞤧𞤮𞥅𞤶𞤭 𞤑𞤵𞤦𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="CVE">
+				<displayName>𞤉𞤧𞤳𞤵𞤣𞤮 𞤑𞤢𞤨-𞤜𞤫𞥅𞤪𞤣𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤫𞤧𞤳𞤵𞤣𞤮 𞤑𞤢𞤨-𞤜𞤫𞥅𞤪𞤣𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤫𞤧𞤳𞤵𞤣𞤮𞥅𞤶𞤭 𞤑𞤢𞤨-𞤜𞤫𞥅𞤪𞤣𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="CZK">
+				<displayName>𞤑𞤮𞤪𞤵𞤲𞤢 𞤕𞤫𞥅𞤳𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤑𞤮𞤪𞤵𞤲𞤢 𞤕𞤫𞥅𞤳𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤑𞤮𞤪𞤵𞤲𞤢𞥄𞤶𞤭 𞤕𞤫𞥅𞤳𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="DJF">
+				<displayName>𞤊𞤢𞤪𞤢𞤲 𞤔𞤭𞤦𞤵𞤼𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤬𞤢𞤪𞤢𞤲 𞤔𞤭𞤦𞤵𞤼𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤬𞤢𞤪𞤢𞤲𞤶𞤭 𞤔𞤭𞤦𞤵𞤼𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="DKK">
+				<displayName>𞤑𞤮𞤪𞤲𞤫 𞤁𞤢𞤲𞤭𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤑𞤮𞤪𞤲𞤫 𞤁𞤢𞤲𞤭𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤑𞤮𞤪𞤲𞤫𞥅𞤶𞤭 𞤁𞤢𞤲𞤭𞥅𞤧</displayName>
+			</currency>
+			<currency type="DOP">
+				<displayName>𞤆𞤫𞤧𞤮 𞤁𞤮𞤥𞤭𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤆𞤫𞤧𞤮 𞤁𞤮𞤥𞤭𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤆𞤫𞤧𞤮𞥅𞤶𞤭 𞤁𞤮𞤥𞤭𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="DZD">
+				<displayName>𞤁𞤭𞤲𞤢𞥄𞤪 𞤀𞤤𞤶𞤢𞤪𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤭𞤲𞤢𞥄𞤪 𞤀𞤤𞤶𞤢𞤪𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤭𞤲𞤢𞥄𞤪𞤶𞤭 𞤀𞤤𞤶𞤢𞤪𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="EGP">
+				<displayName>𞤆𞤢𞤱𞤲𞥋𞤣𞤵 𞤃𞤭𞤧𞤭𞤪𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤆𞤢𞤱𞤲𞥋𞤣𞤵 𞤃𞤭𞤧𞤭𞤪𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤆𞤢𞤱𞤯𞤭 𞤃𞤭𞤧𞤭𞤪𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="ERN">
+				<displayName>𞤐𞤢𞤳𞤬𞤢 𞤉𞤪𞤭𞤼𞤫𞤪𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤐𞤢𞤳𞤬𞤢 𞤉𞤪𞤭𞤼𞤫𞤪𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤲𞤢𞤳𞤬𞤢𞥄𞤶𞤭 𞤉𞤪𞤭𞤼𞤫𞤪𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="ETB">
+				<displayName>𞤄𞤭𞤪 𞤖𞤢𞤦𞤢𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤦𞤭𞤪 𞤖𞤢𞤦𞤢𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤄𞤭𞤪𞤶𞤭 𞤖𞤢𞤦𞤢𞤧𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="EUR">
+				<displayName>𞤒𞤵𞤪𞤮𞥅</displayName>
+				<displayName count="one">𞤴𞤵𞤪𞤮𞥅</displayName>
+				<displayName count="other">𞤴𞤵𞤪𞤮𞥅𞤶𞤭</displayName>
+			</currency>
+			<currency type="FJD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤊𞤭𞤶𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤢𞤤𞤢 𞤊𞤭𞤶𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤢𞤤𞤢𞥄𞤶𞤭 𞤊𞤭𞤶𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="FKP">
+				<displayName>𞤆𞤢𞤱𞤲𞥋𞤣𞤵 𞤅𞤵𞤪𞤭𞥅𞤶𞤫 𞤊𞤢𞤤𞤳𞤵𞤤𞤢𞤲𞤣𞤭𞤳𞤮</displayName>
+				<displayName count="one">𞤆𞤢𞤱𞤲𞥋𞤣𞤵 𞤅𞤵𞤪𞤭𞥅𞤶𞤫 𞤊𞤢𞤤𞤳𞤵𞤤𞤢𞤲𞤣𞤭𞤳𞤮</displayName>
+				<displayName count="other">𞤆𞤢𞤱𞤯𞤭 𞤅𞤵𞤪𞤭𞥅𞤶𞤫 𞤊𞤢𞤤𞤳𞤵𞤤𞤢𞤲𞤣𞤭𞤳𞤮</displayName>
+			</currency>
+			<currency type="GBP">
+				<displayName>𞤆𞤢𞤱𞤲𞥋𞤣𞤵 𞤄𞤪𞤭𞤼𞤭𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤆𞤢𞤱𞤲𞥋𞤣𞤵 𞤄𞤪𞤭𞤼𞤭𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤆𞤢𞤱𞤯𞤭 𞤄𞤪𞤭𞤼𞤭𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="GEL">
+				<displayName>𞤂𞤢𞥄𞤪𞤭 𞤔𞤮𞤪𞤶𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤤𞤢𞤪𞤭 𞤔𞤮𞤪𞤶𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤤𞤢𞤪𞤭𞥅𞤶𞤭 𞤔𞤮𞤪𞤶𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="GHS">
+				<displayName>𞤅𞤭𞤣𞤭 𞤘𞤢𞤲𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤧𞤭𞤣𞤭 𞤘𞤢𞤲𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤧𞤭𞤣𞤭𞥅𞤶𞤭 𞤘𞤢𞤲𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="GIP">
+				<displayName>𞤆𞤢𞤱𞤲𞥋𞤣𞤵 𞤔𞤭𞤤𞤦𞤪𞤢𞤤𞤼𞤢𞤪</displayName>
+				<displayName count="one">𞤆𞤢𞤱𞤲𞥋𞤣𞤵 𞤔𞤭𞤤𞤦𞤪𞤢𞤤𞤼𞤢𞤪</displayName>
+				<displayName count="other">𞤆𞤢𞤱𞤯𞤭 𞤔𞤭𞤤𞤦𞤪𞤢𞤤𞤼𞤢𞤪</displayName>
+			</currency>
+			<currency type="GMD">
+				<displayName>𞤁𞤢𞤤𞤢𞤧𞤭 𞤘𞤢𞤥𞤦𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤢𞤤𞤢𞤧𞤭 𞤘𞤢𞤥𞤦𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤢𞤤𞤢𞤧𞤭𞥅𞤶𞤭 𞤘𞤢𞤥𞤦𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="GNF">
+				<displayName>𞤊𞤢𞤪𞤢𞤲 𞤘𞤭𞤲𞤫𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤬𞤢𞤪𞤢𞤲 𞤘𞤭𞤲𞤫𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤬𞤢𞤪𞤢𞤲𞤶𞤭 𞤘𞤭𞤲𞤫𞤲𞤳𞤮</displayName>
+				<symbol>FG</symbol>
+			</currency>
+			<currency type="GTQ">
+				<displayName count="one">𞤑𞤫𞤼𞤵𞥁𞤢𞤤 𞤘𞤵𞤱𞤢𞤼𞤫𞤥𞤢𞤤𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤑𞤫𞤼𞤵𞥁𞤫 𞤘𞤵𞤱𞤢𞤼𞤫𞤥𞤢𞤤𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="GYD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤘𞤵𞤴𞤢𞤲𞤫𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤁𞤢𞤤𞤢 𞤘𞤵𞤴𞤢𞤲𞤫𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤁𞤢𞤤𞤢𞥄𞤶𞤭 𞤘𞤵𞤴𞤢𞤲𞤫𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="HKD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤖𞤮𞤲𞤳𞤮𞤲</displayName>
+				<displayName count="one">𞤣𞤢𞤤𞤢 𞤖𞤮𞤲𞤳𞤮𞤲</displayName>
+				<displayName count="other">𞤣𞤢𞤤𞤢𞥄𞤶𞤭 𞤖𞤮𞤲𞤳𞤮𞤲</displayName>
+			</currency>
+			<currency type="HNL">
+				<displayName>𞤂𞤫𞤥𞤨𞤭𞤪𞤢 𞤖𞤮𞤲𞤣𞤵𞤪𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤂𞤫𞤥𞤨𞤭𞤪𞤢 𞤖𞤮𞤲𞤣𞤵𞤪𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤂𞤫𞤥𞤨𞤭𞤪𞤢𞥄𞤶𞤭 𞤖𞤮𞤲𞤣𞤵𞤪𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="HRK">
+				<displayName>𞤑𞤵𞤲𞤢 𞤑𞤵𞤪𞤢𞥄𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤑𞤵𞤲𞤢 𞤑𞤵𞤪𞤢𞥄𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤑𞤵𞤲𞤢𞥄𞤶𞤭 𞤑𞤵𞤪𞤢𞥄𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="HTG">
+				<displayName>𞤘𞤵𞥅𞤪𞤣𞤫 𞤖𞤢𞤴𞤼𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="HUF">
+				<displayName>𞤊𞤮𞤪𞤭𞤲𞤼𞤵 𞤖𞤵𞤲𞤺𞤢𞤪𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤊𞤮𞤪𞤭𞤲𞤼𞤵 𞤖𞤵𞤲𞤺𞤢𞤪𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤊𞤮𞤪𞤭𞤲𞤼𞤵𞥅𞤶𞤭 𞤖𞤵𞤲𞤺𞤢𞤪𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="IDR">
+				<displayName>𞤈𞤵𞤨𞤭𞤴𞤢 𞤋𞤲𞤣𞤮𞤲𞤫𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤵𞤨𞤭𞤴𞤢 𞤋𞤲𞤣𞤮𞤲𞤫𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤵𞤨𞤭𞤴𞤢𞥄𞤶𞤭 𞤋𞤲𞤣𞤮𞤲𞤫𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="ILS">
+				<displayName>𞤡𞤫𞤳𞤫𞤤 𞤋𞤧𞤪𞤢𞥄𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞥃𞤫𞤳𞤫𞤤 𞤋𞤧𞤪𞤢𞥄𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞥃𞤫𞤳𞤫𞤤𞤶𞤭 𞤋𞤧𞤪𞤢𞥄𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="INR">
+				<displayName>𞤈𞤵𞥅𞤨𞤭𞥅 𞤖𞤭𞤲𞤣𞤭𞤧𞤼𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤵𞥅𞤨𞤭𞥅 𞤖𞤭𞤲𞤣𞤭𞤧𞤼𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤈𞤵𞥅𞤨𞤭𞥅𞤶𞤭 𞤖𞤭𞤲𞤣𞤭𞤧𞤼𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="IQD">
+				<displayName>𞤁𞤭𞤲𞤢𞥄𞤪 𞤋𞤪𞤢𞥄𞤳𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤭𞤲𞤢𞥄𞤪 𞤋𞤪𞤢𞥄𞤹𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤭𞤲𞤢𞥄𞤪𞤶𞤭 𞤋𞤪𞤢𞥄𞤹𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="IRR">
+				<displayName>𞤈𞤭𞤴𞤢𞥄𞤤 𞤋𞤪𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤭𞤴𞤢𞥄𞤤 𞤋𞤪𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤭𞤴𞤢𞥄𞤤𞤶𞤭 𞤋𞤪𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="ISK">
+				<displayName>𞤑𞤮𞤪𞤮𞤲𞤢 𞤀𞤴𞤧𞤭𞤤𞤢𞤲𞤣𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤑𞤮𞤪𞤮𞤲𞤢 𞤀𞤴𞤧𞤭𞤤𞤢𞤲𞤣𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤑𞤮𞤪𞤮𞤲𞤢𞥄𞤶𞤭 𞤀𞤴𞤧𞤭𞤤𞤢𞤲𞤣𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="JMD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤔𞤢𞤥𞤢𞤴𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤁𞤢𞤤𞤢 𞤔𞤢𞤥𞤢𞤴𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤁𞤢𞤤𞤢𞥄𞤶𞤭 𞤔𞤢𞤥𞤢𞤴𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="JOD">
+				<displayName>𞤁𞤭𞤲𞤢𞥄𞤪 𞤔𞤮𞤪𞤣𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤭𞤲𞤢𞥄𞤪 𞤔𞤮𞤪𞤣𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤭𞤲𞤢𞥄𞤪𞤶𞤭 𞤔𞤮𞤪𞤣𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="JPY">
+				<displayName>𞤒𞤫𞤲 𞤔𞤢𞤨𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤴𞤫𞤲 𞤔𞤢𞤨𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤴𞤫𞤲𞤶𞤭 𞤔𞤢𞤨𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="KES">
+				<displayName>𞤅𞤭𞤤𞤭𞤲 𞤑𞤫𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤧𞤭𞤤𞤭𞤲 𞤑𞤫𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤧𞤭𞤤𞤭𞤲𞤶𞤭 𞤑𞤫𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="KGS">
+				<displayName>𞤅𞤮𞤥𞤵 𞤑𞤭𞤪𞤺𞤭𞤧𞤼𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤧𞤮𞤥𞤵 𞤑𞤭𞤪𞤺𞤭𞤧𞤼𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤧𞤮𞤥𞤵𞥅𞤶𞤭 𞤑𞤭𞤪𞤺𞤭𞤧𞤼𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="KHR">
+				<displayName>𞤈𞤭𞤴𞤢𞤤 𞤑𞤢𞤥𞤦𞤮𞤣𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤭𞤴𞤢𞤤 𞤑𞤢𞤥𞤦𞤮𞤣𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤭𞤴𞤢𞤤𞤶𞤭 𞤑𞤢𞤥𞤦𞤮𞤣𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="KMF">
+				<displayName>𞤊𞤢𞤪𞤢𞤲 𞤑𞤮𞤥𞤮𞤪𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤬𞤢𞤪𞤢𞤲 𞤑𞤮𞤥𞤮𞤪𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤬𞤢𞤪𞤢𞤲𞤶𞤭 𞤑𞤮𞤥𞤮𞤪𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="KPW">
+				<displayName>𞤏𞤮𞤲 𞤁𞤮𞤱𞤣𞤮𞤱𞤪𞤭 𞤑𞤮𞥅𞤪𞤫𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤱𞤮𞤲 𞤁𞤮𞤱𞤣𞤮𞤱𞤪𞤭 𞤑𞤮𞥅𞤪𞤫𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤱𞤮𞤲𞤶𞤭 𞤁𞤮𞤱𞤣𞤮𞤱𞤪𞤭 𞤑𞤮𞥅𞤪𞤫𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="KRW">
+				<displayName>𞤱𞤮𞤲 𞤂𞤫𞤴𞤤𞤫𞤴𞤪𞤭 𞤑𞤮𞥅𞤪𞤫𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤱𞤮𞤲 𞤤𞤫𞤴𞤤𞤫𞤴𞤪𞤭 𞤑𞤮𞥅𞤪𞤫𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤱𞤮𞤲𞤶𞤭 𞤤𞤫𞤴𞤤𞤫𞤴𞤪𞤭 𞤑𞤮𞥅𞤪𞤫𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="KWD">
+				<displayName>𞤁𞤋𞤲𞤢𞥄𞤪 𞤑𞤵𞤱𞤢𞤴𞤼𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤋𞤲𞤢𞥄𞤪 𞤑𞤵𞤱𞤢𞤴𞤼𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤋𞤲𞤢𞥄𞤪𞤶𞤭 𞤑𞤵𞤱𞤢𞤴𞤼𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="KYD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤅𞤵𞤪𞤭𞥅𞤶𞤫 𞤑𞤢𞤴𞤥𞤢𞥄𞤲</displayName>
+				<displayName count="one">𞤁𞤢𞤤𞤢 𞤅𞤵𞤪𞤭𞥅𞤶𞤫 𞤑𞤢𞤴𞤥𞤢𞥄𞤲</displayName>
+				<displayName count="other">𞤁𞤢𞤤𞤢𞥄𞤶𞤭 𞤅𞤵𞤪𞤭𞥅𞤶𞤫 𞤑𞤢𞤴𞤥𞤢𞥄𞤲</displayName>
+			</currency>
+			<currency type="KZT">
+				<displayName>𞤚𞤫𞤲𞤺𞤫 𞤑𞤢𞥁𞤢𞤳𞤭𞤧𞤼𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤼𞤫𞤲𞤺𞤫 𞤑𞤢𞥁𞤢𞤳𞤭𞤧𞤼𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤚𞤫𞤲𞤺𞤫𞥅𞤶𞤭 𞤑𞤢𞥁𞤢𞤳𞤭𞤧𞤼𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="LAK">
+				<displayName>𞤑𞤭𞤨𞤵 𞤂𞤢𞤱𞤮𞥅𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤳𞤭𞤨𞤵 𞤂𞤢𞤱𞤮𞥅𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤳𞤭𞤨𞤵𞥅𞤶𞤭 𞤂𞤢𞤱𞤮𞥅𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="LBP">
+				<displayName>𞤆𞤢𞤱𞤲𞥋𞤣𞤵 𞤂𞤭𞤦𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤨𞤢𞤱𞤲𞥋𞤣𞤵 𞤂𞤭𞤦𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤨𞤢𞤱𞤯𞤭 𞤂𞤭𞤦𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="LKR">
+				<displayName>𞤈𞤵𞥅𞤨𞤭𞥅 𞤅𞤭𞤪𞤭-𞤂𞤢𞤲𞤳𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤵𞥅𞤨𞤭𞥅 𞤅𞤭𞤪𞤭-𞤂𞤢𞤲𞤳𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤵𞥅𞤨𞤭𞥅𞤶𞤭 𞤅𞤭𞤪𞤭-𞤂𞤢𞤲𞤳𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="LRD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤂𞤭𞤦𞤫𞤪𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤢𞤤𞤢 𞤂𞤭𞤦𞤫𞤪𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤢𞤤𞤢𞥄𞤶𞤭 𞤂𞤭𞤦𞤫𞤪𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="LYD">
+				<displayName>𞤁𞤭𞤲𞤢𞥄𞤪 𞤂𞤭𞤦𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤭𞤲𞤢𞥄𞤪 𞤂𞤭𞤦𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤭𞤲𞤢𞥄𞤪𞤶𞤭 𞤂𞤭𞤦𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MAD">
+				<displayName>𞤁𞤭𞤪𞤸𞤢𞤥𞤵 𞤃𞤮𞤪𞤮𞤳𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤭𞤪𞤸𞤢𞤥𞤵 𞤃𞤮𞤪𞤮𞤳𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤁𞤭𞤪𞤸𞤢𞤥𞤵𞥅𞤶𞤭 𞤃𞤮𞤪𞤮𞤳𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MDL">
+				<displayName>𞤂𞤭𞥅𞤱𞤮 𞤃𞤮𞤤𞤣𞤮𞤾𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤤𞤭𞥅𞤱𞤮 𞤃𞤮𞤤𞤣𞤮𞤾𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤤𞤭𞥅𞤱𞤮𞥅𞤶𞤭 𞤃𞤮𞤤𞤣𞤮𞤾𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MGA">
+				<displayName>𞤀𞤪𞤭𞤴𞤢𞤪𞤭 𞤃𞤢𞤤𞤺𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤢𞤪𞤭𞤴𞤢𞤪𞤭 𞤃𞤢𞤤𞤺𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤀𞤪𞤭𞤴𞤢𞤪𞤭𞥅𞤶𞤭 𞤃𞤢𞤤𞤺𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MKD">
+				<displayName>𞤁𞤭𞤲𞤢𞥄𞤪 𞤃𞤢𞤧𞤫𞤣𞤮𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤁𞤭𞤲𞤢𞥄𞤪 𞤃𞤢𞤧𞤫𞤣𞤮𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤁𞤭𞤲𞤢𞥄𞤪𞤶𞤭 𞤃𞤢𞤧𞤫𞤣𞤮𞤲𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MMK">
+				<displayName>𞤑𞤭𞤴𞤢𞤼𞤵 𞤃𞤭𞤴𞤢𞤥𞤢𞤪𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤳𞤭𞤴𞤢𞤼𞤵 𞤃𞤭𞤴𞤢𞤥𞤢𞤪𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤳𞤭𞤴𞤢𞤼𞤵𞥅𞤶𞤭 𞤃𞤭𞤴𞤢𞤥𞤢𞤪𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MNT">
+				<displayName>𞤚𞤵𞤺𞤵𞤪𞤭𞤳𞤵 𞤃𞤮𞤲𞤺𞤮𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤼𞤵𞤺𞤵𞤪𞤭𞤳𞤵 𞤃𞤮𞤲𞤺𞤮𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤚𞤵𞤺𞤵𞤪𞤭𞤳𞤵𞥅𞤶𞤭 𞤃𞤮𞤲𞤺𞤮𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MOP">
+				<displayName>𞤆𞤢𞤼𞤢𞤳𞤢 𞤃𞤢𞤳𞤢𞤱𞤮𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤨𞤢𞤼𞤢𞤳𞤢 𞤃𞤢𞤳𞤢𞤱𞤮𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤨𞤢𞤼𞤢𞤳𞤢𞥄𞤶𞤭 𞤃𞤢𞤳𞤢𞤱𞤮𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MRO">
+				<displayName>𞤓𞤺𞤭𞤴𞤢 𞤃𞤮𞤪𞤭𞤼𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮 (𞥑𞥙𞥗𞥓 - 𞥒𞥐𞥑𞥗)</displayName>
+				<displayName count="one">𞤵𞤺𞤭𞤴𞤢 𞤃𞤮𞤪𞤭𞤼𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮 (𞥑𞥙𞥗𞥓 - 𞥒𞥐𞥑𞥗)</displayName>
+				<displayName count="other">𞤵𞤺𞤭𞤴𞤢 𞤃𞤮𞤪𞤭𞤼𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮 (𞥑𞥙𞥗𞥓 - 𞥒𞥐𞥑𞥗)</displayName>
+			</currency>
+			<currency type="MRU">
+				<displayName>𞤓𞤺𞤭𞤴𞤢 𞤃𞤮𞤪𞤭𞤼𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤵𞤺𞤭𞤴𞤢 𞤃𞤮𞤪𞤭𞤼𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤵𞤺𞤭𞤴𞤢𞥄𞤶𞤭 𞤃𞤮𞤪𞤭𞤼𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MUR">
+				<displayName>𞤈𞤵𞤨𞤭𞥅 𞤃𞤮𞤪𞤭𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤵𞤨𞤭𞥅 𞤃𞤮𞤪𞤭𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤵𞤨𞤭𞥅𞤶𞤭 𞤃𞤮𞤪𞤭𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MVR">
+				<displayName>𞤈𞤵𞤬𞤭𞤴𞤢𞥄 𞤃𞤢𞤤𞤣𞤭𞤾𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤵𞤬𞤭𞤴𞤢𞥄 𞤃𞤢𞤤𞤣𞤭𞤾𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤵𞤬𞤭𞤴𞤢𞥄𞤶𞤭 𞤃𞤢𞤤𞤣𞤭𞤾𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MWK">
+				<displayName>𞤑𞤢𞤱𞤢𞤷𞤢 𞤃𞤢𞤤𞤢𞤱𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤳𞤢𞤱𞤢𞤷𞤢 𞤃𞤢𞤤𞤢𞤱𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤳𞤢𞤱𞤢𞤷𞤢𞥄𞤶𞤭 𞤃𞤢𞤤𞤢𞤱𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MXN">
+				<displayName>𞤆𞤫𞤧𞤮 𞤃𞤫𞤳𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤆𞤫𞤧𞤮 𞤃𞤫𞤳𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤆𞤫𞤧𞤮𞥅𞤶𞤭 𞤃𞤫𞤳𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MYR">
+				<displayName>𞤈𞤭𞤲𞤺𞤵𞤼𞤵 𞤃𞤢𞤤𞤫𞥅𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤭𞤲𞤺𞤵𞤼𞤵 𞤃𞤢𞤤𞤫𞥅𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤭𞤲𞤺𞤵𞤼𞤵𞥅𞤶𞤭 𞤃𞤢𞤤𞤫𞥅𞤧𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="MZN">
+				<displayName>𞤃𞤫𞤼𞤭𞤳𞤮𞤤 𞤃𞤮𞥁𞤢𞤥𞤦𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤥𞤫𞤼𞤭𞤳𞤮𞤤 𞤃𞤮𞥁𞤢𞤥𞤦𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤥𞤫𞤼𞤭𞤳𞤮𞤤𞤶𞤭 𞤃𞤮𞥁𞤢𞤥𞤦𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="NAD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤐𞤢𞤥𞤭𞤥𞤦𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤢𞤤𞤢 𞤐𞤢𞤥𞤭𞤥𞤦𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤢𞤤𞤢𞥄𞤶𞤭 𞤐𞤢𞤥𞤭𞤥𞤦𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="NGN">
+				<displayName>𞤐𞤢𞤴𞤪𞤢 𞤐𞤢𞤶𞤭𞤪𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤲𞤢𞤴𞤪𞤢 𞤐𞤢𞤶𞤭𞤪𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤲𞤢𞤴𞤪𞤢𞥄𞤶𞤭 𞤐𞤢𞤶𞤭𞤪𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="NIO">
+				<displayName>𞤑𞤮𞥅𞤪𞤣𞤮𞤦𞤢 𞤐𞤭𞤳𞤢𞤪𞤢𞤺𞤵𞤱𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤑𞤮𞥅𞤪𞤣𞤮𞤦𞤢 𞤐𞤭𞤳𞤢𞤪𞤢𞤺𞤵𞤱𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤑𞤮𞥅𞤪𞤣𞤮𞤦𞤢𞥄𞤶𞤭 𞤐𞤭𞤳𞤢𞤪𞤢𞤺𞤵𞤱𞤢𞤲𞤳𞤮</displayName>
+				<symbol draft="contributed">NIO</symbol>
+				<symbol alt="narrow" draft="contributed">C$</symbol>
+			</currency>
+			<currency type="NOK">
+				<displayName>𞤑𞤪𞤮𞤲𞤫 𞤐𞤮𞤪𞤱𞤫𞤶𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤑𞤪𞤮𞤲𞤫 𞤐𞤮𞤪𞤱𞤫𞤶𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤑𞤪𞤮𞤲𞤫𞥅𞤶𞤭 𞤀𞤴𞤧𞤭𞤤𞤢𞤲𞤣𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="NPR">
+				<displayName>𞤈𞤵𞥅𞤨𞤭𞥅 𞤐𞤫𞤨𞤢𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤵𞥅𞤨𞤭𞥅 𞤐𞤫𞤨𞤢𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤵𞥅𞤨𞤭𞥅𞤶𞤭 𞤐𞤫𞤨𞤢𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="NZD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤐𞤫𞤱-𞤔𞤭𞤤𞤢𞤲𞤣𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤢𞤤𞤢 𞤐𞤫𞤱-𞤔𞤭𞤤𞤢𞤲𞤣𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤢𞤤𞤢𞥄𞤶𞤭 𞤐𞤫𞤱-𞤔𞤭𞤤𞤢𞤲𞤣𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="OMR">
+				<displayName>𞤈𞤭𞤴𞤢𞥄𞤤 𞤌𞤥𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤭𞤴𞤢𞥄𞤤 𞤌𞤥𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤭𞤴𞤢𞥄𞤤𞤶𞤭 𞤌𞤥𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="PAB">
+				<displayName>𞤄𞤢𞤤𞤦𞤮𞤱𞤢 𞤆𞤢𞤲𞤢𞤥𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤄𞤢𞤤𞤦𞤮𞤱𞤢 𞤆𞤢𞤲𞤢𞤥𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤄𞤢𞤤𞤦𞤮𞤱𞤢𞥄𞤶𞤭 𞤆𞤢𞤲𞤢𞤥𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="PEN">
+				<displayName>𞤅𞤮𞤤 𞤆𞤫𞤪𞤵𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤅𞤮𞤤 𞤆𞤫𞤪𞤵𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤅𞤮𞤤𞤶𞤭 𞤆𞤫𞤪𞤵𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="PGK">
+				<displayName>𞤑𞤭𞤲𞤢 𞤆𞤢𞤨𞤵𞤱𞤢 𞤐𞤫𞤱-𞤘𞤭𞤲𞤫𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤳𞤭𞤲𞤢 𞤆𞤢𞤨𞤵𞤱𞤢 𞤐𞤫𞤱-𞤘𞤭𞤲𞤫𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤳𞤭𞤲𞤢𞥄𞤶𞤭 𞤆𞤢𞤨𞤵𞤱𞤢 𞤐𞤫𞤱-𞤘𞤭𞤲𞤫𞤲𞤳𞤮</displayName>
+				<symbol draft="contributed">𞤑𞤆𞤘</symbol>
+			</currency>
+			<currency type="PHP">
+				<displayName>𞤆𞤭𞤧𞤮 𞤊𞤭𞤤𞤭𞤨𞥆𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤨𞤭𞤧𞤮 𞤊𞤭𞤤𞤭𞤨𞥆𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤨𞤭𞤧𞤮𞥅𞤶𞤭 𞤊𞤭𞤤𞤭𞤨𞥆𞤭𞤲𞤳𞤮</displayName>
+				<symbol draft="contributed">𞤆𞤆𞤖</symbol>
+			</currency>
+			<currency type="PKR">
+				<displayName>𞤈𞤵𞥅𞤨𞤭𞥅 𞤆𞤢𞤳𞤭𞤧𞤼𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤵𞥅𞤨𞤭𞥅 𞤆𞤢𞤳𞤭𞤧𞤼𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤵𞥅𞤨𞤭𞥅𞤶𞤭 𞤆𞤢𞤳𞤭𞤧𞤼𞤢𞤲𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="PLN">
+				<displayName>𞤔𞤢𞤤𞤮𞤼𞤵 𞤆𞤮𞤤𞤭𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤔𞤢𞤤𞤮𞤼𞤵 𞤆𞤮𞤤𞤭𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤔𞤢𞤤𞤮𞤼𞤵𞥅𞤶𞤭 𞤆𞤮𞤤𞤭𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="PYG">
+				<displayName>𞤘𞤵𞤱𞤢𞤪𞤢𞤲𞤭 𞤆𞤢𞥄𞤪𞤢𞤺𞤵𞤴𞤫𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤘𞤵𞤱𞤢𞤪𞤢𞤲𞤭 𞤆𞤢𞥄𞤪𞤢𞤺𞤵𞤴𞤫𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤘𞤵𞤱𞤢𞤪𞤢𞤲𞤭𞥅𞤶𞤭 𞤆𞤢𞥄𞤪𞤢𞤺𞤵𞤴𞤫𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="QAR">
+				<displayName>𞤈𞤭𞤴𞤢𞥄𞤤 𞤗𞤢𞤼𞤢𞤪𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤭𞤴𞤢𞥄𞤤 𞤗𞤢𞤼𞤢𞤪𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤭𞤴𞤢𞥄𞤤𞤶𞤭 𞤗𞤢𞤼𞤢𞤪𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="RON">
+				<displayName>𞤂𞤫𞤱𞤵 𞤈𞤮𞤥𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤤𞤫𞤱𞤵 𞤈𞤮𞤥𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤂𞤫𞤱𞤵𞥅𞤶𞤭 𞤈𞤮𞤥𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="RSD">
+				<displayName>𞤁𞤭𞤲𞤢𞥄𞤪 𞤅𞤫𞤪𞤦𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤁𞤭𞤲𞤢𞥄𞤪 𞤅𞤫𞤪𞤦𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤁𞤭𞤲𞤢𞥄𞤪𞤶𞤭 𞤅𞤫𞤪𞤦𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="RUB">
+				<displayName>𞤈𞤵𞥅𞤦𞤮𞤤 𞤈𞤭𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤈𞤵𞥅𞤦𞤮𞤤 𞤈𞤭𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤈𞤵𞥅𞤦𞤮𞤤𞤶𞤭 𞤈𞤭𞥅𞤧𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="RWF">
+				<displayName>𞤊𞤢𞤪𞤢𞤲 𞤈𞤵𞤱𞤢𞤲𞤣𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤬𞤢𞤪𞤢𞤲 𞤈𞤵𞤱𞤢𞤲𞤣𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤬𞤢𞤪𞤢𞤲𞤶𞤭 𞤈𞤵𞤱𞤢𞤲𞤣𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="SAR">
+				<displayName>𞤈𞤭𞤴𞤢𞤤 𞤅𞤢𞤵𞥅𞤣𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤭𞤴𞤢𞤤 𞤅𞤢𞤵𞥅𞤣𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤭𞤴𞤢𞤤𞤶𞤭 𞤅𞤢𞤵𞥅𞤣𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="SBD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤅𞤵𞤪𞤭𞥅𞤶𞤫 𞤅𞤵𞤤𞤫𞤴𞤥𞤢𞥄𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤢𞤤𞤢 𞤅𞤵𞤪𞤭𞥅𞤶𞤫 𞤅𞤵𞤤𞤫𞤴𞤥𞤢𞥄𞤲𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="SCR">
+				<displayName>𞤈𞤵𞤨𞤭𞥅 𞤅𞤫𞤴𞤧𞤭𞤤𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤵𞤨𞤭𞥅 𞤅𞤫𞤴𞤧𞤭𞤤𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤵𞤨𞤭𞥅𞤶𞤭 𞤅𞤫𞤴𞤧𞤭𞤤𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="SDG">
+				<displayName>𞤆𞤢𞤱𞤲𞥋𞤣𞤵 𞤅𞤵𞤣𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤨𞤢𞤱𞤲𞥋𞤣𞤵 𞤅𞤵𞤣𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤨𞤢𞤱𞤯𞤭 𞤅𞤵𞤣𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="SEK">
+				<displayName>𞤑𞤪𞤮𞤲𞤢 𞤅𞤵𞤱𞤫𞤣𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤑𞤪𞤮𞤲𞤢 𞤅𞤵𞤱𞤫𞤣𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤑𞤪𞤮𞤲𞤢𞥄𞤶𞤭 𞤅𞤵𞤱𞤫𞤣𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="SGD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤅𞤭𞤲𞤺𞤢𞤨𞤮𞤪𞤫𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤢𞤤𞤢 𞤅𞤭𞤲𞤺𞤢𞤨𞤮𞤪𞤫𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤢𞤤𞤢𞥄𞤶𞤭 𞤅𞤭𞤲𞤺𞤢𞤨𞤮𞤪𞤫𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="SHP">
+				<displayName>𞤆𞤢𞤱𞤲𞥋𞤣𞤵 𞤅𞤫𞤲-𞤖𞤫𞤤𞤫𞤲𞤢</displayName>
+				<displayName count="one">𞤨𞤢𞤱𞤲𞥋𞤣𞤵 𞤅𞤫𞤲-𞤖𞤫𞤤𞤫𞤲𞤢</displayName>
+				<displayName count="other">𞤆𞤢𞤱𞤯𞤭 𞤅𞤫𞤲-𞤖𞤫𞤤𞤫𞤲𞤢</displayName>
+			</currency>
+			<currency type="SLL">
+				<displayName>𞤂𞤫𞤴𞤮𞤲 𞤅𞤫𞤪𞤢𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤤𞤫𞤴𞤮𞤲 𞤅𞤫𞤪𞤢𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤤𞤫𞤴𞤮𞤲𞤶𞤭 𞤅𞤫𞤪𞤢𞤤𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="SOS">
+				<displayName>𞤅𞤭𞤤𞤭𞤲 𞤅𞤮𞤥𞤢𞤤𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤧𞤭𞤤𞤭𞤲 𞤅𞤮𞤥𞤢𞤤𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤧𞤭𞤤𞤭𞤲𞤶𞤭 𞤅𞤮𞤥𞤢𞤤𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="SRD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤅𞤵𞤪𞤵𞤲𞤢𞤥𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤁𞤢𞤤𞤢 𞤅𞤵𞤪𞤵𞤲𞤢𞤥𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤁𞤢𞤤𞤢𞥄𞤶𞤭 𞤅𞤵𞤪𞤵𞤲𞤢𞤥𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="SSP">
+				<displayName>𞤆𞤢𞤱𞤲𞥋𞤣𞤵 𞤂𞤫𞤴𞤤𞤫𞤴𞤪𞤭 𞤅𞤵𞤣𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤨𞤢𞤱𞤲𞥋𞤣𞤵 𞤂𞤫𞤴𞤤𞤫𞤴𞤪𞤭 𞤅𞤵𞤣𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤨𞤢𞤱𞤯𞤭 𞤂𞤫𞤴𞤤𞤫𞤴𞤪𞤭 𞤅𞤵𞤣𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="STN">
+				<displayName>𞤁𞤮𞤦𞤢𞤪𞤢 𞤅𞤢𞤱𞤮-𞤚𞤮𞤥𞤫 &amp; 𞤆𞤫𞤪𞤫𞤲𞤧𞤭𞤨</displayName>
+				<displayName count="one">𞤣𞤮𞤦𞤢𞤪𞤢 𞤅𞤢𞤱𞤮-𞤚𞤮𞤥𞤫 &amp; 𞤆𞤫𞤪𞤫𞤲𞤧𞤭𞤨</displayName>
+				<displayName count="other">𞤣𞤮𞤦𞤢𞤪𞤢𞥄𞤶𞤭 𞤅𞤢𞤱𞤮-𞤚𞤮𞤥𞤫 &amp; 𞤆𞤫𞤪𞤫𞤲𞤧𞤭𞤨</displayName>
+			</currency>
+			<currency type="SYP">
+				<displayName>𞤆𞤢𞤱𞤲𞥋𞤣𞤵 𞤅𞤭𞤪𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤨𞤢𞤱𞤲𞥋𞤣𞤵 𞤅𞤭𞤪𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤨𞤢𞤱𞤯𞤭 𞤅𞤭𞤪𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="SZL">
+				<displayName>𞤂𞤭𞤤𞤢𞤲𞤺𞤫𞤲𞤭 𞤅𞤵𞤱𞤢𞤶𞤭</displayName>
+				<displayName count="one">𞤤𞤭𞤤𞤢𞤲𞤺𞤫𞤲𞤭 𞤅𞤵𞤱𞤢𞤶𞤭</displayName>
+				<displayName count="other">𞤤𞤭𞤤𞤢𞤲𞤺𞤫𞤲𞤭𞥅𞤶𞤭 𞤅𞤵𞤱𞤢𞤶𞤭</displayName>
+			</currency>
+			<currency type="THB">
+				<displayName>𞤄𞤢𞤸𞤼𞤵 𞤚𞤢𞤴𞤤𞤢𞤲𞤣𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤦𞤢𞤸𞤼𞤵 𞤚𞤢𞤴𞤤𞤢𞤲𞤣𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤦𞤢𞤸𞤼𞤵𞥅𞤶𞤭 𞤚𞤢𞤴𞤤𞤢𞤲𞤣𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="TJS">
+				<displayName>𞤅𞤢𞤥𞤮𞥅𞤲𞤭 𞤚𞤢𞤶𞤭𞤳𞤭𞤧𞤼𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤧𞤢𞤥𞤮𞥅𞤲𞤭 𞤚𞤢𞤶𞤭𞤳𞤭𞤧𞤼𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤧𞤢𞤥𞤮𞥅𞤲𞤭𞥅𞤶𞤭 𞤚𞤢𞤶𞤭𞤳𞤭𞤧𞤼𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="TMT">
+				<displayName>𞤃𞤢𞤲𞤢𞤼𞤵 𞤚𞤵𞤪𞤳𞤵𞤥𞤫𞤲𞤭𞤧𞤼𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤥𞤢𞤲𞤢𞤼𞤵 𞤚𞤵𞤪𞤳𞤵𞤥𞤫𞤲𞤭𞤧𞤼𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤥𞤢𞤲𞤢𞤼𞤵𞥅𞤶𞤭 𞤚𞤵𞤪𞤳𞤵𞤥𞤫𞤲𞤭𞤧𞤼𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="TND">
+				<displayName>𞤁𞤭𞤲𞤢𞥄𞤪 𞤚𞤵𞥅𞤲𞤭𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤭𞤲𞤢𞥄𞤪 𞤚𞤵𞥅𞤲𞤭𞤧𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤭𞤲𞤢𞥄𞤪𞤶𞤭 𞤚𞤵𞥅𞤲𞤭𞤧𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="TOP">
+				<displayName>𞤆𞤢𞤢𞤲𞤺𞤢 𞤚𞤮𞤲𞤺𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤨𞤢𞤢𞤲𞤺𞤢 𞤚𞤮𞤲𞤺𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤨𞤢𞤢𞤲𞤺𞤢𞥄𞤶𞤭 𞤚𞤮𞤲𞤺𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="TRY">
+				<displayName>𞤂𞤭𞤪𞤢 𞤚𞤵𞤪𞤳𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤤𞤭𞤪𞤢 𞤚𞤵𞤪𞤳𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤤𞤭𞤪𞤢𞥄𞤶𞤭 𞤚𞤵𞤪𞤳𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="TTD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤚𞤭𞤪𞤲𞤭𞤣𞤢𞥄𞤣 &amp; 𞤚𞤮𞤦𞤢𞤺𞤮</displayName>
+				<displayName count="one">𞤁𞤢𞤤𞤢 𞤚𞤭𞤪𞤲𞤭𞤣𞤢𞥄𞤣 &amp; 𞤚𞤮𞤦𞤢𞤺𞤮</displayName>
+				<displayName count="other">𞤁𞤢𞤤𞤢𞥄𞤶𞤭 𞤚𞤭𞤪𞤲𞤭𞤣𞤢𞥄𞤣 &amp; 𞤚𞤮𞤦𞤢𞤺𞤮</displayName>
+			</currency>
+			<currency type="TWD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤚𞤢𞤴𞤱𞤢𞥄𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤢𞤤𞤢 𞤚𞤢𞤴𞤱𞤢𞥄𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤢𞤤𞤢𞥄𞤶𞤭 𞤚𞤢𞤴𞤱𞤢𞥄𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="TZS">
+				<displayName>𞤅𞤭𞤤𞤭𞤲 𞤚𞤢𞤲𞥁𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤧𞤭𞤤𞤭𞤲 𞤚𞤢𞤲𞥁𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤧𞤭𞤤𞤭𞤲𞤶𞤭 𞤚𞤢𞤲𞥁𞤢𞤲𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="UAH">
+				<displayName>𞤖𞤵𞤪𞤢𞤾𞤫𞤲𞤭𞤴𞤢 𞤒𞤵𞤳𞤫𞤪𞤫𞥅𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤖𞤵𞤪𞤢𞤾𞤫𞤲𞤭𞤴𞤢 𞤒𞤵𞤳𞤫𞤪𞤫𞥅𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤖𞤵𞤪𞤢𞤾𞤫𞤲𞤭𞤴𞤢𞥄𞤶𞤭 𞤒𞤵𞤳𞤫𞤪𞤫𞥅𞤲𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="UGX">
+				<displayName>𞤅𞤭𞤤𞤭𞤲 𞤓𞤺𞤢𞤲𞤣𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤧𞤭𞤤𞤭𞤲 𞤓𞤺𞤢𞤲𞤣𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤧𞤭𞤤𞤭𞤲𞤶𞤭 𞤓𞤺𞤢𞤲𞤣𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="USD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤁𞤫𞤲𞤼𞤢𞤤 𞤂𞤢𞤪𞤫 𞤀𞤥𞤫𞤪𞤭𞤳</displayName>
+				<displayName count="one">𞤁𞤢𞤤𞤢 𞤁𞤫𞤲𞤼𞤢𞤤 𞤂𞤢𞤪𞤫 𞤀𞤥𞤫𞤪𞤭𞤳</displayName>
+				<displayName count="other">𞤁𞤢𞤤𞤢𞥄𞤶𞤭 𞤁𞤫𞤲𞤼𞤢𞤤 𞤂𞤢𞤪𞤫 𞤀𞤥𞤫𞤪𞤭𞤳</displayName>
+				<symbol draft="contributed">US$</symbol>
+			</currency>
+			<currency type="UYU">
+				<displayName>𞤆𞤫𞤧𞤮 𞤓𞤪𞤵𞤺𞤵𞤪𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤆𞤫𞤧𞤮 𞤓𞤪𞤵𞤺𞤵𞤪𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤆𞤫𞤧𞤮𞥅𞤶𞤭 𞤓𞤪𞤵𞤺𞤵𞤪𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="UZS">
+				<displayName>𞤅𞤮𞤥𞤵 𞤓𞥁𞤦𞤫𞤳𞤭𞤧𞤼𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤧𞤮𞤥𞤵 𞤓𞥁𞤦𞤫𞤳𞤭𞤧𞤼𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤧𞤮𞤥𞤵𞥅𞤶𞤭 𞤓𞥁𞤦𞤫𞤳𞤭𞤧𞤼𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="VEF">
+				<displayName>𞤄𞤮𞤤𞤭𞤾𞤢𞥄𞤪 𞤜𞤫𞤲𞤭𞥅𞤧𞤫𞤤𞤢𞤲𞤳𞤮 (𞥒𞥐𞥐𞥘 - 𞥒𞥐𞥑𞥘)</displayName>
+				<displayName count="one">𞤄𞤮𞤤𞤭𞤾𞤢𞥄𞤪 𞤜𞤫𞤲𞤭𞥅𞤧𞤫𞤤𞤢𞤲𞤳𞤮 (𞥒𞥐𞥐𞥘 - 𞥒𞥐𞥑𞥘)</displayName>
+				<displayName count="other">𞤄𞤮𞤤𞤭𞤾𞤢𞥄𞤪𞤶𞤭 𞤜𞤫𞤲𞤭𞥅𞤧𞤫𞤤𞤢𞤲𞤳𞤮 (𞥒𞥐𞥐𞥘 - 𞥒𞥐𞥑𞥘)</displayName>
+			</currency>
+			<currency type="VES">
+				<displayName>𞤄𞤮𞤤𞤭𞤾𞤢𞥄𞤪 𞤜𞤫𞤲𞤭𞥅𞤧𞤫𞤤𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤄𞤮𞤤𞤭𞤾𞤢𞥄𞤪 𞤜𞤫𞤲𞤭𞥅𞤧𞤫𞤤𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤄𞤮𞤤𞤭𞤾𞤢𞥄𞤪𞤶𞤭 𞤜𞤫𞤲𞤭𞥅𞤧𞤫𞤤𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="VND">
+				<displayName>𞤁𞤮𞤲𞤺𞤵 𞤜𞤭𞤴𞤫𞤼𞤭𞤲𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤣𞤮𞤲𞤺𞤵 𞤜𞤭𞤴𞤫𞤼𞤭𞤲𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤣𞤮𞤲𞤺𞤵𞥅𞤶𞤭 𞤜𞤭𞤴𞤫𞤼𞤭𞤲𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="VUV">
+				<displayName>𞤜𞤢𞤼𞤵 𞤜𞤢𞤲𞤵𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤾𞤢𞤼𞤵 𞤜𞤢𞤲𞤵𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤾𞤢𞤼𞤵𞥅𞤶𞤭 𞤜𞤢𞤲𞤵𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="WST">
+				<displayName>𞤚𞤢𞤤𞤢 𞤅𞤢𞤥𞤮𞤱𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤼𞤢𞤤𞤢 𞤅𞤢𞤥𞤮𞤱𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤼𞤢𞤤𞤢𞥄𞤶𞤭 𞤅𞤢𞤥𞤮𞤱𞤢𞤴𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="XAF">
+				<displayName>𞤊𞤢𞤪𞤢𞤲 𞤚𞤵𞤦𞤮𞥅𞤪𞤭 𞤀𞤬𞤪𞤭𞤳𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤬𞤢𞤪𞤢𞤲 𞤚𞤵𞤦𞤮𞥅𞤪𞤭 𞤀𞤬𞤪𞤭𞤳𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤬𞤢𞤪𞤢𞤲𞤶𞤭 𞤚𞤵𞤦𞤮𞥅𞤪𞤭 𞤀𞤬𞤪𞤭𞤳𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="XCD">
+				<displayName>𞤁𞤢𞤤𞤢 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤑𞤢𞤪𞤭𞤦𞤭𞤴𞤢</displayName>
+				<displayName count="one">𞤁𞤢𞤤𞤢 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤑𞤢𞤪𞤭𞤦𞤭𞤴𞤢</displayName>
+				<displayName count="other">𞤁𞤢𞤤𞤢𞥄𞤶𞤭 𞤊𞤵𞤯𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤑𞤢𞤪𞤭𞤦𞤭𞤴𞤢</displayName>
+			</currency>
+			<currency type="XOF">
+				<displayName>𞤊𞤢𞤪𞤢𞤲 𞤅𞤊𞤀 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤬𞤪𞤭𞤳𞤢</displayName>
+				<displayName count="one">𞤬𞤢𞤪𞤢𞤲 𞤅𞤊𞤀 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤬𞤪𞤭𞤳𞤢</displayName>
+				<displayName count="other">𞤬𞤢𞤪𞤢𞤲𞤶𞤭 𞤅𞤊𞤀 𞤖𞤭𞥅𞤪𞤲𞤢𞥄𞤲𞥋𞤺𞤫 𞤀𞤬𞤪𞤭𞤳𞤢</displayName>
+			</currency>
+			<currency type="XPF">
+				<displayName>𞤊𞤢𞤪𞤢𞤲 𞤅𞤊𞤆</displayName>
+				<displayName count="one">𞤬𞤢𞤪𞤢𞤲 𞤅𞤊𞤆</displayName>
+				<displayName count="other">𞤬𞤢𞤪𞤢𞤲𞤶𞤭 𞤅𞤊𞤆</displayName>
+			</currency>
+			<currency type="XXX">
+				<displayName>𞤐𞤄𞤵𞥅𞤯𞤭 𞤢𞤧-𞤢𞤲𞤣𞤢𞥄𞤯𞤭</displayName>
+				<displayName count="one">(𞤲𞤦𞤵𞥅𞤯𞤭 𞤲𞤺𞤵𞤥𞤭 𞤢𞤧-𞤢𞤲𞤣𞤢𞥄𞤯𞤭)</displayName>
+				<displayName count="other">𞤲𞤦𞤵𞥅𞤯𞤭 𞤢𞤧-𞤢𞤲𞤣𞤢𞥄𞤯𞤭</displayName>
+			</currency>
+			<currency type="YER">
+				<displayName>𞤈𞤭𞤴𞤢𞥄𞤤 𞤒𞤫𞤥𞤫𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤭𞤴𞤢𞥄𞤤 𞤒𞤫𞤥𞤫𞤲𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤭𞤴𞤢𞥄𞤤𞤶𞤭 𞤒𞤫𞤥𞤫𞤲𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="ZAR">
+				<displayName>𞤈𞤢𞤲𞤣𞤭 𞤂𞤫𞤴𞤤𞤫𞤴𞤪𞤭 𞤀𞤬𞤪𞤭𞤳𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤪𞤢𞤲𞤣𞤭 𞤂𞤫𞤴𞤤𞤫𞤴𞤪𞤭 𞤀𞤬𞤪𞤭𞤳𞤢𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤪𞤢𞤲𞤶𞤭 𞤂𞤫𞤴𞤤𞤫𞤴𞤪𞤭 𞤀𞤬𞤪𞤭𞤳𞤢𞤲𞤳𞤮</displayName>
+			</currency>
+			<currency type="ZMW">
+				<displayName>𞤑𞤢𞤱𞤢𞤧𞤢 𞤟𞤢𞤥𞤦𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="one">𞤳𞤢𞤱𞤢𞤧𞤢 𞤟𞤢𞤥𞤦𞤭𞤲𞤳𞤮</displayName>
+				<displayName count="other">𞤳𞤢𞤱𞤢𞤧𞤢𞥄𞤶𞤭 𞤟𞤢𞤥𞤦𞤭𞤲𞤳𞤮</displayName>
+			</currency>
+		</currencies>
+		<minimalPairs>
+			<pluralMinimalPairs count="one" draft="contributed">{0} 𞤻𞤢𞤤𞥆𞤢𞤤</pluralMinimalPairs>
+			<pluralMinimalPairs count="other" draft="contributed">{0} 𞤻𞤢𞤤𞤯𞤫</pluralMinimalPairs>
+			<ordinalMinimalPairs ordinal="other" draft="contributed">𞤎𞤫𞤼𞥆𞤭𞤪𞤫𞥅 {0} 𞤳𞤢 𞤻𞤢𞥄𞤥𞤮</ordinalMinimalPairs>
+		</minimalPairs>
+	</numbers>
+	<units>
+		<unitLength type="long">
+			<unit type="area-square-kilometer">
+				<displayName>𞤳𞤭𞤤𞤮𞤥𞤫𞥅𞤼𞤭 𞤶𞤢𞥄𞤣𞤭𞤲𞤳𞤮𞥅𞤶𞤭</displayName>
+				<unitPattern count="one">{0} 𞤳𞤭𞤤𞤮𞤥𞤫𞥅𞤼𞤮𞤤 𞤶𞤢𞥄𞤣𞤭𞤲𞤳𞤮𞤱𞤮𞤤</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤭𞤤𞤮𞤥𞤫𞥅𞤼𞤭 𞤶𞤢𞥄𞤣𞤭𞤲𞤳𞤮𞥅𞤶𞤭</unitPattern>
+				<perUnitPattern>{0}/𞤫 𞤳𞤭𞤤𞤮𞤥𞤫𞥅𞤼𞤮𞤤 𞤶𞤢𞥄𞤣𞤭𞤲𞤳𞤮𞤱𞤮𞤤</perUnitPattern>
+			</unit>
+			<unit type="area-hectare">
+				<displayName>𞤸𞤫𞤳𞤼𞤢𞥄𞤪𞤭</displayName>
+				<unitPattern count="one">{0} 𞤸𞤫𞤳𞤼𞤢𞥄𞤪𞤵</unitPattern>
+				<unitPattern count="other">{0} 𞤸𞤫𞤳𞤼𞤢𞥄𞤪𞤵𞥅𞤶𞤭</unitPattern>
+			</unit>
+			<unit type="duration-century">
+				<displayName>𞤼𞤫𞥅𞤥𞤭𞤲𞤢𞤲𞤯𞤫</displayName>
+				<unitPattern count="one">{0} 𞤼𞤫𞥅𞤥𞤭𞤲𞤢𞤲𞤣𞤫</unitPattern>
+				<unitPattern count="other">{0} 𞤼𞤫𞥅𞤥𞤭𞤲𞤢𞤲𞤯𞤫</unitPattern>
+			</unit>
+			<unit type="duration-year">
+				<displayName>𞤳𞤭𞤼𞤢𞥄𞤯𞤫</displayName>
+				<unitPattern count="one">{0} 𞤸𞤭𞤼𞤢𞥄𞤲𞥋𞤣𞤫</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤭𞤼𞤢𞥄𞤯𞤫</unitPattern>
+				<perUnitPattern>{0} 𞤲𞥋𞤣𞤫𞤪 𞤸𞤭𞤼𞤢𞥄𞤲𞥋𞤣𞤫</perUnitPattern>
+			</unit>
+			<unit type="duration-month">
+				<displayName>𞤤𞤫𞤦𞥆𞤭</displayName>
+				<unitPattern count="one">{0} 𞤤𞤫𞤱𞤪𞤵</unitPattern>
+				<unitPattern count="other">{0} 𞤤𞤫𞤦𞥆𞤭</unitPattern>
+				<perUnitPattern>{0} 𞤲𞥋𞤣𞤫𞤪 𞤤𞤫𞤱𞤪𞤵</perUnitPattern>
+			</unit>
+			<unit type="duration-week">
+				<displayName>𞤶𞤮𞤲𞤼𞤫</displayName>
+				<unitPattern count="one">{0} 𞤴𞤮𞤲𞤼𞤫𞤪𞤫</unitPattern>
+				<unitPattern count="other">{0} 𞤶𞤮𞤲𞤼𞤫</unitPattern>
+				<perUnitPattern>{0} 𞤲𞥋𞤣𞤫𞤪 𞤴𞤮𞤲𞤼𞤫𞤪𞤫</perUnitPattern>
+			</unit>
+			<unit type="duration-day">
+				<displayName>𞤻𞤢𞤤𞥆𞤢𞤤</displayName>
+				<unitPattern count="one">{0} 𞤻𞤢𞤤𞥆𞤢𞤤</unitPattern>
+				<unitPattern count="other">{0} 𞤻𞤢𞤤𞥆𞤫</unitPattern>
+				<perUnitPattern>{0} 𞤲𞥋𞤣𞤫𞤪 𞤻𞤢𞤤𞥆𞤢𞤤</perUnitPattern>
+			</unit>
+			<unit type="duration-hour">
+				<displayName>𞤲𞥋𞤶𞤢𞤥𞤤𞤭</displayName>
+				<unitPattern count="one">{0} 𞤲𞥋𞤶𞤢𞤥𞤲𞥋𞤣𞤭</unitPattern>
+				<unitPattern count="other">{0} 𞤲𞥋𞤶𞤢𞤥𞤤𞤭</unitPattern>
+				<perUnitPattern>{0} 𞤲𞥋𞤣𞤫𞤪 𞤲𞥋𞤶𞤢𞤥𞤲𞥋𞤣𞤭</perUnitPattern>
+			</unit>
+			<unit type="duration-minute">
+				<displayName>𞤳𞤮𞤶𞤮𞤥𞤶𞤫</displayName>
+				<unitPattern count="one">{0} 𞤸𞤮𞤶𞤮𞤥𞤪𞤫</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤮𞤶𞤮𞤥𞤶𞤫</unitPattern>
+				<perUnitPattern>{0} 𞤲𞥋𞤣𞤫𞤪 𞤸𞤮𞤶𞤮𞤥𞤪𞤫</perUnitPattern>
+			</unit>
+			<unit type="duration-second">
+				<displayName>𞤳𞤭𞤲𞤰𞤫</displayName>
+				<unitPattern count="one">{0} 𞤳𞤭𞤲𞤰𞤢𞤤</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤭𞤲𞤰𞤫</unitPattern>
+				<perUnitPattern>{0} 𞤲𞥋𞤣𞤫𞤪 𞤳𞤭𞤲𞤰𞤢𞤤</perUnitPattern>
+			</unit>
+			<unit type="duration-millisecond">
+				<displayName>𞤤𞤫𞤤𞤳𞤭𞤲𞤰𞤫</displayName>
+				<unitPattern count="one">{0} 𞤤𞤫𞤤𞤳𞤭𞤲𞤰𞤢𞤤</unitPattern>
+				<unitPattern count="other">{0} 𞤤𞤫𞤤𞤳𞤭𞤲𞤰𞤫</unitPattern>
+			</unit>
+			<unit type="duration-microsecond">
+				<displayName>𞤻𞤭𞤤𞤢𞤳𞤭𞤲𞤰𞤫</displayName>
+				<unitPattern count="one">{0} 𞤻𞤭𞤤𞤢𞤳𞤭𞤲𞤰𞤢𞤤</unitPattern>
+				<unitPattern count="other">{0} 𞤻𞤭𞤤𞤢𞤳𞤭𞤲𞤰𞤫</unitPattern>
+			</unit>
+			<unit type="duration-nanosecond">
+				<displayName>𞤲𞤢𞤲𞤮𞥅𞤳𞤭𞤲𞤰𞤫</displayName>
+				<unitPattern count="one">{0} 𞤲𞤢𞤲𞤮𞥅𞤳𞤭𞤲𞤰𞤢𞤤</unitPattern>
+				<unitPattern count="other">{0} 𞤲𞤢𞤲𞤮𞥅𞤳𞤭𞤲𞤰𞤫</unitPattern>
+			</unit>
+			<unit type="length-kilometer">
+				<displayName>𞤳𞤭𞤤𞤮𞤥𞤫𞥅𞤼𞤭</displayName>
+				<unitPattern count="one">{0} 𞤳𞤭𞤤𞤮𞤥𞤫𞥅𞤼𞤮𞤤</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤭𞤤𞤮𞤥𞤫𞥅𞤼𞤭</unitPattern>
+				<perUnitPattern>{0} 𞤳𞤭𞤤𞤮𞤥𞤫𞥅𞤼𞤮𞤤</perUnitPattern>
+			</unit>
+			<unit type="length-meter">
+				<displayName>𞤥𞤫𞥅𞤼𞤭</displayName>
+				<unitPattern count="one">{0}/𞤥𞤫𞥅𞤼𞤮𞤤</unitPattern>
+				<unitPattern count="other">{0}/𞤥𞤫𞥅𞤼𞤭</unitPattern>
+				<perUnitPattern>{0}/𞤫 𞤥𞤫𞥅𞤼𞤮𞤤</perUnitPattern>
+			</unit>
+			<unit type="length-decimeter">
+				<displayName>𞤣𞤫𞤧𞤭𞤥𞤫𞥅𞤼𞤭</displayName>
+				<unitPattern count="one">{0} 𞤣𞤫𞤧𞤭𞤥𞤫𞥅𞤼𞤮𞤤</unitPattern>
+				<unitPattern count="other">{0} 𞤣𞤫𞤧𞤭𞤥𞤫𞥅𞤼𞤭</unitPattern>
+			</unit>
+			<unit type="length-centimeter">
+				<displayName>𞤧𞤢𞤲𞤼𞤭𞤥𞤫𞥅𞤼𞤭</displayName>
+				<unitPattern count="one">{0} 𞤧𞤢𞤲𞤼𞤭𞤥𞤫𞥅𞤼𞤮𞤤</unitPattern>
+				<unitPattern count="other">{0} 𞤧𞤫𞤲𞤼𞤭𞤥𞤫𞥅𞤼𞤭</unitPattern>
+				<perUnitPattern>{0} 𞤧𞤢𞤲𞤼𞤭𞤥𞤫𞥅𞤼𞤮𞤤</perUnitPattern>
+			</unit>
+			<unit type="length-millimeter">
+				<displayName>𞤥𞤭𞤤𞤭𞤥𞤫𞥅𞤼𞤭</displayName>
+				<unitPattern count="one">{0} 𞤥𞤭𞤤𞤭𞤥𞤫𞥅𞤼𞤮𞤤</unitPattern>
+				<unitPattern count="other">{0} 𞤥𞤭𞤤𞤭𞤥𞤫𞥅𞤼𞤭</unitPattern>
+			</unit>
+			<unit type="length-micrometer">
+				<displayName>𞤻𞤭𞤤𞤢𞤥𞤫𞥅𞤼𞤭</displayName>
+				<unitPattern count="one">{0} 𞤻𞤭𞤤𞤢𞤥𞤫𞥅𞤼𞤮𞤤</unitPattern>
+				<unitPattern count="other">{0} 𞤻𞤭𞤤𞤢𞤥𞤫𞥅𞤼𞤭</unitPattern>
+			</unit>
+			<unit type="length-nanometer">
+				<displayName>𞤲𞤢𞤲𞤮𞤥𞤫𞥅𞤼𞤭</displayName>
+				<unitPattern count="one">{0} 𞤲𞤢𞤲𞤮𞤥𞤫𞥅𞤼𞤮𞤤</unitPattern>
+				<unitPattern count="other">{0} 𞤲𞤢𞤲𞤮𞤥𞤫𞥅𞤼𞤭</unitPattern>
+			</unit>
+			<unit type="length-picometer">
+				<displayName>𞤨𞤭𞤳𞤮𞤥𞤫𞥅𞤼𞤭</displayName>
+				<unitPattern count="one">{0} 𞤨𞤭𞤳𞤮𞤥𞤫𞥅𞤼𞤮𞤤</unitPattern>
+				<unitPattern count="other">{0} 𞤨𞤭𞤳𞤮𞤥𞤫𞥅𞤼𞤭</unitPattern>
+			</unit>
+			<unit type="length-mile">
+				<displayName>𞤥𞤢𞤴𞤤𞤭</displayName>
+				<unitPattern count="one">{0} 𞤥𞤢𞤴𞤤𞤵</unitPattern>
+				<unitPattern count="other">{0} 𞤥𞤢𞤴𞤤𞤭</unitPattern>
+			</unit>
+			<unit type="length-yard">
+				<displayName>𞤴𞤢𞤪𞤣𞤵𞥅𞤶𞤭</displayName>
+				<unitPattern count="one">{0} 𞤴𞤢𞤪𞤣𞤵</unitPattern>
+				<unitPattern count="other">{0} 𞤴𞤢𞤪𞤣𞤵𞥅𞤶𞤭</unitPattern>
+			</unit>
+			<unit type="length-foot">
+				<displayName>𞤼𞤫𞤨𞥆𞤫</displayName>
+				<unitPattern count="one">{0} 𞤼𞤫𞤨𞥆𞤫𞤪𞤫</unitPattern>
+				<unitPattern count="other">{0} 𞤼𞤫𞤨𞥆𞤫</unitPattern>
+				<perUnitPattern>{0}/𞤫 𞤼𞤫𞤨𞥆𞤫𞤪𞤫</perUnitPattern>
+			</unit>
+			<unit type="length-inch">
+				<displayName>𞤺𞤮𞤪𞤭</displayName>
+				<unitPattern count="one">{0} 𞤺𞤮𞤪𞤲𞤣𞤵</unitPattern>
+				<unitPattern count="other">{0} 𞤺𞤮𞤪𞤭</unitPattern>
+				<perUnitPattern>{0} 𞤫 𞤺𞤮𞤪𞤲𞤣𞤵</perUnitPattern>
+			</unit>
+			<unit type="length-parsec">
+				<displayName>𞤨𞤢𞤪𞤧𞤫𞤳𞤭</displayName>
+				<unitPattern count="one">{0} 𞤨𞤢𞤪𞤧𞤫𞤳𞤵</unitPattern>
+				<unitPattern count="other">{0} 𞤨𞤢𞤪𞤧𞤫𞤳𞤭</unitPattern>
+			</unit>
+			<unit type="length-light-year">
+				<displayName>𞤳𞤭𞤼𞤢𞥄𞤤𞤫-𞤲𞤣𞤢𞤴𞤲𞤺𞤵</displayName>
+				<unitPattern count="one">{0} 𞤸𞤭𞤼𞤢𞥄𞤲𞤣𞤫-𞤲𞤣𞤢𞤴𞤲𞤺𞤵</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤭𞤼𞤢𞥄𞤤𞤫-𞤲𞤣𞤢𞤴𞤲𞤺𞤵</unitPattern>
+			</unit>
+			<unit type="length-astronomical-unit">
+				<displayName>𞤺𞤵𞤥𞤫 𞤦𞤵𞤪𞤶𞤵𞤲𞤳𞤮𞤶𞤵𞤲</displayName>
+				<unitPattern count="one">{0} 𞤺𞤵𞤥𞤪𞤫 𞤦𞤵𞤪𞤶𞤵𞤲𞤳𞤮𞤶𞤵𞤲</unitPattern>
+				<unitPattern count="other">{0} 𞤺𞤵𞤥𞤫 𞤦𞤵𞤪𞤶𞤵𞤲𞤳𞤮𞤶𞤵𞤲</unitPattern>
+			</unit>
+			<unit type="length-nautical-mile">
+				<displayName>𞤥𞤢𞤴𞤤𞤭 𞤥𞤢𞥄𞤶𞤫𞤴𞤢𞤲𞤳𞤮</displayName>
+				<unitPattern count="one">{0} 𞤥𞤢𞤴𞤤𞤵 𞤥𞤢𞥄𞤶𞤫𞤴𞤢𞤲𞤳𞤮</unitPattern>
+				<unitPattern count="other">{0} 𞤥𞤢𞤴𞤤𞤭 𞤥𞤢𞥄𞤶𞤫𞤴𞤢𞤲𞤳𞤮</unitPattern>
+			</unit>
+			<unit type="length-mile-scandinavian">
+				<displayName>𞤥𞤢𞤴𞤤𞤵 𞤧𞤭𞤳𞤢𞤣𞤭𞤲𞤢𞥄𞤾𞤭𞤴𞤢𞤲𞤳𞤮</displayName>
+				<unitPattern count="one">{0} 𞤥𞤢𞤴𞤤𞤵 𞤧𞤭𞤳𞤢𞤣𞤭𞤲𞤢𞥄𞤾𞤭𞤴𞤢𞤲𞤳𞤮</unitPattern>
+				<unitPattern count="other">{0} 𞤥𞤢𞤴𞤤𞤭 𞤧𞤭𞤳𞤢𞤣𞤭𞤲𞤢𞥄𞤾𞤭𞤴𞤢𞤲𞤳𞤮</unitPattern>
+			</unit>
+			<unit type="length-point">
+				<displayName>𞤼𞤮𞤩𞥆𞤫</displayName>
+				<unitPattern count="one">{0} 𞤼𞤮𞤩𞥆𞤫𞤪𞤫</unitPattern>
+				<unitPattern count="other">{0} 𞤼𞤮𞤩𞥆𞤫</unitPattern>
+			</unit>
+		</unitLength>
+		<unitLength type="short">
+			<unit type="area-square-kilometer">
+				<displayName>𞤳𞤥𞥒</displayName>
+				<unitPattern count="one">{0} 𞤳𞤥𞥒</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤥𞥒</unitPattern>
+				<perUnitPattern>{0}/𞤳𞤥𞥒</perUnitPattern>
+			</unit>
+			<unit type="area-hectare">
+				<displayName>𞤸𞤢</displayName>
+				<unitPattern count="one">{0} 𞤸𞤢</unitPattern>
+				<unitPattern count="other">{0} 𞤸𞤢</unitPattern>
+			</unit>
+			<unit type="duration-century">
+				<displayName>𞤼</displayName>
+				<unitPattern count="one">{0} 𞤼</unitPattern>
+				<unitPattern count="other">{0} 𞤼</unitPattern>
+			</unit>
+			<unit type="duration-year">
+				<displayName>𞤳𞤭𞤼𞤢𞥄𞤯𞤫</displayName>
+				<unitPattern count="one">{0} 𞤸𞤭𞤼</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤭𞤼</unitPattern>
+				<perUnitPattern>{0}/𞤸𞤭𞤼𞤢𞥄𞤲𞥋𞤣𞤫</perUnitPattern>
+			</unit>
+			<unit type="duration-month">
+				<displayName>𞤤𞤫𞤦𞥆𞤭</displayName>
+				<unitPattern count="one">{0}/𞤳𞤭𞤼</unitPattern>
+				<unitPattern count="other">{0} 𞤤𞤫𞤦</unitPattern>
+				<perUnitPattern>{0}/𞤤𞤫𞤱</perUnitPattern>
+			</unit>
+			<unit type="duration-week">
+				<displayName>𞤶𞤼</displayName>
+				<unitPattern count="one">{0} 𞤴𞤼</unitPattern>
+				<unitPattern count="other">{0} 𞤶𞤼</unitPattern>
+				<perUnitPattern>{0}/𞤴𞤼</perUnitPattern>
+			</unit>
+			<unit type="duration-day">
+				<displayName>𞤻𞤢𞤤.</displayName>
+				<unitPattern count="one">{0} 𞤻𞤢𞤤.</unitPattern>
+				<unitPattern count="other">{0} 𞤻𞤢𞤤.</unitPattern>
+				<perUnitPattern>{0}/𞤻𞤢𞤤.</perUnitPattern>
+			</unit>
+			<unit type="duration-hour">
+				<displayName>𞤶𞤢</displayName>
+				<unitPattern count="one">{0} 𞤶𞤢</unitPattern>
+				<unitPattern count="other">{0} 𞤶𞤢</unitPattern>
+				<perUnitPattern>{0}/𞤶𞤢</perUnitPattern>
+			</unit>
+			<unit type="duration-minute">
+				<displayName>𞤸𞤮𞤶</displayName>
+				<unitPattern count="one">{0} 𞤸𞤮𞤶</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤮𞤶</unitPattern>
+				<perUnitPattern>{0}/𞤸𞤮𞤶</perUnitPattern>
+			</unit>
+			<unit type="duration-second">
+				<displayName>𞤳𞤭𞤲</displayName>
+				<unitPattern count="one">{0} 𞤳𞤭𞤲</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤭𞤲</unitPattern>
+				<perUnitPattern>{0}/𞤳𞤭𞤲</perUnitPattern>
+			</unit>
+			<unit type="duration-millisecond">
+				<displayName>𞤤𞤳𞤭𞤲</displayName>
+				<unitPattern count="one">{0} 𞤤𞤳𞤭𞤲</unitPattern>
+				<unitPattern count="other">{0} 𞤤𞤳𞤭𞤲</unitPattern>
+			</unit>
+			<unit type="duration-microsecond">
+				<displayName>𞤻𞤳𞤭𞤲</displayName>
+				<unitPattern count="one">{0} 𞤻𞤳𞤭𞤲</unitPattern>
+				<unitPattern count="other">{0} 𞤻𞤳𞤭𞤲</unitPattern>
+			</unit>
+			<unit type="duration-nanosecond">
+				<displayName>𞤲𞤳𞤭𞤲</displayName>
+				<unitPattern count="one">{0} 𞤲𞤳𞤭𞤲</unitPattern>
+				<unitPattern count="other">{0} 𞤲𞤳𞤭𞤲</unitPattern>
+			</unit>
+			<unit type="length-kilometer">
+				<displayName>𞤳𞤥</displayName>
+				<unitPattern count="one">{0} 𞤳𞤥</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤥</unitPattern>
+				<perUnitPattern>{0}/𞤳𞤥</perUnitPattern>
+			</unit>
+			<unit type="length-meter">
+				<displayName>𞤥</displayName>
+				<unitPattern count="one">{0}/𞤥</unitPattern>
+				<unitPattern count="other">{0}/𞤥</unitPattern>
+				<perUnitPattern>{0}/𞤥</perUnitPattern>
+			</unit>
+			<unit type="length-decimeter">
+				<displayName>𞤣𞤥</displayName>
+				<unitPattern count="one">{0} 𞤣𞤥</unitPattern>
+				<unitPattern count="other">{0} 𞤣𞤥</unitPattern>
+			</unit>
+			<unit type="length-centimeter">
+				<displayName>𞤧𞤥</displayName>
+				<unitPattern count="one">{0} 𞤧𞤥</unitPattern>
+				<unitPattern count="other">{0} 𞤧𞤥</unitPattern>
+				<perUnitPattern>{0}/𞤧𞤥</perUnitPattern>
+			</unit>
+			<unit type="length-millimeter">
+				<displayName>𞤥𞤥</displayName>
+				<unitPattern count="one">{0} 𞤥𞤥</unitPattern>
+				<unitPattern count="other">{0} 𞤥𞤥</unitPattern>
+			</unit>
+			<unit type="length-micrometer">
+				<displayName>𞤻𞤥</displayName>
+				<unitPattern count="one">{0} 𞤻𞤥</unitPattern>
+				<unitPattern count="other">{0} 𞤻𞤥</unitPattern>
+			</unit>
+			<unit type="length-nanometer">
+				<displayName>𞤲𞤥</displayName>
+				<unitPattern count="one">{0} 𞤲𞤥</unitPattern>
+				<unitPattern count="other">{0} 𞤲𞤥</unitPattern>
+			</unit>
+			<unit type="length-picometer">
+				<displayName>𞤨𞤥</displayName>
+				<unitPattern count="one">{0} 𞤨𞤥</unitPattern>
+				<unitPattern count="other">{0} 𞤨𞤥</unitPattern>
+			</unit>
+			<unit type="length-mile">
+				<displayName>𞤥𞤢</displayName>
+				<unitPattern count="one">{0} 𞤥𞤢</unitPattern>
+				<unitPattern count="other">{0} 𞤥𞤢</unitPattern>
+			</unit>
+			<unit type="length-yard">
+				<displayName>𞤴𞤣</displayName>
+				<unitPattern count="one">{0} 𞤴𞤣</unitPattern>
+				<unitPattern count="other">{0} 𞤴𞤣</unitPattern>
+			</unit>
+			<unit type="length-foot">
+				<displayName>𞤼𞤫</displayName>
+				<unitPattern count="one">{0} 𞤼𞤫</unitPattern>
+				<unitPattern count="other">{0} 𞤼𞤫</unitPattern>
+				<perUnitPattern>{0}/𞤼𞤫</perUnitPattern>
+			</unit>
+			<unit type="length-inch">
+				<displayName>𞤺𞤮</displayName>
+				<unitPattern count="one">{0} 𞤺𞤮</unitPattern>
+				<unitPattern count="other">{0} 𞤺𞤮</unitPattern>
+				<perUnitPattern>{0}/𞤺𞤮</perUnitPattern>
+			</unit>
+			<unit type="length-parsec">
+				<displayName>𞤨𞤧</displayName>
+				<unitPattern count="one">{0} 𞤨𞤧</unitPattern>
+				<unitPattern count="other">{0} 𞤨𞤧</unitPattern>
+			</unit>
+			<unit type="length-light-year">
+				<displayName>𞤳𞤣</displayName>
+				<unitPattern count="one">{0} 𞤸𞤣</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤣</unitPattern>
+			</unit>
+			<unit type="length-astronomical-unit">
+				<displayName>𞤺𞤭</displayName>
+				<unitPattern count="one">{0} 𞤺𞤭</unitPattern>
+				<unitPattern count="other">{0} 𞤺𞤭</unitPattern>
+			</unit>
+			<unit type="length-nautical-mile">
+				<displayName>𞤥𞤢𞤥</displayName>
+				<unitPattern count="one">{0} 𞤥𞤢𞤥</unitPattern>
+				<unitPattern count="other">{0} 𞤥𞤢𞤥</unitPattern>
+			</unit>
+			<unit type="length-mile-scandinavian">
+				<displayName>𞤥𞤢𞤧</displayName>
+				<unitPattern count="one">{0} 𞤥𞤢𞤧</unitPattern>
+				<unitPattern count="other">{0} 𞤥𞤢𞤧</unitPattern>
+			</unit>
+			<unit type="length-point">
+				<displayName>𞤼𞤩</displayName>
+				<unitPattern count="one">{0} 𞤼𞤩</unitPattern>
+				<unitPattern count="other">{0} 𞤼𞤩</unitPattern>
+			</unit>
+		</unitLength>
+		<unitLength type="narrow">
+			<unit type="duration-year">
+				<displayName>𞤸𞤭𞤼</displayName>
+				<unitPattern count="one">{0} 𞤳𞤭𞤼</unitPattern>
+				<unitPattern count="other">{0}/𞤳𞤭𞤼</unitPattern>
+			</unit>
+			<unit type="duration-month">
+				<displayName>𞤤𞤫𞤦𞥆𞤭</displayName>
+				<unitPattern count="one">{0} 𞤤𞤫𞤱</unitPattern>
+				<unitPattern count="other">{0} 𞤤𞤫𞤦</unitPattern>
+			</unit>
+			<unit type="duration-week">
+				<displayName>𞤶𞤼</displayName>
+				<unitPattern count="one">{0} 𞤴𞤼</unitPattern>
+				<unitPattern count="other">{0} 𞤶𞤼</unitPattern>
+			</unit>
+			<unit type="duration-day">
+				<displayName>𞤻𞤢𞤤.</displayName>
+				<unitPattern count="one">{0} 𞤻𞤢𞤤.</unitPattern>
+				<unitPattern count="other">{0} 𞤻𞤢𞤤.</unitPattern>
+			</unit>
+			<unit type="duration-hour">
+				<displayName>𞤶𞤢</displayName>
+				<unitPattern count="one">{0} 𞤶𞤢</unitPattern>
+				<unitPattern count="other">{0} 𞤶𞤢</unitPattern>
+			</unit>
+			<unit type="duration-minute">
+				<displayName>𞤸𞤮𞤶</displayName>
+				<unitPattern count="one">{0} 𞤸𞤮𞤶</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤮𞤶</unitPattern>
+			</unit>
+			<unit type="duration-second">
+				<displayName>𞤳𞤭𞤲</displayName>
+				<unitPattern count="one">{0} 𞤳𞤭𞤲</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤭𞤲</unitPattern>
+			</unit>
+			<unit type="duration-millisecond">
+				<displayName>𞤤𞤳𞤭𞤲</displayName>
+				<unitPattern count="one">{0} 𞤤𞤳𞤭</unitPattern>
+				<unitPattern count="other">{0} 𞤤𞤳𞤭</unitPattern>
+			</unit>
+			<unit type="length-kilometer">
+				<displayName>𞤳𞤥</displayName>
+				<unitPattern count="one">{0} 𞤳𞤥</unitPattern>
+				<unitPattern count="other">{0} 𞤳𞤥</unitPattern>
+			</unit>
+			<unit type="length-meter">
+				<displayName>𞤥</displayName>
+				<unitPattern count="one">{0}/𞤥</unitPattern>
+				<unitPattern count="other">{0}/𞤥</unitPattern>
+			</unit>
+			<unit type="length-centimeter">
+				<displayName>𞤧𞤥</displayName>
+				<unitPattern count="one">{0} 𞤧𞤥</unitPattern>
+				<unitPattern count="other">{0} 𞤧𞤥</unitPattern>
+			</unit>
+			<unit type="length-millimeter">
+				<displayName>𞤥𞤥</displayName>
+				<unitPattern count="one">{0} 𞤥𞤥</unitPattern>
+				<unitPattern count="other">{0} 𞤥𞤥</unitPattern>
+			</unit>
+		</unitLength>
+	</units>
+</ldml>
