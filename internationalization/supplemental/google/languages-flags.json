@@ -1,0 +1,218 @@
+[
+    {
+        "code": "en-US",
+        "flag": "us",
+        "country": "United States",
+        "language": "English"
+    },
+    {
+        "code": "pt-BR",
+        "flag": "br",
+        "country": "Brazil",
+        "language": "Portuguese"
+    },
+    {
+        "code": "en-CA",
+        "flag": "ca",
+        "country": "Canada",
+        "language": "English"
+    },
+    {
+        "code": "fr-CA",
+        "flag": "ca",
+        "country": "Canada",
+        "language": "French"
+    },
+    {
+        "code": "es-MX",
+        "flag": "mx",
+        "country": "Mexico",
+        "language": "Spanish"
+    },
+    {
+        "code": "es-PR",
+        "flag": "pr",
+        "country": "Puerto Rico",
+        "language": "Spanish"
+    },
+    {
+        "code": "en-AU",
+        "flag": "au",
+        "country": "Australia",
+        "language": "English"
+    },
+    {
+        "code": "zh-HK",
+        "flag": "hk",
+        "country": "Hong Kong",
+        "language": "Chinese"
+    },
+    {
+        "code": "en-HK",
+        "flag": "hk",
+        "country": "Hong Kong",
+        "language": "English"
+    },
+    {
+        "code": "en-IN",
+        "flag": "in",
+        "country": "India",
+        "language": "English"
+    },
+    {
+        "code": "in-ID",
+        "flag": "id",
+        "country": "Indonesia",
+        "language": "Indonesian"
+    },
+    {
+        "code": "ja-JP",
+        "flag": "jp",
+        "country": "Japan",
+        "language": "Japanese"
+    },
+    {
+        "code": "ko-KR",
+        "flag": "kr",
+        "country": "South Korea",
+        "language": "Korean"
+    },
+    {
+        "code": "en-MY",
+        "flag": "my",
+        "country": "Malaysia",
+        "language": "English"
+    },
+    {
+        "code": "en-NZ",
+        "flag": "nz",
+        "country": "New Zealand",
+        "language": "English"
+    },
+    {
+        "code": "en-PH",
+        "flag": "ph",
+        "country": "Philippines",
+        "language": "English"
+    },
+    {
+        "code": "en-SG",
+        "flag": "sg",
+        "country": "Singapore",
+        "language": "English"
+    },
+    {
+        "code": "zh-TW",
+        "flag": "tw",
+        "country": "Taiwan",
+        "language": "Chinese"
+    },
+    {
+        "code": "th-TH",
+        "flag": "th",
+        "country": "Thailand",
+        "language": "Thai"
+    },
+    {
+        "code": "de-AT",
+        "flag": "at",
+        "country": "Austria",
+        "language": "German"
+    },
+    {
+        "code": "nl-BE",
+        "flag": "be",
+        "country": "Belgium",
+        "language": "Dutch"
+    },
+    {
+        "code": "fr-BE",
+        "flag": "be",
+        "country": "Belgium",
+        "language": "French"
+    },
+    {
+        "code": "da-DK",
+        "flag": "dk",
+        "country": "Denmark",
+        "language": "Danish"
+    },
+    {
+        "code": "fi-FI",
+        "flag": "fi",
+        "country": "Finland",
+        "language": "Finnish"
+    },
+    {
+        "code": "fr-FR",
+        "flag": "fr",
+        "country": "France",
+        "language": "French"
+    },
+    {
+        "code": "de-DE",
+        "flag": "de",
+        "country": "Germany",
+        "language": "German"
+    },
+    {
+        "code": "en-IE",
+        "flag": "ie",
+        "country": "Ireland",
+        "language": "English"
+    },
+    {
+        "code": "it-IT",
+        "flag": "it",
+        "country": "Italy",
+        "language": "Italian"
+    },
+    {
+        "code": "nl-NL",
+        "flag": "nl",
+        "country": "Netherlands",
+        "language": "Dutch"
+    },
+    {
+        "code": "no-NO",
+        "flag": "no",
+        "country": "Norway",
+        "language": "Norwegian"
+    },
+    {
+        "code": "pt-PT",
+        "flag": "pt",
+        "country": "Portugal",
+        "language": "Portuguese"
+    },
+    {
+        "code": "es-ES",
+        "flag": "es",
+        "country": "Spain",
+        "language": "Spanish"
+    },
+    {
+        "code": "sv-SE",
+        "flag": "se",
+        "country": "Sweden",
+        "language": "Swedish"
+    },
+    {
+        "code": "de-CH",
+        "flag": "ch",
+        "country": "Switzerland",
+        "language": "German"
+    },
+    {
+        "code": "fr-CH",
+        "flag": "ch",
+        "country": "Switzerland",
+        "language": "French"
+    },
+    {
+        "code": "en-GB",
+        "flag": "uk",
+        "country": "United Kingdom",
+        "language": "English"
+    }
+]

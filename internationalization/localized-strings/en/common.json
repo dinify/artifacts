@@ -1,0 +1,50 @@
+{
+  "user": {
+    "signIn": "Sign in",
+    "logOut": "Log out"
+  },
+  "phone": {
+    "short": "Phone",
+    "long": "Phone number"
+  },
+  "email": {
+    "short": "Email",
+    "long": "Email address"
+  },
+  "auth": {
+    "appFormSubtitle": "in order to be able to order, pay and interact with staff in the restaurant",
+    "dashboardFormSubtitle": "to start setting things up, sign in with your email or social media account",
+    "forgotPwdFormSubtitle": "enter the email address you use to sign in to get a password reset email",
+    "signInWithPassword": "Sign in with password",
+    "createAccount": "Create account",
+    "forgotPassword": "Forgot password",
+    "sendEmail": "Send email",
+    "newAccount": "New account",
+    "continueWithEmail": "Continue with email",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "password": "Password",
+    "or": "or",
+    "continueWithFacebook": "Continue with Facebook",
+    "continueWithGoogle": "Continue with Google",
+    "invalid-email": "The email address is invalid",
+    "email-already-in-use": "The email address is already in use",
+    "weak-password": "The password is too weak",
+    "user-disabled": "This account has been disabled",
+    "user-not-found": "No account found with this email",
+    "wrong-password": "The passoword is incorrect"
+  },
+  "suggested": "Suggested",
+  "selectLanguage": "Select language",
+  "selectCountry": "Select country",
+  "selectCurrency": "Select currency",
+  "back": "Back",
+  "next": "Next",
+  "select": "Select",
+  "clear": "Clear",
+  "clear": "Cancel",
+  "search": "Search",
+  "loadingEllipsis": "Loading...",
+  "saved": "Saved successfully ✅",
+  "saveFailed": "Updating failed, check entered information"
+}

@@ -1,0 +1,92 @@
+{
+  "menu": {
+    "title": "Jídelní lístek",
+    "caption": "Vše, co můžete dostat do {{restaurant.name}}"
+  },
+  "address": "Adresa",
+  "hours": {
+    "open": "Otevřít teď",
+    "closed": "Zavřeno",
+    "opens_at": "Otevírá se {{time, time:short}}",
+    "closes_at": "Zavírá na {{time, time:short}}"
+  },
+  "website": "Webová stránka",
+  "nav": {
+    "explore": "Prozkoumat",
+    "eat": "Jíst",
+    "service": "Služba"
+  },
+  "ingredients": "Přísady",
+  "addons": "Doplněk",
+  "subtotal": "Mezisoučet",
+  "serviceFee": "Poplatek za službu",
+  "order": "Objednat",
+  "camera": {
+    "notAvailable": {
+      "title": "Kamera není k dispozici",
+      "subtitle": "Kamera prohlížeče není k dispozici v tomto zařízení"
+    },
+    "takePhoto": "Vyfoťte ji"
+  },
+  "service": {
+    "title": "Volání na službu",
+    "subtitle": "Díky této funkci můžete požádat o jakýkoliv druh koření nebo nádobí na váš stůl.",
+    "instruction": "Příjezd skenováním QR kód v restauraci v blízkosti, abyste mohli začít.",
+    "types": {
+      "tableware": "Stolování",
+      "condiments": "Koření"
+    }
+  },
+  "bill": {
+    "title": "Účtovat",
+    "split": "Rozdělit",
+    "selecting": "Vyberte položky v návrhu zákona",
+    "splittingWith": "Je rozdělena mezi:",
+    "splittingWith_zero": "Vyberte uživatele",
+    "splittingCount": "{{count, number}} osoba",
+    "splittingCount_plural": "{{count, number}} osoby",
+    "itemCountSelected": "{{count, number}} vybraná položka",
+    "itemCountSelected_plural": "{{count, number}} vybrané položky",
+    "itemCountSelected_none": "Žádné položky vybrané"
+  },
+  "gratuity": "Spropitné",
+  "pay": "Platit",
+  "paymentPending": "Čekání na platbu...",
+  "editing": "Editace",
+  "profile": "Profil",
+  "dashboard": "Přístrojová deska",
+  "currency": {
+    "title": "Displej měny",
+    "set": "Nastavena měna display",
+    "original": "Zobrazující ceny v původní měně",
+    "other": "Ostatní měny"
+  },
+  "roles": {
+    "title": "Role",
+    "manager": "Manažer",
+    "waiter": "Číšník",
+    "cook": "Kuchařka",
+    "proofreader": "Korektor"
+  },
+  "language": {
+    "setPrimary": "Nastavit primární jazyk",
+    "default": "Základní jazyk",
+    "other": "Jiné jazyky",
+    "addOther": "Přidat další jazyk"
+  },
+  "cart": {
+    "title": "Košík",
+    "itemCount": "{{count, number}} kus",
+    "itemCount_plural": "{{count, number}} kusy",
+    "itemCount_none": "Prázdný",
+    "add": "Přidat do košíku",
+    "checkInInstructions": "Chcete-li začít, skenování QR kódu v restauraci poblíž"
+  },
+  "nutrition": {
+    "facts": "Nutriční údaje",
+    "fats": "Tuky",
+    "carbs": "Sacharidy",
+    "proteins": "Bílkoviny",
+    "calories": "Kalorie"
+  }
+}

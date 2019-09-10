@@ -1,0 +1,108 @@
+{
+  "menu": {
+    "title": "Menu",
+    "caption": "Everything you can get in {{restaurant.name}}"
+  },
+  "address": "Address",
+  "hours": {
+    "open": "Open now",
+    "closed": "Closed",
+    "opens_at": "Opens at {{time, time:short}}",
+    "closes_at": "Closes at {{time, time:short}}"
+  },
+  "website": "Website",
+  "nav": {
+    "explore": "Explore",
+    "dineIn": "Dine in",
+    "account": "Account",
+    "menu": "Menu",
+    "settings": "Settings"
+  },
+  "dinein": {
+    "checkedin": "you are currently checked in",
+    "actions": "Actions",
+    "seeMenu": "See restaurant menu",
+    "callService": "Call a service"
+  },
+  "ingredients": "Ingredients",
+  "addons": "Addons",
+  "subtotal": "Subtotal",
+  "total": "Total",
+  "totalConverted": "Total ({{currencyName}})",
+  "serviceFee": "Service fee",
+  "order": "Order",
+  "camera": {
+    "notAvailable": {
+      "title": "Camera not available",
+      "subtitle": "The in-browser camera is not available on this device"
+    },
+    "takePhoto": "Take a photo"
+  },
+  "service": {
+    "title": "Call a service",
+    "subtitle": "With this feature, you can request a any kind of condiment or tableware to your table.",
+    "instruction": "Check in by scanning the QR code in a restaurant near you to get started.",
+    "types": {
+      "tableware": "Tableware",
+      "condiments": "Condiments"
+    }
+  },
+  "bill": {
+    "title": "Bill",
+    "split": "Split",
+    "selecting": "Select bill items to split with others",
+    "splittingWith": "Splitting with {{list, list}}",
+    "splittingWith_zero": "Select users to split with",
+    "splittingCount": "Splitting with {{count, number}} person",
+    "splittingCount_plural": "Splitting between {{count, number}} people",
+    "itemCountSelected": "{{count, number}} item selected",
+    "itemCountSelected_plural": "{{count, number}} items selected",
+    "itemCountSelected_none": "no items selected"
+  },
+  "meParentheses": "(me)",
+  "gratuity": "Gratuity",
+  "pay": "Pay",
+  "paymentPending": "Awaiting payment confirmation...",
+  "editing": "editing",
+  "profile": "Profile",
+  "dashboard": "Dashboard",
+  "waiterboard": "Waiterboard",
+  "currency": {
+    "title": "Display currency",
+    "set": "Set display currency",
+    "original": "Showing prices in the original currency",
+    "other": "Other currencies"
+  },
+  "roles": {
+    "title": "Roles",
+    "at": "at {{restaurant}}",
+    "restaurant": {
+      "owner": "Restaurant Owner",
+      "manager": "Restaurant Manager",
+      "waiter": "Waiter",
+      "cook": "Cook"
+    },
+    "proofreader": "Proofreader"
+  },
+  "language": {
+    "setPrimary": "Set primary language",
+    "default": "Default language",
+    "other": "Other languages",
+    "addOther": "Add another language"
+  },
+  "cart": {
+    "title": "Cart",
+    "itemCount": "{{count, number}} item",
+    "itemCount_plural": "{{count, number}} items",
+    "itemCount_none": "no items",
+    "add": "Add to cart",
+    "checkInInstructions": "Check in by scanning the QR code in a restaurant near you to get started."
+  },
+  "nutrition": {
+    "facts": "Nutrition facts",
+    "fats": "Fats",
+    "carbs": "Carbs",
+    "proteins": "Proteins",
+    "calories": "Calories"
+  }
+}

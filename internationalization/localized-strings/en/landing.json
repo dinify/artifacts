@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "header": "Order at restaurants in your own language, anywhere.",
+    "subtitle": "Our mission is to connect travelers with local restaurants by breaking language barriers. No matter where you go or what language you speak, explore new food experiences and cuisines while on the move.",
+    "cta": "Explore",
+    "restaurants": "Are you a restaurant?"
+  },
+  "features": "Features",
+  "sectionMultilingual": {
+    "header": "Digital menu in 96 languages",
+    "subtitle": "We strive to support as many languages as we can, so everybody can have a seamless culinary experience. Understand how much you spend by showing prices in your local currency, along with the original.",
+    "note": "Note: Not all languages are listed here."
+  },
+  "sectionProduct": {
+    "header": "How it works",
+    "subtitle": "We simplified the process to so it's easy to get started. You do not need to download or install anything on your phone.",
+    "step1": {
+      "title": "Scan code",
+      "description": "Get started by scanning the QR code in a restaurant near you to check in and open their menu."
+    },
+    "step2": {
+      "title": "Browse and order",
+      "description": "To avoid bad surprises, you can always read the menu in your own language. Customize your order to your liking."
+    },
+    "step3": {
+      "title": "Streamline",
+      "description": "Control your experience, forget interruptions. No matter what you need, it's just one tap away."
+    }
+  },
+  "sectionFAQ": {
+    "download": {
+      "title": "Where can I download the app?",
+      "content": "You don't have to download or install anything. Our app runs in your browser with a native user experience. You can add the app icon to your homescreen to use it offline."
+    },
+    "started": {
+      "title": "How do I get started?",
+      "content": "Every table in our partnering venues has a unique QR code for you to scan and open the menu in the language set default in your account settings. The selected menu is always available in English, but some languages may not be."
+    },
+    "internet": {
+      "title": "Do I need an internet connection?",
+      "content": "Only if the app icon is not added to your homescreen. To get connected in case you don’t have mobile data, simply scan the WiFi QR code on the table you’re seated at."
+    },
+    "scan": {
+      "title": "How do I scan the QR code?",
+      "start": "On iOS, the camera app does it out of the box. On Android, the Google Lens app or any other scanner app will do. Or you can simply visit the ",
+      "checkinPage": "checkin page",
+      "end": " to scan the code from your browser."
+    },
+    "useful": {
+      "title": "Why is this useful exactly?",
+      "content": "The whole idea behind Dinify is that no one should have trouble exploring new food experiences while they travel overseas simply because they cannot speak either the local language or English. You can read and order from local restaurant menus in your preferred language anywhere in the world. Enjoy a seamless dining experience without having to say a word in foreign languages."
+    },
+    "free": {
+      "title": "Is this free?",
+      "content": "Yes, everything is free while we are in beta. We are making sure everything fits together, and encourage you to experience the whole new way of dining in restaurants abroad."
+    },
+    "available": {
+      "title": "What locations are available?",
+      "content": "We are a startup based in Prague, Czech Republic. We are currently only available in selected restaurants in Prague but we are expanding fast. Please make sure to keep in touch with us for updates."
+    }
+  },
+  "restaurantsPage": {
+    "hero": {
+      "title": "The modern way to deliver your menu",
+      "subtitle": "Dinify your business by partnering us",
+      "continueWith": "Continue with {{email}}",
+      "cta": "Get Started",
+      "caption": "Start 30 day free trial"
+    },
+    "sections": {
+      "statement": {
+        "title": "Build your menu in more than 50 languages and automate your service for foreign guests."
+      },
+      "pricing": {
+        "title": "Start your 30 day free trial with no credit card required.",
+        "subtitle": "Pay by month or the year, and cancel at any time.",
+        "cta": "Start trial",
+        "price": {
+          "monthly": {
+            "amount": "€19.95",
+            "caption": "Billed monthly"
+          },
+          "annual": {
+            "amount": "€200",
+            "caption": "Billed annually"
+          },
+          "or": "or"
+        }
+      },
+      "faq": {
+        "translation": {
+          "title": "How do I create my menu in so many languages?",
+          "content": "Once you create an account, you'll get access to your own restaurant dashboard. You can then start creating your menu in any language. Automated translations work well with English, so you can get everything done with a couple clicks."
+        },
+        "correct": {
+          "title": "How do I know if the automated translations are correct?",
+          "content": "The quality of the translation results depends on the input language, the context and so on. The main purpose of the translated menu (along with images) is to help your foreign guests better understand what they're getting, and make the right choice. Optionally, you can opt in to our on demand proofreading service at an extra cost."
+        },
+        "devices": {
+          "title": "What devices do I need to get started?",
+          "content": "Crafted with love by a restauranteour, the onboarding process has no hidden costs. All you need is an active internet connection and a device such as a laptop, tablet, or smartphone to use as a Waiterboard."
+        },
+        "training": {
+          "title": "Does the staff need training?",
+          "content": "There is no training required, the interface is intuitive and simple to use, with interactive tutorials and on demand customer support. It's as simple to use as email, no need to change the existing billing system."
+        },
+        "trial": {
+          "title": "What happens after the free trial expires?",
+          "content": "At the end of the free trial, you'll be invited to upgrade to a paid plan for a monthly, or yearly billing cycle. All you will have to do at this point is to simply complete the subscription form with your credit card or your preferred method of online payment."
+        },
+        "modify": {
+          "title": "How can I modify my menu?",
+          "content": "With the Dashboard, you will have great flexibility in the ways you manage your menu. You can add or remove any item, or simple hide it temporarily. This realtime publishing flow will update all prices and pictures in the user facing app."
+        }
+      },
+      "waiterboard": {
+        "title": "The Waiterboard",
+        "subtitle": "Optimize your business for time, streamline your workflow",
+        "order": {
+          "title": "Manage orders",
+          "description": "Receive orders in realtime to your waiterboard straight from the users checked in to your restaurant. This way, your employees won't have to spend more time taking orders.",
+          "alt": "Order feature in waiterboard"
+        },
+        "service": {
+          "title": "Service calls",
+          "description": "With service call requests, you get notified every time your guests need something, so your staff can focus on serving them quickly and efficiently.",
+          "alt": "Service call feature in waiterboard"
+        },
+        "pay": {
+          "title": "Bill payments",
+          "description": "Streamline payment collection so that your guests won't have to waste extra 15 minutes trying to get your servers' attention. By enabling them to leave when they want, you'll be able to serve more guests and have faster table turn.",
+          "alt": "Payment feature in waiterboard"
+        }
+      }
+    }
+  },
+  "footer": {
+    "language": "Language",
+    "links": {
+      "title": "Navigation",
+      "restaurants": "Add your restaurant",
+      "home": "Home page",
+      "support": "Support",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "copyright": "Copyright<0/><1/>, Made with<2/>by <3>Dinify</3>"
+  },
+  "support": {
+    "caption": "Call us toll free domestically",
+    "phone": {
+      "CZ": {
+        "text": "+420 800200129",
+        "link": "tel:+420800200129"
+      }
+    }
+  }
+}
