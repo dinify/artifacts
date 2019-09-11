@@ -1,0 +1,114 @@
+{
+    "body1": {
+        "font": "Lato",
+        "weight": "Regular",
+        "size": 16.68928923988154,
+        "spacing": 0.5,
+        "lineHeight": 28,
+        "textTransform": 0
+    },
+    "body2": {
+        "font": "Lato",
+        "weight": "Regular",
+        "size": 14.60312808489635,
+        "spacing": 0.25,
+        "lineHeight": 20,
+        "textTransform": 0
+    },
+    "button": {
+        "font": "Lato",
+        "weight": "Medium",
+        "size": 14.56000861220472,
+        "spacing": 1.25,
+        "lineHeight": 16,
+        "textTransform": 1
+    },
+    "button2": {
+        "font": "Google Sans",
+        "weight": "Medium",
+        "size": 14,
+        "spacing": 0.28571424,
+        "lineHeight": 20,
+        "textTransform": 0
+    },
+    "caption": {
+        "font": "Lato",
+        "weight": "Regular",
+        "size": 12.51696692991115,
+        "spacing": 0.4000000059604645,
+        "lineHeight": 16,
+        "textTransform": 0
+    },
+    "headline1": {
+        "font": "Google Sans",
+        "weight": "SemiBold",
+        "size": 99.4485294117647,
+        "spacing": -1.5,
+        "lineHeight": 112,
+        "textTransform": 0
+    },
+    "headline2": {
+        "font": "Google Sans",
+        "weight": "SemiBold",
+        "size": 62.15533088235294,
+        "spacing": -0.5,
+        "lineHeight": 72,
+        "textTransform": 0
+    },
+    "headline3": {
+        "font": "Google Sans",
+        "weight": "SemiBold",
+        "size": 49.72426470588235,
+        "spacing": null,
+        "lineHeight": 56,
+        "textTransform": 0
+    },
+    "headline4": {
+        "font": "Google Sans",
+        "weight": "Medium",
+        "size": 35.22135416666666,
+        "spacing": 0.25,
+        "lineHeight": 40,
+        "textTransform": 0
+    },
+    "headline5": {
+        "font": "Google Sans",
+        "weight": "Medium",
+        "size": 24.86213235294117,
+        "spacing": null,
+        "lineHeight": 28,
+        "textTransform": 0
+    },
+    "headline6": {
+        "font": "Google Sans",
+        "weight": "Regular",
+        "size": 20.71844362745098,
+        "spacing": 0.25,
+        "lineHeight": 24,
+        "textTransform": 0
+    },
+    "overline": {
+        "font": "Lato",
+        "weight": "Medium",
+        "size": 12.48000738188976,
+        "spacing": 2,
+        "lineHeight": 16,
+        "textTransform": 1
+    },
+    "subtitle1": {
+        "font": "Lato",
+        "weight": "Regular",
+        "size": 16.68928923988154,
+        "spacing": 0.1500000059604645,
+        "lineHeight": 24,
+        "textTransform": 0
+    },
+    "subtitle2": {
+        "font": "Lato",
+        "weight": "Medium",
+        "size": 14.56000861220472,
+        "spacing": 0.1000000014901161,
+        "lineHeight": 24,
+        "textTransform": 0
+    }
+}
