@@ -1,111 +1,15 @@
 const fetch = require('node-fetch');
+const fs = require('fs');
+const languages = require('../default-languages.json');
+const englishStrings = {
+  app: require('../localized-strings/en/app.json'),
+  common: require('../localized-strings/en/common.json'),
+  dashboard: require('../localized-strings/en/dashboard.json'),
+  landing: require('../localized-strings/en/landing.json'),
+};
 
-const languages = [
-  {
-    "count": "61153",
-    "language": "it"
-  },
-  {
-    "count": "43964",
-    "language": "ru"
-  },
-  {
-    "count": "33904",
-    "language": "fr"
-  },
-  {
-    "count": "26768",
-    "language": "de"
-  },
-  {
-    "count": "25180",
-    "language": "es"
-  },
-  {
-    "count": "10009",
-    "language": "nl"
-  },
-  {
-    "count": "8531",
-    "language": "pt"
-  },
-  {
-    "count": "7953",
-    "language": "sv"
-  },
-  {
-    "count": "5569",
-    "language": "pl"
-  },
-  {
-    "count": "4268",
-    "language": "sk"
-  },
-  {
-    "count": "3497",
-    "language": "da"
-  },
-  {
-    "count": "3169",
-    "language": "no"
-  },
-  {
-    "count": "2180",
-    "language": "ko"
-  },
-  {
-    "count": "2175",
-    "language": "ja"
-  },
-  {
-    "count": "1999",
-    "language": "iw"
-  },
-  {
-    "count": "1793",
-    "language": "el"
-  },
-  {
-    "count": "1411",
-    "language": "fi"
-  },
-  {
-    "count": "1337",
-    "language": "tr"
-  },
-  {
-    "count": "1051",
-    "language": "zhCN"
-  },
-  {
-    "count": "891",
-    "language": "hu"
-  },
-  {
-    "count": "749",
-    "language": "zhTW"
-  },
-  {
-    "count": "253",
-    "language": "sr"
-  },
-  {
-    "count": "104",
-    "language": "ar"
-  },
-  {
-    "count": "33",
-    "language": "th"
-  },
-  {
-    "count": "26",
-    "language": "in"
-  },
-  {
-    "count": "12",
-    "language": "vi"
-  }
-];
+const excludeLanguages = ['en', 'cs'];
+const namespaces = ['app', 'common']; //, 'dashboard', 'landing'];
 
 const levenshteinDistance = (a, b) => {
 	const distanceMatrix = Array(b.length + 1).fill(null).map(() => Array(a.length + 1).fill(null));
@@ -251,16 +155,28 @@ let translate = ({input, target, source, model='nmt'}) => {
 	  return value.replace('{{', '<span translate="no">').replace('}}', '</span>');
 	});
 
-	const root = 'https://content-translation.googleapis.com/language/translate/v2';
+  const root = 'https://translation.googleapis.com/language/translate/v2';
+  const apiKey = 'AIzaSyAjGSwsYJLbgjGqrt8DRQQFLi-ITjNS5L8';
+  
 	let qs = translateArr.map(elem => `q=${elem}`).join('&');
-	let specifiedSource = source ? `&source=${source}` : '';
-  return fetch(`${root}?${qs}&target=${target}&format=html&model=${model}${specifiedSource}&key=AIzaSyCXd3M-Cb0KvyBMKTNS23nfaoiez6l51Go`)
+  let specifiedSource = source ? `&source=${source}` : '';
+  const url = `${root}?${qs}&target=${target}&format=html&model=${model}${specifiedSource}&key=${apiKey}`;
+  console.log(url);
+  return fetch(url)
 			.then(response => response.json())
 			.then(json => {
+        // console.log(json.data);
 				let flatResult = {};
 				json.data.translations.forEach((translation, index) => {
 					const currentKey = Object.keys(flat)[index];
-					const splitCurrentKey = currentKey.split('.');
+          const splitCurrentKey = currentKey.split('.');
+          const format = str => {
+            while (str.includes('<span translate="no">')) {
+              str = str.replace('<span translate="no">', '{{').replace('</span>', '}}');
+            }
+            return str.toLowerCase();
+          };
+          const firstUpperCase = str => str.charAt(0).toUpperCase() + str.slice(1);
 					if (splitCurrentKey[splitCurrentKey.length - 1] === '$text') {
 						let found = null;
 						json.data.translations.forEach((translationInner, indexInner) => {
@@ -271,29 +187,30 @@ let translate = ({input, target, source, model='nmt'}) => {
 						json.data.translations.forEach((translationInner, indexInner) => {
 							const splitCurrentKeyInner = Object.keys(flat)[indexInner].split('.');
 							if (splitCurrentKeyInner[splitCurrentKeyInner.length - 1] === '$yield') foundYield = indexInner;
-						});
+            });
 						if (found !== null) {
-							const $text = translation.translatedText.replace('<span translate="no">', '{{').replace('</span>', '}}').toLowerCase();
-							const $context = json.data.translations[found].translatedText.replace('<span translate="no">', '{{').replace('</span>', '}}').toLowerCase();
+							const $text = translation.translatedText;
+							const $context = format(json.data.translations[found].translatedText);
 							let $yield = null;
-							if (foundYield !== null) $yield = json.data.translations[foundYield].translatedText.replace('<span translate="no">', '{{').replace('</span>', '}}').toLowerCase();
+							if (foundYield !== null) $yield = format(json.data.translations[foundYield].translatedText);
 
 							let transformed = $text.replace($context, '').trim();
 							if ($yield !== transformed && $text.split(' ').includes($yield)) transformed = $yield;
 
 							splitCurrentKey.pop();
 							const actualKey = splitCurrentKey.join('.');
-							flatResult[actualKey] = transformed.charAt(0).toUpperCase() + transformed.slice(1);;
+							flatResult[actualKey] = firstUpperCase(transformed);
 						}
 					}
 					else if (!(['$text', '$context', '$yield'].includes(splitCurrentKey[splitCurrentKey.length - 1]))) {
-						let replaced = translation.translatedText.replace('<span translate="no">', '{{').replace('</span>', '}}');
+						let replaced = format(translation.translatedText);
 						replaced = replaced.replace('&#39;', '\'');
-						flatResult[currentKey] = replaced;
+						flatResult[currentKey] = firstUpperCase(replaced);
 					}
 				});
 				return deflatten(flatResult);
-			});
+      })
+      .catch(error => console.error(error));
 }
 
 let qualityCheck = ({original, translated, source, target='en'}) => {
@@ -344,22 +261,30 @@ let filterQuality = (json, max = 0.5, org = null) => {
 	return deflatten(flatResult);
 }
 
+let language = 'sv';
+let namespace = 'app';
 
-languages.forEach(language => {
-	let count = parseInt(language.count);
-	if (count > 1800) {
-		translate({
-            input: app,
-            target: language.language
-        }).then(result => {
-            // console.log('translation      ', result);
-            qualityCheck({
-                original: app,
-                translated: result
-            }).then(checkResult => {
-                console.log(language.language, 'overall quality  ', averagePercent(checkResult));
-                // console.log('quality below 50%', filterQuality(checkResult, 0.5, result));
-            });
-        });
-	}
-});
+// namespaces.forEach(namespace => {
+//   languages.filter(l => excludeLanguages.includes(l)).forEach(language => {
+    translate({
+      input: englishStrings[namespace],
+      target: language
+    }).then(result => {
+      const r = '../localized-strings';
+      try {
+        fs.mkdirSync(`${r}/${language}`);
+      }
+      catch (e) {}
+  
+      fs.writeFileSync(`${r}/${language}/${namespace}.json`, JSON.stringify(result, null, 2));
+      console.log(`${r}/${language}/${namespace}.json`);
+      // qualityCheck({
+      //   original: app,
+      //   translated: result
+      // }).then(checkResult => {
+      //   console.log(language, 'overall quality  ', averagePercent(checkResult));
+      //   // console.log('quality below 50%', filterQuality(checkResult, 0.5, result));
+      // });
+    });
+//   });
+// });
