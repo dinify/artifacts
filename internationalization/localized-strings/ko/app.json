@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "메뉴",
+    "caption": "{{restaurant.name}} 에서 얻을 수있는 모든 것"
+  },
+  "address": "주소",
+  "appBar": {
+    "back": "뒤",
+    "cancel": "취소",
+    "edit": "편집하다",
+    "done": "끝난"
+  },
+  "hours": {
+    "open": "지금 열다",
+    "closed": "닫은",
+    "opens_at": "{{time, time:short}} 열립니다 {{time, time:short}}",
+    "closes_at": "{{time, time:short}} 마감 {{time, time:short}}"
+  },
+  "website": "웹 사이트",
+  "nav": {
+    "explore": "탐색",
+    "browse": "검색",
+    "dineIn": "식사",
+    "account": "계정",
+    "menu": "메뉴",
+    "settings": "설정"
+  },
+  "dinein": {
+    "checkedin": "현재 체크인하셨습니다",
+    "actions": "행위",
+    "seeMenu": "레스토랑 메뉴 참조",
+    "callService": "서비스를 호출"
+  },
+  "checkIn": "체크인",
+  "checkedIn": "체크인",
+  "ingredients": "성분",
+  "addons": "애드온",
+  "subtotal": "소계",
+  "total": "합계",
+  "totalConverted": "총계 ( {{currencyname}} )",
+  "serviceFee": "서비스 요금",
+  "order": "주문",
+  "orderConfirmed": "주문 확인",
+  "orderCancelled": "주문 취소",
+  "camera": {
+    "header": "카메라",
+    "notAvailable": {
+      "title": "카메라를 사용할 수 없습니다",
+      "subtitle": "이 기기에서는 브라우저 내장 카메라를 사용할 수 없습니다"
+    },
+    "takePhoto": "사진을 찍다"
+  },
+  "service": {
+    "header": "서비스",
+    "title": "서비스를 호출",
+    "subtitle": "이 기능을 사용하면 테이블에 모든 종류의 조미료 또는 식기를 요청할 수 있습니다.",
+    "instruction": "시작하려면 가까운 식당에서 qr 코드를 스캔하여 체크인하십시오.",
+    "types": {
+      "tableware": "식기",
+      "condiments": "양념"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "기다리고 확인",
+      "confirmed": "확인 된 주문",
+      "empty": "주문이 확인되면 청구서 총액에 추가됩니다"
+    },
+    "title": "계산서",
+    "split": "스플릿",
+    "selecting": "다른 사람과 나눌 지폐 항목을 선택하십시오.",
+    "splittingWith": "{{list, list}} 분할",
+    "splittingWith_zero": "분할 할 사용자 선택",
+    "splittingCount": "{{count, number}} 사람과 나누기",
+    "splittingCount_plural": "{{count, number}} 분할",
+    "itemCountSelected": "{{count, number}} 선택된 항목 ",
+    "itemCountSelected_plural": "{{count, number}} 선택된 항목 ",
+    "itemCountSelected_none": "선택된 항목이 없습니다"
+  },
+  "meParentheses": "(나를)",
+  "gratuity": "사례금",
+  "pay": "지불",
+  "paymentPending": "결제 확인을 기다리는 중 ...",
+  "paymentConfirmed": "결제가 승인 됨",
+  "paymentCancelled": "결제 취소",
+  "editing": "편집",
+  "profile": "프로필",
+  "dashboard": "계기반",
+  "waiterboard": "웨이터 보드",
+  "currency": {
+    "title": "통화 표시",
+    "set": "표시 통화 설정",
+    "original": "원래 통화로 가격 표시",
+    "other": "다른 통화"
+  },
+  "roles": {
+    "title": "역할",
+    "at": "{{restaurant}}",
+    "restaurant": {
+      "owner": "식당 주인",
+      "manager": "레스토랑 매니저",
+      "waiter": "웨이터",
+      "cook": "쿡"
+    },
+    "proofreader": "교정자"
+  },
+  "language": {
+    "setPrimary": "기본 언어 설정",
+    "default": "기본 설정 언어",
+    "other": "다른 언어",
+    "addOther": "다른 언어 추가"
+  },
+  "toggle": {
+    "on": "현재",
+    "off": "현재 꺼져"
+  },
+  "theme": {
+    "title": "테마",
+    "nightModeOn": "야간 모드 켜기",
+    "nightModeOff": "야간 모드 끄기"
+  },
+  "cart": {
+    "title": "카트",
+    "itemCount": "{{count, number}} 항목",
+    "itemCount_plural": "{{count, number}} 항목",
+    "itemCount_none": "항목이 없습니다",
+    "add": "장바구니에 담기",
+    "checkInInstructions": "시작하려면 가까운 식당에서 qr 코드를 스캔하여 체크인하십시오."
+  },
+  "nutrition": {
+    "facts": "영양 사실",
+    "fats": "지방",
+    "carbs": "탄수화물",
+    "proteins": "단백질",
+    "calories": "칼로리"
+  },
+  "successMessages": {
+    "added-to-cart": "장바구니에 추가",
+    "removed-from-cart": "장바구니에서 삭제",
+    "order-has-been-placed": "주문이 완료되었습니다",
+    "you-are-now-checked-in": "당신은 지금 체크인",
+    "service-called": "서비스 요청",
+    "payment-request-sent": "결제 요청이 전송되었습니다."
+  },
+  "guestJoinedTable": "새로운 손님이 테이블에 합류",
+  "guestLeftTable": "손님 왼쪽 테이블",
+  "newBillSplitItems": "빌이 분할 품목을 받았습니다",
+  "checkedOut": "테이블에서 체크 아웃되었습니다.",
+  "serviceCallConfirmed": "서비스 요청 확인",
+  "serviceCallCancelled": "서비스 요청이 취소되었습니다"
+}

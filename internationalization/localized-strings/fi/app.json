@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Valikko",
+    "caption": "Kaikki mitä voit saada {{restaurant.name}}"
+  },
+  "address": "Osoite",
+  "appBar": {
+    "back": "Takaisin",
+    "cancel": "Peruuttaa",
+    "edit": "Muokata",
+    "done": "Tehty"
+  },
+  "hours": {
+    "open": "Avoinna nyt",
+    "closed": "Suljettu",
+    "opens_at": "Avautuu {{time, time:short}}",
+    "closes_at": "Sulkeutuu {{time, time:short}}"
+  },
+  "website": "Verkkosivusto",
+  "nav": {
+    "explore": "Tutkia",
+    "browse": "Selailla",
+    "dineIn": "Ruokailla",
+    "account": "Tili",
+    "menu": "Valikko",
+    "settings": "Asetukset"
+  },
+  "dinein": {
+    "checkedin": "olet kirjautunut sisään",
+    "actions": "Toiminnot",
+    "seeMenu": "Katso ravintola-valikko",
+    "callService": "Soita palveluun"
+  },
+  "checkIn": "Ilmoittautua",
+  "checkedIn": "Kirjautunut sisään",
+  "ingredients": "Ainekset",
+  "addons": "Lisät",
+  "subtotal": "Välisumma",
+  "total": "Kaikki yhteensä",
+  "totalConverted": "Yhteensä ( {{currencyname}} )",
+  "serviceFee": "Palvelumaksu",
+  "order": "Tilaus",
+  "orderConfirmed": "Tilaus vahvistettu",
+  "orderCancelled": "Tilaus peruttu",
+  "camera": {
+    "header": "Kamera",
+    "notAvailable": {
+      "title": "Kameraa ei ole saatavana",
+      "subtitle": "Selaimen sisäinen kamera ei ole käytettävissä tässä laitteessa"
+    },
+    "takePhoto": "Ottaa valokuva"
+  },
+  "service": {
+    "header": "Palvelut",
+    "title": "Soita palveluun",
+    "subtitle": "Tämän ominaisuuden avulla voit pyytää pöydällesi minkä tahansa tyyppisiä mausteita tai ruokia.",
+    "instruction": "Kirjaudu sisään skannaamalla qr-koodi lähelläsi olevassa ravintolassa aloittaaksesi.",
+    "types": {
+      "tableware": "Pöytäkalusto",
+      "condiments": "Mausteet"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Odottaa vahvistusta",
+      "confirmed": "Vahvistetut tilaukset",
+      "empty": "Kun tilauksesi on vahvistettu, ne lisätään laskuun"
+    },
+    "title": "Laskuttaa",
+    "split": "Jakaa",
+    "selecting": "Valitse laskutettavat erät, jotka haluat jakaa muiden kanssa",
+    "splittingWith": "Jakaminen {{list, list}}",
+    "splittingWith_zero": "Valitse jaettavat käyttäjät",
+    "splittingCount": "Jakaminen {{count, number}} henkilöllä",
+    "splittingCount_plural": "Jako {{count, number}} ihmisten välillä",
+    "itemCountSelected": "{{count, number}} valittu",
+    "itemCountSelected_plural": "{{count, number}} valittujen kohteiden ",
+    "itemCountSelected_none": "ei kohteita valittu"
+  },
+  "meParentheses": "(minä)",
+  "gratuity": "Palkkio",
+  "pay": "Maksaa",
+  "paymentPending": "Odotetaan maksun vahvistusta ...",
+  "paymentConfirmed": "Maksu vahvistettu",
+  "paymentCancelled": "Maksu peruutettu",
+  "editing": "editointi",
+  "profile": "Profiili",
+  "dashboard": "Kojelauta",
+  "waiterboard": "Waiterboard",
+  "currency": {
+    "title": "Näytä valuutta",
+    "set": "Aseta näyttövaluutta",
+    "original": "Näytetään hinnat alkuperäisessä valuutassa",
+    "other": "Muut valuutat"
+  },
+  "roles": {
+    "title": "Roolit",
+    "at": "{{restaurant}}",
+    "restaurant": {
+      "owner": "Ravintolan omistaja",
+      "manager": "Ravintolapäällikkö",
+      "waiter": "Tarjoilija",
+      "cook": "Kokki"
+    },
+    "proofreader": "Korjauslukija"
+  },
+  "language": {
+    "setPrimary": "Aseta ensisijainen kieli",
+    "default": "Oletuskieli",
+    "other": "Muut kielet",
+    "addOther": "Lisää toinen kieli"
+  },
+  "toggle": {
+    "on": "tällä hetkellä päällä",
+    "off": "tällä hetkellä poissa"
+  },
+  "theme": {
+    "title": "Teema",
+    "nightModeOn": "Ota yötila käyttöön",
+    "nightModeOff": "Poista yötila käytöstä"
+  },
+  "cart": {
+    "title": "Kärry",
+    "itemCount": "{{count, number}}",
+    "itemCount_plural": "{{count, number}} kohteita",
+    "itemCount_none": "ei tuotteita",
+    "add": "Lisää koriin",
+    "checkInInstructions": "Kirjaudu sisään skannaamalla qr-koodi lähelläsi olevassa ravintolassa aloittaaksesi."
+  },
+  "nutrition": {
+    "facts": "Ravintosisältö",
+    "fats": "Rasvat",
+    "carbs": "Hiilihydraatit",
+    "proteins": "Proteiinit",
+    "calories": "Kalorit"
+  },
+  "successMessages": {
+    "added-to-cart": "Lisätty ostoskoriin",
+    "removed-from-cart": "Poistettu ostoskorista",
+    "order-has-been-placed": "Tilaus on tehty",
+    "you-are-now-checked-in": "Olet nyt kirjautunut sisään",
+    "service-called": "Palvelu soitettu",
+    "payment-request-sent": "Maksupyyntö lähetetty"
+  },
+  "guestJoinedTable": "Uusi vieras liittyi pöytään",
+  "guestLeftTable": "Vieras vasemmalla pöydällä",
+  "newBillSplitItems": "Lasku vastaanotti jaetut erät",
+  "checkedOut": "Sinut on kirjattu ulos pöydästä.",
+  "serviceCallConfirmed": "Palvelupuhelu vahvistettu",
+  "serviceCallCancelled": "Palvelupuhelu peruutettu"
+}

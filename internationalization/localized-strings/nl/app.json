@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Menu",
+    "caption": "Alles wat je kunt krijgen in {{restaurant.name}}"
+  },
+  "address": "Adres",
+  "appBar": {
+    "back": "Terug",
+    "cancel": "Annuleren",
+    "edit": "Bewerk",
+    "done": "Gedaan"
+  },
+  "hours": {
+    "open": "Nu open",
+    "closed": "Gesloten",
+    "opens_at": "Opent op {{time, time:short}}",
+    "closes_at": "Sluit op {{time, time:short}}"
+  },
+  "website": "Website",
+  "nav": {
+    "explore": "Onderzoeken",
+    "browse": "Blader",
+    "dineIn": "Dineren",
+    "account": "Account",
+    "menu": "Menu",
+    "settings": "Instellingen"
+  },
+  "dinein": {
+    "checkedin": "u bent momenteel ingecheckt",
+    "actions": "Acties",
+    "seeMenu": "Zie restaurant menu",
+    "callService": "Bel een service"
+  },
+  "checkIn": "Check in",
+  "checkedIn": "Ingecheckt",
+  "ingredients": "Ingrediënten",
+  "addons": "Addons",
+  "subtotal": "Subtotaal",
+  "total": "Totaal",
+  "totalConverted": "Totaal ( {{currencyname}} )",
+  "serviceFee": "Servicekosten",
+  "order": "Bestellen",
+  "orderConfirmed": "Order bevestigd",
+  "orderCancelled": "Bestelling geannuleerd",
+  "camera": {
+    "header": "Camera",
+    "notAvailable": {
+      "title": "Camera niet beschikbaar",
+      "subtitle": "De camera in de browser is niet beschikbaar op dit apparaat"
+    },
+    "takePhoto": "Maak een foto"
+  },
+  "service": {
+    "header": "Diensten",
+    "title": "Bel een service",
+    "subtitle": "Met deze functie kunt u elke soort specerij of servies aan uw tafel vragen.",
+    "instruction": "Check in door de qr-code in een restaurant bij u in de buurt te scannen om aan de slag te gaan.",
+    "types": {
+      "tableware": "Tafelgerei",
+      "condiments": "Specerijen"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Wachtend op bevestiging",
+      "confirmed": "Bevestigde bestellingen",
+      "empty": "Zodra uw bestellingen zijn bevestigd, worden ze toegevoegd aan uw factuurtotaal"
+    },
+    "title": "Bill",
+    "split": "Spleet",
+    "selecting": "Selecteer factuuritems om met anderen te delen",
+    "splittingWith": "Splitsen met {{list, list}}",
+    "splittingWith_zero": "Selecteer gebruikers om mee te splitsen",
+    "splittingCount": "Splitsen met {{count, number}} persoon",
+    "splittingCount_plural": "Splitsen tussen {{count, number}} mensen",
+    "itemCountSelected": "{{count, number}} item geselecteerd",
+    "itemCountSelected_plural": "{{count, number}} items geselecteerd",
+    "itemCountSelected_none": "geen items geselecteerd"
+  },
+  "meParentheses": "(me)",
+  "gratuity": "Fooi",
+  "pay": "Betalen",
+  "paymentPending": "In afwachting van betalingsbevestiging ...",
+  "paymentConfirmed": "Betaling bevestigd",
+  "paymentCancelled": "Betaling geannuleerd",
+  "editing": "editing",
+  "profile": "Profiel",
+  "dashboard": "Dashboard",
+  "waiterboard": "Waiterboard",
+  "currency": {
+    "title": "Valuta weergeven",
+    "set": "Stel weergavevaluta in",
+    "original": "Prijzen worden weergegeven in de oorspronkelijke valuta",
+    "other": "Overige valuta's"
+  },
+  "roles": {
+    "title": "Rollen",
+    "at": "in {{restaurant}}",
+    "restaurant": {
+      "owner": "Restaurant eigenaar",
+      "manager": "Restaurant manager",
+      "waiter": "Ober",
+      "cook": "Koken"
+    },
+    "proofreader": "Corrector"
+  },
+  "language": {
+    "setPrimary": "Stel de primaire taal in",
+    "default": "Standaard taal",
+    "other": "Andere talen",
+    "addOther": "Voeg een andere taal toe"
+  },
+  "toggle": {
+    "on": "momenteel aan",
+    "off": "momenteel uitgeschakeld"
+  },
+  "theme": {
+    "title": "Thema",
+    "nightModeOn": "Schakel de nachtmodus in",
+    "nightModeOff": "Schakel de nachtmodus uit"
+  },
+  "cart": {
+    "title": "Kar",
+    "itemCount": "{{count, number}} item",
+    "itemCount_plural": "{{count, number}} items",
+    "itemCount_none": "geen items",
+    "add": "Voeg toe aan winkelmandje",
+    "checkInInstructions": "Check in door de qr-code in een restaurant bij u in de buurt te scannen om aan de slag te gaan."
+  },
+  "nutrition": {
+    "facts": "Voedingsfeiten",
+    "fats": "Vetten",
+    "carbs": "Koolhydraten",
+    "proteins": "Eiwitten",
+    "calories": "Calorieën"
+  },
+  "successMessages": {
+    "added-to-cart": "Toegevoegd aan winkelwagen",
+    "removed-from-cart": "Verwijderd uit winkelwagentje",
+    "order-has-been-placed": "Bestelling is geplaatst",
+    "you-are-now-checked-in": "U bent nu ingecheckt",
+    "service-called": "Service gebeld",
+    "payment-request-sent": "Betalingsverzoek verzonden"
+  },
+  "guestJoinedTable": "Nieuwe gast is lid geworden van de tafel",
+  "guestLeftTable": "Gast verliet tafel",
+  "newBillSplitItems": "Bill heeft gesplitste artikelen ontvangen",
+  "checkedOut": "U bent uitgecheckt vanaf de tafel.",
+  "serviceCallConfirmed": "Serviceaanvraag bevestigd",
+  "serviceCallCancelled": "Serviceoproep geannuleerd"
+}

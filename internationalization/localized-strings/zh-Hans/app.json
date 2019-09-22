@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "菜单",
+    "caption": "您可以在{{restaurant.name}}获得的所有内容"
+  },
+  "address": "地址",
+  "appBar": {
+    "back": "背部",
+    "cancel": "取消",
+    "edit": "编辑",
+    "done": "完成"
+  },
+  "hours": {
+    "open": "现在开门了",
+    "closed": "关闭",
+    "opens_at": "打开{{time, time:short}}",
+    "closes_at": "关闭{{time, time:short}}"
+  },
+  "website": "网站",
+  "nav": {
+    "explore": "探索",
+    "browse": "浏览",
+    "dineIn": "在用餐",
+    "account": "帐户",
+    "menu": "菜单",
+    "settings": "设置"
+  },
+  "dinein": {
+    "checkedin": "您目前已签到",
+    "actions": "操作",
+    "seeMenu": "查看餐厅菜单",
+    "callService": "致电服务"
+  },
+  "checkIn": "报到",
+  "checkedIn": "入住",
+  "ingredients": "配料",
+  "addons": "插件",
+  "subtotal": "小计",
+  "total": "总",
+  "totalConverted": "总计（ {{currencyname}} ）",
+  "serviceFee": "服务费",
+  "order": "订购",
+  "orderConfirmed": "订单已确认",
+  "orderCancelled": "订单已取消",
+  "camera": {
+    "header": "相机",
+    "notAvailable": {
+      "title": "相机不可用",
+      "subtitle": "浏览器内置摄像头在此设备上不可用"
+    },
+    "takePhoto": "拍个照"
+  },
+  "service": {
+    "header": "服务",
+    "title": "致电服务",
+    "subtitle": "使用此功能，您可以向餐桌索取任何调味品或餐具。",
+    "instruction": "通过扫描附近餐厅的qr码开始入住。",
+    "types": {
+      "tableware": "餐具",
+      "condiments": "调味品"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "等待确认",
+      "confirmed": "确认订单",
+      "empty": "确认您的订单后，它们将被添加到您的账单总额中"
+    },
+    "title": "法案",
+    "split": "分裂",
+    "selecting": "选择账单项目与其他人拆分",
+    "splittingWith": "用{{list, list}}拆分{{list, list}}",
+    "splittingWith_zero": "选择要分割的用户",
+    "splittingCount": "按{{count, number}}分割",
+    "splittingCount_plural": "在{{count, number}}之间分配",
+    "itemCountSelected": "{{count, number}}选择",
+    "itemCountSelected_plural": "{{count, number}}选择",
+    "itemCountSelected_none": "未选择任何项目"
+  },
+  "meParentheses": "（我）",
+  "gratuity": "赏钱",
+  "pay": "工资",
+  "paymentPending": "等待付款确认...",
+  "paymentConfirmed": "付款确认成功",
+  "paymentCancelled": "付款已取消",
+  "editing": "编辑",
+  "profile": "轮廓",
+  "dashboard": "仪表板",
+  "waiterboard": "Waiterboard",
+  "currency": {
+    "title": "显示货币",
+    "set": "设定显示货币",
+    "original": "以原始货币显示价格",
+    "other": "其他货币"
+  },
+  "roles": {
+    "title": "角色",
+    "at": "在{{restaurant}}",
+    "restaurant": {
+      "owner": "餐厅老板",
+      "manager": "餐厅经理",
+      "waiter": "服务员",
+      "cook": "厨师"
+    },
+    "proofreader": "校对"
+  },
+  "language": {
+    "setPrimary": "设定主要语言",
+    "default": "预设语言",
+    "other": "其他语言",
+    "addOther": "添加另一种语言"
+  },
+  "toggle": {
+    "on": "目前在",
+    "off": "目前关闭"
+  },
+  "theme": {
+    "title": "主题",
+    "nightModeOn": "开启夜间模式",
+    "nightModeOff": "关闭夜间模式"
+  },
+  "cart": {
+    "title": "大车",
+    "itemCount": "{{count, number}}项目",
+    "itemCount_plural": "{{count, number}}项目",
+    "itemCount_none": "没有项目",
+    "add": "添加到购物车",
+    "checkInInstructions": "通过扫描附近餐厅的qr码开始入住。"
+  },
+  "nutrition": {
+    "facts": "营养成分",
+    "fats": "脂肪",
+    "carbs": "碳水化合物",
+    "proteins": "蛋白质",
+    "calories": "卡路里"
+  },
+  "successMessages": {
+    "added-to-cart": "已加入购物车",
+    "removed-from-cart": "从购物车中删除",
+    "order-has-been-placed": "下订单",
+    "you-are-now-checked-in": "您现在已签到",
+    "service-called": "服务称为",
+    "payment-request-sent": "付款请求已发送"
+  },
+  "guestJoinedTable": "新来宾表",
+  "guestLeftTable": "访客左桌",
+  "newBillSplitItems": "账单收到拆分项目",
+  "checkedOut": "您已从表格中签出。",
+  "serviceCallConfirmed": "服务电话已确认",
+  "serviceCallCancelled": "服务电话已取消"
+}

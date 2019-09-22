@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Menu",
+    "caption": "Lahat ng makukuha mo sa {{restaurant.name}}"
+  },
+  "address": "Address",
+  "appBar": {
+    "back": "Balik",
+    "cancel": "Pagkansela",
+    "edit": "I-edit",
+    "done": "Tapos na"
+  },
+  "hours": {
+    "open": "Buksan na ngayon",
+    "closed": "Sarado",
+    "opens_at": "Nagbubukas sa {{time, time:short}}",
+    "closes_at": "Magsasara sa {{time, time:short}}"
+  },
+  "website": "Website",
+  "nav": {
+    "explore": "Galugarin",
+    "browse": "Mag-browse",
+    "dineIn": "Kumain sa",
+    "account": "Account",
+    "menu": "Menu",
+    "settings": "Mga setting"
+  },
+  "dinein": {
+    "checkedin": "kasalukuyang naka-check in ka",
+    "actions": "Mga pagkilos",
+    "seeMenu": "Tingnan ang menu ng restawran",
+    "callService": "Tumawag ng isang serbisyo"
+  },
+  "checkIn": "Mag-check in",
+  "checkedIn": "Nag-check in",
+  "ingredients": "Mga sangkap",
+  "addons": "Mga addon",
+  "subtotal": "Subtotal",
+  "total": "Kabuuan",
+  "totalConverted": "Kabuuan ( {{currencyname}} )",
+  "serviceFee": "Kabayaran sa serbisyo",
+  "order": "Order",
+  "orderConfirmed": "Nakumpirma ang order",
+  "orderCancelled": "Nakansela ang order",
+  "camera": {
+    "header": "Camera",
+    "notAvailable": {
+      "title": "Hindi magagamit ang camera",
+      "subtitle": "Ang camera ng in-browser ay hindi magagamit sa aparatong ito"
+    },
+    "takePhoto": "Kumuha ng litrato"
+  },
+  "service": {
+    "header": "Mga serbisyo",
+    "title": "Tumawag ng isang serbisyo",
+    "subtitle": "Sa tampok na ito, maaari kang humiling ng anumang uri ng pampalamuti o kagamitan sa mesa sa iyong mesa.",
+    "instruction": "Mag-check in sa pamamagitan ng pag-scan ng qr code sa isang restawran na malapit sa iyo upang makapagsimula.",
+    "types": {
+      "tableware": "Mga kagamitan sa mesa",
+      "condiments": "Mga kondisyon"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Naghihintay ng kumpirmasyon",
+      "confirmed": "Nakumpirma ang mga order",
+      "empty": "Kapag nakumpirma ang iyong mga order, idinagdag sila sa iyong kabuuang bayarin"
+    },
+    "title": "Bill",
+    "split": "Hatiin",
+    "selecting": "Piliin ang mga item sa bill upang mahati sa iba",
+    "splittingWith": "Paghahati sa {{list, list}}",
+    "splittingWith_zero": "Piliin ang mga gumagamit upang maghiwalay",
+    "splittingCount": "Paghahati sa {{count, number}} tao",
+    "splittingCount_plural": "Paghahati sa pagitan ng {{count, number}} tao",
+    "itemCountSelected": "{{count, number}} napiling ",
+    "itemCountSelected_plural": "{{count, number}} napiling ",
+    "itemCountSelected_none": "walang mga napiling item"
+  },
+  "meParentheses": "(ako)",
+  "gratuity": "Katuwiran",
+  "pay": "Magbayad",
+  "paymentPending": "Naghihintay ng kumpirmasyon sa pagbabayad ...",
+  "paymentConfirmed": "Nakumpirma ang pagbabayad",
+  "paymentCancelled": "Kinansela ang pagbabayad",
+  "editing": "pag-edit",
+  "profile": "Profile",
+  "dashboard": "Dashboard",
+  "waiterboard": "Waiterboard",
+  "currency": {
+    "title": "Ipakita ang pera",
+    "set": "Itakda ang pera ng pagpapakita",
+    "original": "Ipinapakita ang mga presyo sa orihinal na pera",
+    "other": "Iba pang mga pera"
+  },
+  "roles": {
+    "title": "Mga papel",
+    "at": "sa {{restaurant}}",
+    "restaurant": {
+      "owner": "May-ari ng restawran",
+      "manager": "Tagapamahala ng restaurant",
+      "waiter": "Weyter",
+      "cook": "Lutuin"
+    },
+    "proofreader": "Proofreader"
+  },
+  "language": {
+    "setPrimary": "Itakda ang pangunahing wika",
+    "default": "Default na wika",
+    "other": "Iba pang mga wika",
+    "addOther": "Magdagdag ng isa pang wika"
+  },
+  "toggle": {
+    "on": "kasalukuyang nasa",
+    "off": "kasalukuyang naka-off"
+  },
+  "theme": {
+    "title": "Tema",
+    "nightModeOn": "I-on ang mode ng gabi",
+    "nightModeOff": "I-off ang mode ng gabi"
+  },
+  "cart": {
+    "title": "Cart",
+    "itemCount": "{{count, number}} item",
+    "itemCount_plural": "{{count, number}} item",
+    "itemCount_none": "walang mga item",
+    "add": "Idagdag sa cart",
+    "checkInInstructions": "Mag-check in sa pamamagitan ng pag-scan ng qr code sa isang restawran na malapit sa iyo upang makapagsimula."
+  },
+  "nutrition": {
+    "facts": "Mga katotohanan sa nutrisyon",
+    "fats": "Mga taba",
+    "carbs": "Carbs",
+    "proteins": "Mga protina",
+    "calories": "Kaloriya"
+  },
+  "successMessages": {
+    "added-to-cart": "Idinagdag sa cart",
+    "removed-from-cart": "Inalis mula sa cart",
+    "order-has-been-placed": "Inilagay ang order",
+    "you-are-now-checked-in": "Naka-check in ka na ngayon",
+    "service-called": "Tumawag sa serbisyo",
+    "payment-request-sent": "Ipinadala ang kahilingan sa pagbabayad"
+  },
+  "guestJoinedTable": "Sumali sa mesa ang bagong panauhin",
+  "guestLeftTable": "Ang kaliwang talahanayan ng bisita",
+  "newBillSplitItems": "Tumanggap si bill ng mga split item",
+  "checkedOut": "Na-check out ka mula sa mesa.",
+  "serviceCallConfirmed": "Nakumpirma ang tawag sa serbisyo",
+  "serviceCallCancelled": "Nakansela ang tawag sa serbisyo"
+}

@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Thực đơn",
+    "caption": "Mọi thứ bạn có thể nhận được trong {{restaurant.name}}"
+  },
+  "address": "Địa chỉ nhà",
+  "appBar": {
+    "back": "Trở lại",
+    "cancel": "Hủy bỏ",
+    "edit": "Biên tập",
+    "done": "Làm xong"
+  },
+  "hours": {
+    "open": "Mở ngay bây giờ",
+    "closed": "Đã đóng",
+    "opens_at": "Mở vào {{time, time:short}}",
+    "closes_at": "Đóng vào {{time, time:short}}"
+  },
+  "website": "Trang mạng",
+  "nav": {
+    "explore": "Khám phá",
+    "browse": "Duyệt",
+    "dineIn": "Ăn trưa ở",
+    "account": "Tài khoản",
+    "menu": "Thực đơn",
+    "settings": "Cài đặt"
+  },
+  "dinein": {
+    "checkedin": "bạn hiện đang đăng ký",
+    "actions": "Hành động",
+    "seeMenu": "Xem thực đơn nhà hàng",
+    "callService": "Gọi một dịch vụ"
+  },
+  "checkIn": "Đăng ký vào",
+  "checkedIn": "Đi vào",
+  "ingredients": "Thành phần",
+  "addons": "Addon",
+  "subtotal": "Tổng phụ",
+  "total": "Toàn bộ",
+  "totalConverted": "Tổng cộng ( {{currencyname}} )",
+  "serviceFee": "Phí dịch vụ",
+  "order": "Đặt hàng",
+  "orderConfirmed": "Xác nhận đặt hàng",
+  "orderCancelled": "Đơn hàng bị hủy",
+  "camera": {
+    "header": "Máy ảnh",
+    "notAvailable": {
+      "title": "Máy ảnh không có sẵn",
+      "subtitle": "Camera trong trình duyệt không khả dụng trên thiết bị này"
+    },
+    "takePhoto": "Chụp ảnh"
+  },
+  "service": {
+    "header": "Dịch vụ",
+    "title": "Gọi một dịch vụ",
+    "subtitle": "Với tính năng này, bạn có thể yêu cầu bất kỳ loại gia vị hoặc bộ đồ ăn nào vào bàn của bạn.",
+    "instruction": "Kiểm tra bằng cách quét mã qr trong một nhà hàng gần bạn để bắt đầu.",
+    "types": {
+      "tableware": "Bộ đồ ăn",
+      "condiments": "Đồ gia vị"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Đang chờ xác nhận",
+      "confirmed": "Xác nhận đơn hàng",
+      "empty": "Khi đơn hàng của bạn được xác nhận, chúng sẽ được thêm vào tổng hóa đơn của bạn"
+    },
+    "title": "Hóa đơn",
+    "split": "Tách",
+    "selecting": "Chọn mục hóa đơn để chia cho người khác",
+    "splittingWith": "Chia nhỏ với {{list, list}}",
+    "splittingWith_zero": "Chọn người dùng để chia",
+    "splittingCount": "Chia nhỏ với {{count, number}} người",
+    "splittingCount_plural": "Tách giữa {{count, number}} người",
+    "itemCountSelected": "{{count, number}} mục ",
+    "itemCountSelected_plural": "{{count, number}} mục được chọn",
+    "itemCountSelected_none": "không có mục nào được chọn"
+  },
+  "meParentheses": "(tôi)",
+  "gratuity": "Tiền thưởng",
+  "pay": "Trả",
+  "paymentPending": "Đang chờ xác nhận thanh toán ...",
+  "paymentConfirmed": "Xác nhận thanh toán",
+  "paymentCancelled": "Đã hủy thanh toán",
+  "editing": "chỉnh sửa",
+  "profile": "Hồ sơ",
+  "dashboard": "Bảng điều khiển",
+  "waiterboard": "Bồi bàn",
+  "currency": {
+    "title": "Hiển thị tiền tệ",
+    "set": "Đặt loại tiền hiển thị",
+    "original": "Hiển thị giá bằng tiền gốc",
+    "other": "Các loại tiền tệ khác"
+  },
+  "roles": {
+    "title": "Vai trò",
+    "at": "tại {{restaurant}}",
+    "restaurant": {
+      "owner": "Chủ nhà hàng",
+      "manager": "Quản lý nhà hàng",
+      "waiter": "Phục vụ nam",
+      "cook": "Nấu ăn"
+    },
+    "proofreader": "Người sửa bản in thử"
+  },
+  "language": {
+    "setPrimary": "Đặt ngôn ngữ chính",
+    "default": "Ngôn ngữ mặc định",
+    "other": "Những ngôn ngữ khác",
+    "addOther": "Thêm ngôn ngữ khác"
+  },
+  "toggle": {
+    "on": "hiện tại",
+    "off": "hiện đang tắt"
+  },
+  "theme": {
+    "title": "Chủ đề",
+    "nightModeOn": "Bật chế độ ban đêm",
+    "nightModeOff": "Tắt chế độ ban đêm"
+  },
+  "cart": {
+    "title": "Xe đẩy",
+    "itemCount": "{{count, number}} mục ",
+    "itemCount_plural": "{{count, number}} mục",
+    "itemCount_none": "không có sản phẩm",
+    "add": "Thêm vào giỏ hàng",
+    "checkInInstructions": "Kiểm tra bằng cách quét mã qr trong một nhà hàng gần bạn để bắt đầu."
+  },
+  "nutrition": {
+    "facts": "Giá trị dinh dưỡng",
+    "fats": "Chất béo",
+    "carbs": "Carbs",
+    "proteins": "Protein",
+    "calories": "Calo"
+  },
+  "successMessages": {
+    "added-to-cart": "Đã thêm vào giỏ hàng",
+    "removed-from-cart": "Đã xóa khỏi giỏ hàng",
+    "order-has-been-placed": "Lệnh đã được đặt",
+    "you-are-now-checked-in": "Bây giờ bạn đã được đăng ký",
+    "service-called": "Dịch vụ được gọi",
+    "payment-request-sent": "Yêu cầu thanh toán đã được gửi"
+  },
+  "guestJoinedTable": "Khách mới tham gia bàn",
+  "guestLeftTable": "Khách rời bàn",
+  "newBillSplitItems": "Bill nhận được chia mục",
+  "checkedOut": "Bạn đã được kiểm tra từ bảng.",
+  "serviceCallConfirmed": "Xác nhận cuộc gọi dịch vụ",
+  "serviceCallCancelled": "Cuộc gọi dịch vụ bị hủy"
+}

@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "ເມນູ",
+    "caption": "ທຸກຢ່າງທີ່ທ່ານສາມາດເຂົ້າໄປທີ່ {{restaurant.name}}"
+  },
+  "address": "ທີ່ຢູ່",
+  "appBar": {
+    "back": "ກັບໄປ",
+    "cancel": "ຍົກເລີກ",
+    "edit": "ແກ້ໄຂ",
+    "done": "ເຮັດແລ້ວ"
+  },
+  "hours": {
+    "open": "ເປີດດຽວນີ້",
+    "closed": "ປິດແລ້ວ",
+    "opens_at": "ເປີດໃນ {{time, time:short}}",
+    "closes_at": "ປິດໃນ {{time, time:short}}"
+  },
+  "website": "ເວບໄຊທ໌",
+  "nav": {
+    "explore": "ສຳ ຫຼວດ",
+    "browse": "ຊອກຫາ",
+    "dineIn": "ຮັບປະທານເຂົ້າ",
+    "account": "ບັນຊີ",
+    "menu": "ເມນູ",
+    "settings": "ການຕັ້ງຄ່າ"
+  },
+  "dinein": {
+    "checkedin": "ດຽວນີ້ທ່ານ ກຳ ລັງຢູ່ໃນລະບົບ",
+    "actions": "ການກະ ທຳ",
+    "seeMenu": "ເບິ່ງເມນູຮ້ານອາຫານ",
+    "callService": "ໂທຫາບໍລິການ"
+  },
+  "checkIn": "ເຊັກອິນ",
+  "checkedIn": "ເຊັກອິນ",
+  "ingredients": "ສ່ວນປະກອບ",
+  "addons": "Addon",
+  "subtotal": "Subtotal",
+  "total": "ລວມ",
+  "totalConverted": "ລວມ ( {{currencyname}} )",
+  "serviceFee": "ຄ່າ​ບໍ​ລິ​ການ",
+  "order": "ສັ່ງ",
+  "orderConfirmed": "ການສັ່ງຊື້ໄດ້ຖືກຢືນຢັນ",
+  "orderCancelled": "ຍົກເລີກການສັ່ງຊື້ແລ້ວ",
+  "camera": {
+    "header": "ກ້ອງ​ຖ່າຍ​ຮູບ",
+    "notAvailable": {
+      "title": "ກ້ອງຖ່າຍຮູບບໍ່ມີ",
+      "subtitle": "ກ້ອງໃນຕົວທ່ອງເວັບບໍ່ສາມາດໃຊ້ໄດ້ໃນອຸປະກອນນີ້"
+    },
+    "takePhoto": "ຖ່າຍ​ຮູບ"
+  },
+  "service": {
+    "header": "ການບໍລິການ",
+    "title": "ໂທຫາບໍລິການ",
+    "subtitle": "ດ້ວຍຄຸນລັກສະນະນີ້, ທ່ານສາມາດຮຽກຮ້ອງເຄື່ອງປຸງຫຼືເຄື່ອງໃຊ້ໃນປະເພດໃດ ໜຶ່ງ ມາໃຫ້ໂຕະຂອງທ່ານ.",
+    "instruction": "ກວດເບິ່ງໂດຍການສະແກນລະຫັດ qr ໃນຮ້ານອາຫານໃກ້ທ່ານເພື່ອເລີ່ມຕົ້ນ.",
+    "types": {
+      "tableware": "ເຄື່ອງໃຊ້ໂຕະ",
+      "condiments": "ເຄື່ອງປຸງອາຫານ"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "ລໍຖ້າການຢືນຢັນ",
+      "confirmed": "ຄໍາສັ່ງທີ່ຖືກຢືນຢັນ",
+      "empty": "ເມື່ອ ຄຳ ສັ່ງຂອງທ່ານຖືກຢືນຢັນແລ້ວ, ພວກມັນຈະຖືກເພີ່ມເຂົ້າໃນ ຈຳ ນວນໃບເກັບເງິນຂອງທ່ານທັງ ໝົດ"
+    },
+    "title": "ໃບບິນ",
+    "split": "ແບ່ງປັນ",
+    "selecting": "ເລືອກລາຍການບັນຊີລາຍການເພື່ອແບ່ງປັນກັບຄົນອື່ນ",
+    "splittingWith": "ແບ່ງປັນກັບ {{list, list}}",
+    "splittingWith_zero": "ເລືອກຜູ້ໃຊ້ເພື່ອແບ່ງປັນກັບ",
+    "splittingCount": "ແບ່ງອອກເປັນ {{count, number}} ຄົນ",
+    "splittingCount_plural": "ແບ່ງແຍກກັນລະຫວ່າງ {{count, number}} ຄົນ",
+    "itemCountSelected": "{{count, number}} ລາຍການທີ່ຖືກຄັດເລືອກ",
+    "itemCountSelected_plural": "{{count, number}} ລາຍການທີ່ຖືກຄັດເລືອກ",
+    "itemCountSelected_none": "ບໍ່ມີລາຍການທີ່ເລືອກ"
+  },
+  "meParentheses": "(ຂ້ອຍ)",
+  "gratuity": "ກະຕັນຍູ",
+  "pay": "ຈ່າຍ",
+  "paymentPending": "ກຳ ລັງລໍຖ້າການຢືນຢັນການຈ່າຍເງິນ ...",
+  "paymentConfirmed": "ການຈ່າຍເງິນໄດ້ຖືກຢືນຢັນ",
+  "paymentCancelled": "ການຈ່າຍເງິນຖືກຍົກເລີກແລ້ວ",
+  "editing": "ການດັດແກ້",
+  "profile": "ຂໍ້ມູນ",
+  "dashboard": "ແຜງຄວບຄຸມ",
+  "waiterboard": "ໂຕະ",
+  "currency": {
+    "title": "ສະແດງເງິນຕາ",
+    "set": "ຕັ້ງຄ່າສະແດງເງິນຕາ",
+    "original": "ສະແດງລາຄາເປັນສະກຸນເງິນເດີມ",
+    "other": "ເງິນຕາອື່ນໆ"
+  },
+  "roles": {
+    "title": "ພາລະບົດບາດ",
+    "at": "ທີ່ {{restaurant}}",
+    "restaurant": {
+      "owner": "ເຈົ້າຂອງຮ້ານອາຫານ",
+      "manager": "ຜູ້ຈັດການຮ້ານອາຫານ",
+      "waiter": "ຜູ້ທີ່ລໍຖ້າ",
+      "cook": "ແຕ່ງກິນ"
+    },
+    "proofreader": "ຜູ້ພິສູດ"
+  },
+  "language": {
+    "setPrimary": "ຕັ້ງພາສາຕົ້ນຕໍ",
+    "default": "ພາສາເລີ່ມຕົ້ນ",
+    "other": "ພາສາອື່ນໆ",
+    "addOther": "ເພີ່ມພາສາອື່ນ"
+  },
+  "toggle": {
+    "on": "ປະຈຸບັນນີ້",
+    "off": "ປະຈຸບັນປິດແລ້ວ"
+  },
+  "theme": {
+    "title": "ຫົວຂໍ້",
+    "nightModeOn": "ເປີດໃຊ້ ໂໝດ ກາງຄືນ",
+    "nightModeOff": "ປິດໂຫມດກາງຄືນ"
+  },
+  "cart": {
+    "title": "ໂຄງຮ່າງການ",
+    "itemCount": "{{count, number}} ລາຍການ ",
+    "itemCount_plural": "{{count, number}} ລາຍການ ",
+    "itemCount_none": "ບໍ່ມີລາຍການ",
+    "add": "ຕື່ມໃສ່ກະຕ່າ",
+    "checkInInstructions": "ກວດເບິ່ງໂດຍການສະແກນລະຫັດ qr ໃນຮ້ານອາຫານໃກ້ທ່ານເພື່ອເລີ່ມຕົ້ນ."
+  },
+  "nutrition": {
+    "facts": "ຂໍ້ເທັດຈິງດ້ານໂພຊະນາການ",
+    "fats": "ໄຂມັນ",
+    "carbs": "ຄາໂບໄຮເດຣດ",
+    "proteins": "ທາດໂປຼຕີນ",
+    "calories": "ພະລັງງານ"
+  },
+  "successMessages": {
+    "added-to-cart": "ເພີ່ມເຂົ້າກະຕ່າ",
+    "removed-from-cart": "ເອົາອອກຈາກລົດເຂັນ",
+    "order-has-been-placed": "ການສັ່ງຊື້ໄດ້ຖືກຈັດໃສ່ແລ້ວ",
+    "you-are-now-checked-in": "ດຽວນີ້ທ່ານໄດ້ເຂົ້າສູ່ລະບົບແລ້ວ",
+    "service-called": "ບໍລິການທີ່ຖືກເອີ້ນ",
+    "payment-request-sent": "ສົ່ງການຮ້ອງຂໍການຈ່າຍເງິນ"
+  },
+  "guestJoinedTable": "ແຂກ ໃໝ່ ເຂົ້າຮ່ວມໂຕະ",
+  "guestLeftTable": "ຕາຕະລາງຊ້າຍຂອງແຂກ",
+  "newBillSplitItems": "ໃບບິນໄດ້ຮັບລາຍການແບ່ງປັນ",
+  "checkedOut": "ທ່ານໄດ້ຖືກກວດອອກຈາກຕາຕະລາງແລ້ວ.",
+  "serviceCallConfirmed": "ຢືນຢັນການໂທບໍລິການ",
+  "serviceCallCancelled": "ຍົກເລີກການໂທບໍລິການ"
+}

@@ -158,10 +158,10 @@ let translate = ({input, target, source, model='nmt'}) => {
   const root = 'https://translation.googleapis.com/language/translate/v2';
   const apiKey = 'AIzaSyAjGSwsYJLbgjGqrt8DRQQFLi-ITjNS5L8';
   
-	let qs = translateArr.map(elem => `q=${elem}`).join('&');
+	let qs = translateArr.map(elem => `q=${encodeURIComponent(elem)}`).join('&');
   let specifiedSource = source ? `&source=${source}` : '';
   const url = `${root}?${qs}&target=${target}&format=html&model=${model}${specifiedSource}&key=${apiKey}`;
-  console.log(url);
+  // console.log(url);
   return fetch(url)
 			.then(response => response.json())
 			.then(json => {
@@ -173,7 +173,11 @@ let translate = ({input, target, source, model='nmt'}) => {
           const format = str => {
             while (str.includes('<span translate="no">')) {
               str = str.replace('<span translate="no">', '{{').replace('</span>', '}}');
-            }
+						}
+						if (str.split('{{count, number}}').length === 3) {
+							const arr = str.split('{{count, number}}');
+							str = `${arr[0]}{{count, number}}${arr[1]}`;
+						}
             return str.toLowerCase();
           };
           const firstUpperCase = str => str.charAt(0).toUpperCase() + str.slice(1);
@@ -205,7 +209,9 @@ let translate = ({input, target, source, model='nmt'}) => {
 					else if (!(['$text', '$context', '$yield'].includes(splitCurrentKey[splitCurrentKey.length - 1]))) {
 						let replaced = format(translation.translatedText);
 						replaced = replaced.replace('&#39;', '\'');
-						flatResult[currentKey] = firstUpperCase(replaced);
+						const firstChar = flat[currentKey].charAt(0);
+						const upperCase = firstChar == firstChar.toUpperCase();
+						flatResult[currentKey] = upperCase ? firstUpperCase(replaced) : replaced;
 					}
 				});
 				return deflatten(flatResult);
@@ -261,11 +267,11 @@ let filterQuality = (json, max = 0.5, org = null) => {
 	return deflatten(flatResult);
 }
 
-let language = 'sv';
-let namespace = 'app';
+// let language = 'hu';
+// let namespace = 'app';
 
-// namespaces.forEach(namespace => {
-//   languages.filter(l => excludeLanguages.includes(l)).forEach(language => {
+namespaces.forEach(namespace => {
+  languages.filter(l => !excludeLanguages.includes(l)).forEach(language => {
     translate({
       input: englishStrings[namespace],
       target: language
@@ -286,5 +292,5 @@ let namespace = 'app';
       //   // console.log('quality below 50%', filterQuality(checkResult, 0.5, result));
       // });
     });
-//   });
-// });
+  });
+});

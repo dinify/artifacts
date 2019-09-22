@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Menu",
+    "caption": "Gjithçka që mund të marrësh në {{restaurant.name}}"
+  },
+  "address": "Adresë",
+  "appBar": {
+    "back": "Prapa",
+    "cancel": "Anuloj",
+    "edit": "Redaktoj",
+    "done": "E bërë"
+  },
+  "hours": {
+    "open": "Hap tani",
+    "closed": "Mbyllur",
+    "opens_at": "Hap në {{time, time:short}}",
+    "closes_at": "Mbyllet në {{time, time:short}}"
+  },
+  "website": "Faqja e internetit",
+  "nav": {
+    "explore": "Eksploroni",
+    "browse": "Shfletoj",
+    "dineIn": "Darka në",
+    "account": "Llogari",
+    "menu": "Menu",
+    "settings": "Cilësimet"
+  },
+  "dinein": {
+    "checkedin": "aktualisht jeni regjistruar në",
+    "actions": "Veprimet",
+    "seeMenu": "Shihni menunë e restorantit",
+    "callService": "Thirrni një shërbim"
+  },
+  "checkIn": "Kontrollo në",
+  "checkedIn": "Kontrolluar në",
+  "ingredients": "Përbërësit",
+  "addons": "Addons",
+  "subtotal": "Nëntotali",
+  "total": "Total",
+  "totalConverted": "Totali (emri i {{currencyname}} )",
+  "serviceFee": "Tarifa e shërbimit",
+  "order": "Urdhër",
+  "orderConfirmed": "Urdhri u konfirmua",
+  "orderCancelled": "Porosia u anulua",
+  "camera": {
+    "header": "Aparat fotografik",
+    "notAvailable": {
+      "title": "Kamera nuk është në dispozicion",
+      "subtitle": "Kamera në shfletues nuk është e disponueshme në këtë pajisje"
+    },
+    "takePhoto": "Bej nje foto"
+  },
+  "service": {
+    "header": "Sherbime",
+    "title": "Thirrni një shërbim",
+    "subtitle": "Me këtë veçori, ju mund të kërkoni një lloj kondicioneri ose sendesh për tryezën tuaj.",
+    "instruction": "Kontrolloni duke skanuar kodin qr në një restorant afër jush për të filluar.",
+    "types": {
+      "tableware": "Takëm",
+      "condiments": "Condiments"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Në pritje të konfirmimit",
+      "confirmed": "Urdhërat e konfirmuar",
+      "empty": "Pasi të konfirmohen porositë tuaja, ato shtohen në faturën tuaj totale"
+    },
+    "title": "Fature",
+    "split": "Ndarje",
+    "selecting": "Zgjidhni artikujt e faturave për t'u ndarë me të tjerët",
+    "splittingWith": "Ndarja me {{list, list}}",
+    "splittingWith_zero": "Zgjidhni përdoruesit për t'u ndarë me",
+    "splittingCount": "Ndarja me {{count, number}} personi ",
+    "splittingCount_plural": "Ndarja midis {{count, number}} njerëzish",
+    "itemCountSelected": "{{count, number}} artikulli ",
+    "itemCountSelected_plural": "{{count, number}} zgjedhur të artikujve",
+    "itemCountSelected_none": "nuk u zgjodh asnjë artikull"
+  },
+  "meParentheses": "(me)",
+  "gratuity": "Bakshish",
+  "pay": "Paguaj",
+  "paymentPending": "Në pritje të konfirmimit të pagesës ...",
+  "paymentConfirmed": "Pagesa u konfirmua",
+  "paymentCancelled": "Pagesa u anulua",
+  "editing": "redaktimi",
+  "profile": "Profil",
+  "dashboard": "Baltëpritëse",
+  "waiterboard": "Waiterboard",
+  "currency": {
+    "title": "Shfaq monedhën",
+    "set": "Vendosni monedhën e ekranit",
+    "original": "Trego çmimet në monedhën origjinale",
+    "other": "Monedha të tjera"
+  },
+  "roles": {
+    "title": "Rolet",
+    "at": "në {{restaurant}}",
+    "restaurant": {
+      "owner": "Pronar restoranti",
+      "manager": "Menaxheri i restorantit",
+      "waiter": "Kamerier",
+      "cook": "Kuzhinier"
+    },
+    "proofreader": "Korrektor bocash"
+  },
+  "language": {
+    "setPrimary": "Vendosni gjuhën fillore",
+    "default": "Gjuha e paracaktuar",
+    "other": "Gjuhe te tjera",
+    "addOther": "Shtoni një gjuhë tjetër"
+  },
+  "toggle": {
+    "on": "aktualisht ne",
+    "off": "aktualisht fikur"
+  },
+  "theme": {
+    "title": "Temë",
+    "nightModeOn": "Ndizni modalitetin e natës",
+    "nightModeOff": "Fikni modalitetin e natës"
+  },
+  "cart": {
+    "title": "Qerre",
+    "itemCount": "{{count, number}} artikulli ",
+    "itemCount_plural": "{{count, number}} artikujve",
+    "itemCount_none": "pa sende",
+    "add": "Shtoni në shportë",
+    "checkInInstructions": "Kontrolloni duke skanuar kodin qr në një restorant afër jush për të filluar."
+  },
+  "nutrition": {
+    "facts": "Fakte të ushqyerit",
+    "fats": "Fats",
+    "carbs": "Carbs",
+    "proteins": "Proteinat",
+    "calories": "Kalorive"
+  },
+  "successMessages": {
+    "added-to-cart": "Shtuar në shportë",
+    "removed-from-cart": "Hequr nga karroca",
+    "order-has-been-placed": "Urdhri është vendosur",
+    "you-are-now-checked-in": "Tani jeni regjistruar në",
+    "service-called": "Shërbimi i quajtur",
+    "payment-request-sent": "Kërkesa e pagesës u dërgua"
+  },
+  "guestJoinedTable": "I ftuari i ri u bashkua në tryezën",
+  "guestLeftTable": "Tavolina e majtë e ftuar",
+  "newBillSplitItems": "Bill mori artikuj të ndarë",
+  "checkedOut": "Ju jeni kontrolluar nga tabela.",
+  "serviceCallConfirmed": "Thirrja e shërbimit konfirmohet",
+  "serviceCallCancelled": "Thirrja e shërbimit u anulua"
+}

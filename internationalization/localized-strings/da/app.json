@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Menu",
+    "caption": "Alt hvad du kan få i {{restaurant.name}}"
+  },
+  "address": "Adresse",
+  "appBar": {
+    "back": "Tilbage",
+    "cancel": "Afbestille",
+    "edit": "Redigere",
+    "done": "Færdig"
+  },
+  "hours": {
+    "open": "Åben nu",
+    "closed": "Lukket",
+    "opens_at": "Åbner på {{time, time:short}}",
+    "closes_at": "Lukker på {{time, time:short}}"
+  },
+  "website": "Internet side",
+  "nav": {
+    "explore": "Udforske",
+    "browse": "Gennemse",
+    "dineIn": "Spise i",
+    "account": "Konto",
+    "menu": "Menu",
+    "settings": "Indstillinger"
+  },
+  "dinein": {
+    "checkedin": "du er i øjeblikket tjekket ind",
+    "actions": "Handlinger",
+    "seeMenu": "Se restaurantmenu",
+    "callService": "Ring til en service"
+  },
+  "checkIn": "Tjek ind",
+  "checkedIn": "Tjekket ind",
+  "ingredients": "Ingredienser",
+  "addons": "Addons",
+  "subtotal": "Subtotal",
+  "total": "I alt",
+  "totalConverted": "I alt ( {{currencyname}} )",
+  "serviceFee": "Servicegebyr",
+  "order": "Bestille",
+  "orderConfirmed": "Bestilling bekræftet",
+  "orderCancelled": "Bestilling annulleret",
+  "camera": {
+    "header": "Kamera",
+    "notAvailable": {
+      "title": "Kamera ikke tilgængeligt",
+      "subtitle": "In-browser-kameraet er ikke tilgængeligt på denne enhed"
+    },
+    "takePhoto": "Tag et billede"
+  },
+  "service": {
+    "header": "Services",
+    "title": "Ring til en service",
+    "subtitle": "Med denne funktion kan du anmode om en hvilken som helst slags krydderier eller service til dit bord.",
+    "instruction": "Tjek ind ved at scanne qr-koden i en restaurant i nærheden af dig for at komme i gang.",
+    "types": {
+      "tableware": "Bordservice",
+      "condiments": "Krydderier"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Afventer bekræftelse",
+      "confirmed": "Bekræftede ordrer",
+      "empty": "Når dine ordrer er bekræftet, tilføjes de til din samlede regning"
+    },
+    "title": "Regning",
+    "split": "Dele",
+    "selecting": "Vælg regningsposter, der skal opdeles med andre",
+    "splittingWith": "Opdeling med {{list, list}}",
+    "splittingWith_zero": "Vælg brugere, der skal opdeles med",
+    "splittingCount": "Opdeling med {{count, number}} personer",
+    "splittingCount_plural": "Opdeling mellem {{count, number}} personer",
+    "itemCountSelected": "{{count, number}} valgte elementer",
+    "itemCountSelected_plural": "{{count, number}} valgte poster",
+    "itemCountSelected_none": "ingen emner valgt"
+  },
+  "meParentheses": "(mig)",
+  "gratuity": "Drikkepenge",
+  "pay": "Betale",
+  "paymentPending": "Afventer betalingsbekræftelse ...",
+  "paymentConfirmed": "Betaling bekræftet",
+  "paymentCancelled": "Betaling annulleret",
+  "editing": "redigering",
+  "profile": "Profil",
+  "dashboard": "Instrumentbræt",
+  "waiterboard": "Waiterboard",
+  "currency": {
+    "title": "Vis valuta",
+    "set": "Indstil visningsvaluta",
+    "original": "Viser priser i den oprindelige valuta",
+    "other": "Andre valutaer"
+  },
+  "roles": {
+    "title": "Roller",
+    "at": "på {{restaurant}}",
+    "restaurant": {
+      "owner": "Restaurant ejer",
+      "manager": "Restaurantchef",
+      "waiter": "Tjener",
+      "cook": "Laver mad"
+    },
+    "proofreader": "Korrekturlæser"
+  },
+  "language": {
+    "setPrimary": "Indstil det primære sprog",
+    "default": "Standardsprog",
+    "other": "Andre sprog",
+    "addOther": "Tilføj et andet sprog"
+  },
+  "toggle": {
+    "on": "i øjeblikket tændt",
+    "off": "i øjeblikket slukket"
+  },
+  "theme": {
+    "title": "Tema",
+    "nightModeOn": "Tænd nattetilstand",
+    "nightModeOff": "Sluk for nattilstand"
+  },
+  "cart": {
+    "title": "Vogn",
+    "itemCount": "{{count, number}}",
+    "itemCount_plural": "{{count, number}} poster",
+    "itemCount_none": "ingen varer",
+    "add": "Tilføj til kurv",
+    "checkInInstructions": "Tjek ind ved at scanne qr-koden i en restaurant i nærheden af dig for at komme i gang."
+  },
+  "nutrition": {
+    "facts": "Næringsfakta",
+    "fats": "Fedtstoffer",
+    "carbs": "Carbs",
+    "proteins": "Proteiner",
+    "calories": "Kalorier"
+  },
+  "successMessages": {
+    "added-to-cart": "Føjet til indkøbskurven",
+    "removed-from-cart": "Fjernet fra indkøbskurven",
+    "order-has-been-placed": "Ordren er placeret",
+    "you-are-now-checked-in": "Du er nu tjekket ind",
+    "service-called": "Tjeneste kaldet",
+    "payment-request-sent": "Betalingsanmodning sendt"
+  },
+  "guestJoinedTable": "Ny gæst sluttede sig til bordet",
+  "guestLeftTable": "Gæst venstre bord",
+  "newBillSplitItems": "Bill modtog splittede genstande",
+  "checkedOut": "Du er blevet tjekket ud fra tabellen.",
+  "serviceCallConfirmed": "Servicekald bekræftet",
+  "serviceCallCancelled": "Servicekald annulleret"
+}

@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Foto",
+    "caption": "Semuanya bisa anda dapatkan di {{restaurant.name}}"
+  },
+  "address": "Alamat",
+  "appBar": {
+    "back": "Kembali",
+    "cancel": "Membatalkan",
+    "edit": "Sunting",
+    "done": "Selesai"
+  },
+  "hours": {
+    "open": "Buka sekarang",
+    "closed": "Tutup",
+    "opens_at": "Dibuka pada {{time, time:short}}",
+    "closes_at": "Menutup pada {{time, time:short}}"
+  },
+  "website": "Situs web",
+  "nav": {
+    "explore": "Jelajahi",
+    "browse": "Jelajahi",
+    "dineIn": "Makan di tempat",
+    "account": "Akun",
+    "menu": "Foto",
+    "settings": "Pengaturan"
+  },
+  "dinein": {
+    "checkedin": "anda sedang masuk",
+    "actions": "Tindakan",
+    "seeMenu": "Lihat menu restoran",
+    "callService": "Panggil layanan"
+  },
+  "checkIn": "Mendaftar",
+  "checkedIn": "Check in",
+  "ingredients": "Bahan",
+  "addons": "Addons",
+  "subtotal": "Subtotal",
+  "total": "Total",
+  "totalConverted": "Total ( {{currencyname}} )",
+  "serviceFee": "Biaya jasa",
+  "order": "Memesan",
+  "orderConfirmed": "Pesanan dikonfirmasi",
+  "orderCancelled": "Pesanan dibatalkan",
+  "camera": {
+    "header": "Kamera",
+    "notAvailable": {
+      "title": "Kamera tidak tersedia",
+      "subtitle": "Kamera dalam peramban tidak tersedia pada perangkat ini"
+    },
+    "takePhoto": "Mengambil foto"
+  },
+  "service": {
+    "header": "Jasa",
+    "title": "Panggil layanan",
+    "subtitle": "Dengan fitur ini, anda dapat meminta segala jenis bumbu atau peralatan makan ke meja anda.",
+    "instruction": "Periksa dengan memindai kode qr di restoran di dekat anda untuk memulai.",
+    "types": {
+      "tableware": "Perangkat makan",
+      "condiments": "Bumbu"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Menunggu konfirmasi",
+      "confirmed": "Pesanan yang dikonfirmasi",
+      "empty": "Setelah pesanan anda dikonfirmasi, mereka akan ditambahkan ke total tagihan anda"
+    },
+    "title": "Tagihan",
+    "split": "Membagi",
+    "selecting": "Pilih item tagihan untuk dibagi dengan yang lain",
+    "splittingWith": "Memisahkan dengan {{list, list}}",
+    "splittingWith_zero": "Pilih pengguna untuk dibagi",
+    "splittingCount": "Berpisah dengan {{count, number}} orang",
+    "splittingCount_plural": "Membagi antara {{count, number}} orang",
+    "itemCountSelected": "{{count, number}} item ",
+    "itemCountSelected_plural": "{{count, number}} item yang dipilih",
+    "itemCountSelected_none": "tidak ada item yang dipilih"
+  },
+  "meParentheses": "(saya)",
+  "gratuity": "Persen",
+  "pay": "Membayar",
+  "paymentPending": "Menunggu konfirmasi pembayaran ...",
+  "paymentConfirmed": "Pembayaran dikonfirmasi",
+  "paymentCancelled": "Pembayaran dibatalkan",
+  "editing": "pengeditan",
+  "profile": "Profil",
+  "dashboard": "Dasbor",
+  "waiterboard": "Papan tunggu",
+  "currency": {
+    "title": "Mata uang tampilan",
+    "set": "Tetapkan mata uang tampilan",
+    "original": "Menampilkan harga dalam mata uang asli",
+    "other": "Mata uang lainnya"
+  },
+  "roles": {
+    "title": "Peran",
+    "at": "di {{restaurant}}",
+    "restaurant": {
+      "owner": "Pemilik restoran",
+      "manager": "Manajer restoran",
+      "waiter": "Pelayan",
+      "cook": "Memasak"
+    },
+    "proofreader": "Korektor"
+  },
+  "language": {
+    "setPrimary": "Tetapkan bahasa utama",
+    "default": "Bahasa default",
+    "other": "Bahasa lainnya",
+    "addOther": "Tambahkan bahasa lain"
+  },
+  "toggle": {
+    "on": "saat ini aktif",
+    "off": "sedang tidak aktif"
+  },
+  "theme": {
+    "title": "Tema",
+    "nightModeOn": "Aktifkan mode malam",
+    "nightModeOff": "Matikan mode malam"
+  },
+  "cart": {
+    "title": "Gerobak",
+    "itemCount": "{{count, number}} item ",
+    "itemCount_plural": "{{count, number}} item",
+    "itemCount_none": "tidak ada barang",
+    "add": "Masukkan ke keranjang",
+    "checkInInstructions": "Periksa dengan memindai kode qr di restoran di dekat anda untuk memulai."
+  },
+  "nutrition": {
+    "facts": "Fakta nutrisi",
+    "fats": "Lemak",
+    "carbs": "Karbohidrat",
+    "proteins": "Protein",
+    "calories": "Kalori"
+  },
+  "successMessages": {
+    "added-to-cart": "Ditambahkan ke troli",
+    "removed-from-cart": "Dihapus dari keranjang",
+    "order-has-been-placed": "Pesanan telah dilakukan",
+    "you-are-now-checked-in": "Anda sekarang sudah masuk",
+    "service-called": "Layanan disebut",
+    "payment-request-sent": "Permintaan pembayaran terkirim"
+  },
+  "guestJoinedTable": "Tamu baru bergabung dengan meja",
+  "guestLeftTable": "Meja tamu kiri",
+  "newBillSplitItems": "Bill menerima barang terbelah",
+  "checkedOut": "Anda telah keluar dari meja.",
+  "serviceCallConfirmed": "Panggilan layanan dikonfirmasi",
+  "serviceCallCancelled": "Panggilan layanan dibatalkan"
+}

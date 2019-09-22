@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Speisekarte",
+    "caption": "Alles, was sie in {{restaurant.name}}"
+  },
+  "address": "Adresse",
+  "appBar": {
+    "back": "Zurück",
+    "cancel": "Stornieren",
+    "edit": "Bearbeiten",
+    "done": "Getan"
+  },
+  "hours": {
+    "open": "Jetzt geöffnet",
+    "closed": "Geschlossen",
+    "opens_at": "Öffnet zur {{time, time:short}}",
+    "closes_at": "Schließt zu gegebener {{time, time:short}}"
+  },
+  "website": "Webseite",
+  "nav": {
+    "explore": "Erkunden",
+    "browse": "Durchsuche",
+    "dineIn": "Speisen in",
+    "account": "Konto",
+    "menu": "Speisekarte",
+    "settings": "Die einstellungen"
+  },
+  "dinein": {
+    "checkedin": "sie sind gerade eingecheckt",
+    "actions": "Aktionen",
+    "seeMenu": "Siehe speisekarte",
+    "callService": "Service anrufen"
+  },
+  "checkIn": "Check-in",
+  "checkedIn": "Eingecheckt",
+  "ingredients": "Zutaten",
+  "addons": "Addons",
+  "subtotal": "Zwischensumme",
+  "total": "Gesamt",
+  "totalConverted": "Total ( {{currencyname}} )",
+  "serviceFee": "Servicegebühr",
+  "order": "Bestellung",
+  "orderConfirmed": "Bestellung bestätigt",
+  "orderCancelled": "Bestellung storniert",
+  "camera": {
+    "header": "Kamera",
+    "notAvailable": {
+      "title": "Kamera nicht verfügbar",
+      "subtitle": "Die kamera im browser ist auf diesem gerät nicht verfügbar"
+    },
+    "takePhoto": "Mach ein foto"
+  },
+  "service": {
+    "header": "Dienstleistungen",
+    "title": "Service anrufen",
+    "subtitle": "Mit dieser funktion können sie eine beliebige art von gewürzen oder geschirr für ihren tisch anfordern.",
+    "instruction": "Checken sie ein, indem sie den qr-code in einem restaurant in ihrer nähe scannen, um loszulegen.",
+    "types": {
+      "tableware": "Geschirr",
+      "condiments": "Gewürze"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Warte auf bestätigung",
+      "confirmed": "Bestätigte bestellungen",
+      "empty": "Sobald ihre bestellungen bestätigt wurden, werden sie zu ihrer rechnungssumme hinzugefügt"
+    },
+    "title": "Rechnung",
+    "split": "Teilt",
+    "selecting": "Wählen sie rechnungspositionen aus, um sie mit anderen zu teilen",
+    "splittingWith": "Teilen mit {{list, list}}",
+    "splittingWith_zero": "Wählen sie benutzer zum teilen aus",
+    "splittingCount": "Teilen mit {{count, number}} person",
+    "splittingCount_plural": "Aufteilung zwischen {{count, number}} personen",
+    "itemCountSelected": "{{count, number}} element ausgewählt",
+    "itemCountSelected_plural": "{{count, number}} ausgewählten elemente",
+    "itemCountSelected_none": "keine elemente ausgewählt"
+  },
+  "meParentheses": "(mich)",
+  "gratuity": "Trinkgeld",
+  "pay": "Zahlen",
+  "paymentPending": "Warten auf zahlungsbestätigung ...",
+  "paymentConfirmed": "Bezahlung bestätigt",
+  "paymentCancelled": "Zahlung storniert",
+  "editing": "bearbeitung",
+  "profile": "Profil",
+  "dashboard": "Instrumententafel",
+  "waiterboard": "Kellnerbrett",
+  "currency": {
+    "title": "Währung anzeigen",
+    "set": "Anzeigewährung einstellen",
+    "original": "Preise in originalwährung anzeigen",
+    "other": "Andere währungen"
+  },
+  "roles": {
+    "title": "Rollen",
+    "at": "im {{restaurant}}",
+    "restaurant": {
+      "owner": "Restaurantbesitzer",
+      "manager": "Restaurantmanager",
+      "waiter": "Bedienung",
+      "cook": "Koch"
+    },
+    "proofreader": "Korrektor"
+  },
+  "language": {
+    "setPrimary": "Hauptsprache einstellen",
+    "default": "Standardsprache",
+    "other": "Andere sprachen",
+    "addOther": "Fügen sie eine weitere sprache hinzu"
+  },
+  "toggle": {
+    "on": "derzeit auf",
+    "off": "derzeit aus"
+  },
+  "theme": {
+    "title": "Thema",
+    "nightModeOn": "Schalten sie den nachtmodus ein",
+    "nightModeOff": "Nachtmodus ausschalten"
+  },
+  "cart": {
+    "title": "Wagen",
+    "itemCount": "{{count, number}} artikel",
+    "itemCount_plural": "{{count, number}} elemente",
+    "itemCount_none": "keine gegenstände",
+    "add": "In den warenkorb legen",
+    "checkInInstructions": "Checken sie ein, indem sie den qr-code in einem restaurant in ihrer nähe scannen, um loszulegen."
+  },
+  "nutrition": {
+    "facts": "Nährwertangaben",
+    "fats": "Fette",
+    "carbs": "Kohlenhydrate",
+    "proteins": "Proteine",
+    "calories": "Kalorien"
+  },
+  "successMessages": {
+    "added-to-cart": "Zum warenkorb hinzugefügt",
+    "removed-from-cart": "Aus dem warenkorb entfernt",
+    "order-has-been-placed": "Bestellung wurde aufgegeben",
+    "you-are-now-checked-in": "Sie sind jetzt eingecheckt",
+    "service-called": "Service angerufen",
+    "payment-request-sent": "Zahlungsaufforderung gesendet"
+  },
+  "guestJoinedTable": "Neuer gast am tisch",
+  "guestLeftTable": "Gast verließ tisch",
+  "newBillSplitItems": "Bill hat geteilte artikel erhalten",
+  "checkedOut": "Sie wurden aus der tabelle ausgecheckt.",
+  "serviceCallConfirmed": "Serviceabruf bestätigt",
+  "serviceCallCancelled": "Serviceabruf abgebrochen"
+}

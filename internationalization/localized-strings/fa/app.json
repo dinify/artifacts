@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "منو",
+    "caption": "همه چیزهایی که می توانید در {{restaurant.name}} دریافت کنید"
+  },
+  "address": "نشانی",
+  "appBar": {
+    "back": "بازگشت",
+    "cancel": "لغو",
+    "edit": "ویرایش کنید",
+    "done": "انجام شده"
+  },
+  "hours": {
+    "open": "اکنون باز کنید",
+    "closed": "بسته شد",
+    "opens_at": "{{time, time:short}} باز می شود {{time, time:short}}",
+    "closes_at": "{{time, time:short}}"
+  },
+  "website": "سایت اینترنتی",
+  "nav": {
+    "explore": "کاوش",
+    "browse": "مرور کردن",
+    "dineIn": "ناهار خوردن در",
+    "account": "حساب",
+    "menu": "منو",
+    "settings": "تنظیمات"
+  },
+  "dinein": {
+    "checkedin": "شما در حال حاضر وارد سیستم شده اید",
+    "actions": "اقدامات",
+    "seeMenu": "مشاهده منوی رستوران",
+    "callService": "با یک سرویس تماس بگیرید"
+  },
+  "checkIn": "ورود به سیستم",
+  "checkedIn": "ورود به سیستم",
+  "ingredients": "عناصر",
+  "addons": "اضافات",
+  "subtotal": "فرعی",
+  "total": "جمع",
+  "totalConverted": "کل (نام {{currencyname}} )",
+  "serviceFee": "هزینه خدمات",
+  "order": "سفارش",
+  "orderConfirmed": "سفارش تأیید شد",
+  "orderCancelled": "سفارش لغو شد",
+  "camera": {
+    "header": "دوربین",
+    "notAvailable": {
+      "title": "دوربین در دسترس نیست",
+      "subtitle": "دوربین این مرورگر در این دستگاه موجود نیست"
+    },
+    "takePhoto": "عکس گرفتن"
+  },
+  "service": {
+    "header": "خدمات",
+    "title": "با یک سرویس تماس بگیرید",
+    "subtitle": "با استفاده از این ویژگی می توانید هر نوع چاشنی یا کارد و چنگال سر میز خود را درخواست کنید.",
+    "instruction": "برای شروع ، با اسکن کد qr در رستوران نزدیک شما ، ثبت نام کنید.",
+    "types": {
+      "tableware": "کارد و چنگال",
+      "condiments": "چاشنی ها"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "در انتظار تأیید",
+      "confirmed": "سفارشات را تأیید کرد",
+      "empty": "پس از تأیید سفارشات ، آنها به مجموع صورتحساب شما اضافه می شوند"
+    },
+    "title": "بیل",
+    "split": "شکاف",
+    "selecting": "موارد قبض را برای تقسیم با دیگران انتخاب کنید",
+    "splittingWith": "تقسیم با {{list, list}}",
+    "splittingWith_zero": "کاربران را برای تقسیم با آنها انتخاب کنید",
+    "splittingCount": "تقسیم با {{count, number}} افراد",
+    "splittingCount_plural": "تقسیم بین {{count, number}} افراد",
+    "itemCountSelected": "{{count, number}} مورد ",
+    "itemCountSelected_plural": "{{count, number}} موارد انتخاب شده است",
+    "itemCountSelected_none": "هیچ موردی انتخاب نشده است"
+  },
+  "meParentheses": "(من)",
+  "gratuity": "پاداش",
+  "pay": "پرداخت",
+  "paymentPending": "در انتظار تأیید پرداخت ...",
+  "paymentConfirmed": "پرداخت تایید شد",
+  "paymentCancelled": "پرداخت لغو شد",
+  "editing": "ویرایش",
+  "profile": "مشخصات",
+  "dashboard": "داشبورد",
+  "waiterboard": "صفحه پیشخدمت",
+  "currency": {
+    "title": "نمایش ارز",
+    "set": "تنظیم ارز نمایش",
+    "original": "نمایش قیمت ها به ارز اصلی",
+    "other": "ارزهای دیگر"
+  },
+  "roles": {
+    "title": "نقش ها",
+    "at": "در {{restaurant}}",
+    "restaurant": {
+      "owner": "صاحب رستوران",
+      "manager": "مدیر رستوران",
+      "waiter": "گارسون",
+      "cook": "پختن"
+    },
+    "proofreader": "اثبات کننده"
+  },
+  "language": {
+    "setPrimary": "تنظیم زبان اصلی",
+    "default": "زبان پیش فرض",
+    "other": "زبان های دیگر",
+    "addOther": "اضافه کردن یک زبان دیگر"
+  },
+  "toggle": {
+    "on": "در حال حاضر در",
+    "off": "در حال حاضر خاموش است"
+  },
+  "theme": {
+    "title": "موضوع",
+    "nightModeOn": "حالت شب را روشن کنید",
+    "nightModeOff": "حالت شب را خاموش کنید"
+  },
+  "cart": {
+    "title": "سبد خرید",
+    "itemCount": "{{count, number}} مورد ",
+    "itemCount_plural": "{{count, number}} موارد",
+    "itemCount_none": "هیچ موردی نیست",
+    "add": "افزودن به سبد خرید",
+    "checkInInstructions": "برای شروع ، با اسکن کد qr در رستوران نزدیک شما ، ثبت نام کنید."
+  },
+  "nutrition": {
+    "facts": "ارزش غذایی",
+    "fats": "چربی ها",
+    "carbs": "کربوهیدرات",
+    "proteins": "پروتئین ها",
+    "calories": "کالری"
+  },
+  "successMessages": {
+    "added-to-cart": "به سبد خرید اضافه شد",
+    "removed-from-cart": "از سبد خرید حذف شد",
+    "order-has-been-placed": "سفارش قرار داده شده است",
+    "you-are-now-checked-in": "اکنون وارد سیستم شده اید",
+    "service-called": "خدمات به نام",
+    "payment-request-sent": "درخواست پرداخت ارسال شد"
+  },
+  "guestJoinedTable": "میهمان جدید به میز پیوست",
+  "guestLeftTable": "میز سمت چپ مهمان",
+  "newBillSplitItems": "بیل موارد تقسیم شده را دریافت کرد",
+  "checkedOut": "شما از جدول بررسی شده اید.",
+  "serviceCallConfirmed": "تماس تلفنی تأیید شد",
+  "serviceCallCancelled": "تماس تلفنی لغو شد"
+}

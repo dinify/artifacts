@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Menyu",
+    "caption": "{{restaurant.name}} əldə edə biləcəyiniz hər şey"
+  },
+  "address": "Ünvan",
+  "appBar": {
+    "back": "Geri",
+    "cancel": "Ləğv et",
+    "edit": "Redaktə edin",
+    "done": "Bitdi"
+  },
+  "hours": {
+    "open": "İndi açın",
+    "closed": "Bağlı",
+    "opens_at": "{{time, time:short}} açılır {{time, time:short}}",
+    "closes_at": "{{time, time:short}} bağlanır {{time, time:short}}"
+  },
+  "website": "Veb sayt",
+  "nav": {
+    "explore": "Araşdırın",
+    "browse": "Gözdən keçirin",
+    "dineIn": "Yemək içərisində",
+    "account": "Hesab",
+    "menu": "Menyu",
+    "settings": "Parametrlər"
+  },
+  "dinein": {
+    "checkedin": "hal hazırda qeydiyyatdadır",
+    "actions": "Tədbirlər",
+    "seeMenu": "Restoran menyusuna baxın",
+    "callService": "Bir xidmətə zəng edin"
+  },
+  "checkIn": "Kontrol",
+  "checkedIn": "Yoxlanılır",
+  "ingredients": "Tərkibi",
+  "addons": "Əlavələr",
+  "subtotal": "Cəmi",
+  "total": "Ümumi",
+  "totalConverted": "Cəmi ( {{currencyname}} )",
+  "serviceFee": "Xidmət haqqı",
+  "order": "Sifariş verin",
+  "orderConfirmed": "Sifariş təsdiqləndi",
+  "orderCancelled": "Sifariş ləğv edildi",
+  "camera": {
+    "header": "Kamera",
+    "notAvailable": {
+      "title": "Kamera mövcud deyil",
+      "subtitle": "Bu cihazda brauzer kamerası mövcud deyil"
+    },
+    "takePhoto": "Şəkil çəkin"
+  },
+  "service": {
+    "header": "Xidmətlər",
+    "title": "Bir xidmətə zəng edin",
+    "subtitle": "Bu xüsusiyyət ilə, masanıza hər cür çirk və ya süfrə istəyə bilərsiniz.",
+    "instruction": "İşə başlamaq üçün yaxınlığındakı bir restoranda qr kodunu skan edərək yoxlayın.",
+    "types": {
+      "tableware": "Süfrə qabları",
+      "condiments": "Şirniyyat"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Təsdiqini gözləyirəm",
+      "confirmed": "Təsdiq olunmuş sifarişlər",
+      "empty": "Sifarişləriniz təsdiqləndikdən sonra ümumi hesabınıza əlavə olunur"
+    },
+    "title": "Bill",
+    "split": "Ayrılmaq",
+    "selecting": "Başqaları ilə bölüşdürmək üçün hesab maddələrini seçin",
+    "splittingWith": "{{list, list}} ilə parçalanma",
+    "splittingWith_zero": "Bölüşmək üçün istifadəçilər seçin",
+    "splittingCount": "Say {{count, number}} ilə bölmək",
+    "splittingCount_plural": "Say {{count, number}} arasında bölünmə",
+    "itemCountSelected": "{{count, number}} seçildi",
+    "itemCountSelected_plural": "{{count, number}} maddələr seçildi",
+    "itemCountSelected_none": "heç bir element seçilməyib"
+  },
+  "meParentheses": "(mən)",
+  "gratuity": "Təşəkkür",
+  "pay": "Ödəyin",
+  "paymentPending": "Ödəniş təsdiqini gözləyirik ...",
+  "paymentConfirmed": "Ödəniş təsdiqləndi",
+  "paymentCancelled": "Ödəniş ləğv edildi",
+  "editing": "redaktə",
+  "profile": "Profil",
+  "dashboard": "İdarə paneli",
+  "waiterboard": "Ofisiant",
+  "currency": {
+    "title": "Valyuta göstərin",
+    "set": "Ekran valyutasını təyin edin",
+    "original": "Qiymətlər orijinal valyutada göstərilir",
+    "other": "Digər valyutalar"
+  },
+  "roles": {
+    "title": "Rollar",
+    "at": "{{restaurant}}",
+    "restaurant": {
+      "owner": "Restoran sahibi",
+      "manager": "Restoran meneceri",
+      "waiter": "Ofisiant",
+      "cook": "Bişirin"
+    },
+    "proofreader": "Sübutedici"
+  },
+  "language": {
+    "setPrimary": "Əsas dili seçin",
+    "default": "Defolt dil",
+    "other": "Başqa dillər",
+    "addOther": "Başqa bir dil əlavə edin"
+  },
+  "toggle": {
+    "on": "hal hazırda",
+    "off": "hal-hazırda bağlıdır"
+  },
+  "theme": {
+    "title": "Mövzu",
+    "nightModeOn": "Gecə rejimini yandırın",
+    "nightModeOff": "Gecə rejimini söndürün"
+  },
+  "cart": {
+    "title": "Səbət",
+    "itemCount": "{{count, number}} maddəsi",
+    "itemCount_plural": "{{count, number}} əşyaları",
+    "itemCount_none": "maddələr yoxdur",
+    "add": "Səbətə əlavə et",
+    "checkInInstructions": "İşə başlamaq üçün yaxınlığındakı bir restoranda qr kodunu skan edərək yoxlayın."
+  },
+  "nutrition": {
+    "facts": "Qidalanma faktları",
+    "fats": "Yağlar",
+    "carbs": "Carbs",
+    "proteins": "Zülallar",
+    "calories": "Kalori"
+  },
+  "successMessages": {
+    "added-to-cart": "Səbətə əlavə edildi",
+    "removed-from-cart": "Səbətdən çıxarıldı",
+    "order-has-been-placed": "Sifariş verilib",
+    "you-are-now-checked-in": "İndi qeydiyyatdan keçmisiniz",
+    "service-called": "Xidmət çağırdı",
+    "payment-request-sent": "Ödəniş tələbi göndərildi"
+  },
+  "guestJoinedTable": "Yeni qonaq masaya qoşuldu",
+  "guestLeftTable": "Qonaq sol masa",
+  "newBillSplitItems": "Bill parçalanmış əşyalar aldı",
+  "checkedOut": "Cədvəldən yoxlandınız.",
+  "serviceCallConfirmed": "Xidmət zəngi təsdiqləndi",
+  "serviceCallCancelled": "Xidmət zəngi ləğv edildi"
+}

@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Meniul",
+    "caption": "Tot ce puteți obține în {{restaurant.name}}"
+  },
+  "address": "Abordare",
+  "appBar": {
+    "back": "Înapoi",
+    "cancel": "Anulare",
+    "edit": "Editați | ×",
+    "done": "Terminat"
+  },
+  "hours": {
+    "open": "Deschide acum",
+    "closed": "Închis",
+    "opens_at": "Se deschide la {{time, time:short}}",
+    "closes_at": "Închide la {{time, time:short}}"
+  },
+  "website": "Website",
+  "nav": {
+    "explore": "Explora",
+    "browse": "Naviga",
+    "dineIn": "Cinați înăuntru",
+    "account": "Cont",
+    "menu": "Meniul",
+    "settings": "Setări"
+  },
+  "dinein": {
+    "checkedin": "sunteți momentan conectat",
+    "actions": "Acţiuni",
+    "seeMenu": "Vezi meniul restaurantului",
+    "callService": "Apelați un serviciu"
+  },
+  "checkIn": "Verifica",
+  "checkedIn": "Verificate în",
+  "ingredients": "Ingrediente",
+  "addons": "Adaosuri",
+  "subtotal": "Subtotal",
+  "total": "Total",
+  "totalConverted": "Total ( {{currencyname}} )",
+  "serviceFee": "Taxa de serviciu",
+  "order": "Ordin",
+  "orderConfirmed": "Comandă confirmată",
+  "orderCancelled": "Comanda anulata",
+  "camera": {
+    "header": "Aparat foto",
+    "notAvailable": {
+      "title": "Camera nu este disponibilă",
+      "subtitle": "Camera în browser nu este disponibilă pe acest dispozitiv"
+    },
+    "takePhoto": "Fă o poză"
+  },
+  "service": {
+    "header": "Servicii",
+    "title": "Apelați un serviciu",
+    "subtitle": "Cu această caracteristică, puteți solicita orice fel de condiment sau veselă la masa dvs.",
+    "instruction": "Înregistrați scanând codul qr într-un restaurant din apropiere pentru a începe.",
+    "types": {
+      "tableware": "Tacâmuri",
+      "condiments": "Condimentele"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Asteptand confirmarea",
+      "confirmed": "Comenzi confirmate",
+      "empty": "După confirmarea comenzilor, acestea vor fi adăugate la valoarea totală a facturii"
+    },
+    "title": "Factură",
+    "split": "Despică",
+    "selecting": "Selectați articolele de factură pentru a le împărți cu altele",
+    "splittingWith": "Împărțire cu {{list, list}}",
+    "splittingWith_zero": "Selectați utilizatorii cu care să se împartă",
+    "splittingCount": "Împărțire cu {{count, number}} persoană ",
+    "splittingCount_plural": "Împărțire între {{count, number}} persoane",
+    "itemCountSelected": "{{count, number}} articol selectat",
+    "itemCountSelected_plural": "{{count, number}} articole selectate",
+    "itemCountSelected_none": "nu au fost selectate articole"
+  },
+  "meParentheses": "(pe mine)",
+  "gratuity": "Gratificație",
+  "pay": "A plati",
+  "paymentPending": "Se așteaptă confirmarea plății ...",
+  "paymentConfirmed": "Plata confirmată",
+  "paymentCancelled": "Plata a fost anulată",
+  "editing": "editare",
+  "profile": "Profil",
+  "dashboard": "Tablou de bord",
+  "waiterboard": "Waiterboard",
+  "currency": {
+    "title": "Afișează moneda",
+    "set": "Setați moneda afișată",
+    "original": "Afișarea prețurilor în moneda inițială",
+    "other": "Alte valute"
+  },
+  "roles": {
+    "title": "Roluri",
+    "at": "la {{restaurant}}",
+    "restaurant": {
+      "owner": "Proprietar de restaurant",
+      "manager": "Manager de restaurant",
+      "waiter": "Chelner",
+      "cook": "Bucătar"
+    },
+    "proofreader": "Proofreader"
+  },
+  "language": {
+    "setPrimary": "Setați limba primară",
+    "default": "Limba implicita",
+    "other": "Alte limbi",
+    "addOther": "Adăugați o altă limbă"
+  },
+  "toggle": {
+    "on": "în prezent",
+    "off": "momentan oprit"
+  },
+  "theme": {
+    "title": "Temă",
+    "nightModeOn": "Activați modul de noapte",
+    "nightModeOff": "Dezactivați modul de noapte"
+  },
+  "cart": {
+    "title": "Cart",
+    "itemCount": "{{count, number}} articol",
+    "itemCount_plural": "{{count, number}} articole",
+    "itemCount_none": "fara articole",
+    "add": "Adaugă în coș",
+    "checkInInstructions": "Înregistrați scanând codul qr într-un restaurant din apropiere pentru a începe."
+  },
+  "nutrition": {
+    "facts": "Informații nutriționale",
+    "fats": "Grăsimi",
+    "carbs": "Carbohidrați",
+    "proteins": "Proteine",
+    "calories": "Calorii"
+  },
+  "successMessages": {
+    "added-to-cart": "Adăugat în coș",
+    "removed-from-cart": "Eliminat din coș",
+    "order-has-been-placed": "Comanda a fost plasată",
+    "you-are-now-checked-in": "Acum sunteți conectat",
+    "service-called": "Serviciul apelat",
+    "payment-request-sent": "Solicitare de plată trimisă"
+  },
+  "guestJoinedTable": "Un nou invitat s-a alăturat mesei",
+  "guestLeftTable": "Masa de stânga a oaspeților",
+  "newBillSplitItems": "Bill a primit articole împărțite",
+  "checkedOut": "Ai fost verificat de la tabel.",
+  "serviceCallConfirmed": "Apel de serviciu confirmat",
+  "serviceCallCancelled": "Apelul de serviciu a fost anulat"
+}

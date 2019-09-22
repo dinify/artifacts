@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Menü",
+    "caption": "Minden, amit beszerezhet a {{restaurant.name}}"
+  },
+  "address": "Cím",
+  "appBar": {
+    "back": "Hát",
+    "cancel": "Megszünteti",
+    "edit": "Szerkesztése",
+    "done": "Kész"
+  },
+  "hours": {
+    "open": "Most nyitva",
+    "closed": "Zárva",
+    "opens_at": "Nyitva {{time, time:short}}",
+    "closes_at": "{{time, time:short}} bezár {{time, time:short}}"
+  },
+  "website": "Weboldal",
+  "nav": {
+    "explore": "Fedezd fel",
+    "browse": "Böngésszen",
+    "dineIn": "Étkezzen be",
+    "account": "Számla",
+    "menu": "Menü",
+    "settings": "Beállítások"
+  },
+  "dinein": {
+    "checkedin": "ön jelenleg be van jelentkezve",
+    "actions": "Hozzászólások",
+    "seeMenu": "Lásd az étterem menüjét",
+    "callService": "Hívjon egy szervizt"
+  },
+  "checkIn": "Becsekkolás",
+  "checkedIn": "Bejelentkezett",
+  "ingredients": "Hozzávalók",
+  "addons": "Kiegészítések",
+  "subtotal": "Részösszeg",
+  "total": "Teljes",
+  "totalConverted": "Összesen ( {{currencyname}} )",
+  "serviceFee": "Szolgáltatási díj",
+  "order": "Rendelés",
+  "orderConfirmed": "Rendelés megerősítve",
+  "orderCancelled": "A rendelés visszavonva",
+  "camera": {
+    "header": "Kamera",
+    "notAvailable": {
+      "title": "A kamera nem érhető el",
+      "subtitle": "A böngészőn belüli kamera nem érhető el ezen az eszközön"
+    },
+    "takePhoto": "Fotózni"
+  },
+  "service": {
+    "header": "Szolgáltatások",
+    "title": "Hívjon egy szervizt",
+    "subtitle": "Ezzel a funkcióval bármilyen fűszert vagy étkészletet kérhet az asztalához.",
+    "instruction": "Az induláshoz olvassa be a qr-kódot egy közeli étteremben az induláshoz.",
+    "types": {
+      "tableware": "Teríték",
+      "condiments": "Fűszerek"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Megerősítésre vár",
+      "confirmed": "Megerősített megrendelések",
+      "empty": "A megrendelések visszaigazolása után hozzáadódnak a számlához"
+    },
+    "title": "Számla",
+    "split": "Hasított",
+    "selecting": "Válassza ki a számla tételeket, hogy másokkal megossza",
+    "splittingWith": "Osztva a {{list, list}}",
+    "splittingWith_zero": "Válassza ki a felosztandó felhasználókat",
+    "splittingCount": "Osztva {{count, number}} személy",
+    "splittingCount_plural": "Osztva a {{count, number}} emberek ",
+    "itemCountSelected": "{{count, number}} kiválasztott elem ",
+    "itemCountSelected_plural": "{{count, number}} kiválasztott elemek ",
+    "itemCountSelected_none": "nincs kiválasztva elem"
+  },
+  "meParentheses": "(nekem)",
+  "gratuity": "Borravaló",
+  "pay": "Fizetés",
+  "paymentPending": "Fizetési visszaigazolás vár ...",
+  "paymentConfirmed": "Fizetés visszaigazolva",
+  "paymentCancelled": "A fizetés törölve",
+  "editing": "szerkesztés",
+  "profile": "Profil",
+  "dashboard": "Irányítópult",
+  "waiterboard": "Waiterboard",
+  "currency": {
+    "title": "Kijelző pénznem",
+    "set": "Állítsa be a megjelenítési pénznemet",
+    "original": "Az árak megjelenítése az eredeti pénznemben",
+    "other": "Egyéb valuták"
+  },
+  "roles": {
+    "title": "Szerepek",
+    "at": "az {{restaurant}}",
+    "restaurant": {
+      "owner": "Az étterem tulajdonosa",
+      "manager": "Étterem vezető",
+      "waiter": "Pincér",
+      "cook": "Szakács"
+    },
+    "proofreader": "Korrektor"
+  },
+  "language": {
+    "setPrimary": "Az elsődleges nyelv beállítása",
+    "default": "Alapértelmezett nyelv",
+    "other": "Más nyelvek",
+    "addOther": "Adjon hozzá még egy nyelvet"
+  },
+  "toggle": {
+    "on": "jelenleg be van kapcsolva",
+    "off": "jelenleg ki van kapcsolva"
+  },
+  "theme": {
+    "title": "Téma",
+    "nightModeOn": "Kapcsolja be az éjszakai módot",
+    "nightModeOff": "Az éjszakai mód kikapcsolása"
+  },
+  "cart": {
+    "title": "Kocsi",
+    "itemCount": "{{count, number}} elem",
+    "itemCount_plural": "{{count, number}} tételek ",
+    "itemCount_none": "nincsenek tárgyak",
+    "add": "Kosárba",
+    "checkInInstructions": "Az induláshoz olvassa be a qr-kódot egy közeli étteremben az induláshoz."
+  },
+  "nutrition": {
+    "facts": "Táplálkozási tények",
+    "fats": "Fats",
+    "carbs": "Carbs",
+    "proteins": "Fehérjék",
+    "calories": "Kalória"
+  },
+  "successMessages": {
+    "added-to-cart": "Kosárba rakva",
+    "removed-from-cart": "Eltávolítva a kosárból",
+    "order-has-been-placed": "Megrendelés megtörtént",
+    "you-are-now-checked-in": "Most be van jelentkezve",
+    "service-called": "Szolgáltató hívta",
+    "payment-request-sent": "Fizetési kérelem elküldve"
+  },
+  "guestJoinedTable": "Új vendég csatlakozott az asztalhoz",
+  "guestLeftTable": "Vendég bal asztal",
+  "newBillSplitItems": "Bill megosztott tételeket kapott",
+  "checkedOut": "Kihúzták az asztalból.",
+  "serviceCallConfirmed": "A szervizhívás megerősítve",
+  "serviceCallCancelled": "A szolgáltatáshívás megszakítva"
+}

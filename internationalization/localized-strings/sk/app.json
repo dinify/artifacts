@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Ponuka",
+    "caption": "Všetko, čo môžete získať v {{restaurant.name}}"
+  },
+  "address": "Adresa",
+  "appBar": {
+    "back": "Späť",
+    "cancel": "Zrušiť",
+    "edit": "Editovať",
+    "done": "Hotový"
+  },
+  "hours": {
+    "open": "Otvorené teraz",
+    "closed": "Zatvorené",
+    "opens_at": "Otvára sa v {{time, time:short}}",
+    "closes_at": "Zatvára v {{time, time:short}}"
+  },
+  "website": "Webové stránky",
+  "nav": {
+    "explore": "Preskúmať",
+    "browse": "Prezerať",
+    "dineIn": "Dine in",
+    "account": "Účet",
+    "menu": "Ponuka",
+    "settings": "Nastavenie"
+  },
+  "dinein": {
+    "checkedin": "momentálne ste prihlásení",
+    "actions": "Akcia",
+    "seeMenu": "Pozri menu reštaurácie",
+    "callService": "Zavolajte službu"
+  },
+  "checkIn": "Nahlásiť sa",
+  "checkedIn": "Nahlásené",
+  "ingredients": "Prísady",
+  "addons": "Addony",
+  "subtotal": "Medzisúčet",
+  "total": "Totálnej",
+  "totalConverted": "Celkom (meno {{currencyname}} )",
+  "serviceFee": "Poplatok za služby",
+  "order": "Objednať",
+  "orderConfirmed": "Objednávka bola potvrdená",
+  "orderCancelled": "Objednávka bola zrušená",
+  "camera": {
+    "header": "Fotoaparát",
+    "notAvailable": {
+      "title": "Fotoaparát nie je k dispozícii",
+      "subtitle": "Kamera v prehliadači nie je na tomto zariadení k dispozícii"
+    },
+    "takePhoto": "Odfoť"
+  },
+  "service": {
+    "header": "Služby",
+    "title": "Zavolajte službu",
+    "subtitle": "Pomocou tejto funkcie môžete do svojho stolu požiadať o akékoľvek korenie alebo riad.",
+    "instruction": "Začnite tým, že naskenujete qr kód v reštaurácii vo vašom okolí.",
+    "types": {
+      "tableware": "Stolovanie",
+      "condiments": "Korenie"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Čaká na potvrdenie",
+      "confirmed": "Potvrdené objednávky",
+      "empty": "Po potvrdení vašich objednávok sa tieto pripočítajú k celkovej sume faktúry"
+    },
+    "title": "Zmenka",
+    "split": "Rozdeliť",
+    "selecting": "Vyberte položky faktúry, ktoré chcete rozdeliť s ostatnými",
+    "splittingWith": "Rozdelenie na {{list, list}}",
+    "splittingWith_zero": "Vyberte používateľov, s ktorými sa chcete rozdeliť",
+    "splittingCount": "Delenie s {{count, number}} osôb",
+    "splittingCount_plural": "Rozdelenie na {{count, number}} ľudí",
+    "itemCountSelected": "{{count, number}} vybraná položka ",
+    "itemCountSelected_plural": "{{count, number}} vybrané položky",
+    "itemCountSelected_none": "nie sú vybrané žiadne položky"
+  },
+  "meParentheses": "(me)",
+  "gratuity": "Prepitné",
+  "pay": "Platiť",
+  "paymentPending": "Čaká sa na potvrdenie platby ...",
+  "paymentConfirmed": "Platba potvrdená",
+  "paymentCancelled": "Platba zrušená",
+  "editing": "editácia",
+  "profile": "Profil",
+  "dashboard": "Prístrojová doska",
+  "waiterboard": "Waiterboard",
+  "currency": {
+    "title": "Zobraziť menu",
+    "set": "Nastavte menu displeja",
+    "original": "Zobrazujú sa ceny v pôvodnej mene",
+    "other": "Ostatné meny"
+  },
+  "roles": {
+    "title": "Role",
+    "at": "v {{restaurant}}",
+    "restaurant": {
+      "owner": "Majiteľ reštaurácie",
+      "manager": "Manažér reštaurácie",
+      "waiter": "Čašník",
+      "cook": "Kuchár"
+    },
+    "proofreader": "Korektor"
+  },
+  "language": {
+    "setPrimary": "Nastaviť primárny jazyk",
+    "default": "Predvolený jazyk",
+    "other": "Iné jazyky",
+    "addOther": "Pridajte ďalší jazyk"
+  },
+  "toggle": {
+    "on": "momentálne zapnuté",
+    "off": "momentálne vypnuté"
+  },
+  "theme": {
+    "title": "Téma",
+    "nightModeOn": "Zapnite nočný režim",
+    "nightModeOff": "Vypnite nočný režim"
+  },
+  "cart": {
+    "title": "Vozík",
+    "itemCount": "{{count, number}} položka",
+    "itemCount_plural": "{{count, number}} položiek",
+    "itemCount_none": "žiadne položky",
+    "add": "Pridať do košíka",
+    "checkInInstructions": "Začnite tým, že naskenujete qr kód v reštaurácii vo vašom okolí."
+  },
+  "nutrition": {
+    "facts": "Nutričné hodnoty",
+    "fats": "Tuky",
+    "carbs": "Sacharidy",
+    "proteins": "Bielkoviny",
+    "calories": "Kalórií"
+  },
+  "successMessages": {
+    "added-to-cart": "Pridané do košíka",
+    "removed-from-cart": "Odstránené z košíka",
+    "order-has-been-placed": "Objednávka bola zadaná",
+    "you-are-now-checked-in": "Teraz ste prihlásený / -á",
+    "service-called": "Služba sa volá",
+    "payment-request-sent": "Žiadosť o platbu bola odoslaná"
+  },
+  "guestJoinedTable": "Pripojil sa nový hosť",
+  "guestLeftTable": "Hosť opustil stôl",
+  "newBillSplitItems": "Bill dostal rozdelené položky",
+  "checkedOut": "Boli ste odhlásený z tabuľky.",
+  "serviceCallConfirmed": "Servisné volanie bolo potvrdené",
+  "serviceCallCancelled": "Servisné volanie bolo zrušené"
+}

@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Მენიუ",
+    "caption": "Ყველაფერი, რაც {{restaurant.name}} შეგიძლიათ მიიღოთ. {{restaurant.name}}"
+  },
+  "address": "Მისამართი",
+  "appBar": {
+    "back": "Უკან",
+    "cancel": "Გაუქმება",
+    "edit": "Რედაქტირება",
+    "done": "Შესრულებულია"
+  },
+  "hours": {
+    "open": "Გახსენი ახლა",
+    "closed": "Დახურულია",
+    "opens_at": "Იხსნება {{time, time:short}}",
+    "closes_at": "Ხურავს {{time, time:short}}"
+  },
+  "website": "Ვებსაიტზე",
+  "nav": {
+    "explore": "Გამოკვლევა",
+    "browse": "Დაათვალიერეთ",
+    "dineIn": "Ვახშამი",
+    "account": "Ანგარიში",
+    "menu": "Მენიუ",
+    "settings": "Პარამეტრები"
+  },
+  "dinein": {
+    "checkedin": "ამჟამად შემოწმებული ხართ",
+    "actions": "Მოქმედებები",
+    "seeMenu": "Იხილეთ რესტორნის მენიუ",
+    "callService": "Დაურეკეთ სამსახურს"
+  },
+  "checkIn": "Შემოწმება",
+  "checkedIn": "Შემოწმდა",
+  "ingredients": "Ინგრედიენტები",
+  "addons": "Დამატებები",
+  "subtotal": "Ქვეტუალობა",
+  "total": "Სულ",
+  "totalConverted": "Სულ ( {{currencyname}} )",
+  "serviceFee": "Მომსახურების საფასური",
+  "order": "Შეკვეთა",
+  "orderConfirmed": "Შეკვეთა დაადასტურა",
+  "orderCancelled": "Შეკვეთა გაუქმებულია",
+  "camera": {
+    "header": "Კამერა",
+    "notAvailable": {
+      "title": "Კამერა არ არის ხელმისაწვდომი",
+      "subtitle": "Ბრაუზერის კამერა ამ მოწყობილობაში არ არის ხელმისაწვდომი"
+    },
+    "takePhoto": "Გადაიღეთ სურათი"
+  },
+  "service": {
+    "header": "Მომსახურება",
+    "title": "Დაურეკეთ სამსახურს",
+    "subtitle": "Ამ მახასიათებლის საშუალებით, თქვენ შეგიძლიათ მოითხოვოთ ნებისმიერი სახის კონდიცირება ან სუფრის ჭურჭელი თქვენს სუფრასთან.",
+    "instruction": "Შესამოწმებლად qr კოდის მახლობლად მდებარე რესტორანში სკანირების გზით.",
+    "types": {
+      "tableware": "Ჭურჭელი",
+      "condiments": "Კონდიციონერები"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Დადასტურების მოლოდინში",
+      "confirmed": "Დადასტურებული ბრძანებები",
+      "empty": "Თქვენი შეკვეთების დადასტურების შემდეგ, ისინი დამატებით იმატებენ თქვენს ანგარიშს"
+    },
+    "title": "Ბილ",
+    "split": "Გაყოფა",
+    "selecting": "Შეარჩიეთ კანონპროექტის ელემენტები სხვებთან ერთად",
+    "splittingWith": "Გაყოფა {{list, list}}",
+    "splittingWith_zero": "Შეარჩიეთ მომხმარებლები",
+    "splittingCount": "Გაყოფა {{count, number}}",
+    "splittingCount_plural": "{{count, number}} რიცხვებს შორის",
+    "itemCountSelected": "{{count, number}} არჩეულია ",
+    "itemCountSelected_plural": "{{count, number}} არჩევა",
+    "itemCountSelected_none": "არ არის არჩეული ნივთები"
+  },
+  "meParentheses": "(მე)",
+  "gratuity": "Მადლიერება",
+  "pay": "Გადაიხადე",
+  "paymentPending": "Ელოდება გადახდის დადასტურებას ...",
+  "paymentConfirmed": "Გადახდა დაადასტურა",
+  "paymentCancelled": "Გადახდა გაუქმებულია",
+  "editing": "რედაქტირება",
+  "profile": "Პროფილი",
+  "dashboard": "Დაფა",
+  "waiterboard": "Მიმტანი",
+  "currency": {
+    "title": "Ვალუტის ჩვენება",
+    "set": "Ეკრანის ვალუტის დაყენება",
+    "original": "Ფასები ორიგინალ ვალუტაში",
+    "other": "Სხვა ვალუტები"
+  },
+  "roles": {
+    "title": "Როლები",
+    "at": "{{restaurant}}",
+    "restaurant": {
+      "owner": "Რესტორნის მფლობელი",
+      "manager": "Რესტორნის მენეჯერი",
+      "waiter": "Მიმტანი",
+      "cook": "Საზ"
+    },
+    "proofreader": "Დამადასტურებელი"
+  },
+  "language": {
+    "setPrimary": "Დააყენეთ ძირითადი ენა",
+    "default": "Ნაგულისხმევი ენა",
+    "other": "Სხვა ენები",
+    "addOther": "Დაამატეთ სხვა ენა"
+  },
+  "toggle": {
+    "on": "ამჟამად არის",
+    "off": "ამჟამად გამორთულია"
+  },
+  "theme": {
+    "title": "Თემა",
+    "nightModeOn": "Ღამის რეჟიმის ჩართვა",
+    "nightModeOff": "Გამორთეთ ღამის რეჟიმი"
+  },
+  "cart": {
+    "title": "Კალათა",
+    "itemCount": "{{count, number}} ელემენტი",
+    "itemCount_plural": "{{count, number}}",
+    "itemCount_none": "არ არის ელემენტი",
+    "add": "Კალათაში დამატება",
+    "checkInInstructions": "Შესამოწმებლად qr კოდის მახლობლად მდებარე რესტორანში სკანირების გზით."
+  },
+  "nutrition": {
+    "facts": "Კვების ფაქტები",
+    "fats": "Ცხიმები",
+    "carbs": "Ნახშირბადები",
+    "proteins": "Ცილები",
+    "calories": "Კალორიები"
+  },
+  "successMessages": {
+    "added-to-cart": "Დაამატეს კალათაში",
+    "removed-from-cart": "Ამოღებულია კალათიდან",
+    "order-has-been-placed": "Შეკვეთა განთავსდა",
+    "you-are-now-checked-in": "Ახლა შემოწმებული ხართ",
+    "service-called": "Სამსახურმა დაურეკა",
+    "payment-request-sent": "Გადახდის მოთხოვნა გაგზავნილია"
+  },
+  "guestJoinedTable": "Ახალი სტუმარი შეუერთდა მაგიდას",
+  "guestLeftTable": "Სტუმარი მარცხენა მაგიდა",
+  "newBillSplitItems": "Ბილმა მიიღო გაყოფილი ნივთები",
+  "checkedOut": "Თქვენ შემოწმდით მაგიდიდან.",
+  "serviceCallConfirmed": "Სერვისის ზარმა დაადასტურა",
+  "serviceCallCancelled": "Მომსახურების ზარი გაუქმებულია"
+}

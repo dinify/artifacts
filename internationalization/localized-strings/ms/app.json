@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "Menu",
+    "caption": "Semua yang anda boleh dapatkan di {{restaurant.name}}"
+  },
+  "address": "Alamat",
+  "appBar": {
+    "back": "Kembali",
+    "cancel": "Batalkan",
+    "edit": "Edit",
+    "done": "Selesai"
+  },
+  "hours": {
+    "open": "Buka sekarang",
+    "closed": "Tertutup",
+    "opens_at": "Dibuka pada {{time, time:short}}",
+    "closes_at": "Menutup pada {{time, time:short}}"
+  },
+  "website": "Laman web",
+  "nav": {
+    "explore": "Meneroka",
+    "browse": "Semak imbas",
+    "dineIn": "Makan di rumah",
+    "account": "Akaun",
+    "menu": "Menu",
+    "settings": "Tetapan"
+  },
+  "dinein": {
+    "checkedin": "anda sedang mendaftar masuk",
+    "actions": "Tindakan",
+    "seeMenu": "Lihat menu restoran",
+    "callService": "Hubungi perkhidmatan"
+  },
+  "checkIn": "Daftar masuk",
+  "checkedIn": "Daftar masuk",
+  "ingredients": "Bahan-bahan",
+  "addons": "Addons",
+  "subtotal": "Jumlah kecil",
+  "total": "Jumlah",
+  "totalConverted": "Jumlah ( {{currencyname}} )",
+  "serviceFee": "Yuran perkhidmatan",
+  "order": "Perintah",
+  "orderConfirmed": "Perintah disahkan",
+  "orderCancelled": "Pesanan dibatalkan",
+  "camera": {
+    "header": "Kamera",
+    "notAvailable": {
+      "title": "Kamera tidak tersedia",
+      "subtitle": "Kamera dalam pelayar tidak tersedia pada peranti ini"
+    },
+    "takePhoto": "Ambil gambar"
+  },
+  "service": {
+    "header": "Perkhidmatan",
+    "title": "Hubungi perkhidmatan",
+    "subtitle": "Dengan ciri ini, anda boleh meminta apa-apa jenis bumbu atau peralatan makan di meja anda.",
+    "instruction": "Daftar masuk dengan mengimbas kod qr di restoran berhampiran anda untuk bermula.",
+    "types": {
+      "tableware": "Pinggan mangkuk",
+      "condiments": "Perasa"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "Menunggu pengesahan",
+      "confirmed": "Pesanan yang disahkan",
+      "empty": "Sebaik sahaja pesanan anda disahkan, mereka akan ditambahkan ke jumlah bil anda"
+    },
+    "title": "Rang undang-undang",
+    "split": "Berpecah",
+    "selecting": "Pilih item bil untuk berpecah dengan orang lain",
+    "splittingWith": "Memisahkan dengan {{list, list}}",
+    "splittingWith_zero": "Pilih pengguna untuk berpecah dengan",
+    "splittingCount": "Berbelah dengan {{count, number}} orang",
+    "splittingCount_plural": "Memisahkan antara {{count, number}} orang",
+    "itemCountSelected": "{{count, number}} item ",
+    "itemCountSelected_plural": "{{count, number}} item ",
+    "itemCountSelected_none": "tiada item yang dipilih"
+  },
+  "meParentheses": "(saya)",
+  "gratuity": "Ganjaran",
+  "pay": "Bayar",
+  "paymentPending": "Menunggu pengesahan pembayaran ...",
+  "paymentConfirmed": "Pembayaran disahkan",
+  "paymentCancelled": "Pembayaran dibatalkan",
+  "editing": "penyuntingan",
+  "profile": "Profil",
+  "dashboard": "Papan pemuka",
+  "waiterboard": "Waiterboard",
+  "currency": {
+    "title": "Paparkan mata wang",
+    "set": "Tetapkan mata wang paparan",
+    "original": "Menunjukkan harga dalam mata wang asal",
+    "other": "Mata wang lain"
+  },
+  "roles": {
+    "title": "Peranan",
+    "at": "di {{restaurant}}",
+    "restaurant": {
+      "owner": "Pemilik restoran",
+      "manager": "Pengurus restoran",
+      "waiter": "Pelayan",
+      "cook": "Masak"
+    },
+    "proofreader": "Penguji proof"
+  },
+  "language": {
+    "setPrimary": "Tetapkan bahasa utama",
+    "default": "Bahasa lalai",
+    "other": "Bahasa lain",
+    "addOther": "Tambah bahasa lain"
+  },
+  "toggle": {
+    "on": "sekarang sedang",
+    "off": "kini sedang dimatikan"
+  },
+  "theme": {
+    "title": "Tema",
+    "nightModeOn": "Hidupkan mod malam",
+    "nightModeOff": "Matikan mod malam"
+  },
+  "cart": {
+    "title": "Keranjang",
+    "itemCount": "{{count, number}} item",
+    "itemCount_plural": "{{count, number}} item ",
+    "itemCount_none": "tiada item",
+    "add": "Tambahkan ke troli",
+    "checkInInstructions": "Daftar masuk dengan mengimbas kod qr di restoran berhampiran anda untuk bermula."
+  },
+  "nutrition": {
+    "facts": "Fakta pemakanan",
+    "fats": "Lemak",
+    "carbs": "Karbohidrat",
+    "proteins": "Protein",
+    "calories": "Kalori"
+  },
+  "successMessages": {
+    "added-to-cart": "Ditambah ke keranjang",
+    "removed-from-cart": "Dihapus dari kereta",
+    "order-has-been-placed": "Perintah telah diletakkan",
+    "you-are-now-checked-in": "Anda kini masuk",
+    "service-called": "Perkhidmatan dipanggil",
+    "payment-request-sent": "Permintaan pembayaran dihantar"
+  },
+  "guestJoinedTable": "Tetamu baru menyertai meja",
+  "guestLeftTable": "Jadual kiri tetamu",
+  "newBillSplitItems": "Rang undang-undang menerima barangan pecah",
+  "checkedOut": "Anda telah diperiksa dari meja.",
+  "serviceCallConfirmed": "Panggilan perkhidmatan disahkan",
+  "serviceCallCancelled": "Panggilan perkhidmatan dibatalkan"
+}

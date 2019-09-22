@@ -1,0 +1,151 @@
+{
+  "menu": {
+    "title": "مینو",
+    "caption": "{{restaurant.name}} میں سب کچھ آپ حاصل کرسکتے ہیں۔"
+  },
+  "address": "پتہ۔",
+  "appBar": {
+    "back": "پیچھے",
+    "cancel": "منسوخ کریں",
+    "edit": "ترمیم",
+    "done": "ہو گیا"
+  },
+  "hours": {
+    "open": "ابھی کھولو۔",
+    "closed": "بند",
+    "opens_at": "{{time, time:short}} پر کھولتا ہے {{time, time:short}}",
+    "closes_at": "{{time, time:short}} پر بند ہوتا {{time, time:short}}"
+  },
+  "website": "ویب سائٹ",
+  "nav": {
+    "explore": "دریافت کریں۔",
+    "browse": "براؤز کریں۔",
+    "dineIn": "کھانے میں۔",
+    "account": "اکاؤنٹ",
+    "menu": "مینو",
+    "settings": "ترتیبات۔"
+  },
+  "dinein": {
+    "checkedin": "آپ کو فی الحال چیک ان کیا گیا ہے۔",
+    "actions": "عمل",
+    "seeMenu": "ریستوراں کا مینو دیکھیں۔",
+    "callService": "ایک خدمت کال کریں۔"
+  },
+  "checkIn": "چیک ان کریں۔",
+  "checkedIn": "داخل ہوا",
+  "ingredients": "اجزاء۔",
+  "addons": "اڈونز۔",
+  "subtotal": "کل۔",
+  "total": "کل",
+  "totalConverted": "کل ( {{currencyname}} )",
+  "serviceFee": "خدمت کے پیسے",
+  "order": "ترتیب",
+  "orderConfirmed": "آرڈر کی تصدیق ہوگئی۔",
+  "orderCancelled": "آرڈر منسوخ ہوگیا۔",
+  "camera": {
+    "header": "کیمرہ۔",
+    "notAvailable": {
+      "title": "کیمرا دستیاب نہیں ہے۔",
+      "subtitle": "اس آلہ پر براؤزر کیمرا دستیاب نہیں ہے۔"
+    },
+    "takePhoto": "ایک تصویر لے لو"
+  },
+  "service": {
+    "header": "خدمات",
+    "title": "ایک خدمت کال کریں۔",
+    "subtitle": "اس خصوصیت کی مدد سے ، آپ اپنی میز پر کسی بھی قسم کی مساج یا دسترخوان کی درخواست کرسکتے ہیں۔",
+    "instruction": "شروع کرنے کے لئے اپنے قریبی ریستوراں میں کیو آر کوڈ اسکین کرکے چیک ان کریں۔",
+    "types": {
+      "tableware": "دسترخوان۔",
+      "condiments": "مصالحہ جات۔"
+    }
+  },
+  "bill": {
+    "section": {
+      "waiting": "تصدیق کے منتظر",
+      "confirmed": "تصدیق شدہ احکامات",
+      "empty": "ایک بار جب آپ کے آرڈرز کی تصدیق ہوجائے تو ، وہ آپ کے بل میں شامل ہوجاتے ہیں۔"
+    },
+    "title": "بل",
+    "split": "سپلٹ۔",
+    "selecting": "دوسروں کے ساتھ تقسیم کرنے کیلئے بل آئٹمز منتخب کریں۔",
+    "splittingWith": "{{list, list}} ساتھ الگ ہونا۔",
+    "splittingWith_zero": "تقسیم کرنے کے لئے صارفین کو منتخب کریں۔",
+    "splittingCount": "{{count, number}} شخص کے ساتھ الگ ہونا۔",
+    "splittingCount_plural": "{{count, number}} مابین تقسیم۔",
+    "itemCountSelected": "{{count, number}} آئٹم منتخب کیا۔",
+    "itemCountSelected_plural": "{{count, number}} منتخب کی ",
+    "itemCountSelected_none": "کوئی آئٹم منتخب نہیں ہوا۔"
+  },
+  "meParentheses": "(میں)",
+  "gratuity": "قدر",
+  "pay": "ادا کرو",
+  "paymentPending": "ادائیگی کی تصدیق کے منتظر…",
+  "paymentConfirmed": "ادائیگی کی تصدیق",
+  "paymentCancelled": "ادائیگی منسوخ کردی گئی۔",
+  "editing": "ترمیم",
+  "profile": "پروفائل",
+  "dashboard": "ڈیش بورڈ",
+  "waiterboard": "ویٹر بورڈ",
+  "currency": {
+    "title": "ڈسپلے کرنسی",
+    "set": "ڈسپلے کرنسی مقرر کریں۔",
+    "original": "اصل کرنسی میں قیمتیں دکھا رہا ہے۔",
+    "other": "دوسری کرنسیوں"
+  },
+  "roles": {
+    "title": "کردار۔",
+    "at": "{{restaurant}}",
+    "restaurant": {
+      "owner": "ریسٹورنٹ کا مالک۔",
+      "manager": "ریسٹورینٹ مینیجر",
+      "waiter": "ویٹر",
+      "cook": "کک"
+    },
+    "proofreader": "پروف پروفر۔"
+  },
+  "language": {
+    "setPrimary": "بنیادی زبان طے کریں۔",
+    "default": "پہلے سے طے شدہ زبان",
+    "other": "دوسری زبانیں",
+    "addOther": "ایک اور زبان شامل کریں۔"
+  },
+  "toggle": {
+    "on": "فی الحال پر",
+    "off": "فی الحال بند"
+  },
+  "theme": {
+    "title": "خیالیہ",
+    "nightModeOn": "نائٹ موڈ آن کریں۔",
+    "nightModeOff": "نائٹ موڈ آف کریں۔"
+  },
+  "cart": {
+    "title": "ٹوکری۔",
+    "itemCount": "{{count, number}} آئٹم",
+    "itemCount_plural": "{{count, number}} اشیاء",
+    "itemCount_none": "کوئی اشیاء نہیں",
+    "add": "ٹوکری میں شامل کریں",
+    "checkInInstructions": "شروع کرنے کے لئے اپنے قریبی ریستوراں میں کیو آر کوڈ اسکین کرکے چیک ان کریں۔"
+  },
+  "nutrition": {
+    "facts": "غذائیت حقائق",
+    "fats": "چربی",
+    "carbs": "کاربس",
+    "proteins": "پروٹین۔",
+    "calories": "کیلوری"
+  },
+  "successMessages": {
+    "added-to-cart": "ٹوکری میں شامل",
+    "removed-from-cart": "ٹوکری سے ہٹا دیا گیا۔",
+    "order-has-been-placed": "آرڈر دیا گیا ہے۔",
+    "you-are-now-checked-in": "اب آپ کو چیک ان کیا گیا ہے۔",
+    "service-called": "خدمت طلب کی۔",
+    "payment-request-sent": "ادائیگی کی درخواست بھیج دی گئی۔"
+  },
+  "guestJoinedTable": "نیا مہمان ٹیبل میں شامل ہوا۔",
+  "guestLeftTable": "مہمان بائیں میز",
+  "newBillSplitItems": "بل کو تقسیم شدہ اشیاء موصول ہوگئیں۔",
+  "checkedOut": "آپ کو میز سے چیک آؤٹ کیا گیا ہے۔",
+  "serviceCallConfirmed": "سروس کال کی تصدیق ہوگئی۔",
+  "serviceCallCancelled": "سروس کال منسوخ ہوگئی۔"
+}
