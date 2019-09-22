@@ -4,6 +4,12 @@
     "caption": "Everything you can get in {{restaurant.name}}"
   },
   "address": "Address",
+  "appBar": {
+    "back": "Back",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "done": "Done"
+  },
   "hours": {
     "open": "Open now",
     "closed": "Closed",
@@ -13,6 +19,7 @@
   "website": "Website",
   "nav": {
     "explore": "Explore",
+    "browse": "Browse",
     "dineIn": "Dine in",
     "account": "Account",
     "menu": "Menu",
@@ -24,6 +31,8 @@
     "seeMenu": "See restaurant menu",
     "callService": "Call a service"
   },
+  "checkIn": "Check in",
+  "checkedIn": "Checked in",
   "ingredients": "Ingredients",
   "addons": "Addons",
   "subtotal": "Subtotal",
@@ -31,7 +40,10 @@
   "totalConverted": "Total ({{currencyName}})",
   "serviceFee": "Service fee",
   "order": "Order",
+  "orderConfirmed": "Order confirmed",
+  "orderCancelled": "Order cancelled",
   "camera": {
+    "header": "Camera",
     "notAvailable": {
       "title": "Camera not available",
       "subtitle": "The in-browser camera is not available on this device"
@@ -39,6 +51,7 @@
     "takePhoto": "Take a photo"
   },
   "service": {
+    "header": "Services",
     "title": "Call a service",
     "subtitle": "With this feature, you can request a any kind of condiment or tableware to your table.",
     "instruction": "Check in by scanning the QR code in a restaurant near you to get started.",
@@ -48,6 +61,11 @@
     }
   },
   "bill": {
+    "section": {
+      "waiting": "Awaiting confirmation",
+      "confirmed": "Confirmed orders",
+      "empty": "Once your orders are confirmed, they get added to your bill total"
+    },
     "title": "Bill",
     "split": "Split",
     "selecting": "Select bill items to split with others",
@@ -63,6 +81,8 @@
   "gratuity": "Gratuity",
   "pay": "Pay",
   "paymentPending": "Awaiting payment confirmation...",
+  "paymentConfirmed": "Payment confirmed",
+  "paymentCancelled": "Payment cancelled",
   "editing": "editing",
   "profile": "Profile",
   "dashboard": "Dashboard",
@@ -90,6 +110,15 @@
     "other": "Other languages",
     "addOther": "Add another language"
   },
+  "toggle": {
+    "on": "currently on",
+    "off": "currently off"
+  },
+  "theme": {
+    "title": "Theme",
+    "nightModeOn": "Turn on night mode",
+    "nightModeOff": "Turn off night mode"
+  },
   "cart": {
     "title": "Cart",
     "itemCount": "{{count, number}} item",
@@ -104,5 +133,19 @@
     "carbs": "Carbs",
     "proteins": "Proteins",
     "calories": "Calories"
-  }
+  },
+  "successMessages": {
+    "added-to-cart": "Added to cart",
+    "removed-from-cart": "Removed from cart",
+    "order-has-been-placed": "Order has been placed",
+    "you-are-now-checked-in": "You are now checked in",
+    "service-called": "Service called",
+    "payment-request-sent": "Payment request sent"
+  },
+  "guestJoinedTable": "New guest joined table",
+  "guestLeftTable": "Guest left table",
+  "newBillSplitItems": "Bill received split items",
+  "checkedOut": "You have been checked out from the table.",
+  "serviceCallConfirmed": "Service call confirmed",
+  "serviceCallCancelled": "Service call cancelled"
 }

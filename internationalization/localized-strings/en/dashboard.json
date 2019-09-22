@@ -110,5 +110,6 @@
   "createOptionFail": "Adding of a new option group failed",
   "createIngredientFail": "Adding of a new ingredient failed",
   "changeRestaurant": "Change restaurant",
-  "publishRequestPending": "Publish request sent"
+  "publishRequestPending": "Publish request sent",
+  "wifiCredentials": "Wifi credentials"
 }
