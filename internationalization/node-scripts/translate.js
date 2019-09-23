@@ -2,10 +2,10 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const languages = require('../default-languages.json');
 const englishStrings = {
-  app: require('../localized-strings/en/app.json'),
-  common: require('../localized-strings/en/common.json'),
-  dashboard: require('../localized-strings/en/dashboard.json'),
-  landing: require('../localized-strings/en/landing.json'),
+  app: require('../translations/en/app.json'),
+  common: require('../translations/en/common.json'),
+  dashboard: require('../translations/en/dashboard.json'),
+  landing: require('../translations/en/landing.json'),
 };
 
 const excludeLanguages = ['en', 'cs'];
@@ -276,7 +276,7 @@ namespaces.forEach(namespace => {
       input: englishStrings[namespace],
       target: language
     }).then(result => {
-      const r = '../localized-strings';
+      const r = '../translations';
       try {
         fs.mkdirSync(`${r}/${language}`);
       }
