@@ -1,13 +1,14 @@
 const fetch = require('node-fetch');
 const fs = require('fs');
-const languages = require('../default-languages.json');
+const languages = require('../i18n/default-languages.json');
 const englishStrings = {
-  app: require('../translations/en/app.json'),
-  common: require('../translations/en/common.json'),
-  dashboard: require('../translations/en/dashboard.json'),
-  landing: require('../translations/en/landing.json'),
+  app: require('../i18n/translations/en/app.json'),
+  common: require('../i18n/translations/en/common.json'),
+  dashboard: require('../i18n/translations/en/dashboard.json'),
+  landing: require('../i18n/translations/en/landing.json'),
 };
 
+const includeLanguages = ['nb'];
 const excludeLanguages = ['en', 'cs'];
 const namespaces = ['app', 'common']; //, 'dashboard', 'landing'];
 
@@ -271,26 +272,29 @@ let filterQuality = (json, max = 0.5, org = null) => {
 // let namespace = 'app';
 
 namespaces.forEach(namespace => {
-  languages.filter(l => !excludeLanguages.includes(l)).forEach(language => {
-    translate({
-      input: englishStrings[namespace],
-      target: language
-    }).then(result => {
-      const r = '../translations';
-      try {
-        fs.mkdirSync(`${r}/${language}`);
-      }
-      catch (e) {}
-  
-      fs.writeFileSync(`${r}/${language}/${namespace}.json`, JSON.stringify(result, null, 2));
-      console.log(`${r}/${language}/${namespace}.json`);
-      // qualityCheck({
-      //   original: app,
-      //   translated: result
-      // }).then(checkResult => {
-      //   console.log(language, 'overall quality  ', averagePercent(checkResult));
-      //   // console.log('quality below 50%', filterQuality(checkResult, 0.5, result));
-      // });
-    });
-  });
+	languages
+		.filter(l => includeLanguages.length > 0 ? includeLanguages.includes(l) : true)
+		.filter(l => !excludeLanguages.includes(l))
+		.forEach(language => {
+			translate({
+				input: englishStrings[namespace],
+				target: language
+			}).then(result => {
+				const r = '../i18n/translations';
+				try {
+					fs.mkdirSync(`${r}/${language}`);
+				}
+				catch (e) {}
+		
+				fs.writeFileSync(`${r}/${language}/${namespace}.json`, JSON.stringify(result, null, 2));
+				console.log(`${r}/${language}/${namespace}.json`);
+				// qualityCheck({
+				//   original: app,
+				//   translated: result
+				// }).then(checkResult => {
+				//   console.log(language, 'overall quality  ', averagePercent(checkResult));
+				//   // console.log('quality below 50%', filterQuality(checkResult, 0.5, result));
+				// });
+			});
+  	});
 });
