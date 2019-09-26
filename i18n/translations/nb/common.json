@@ -14,7 +14,7 @@
   "auth": {
     "appFormSubtitle": "for å kunne bestille, betale og samhandle med ansatte i restauranten",
     "dashboardFormSubtitle": "for å begynne å sette opp ting, logg deg på med e-postadressen eller kontoen for sosiale medier",
-    "forgotPwdFormSubtitle": "skriv inn e-postadressen du bruker for å logge på for å få en e-post om tilbakestilling av passord",
+    "forgotPwdFormSubtitle": "skriv inn e-postadressen du bruker for å logge på for å få en e-postadresse for tilbakestilling av passord",
     "signInWithPassword": "Logg på med passord",
     "createAccount": "Opprett konto",
     "forgotPassword": "Glemt passord",

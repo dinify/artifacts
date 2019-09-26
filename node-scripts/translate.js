@@ -7,6 +7,7 @@ const englishStrings = {
   dashboard: require('../i18n/translations/en/dashboard.json'),
   landing: require('../i18n/translations/en/landing.json'),
 };
+const { flatten, deflatten } = require('./lib/json');
 
 const includeLanguages = ['nb'];
 const excludeLanguages = ['en', 'cs'];
@@ -105,49 +106,6 @@ const jaroWinklerSimilarity = (s1, s2, options) => {
     weight = weight + l * p * (1 - weight);
   }
   return weight;
-}
-
-const flatten = (obj) => {
-	let result = {};
-	const flattenFunc = (obj, flattenedKey) => {
-		var k;
-		if (obj instanceof Object) {
-			for (k in obj) {
-				if (obj.hasOwnProperty(k)){
-					flattenFunc(obj[k], flattenedKey ? (flattenedKey + '.' + k) : k);
-				}
-			}
-		} else {
-			let str = obj;
-			result[flattenedKey] = obj;
-		};
-	};
-	flattenFunc(obj);
-	return result;
-};
-
-const deflatten = (paths) => {
-		const buildFromSegments = (scope, pathSegments, value) => {
-				const current = pathSegments.shift();
-				const found = scope[current];
-				if (!found) {
-						scope[current] = {};
-				}
-				if (pathSegments.length) {
-						buildFromSegments(scope[current], pathSegments, value);
-				}
-				else {
-						scope[current] = value;
-				}
-		}
-		var result = { };
-		Object.keys(paths).forEach((path) => {
-				const value = paths[path];
-				path = path.split('.');
-				buildFromSegments(result, path, value);
-		});
-
-		return result;
 }
 
 let translate = ({input, target, source, model='nmt'}) => {
