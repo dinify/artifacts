@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { translate } = require('./translate');
 const { flatten, deflatten } = require('./lib/json');
 
 const pipe = (...fns) => (x) => fns.reduce((v, f) => f(v), x);
@@ -37,6 +38,7 @@ else {
     const namespace = process.argv[2];
     const fromL = process.argv[3];
     const toL = process.argv[4];
+    const input = fs.readFileSync(`../i18n/translations/${fromL}/${namespace}.json`);
     const translationKeys = pipe(
       p => fs.readFileSync(p),
       f => f.toString(),
@@ -48,7 +50,10 @@ else {
     const keysB = translationKeys(`../i18n/translations/${toL}/${namespace}.json`);
     const d = diff(keysA, keysB);
     if (d.length === 0) console.log('No difference');
-    else console.log(d);
+    else {
+      console.log('Translating ', d);
+      translate({ input, target: 'cs', source: 'en', model: 'nmt' });
+    }
   }
   catch (e) {
     console.log(e + '\n\n');

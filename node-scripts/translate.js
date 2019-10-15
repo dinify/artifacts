@@ -9,8 +9,8 @@ const englishStrings = {
 };
 const { flatten, deflatten } = require('./lib/json');
 
-const includeLanguages = ['nb'];
-const excludeLanguages = ['en', 'cs'];
+const includeLanguages = ['cs'];
+const excludeLanguages = [];
 const namespaces = ['app', 'common']; //, 'dashboard', 'landing'];
 
 const levenshteinDistance = (a, b) => {
@@ -108,7 +108,7 @@ const jaroWinklerSimilarity = (s1, s2, options) => {
   return weight;
 }
 
-let translate = ({input, target, source, model='nmt'}) => {
+export const translate = ({input, target, source, model='nmt'}) => {
 	let flat = flatten(input);
 	let translateArr = Object.values(flat).map(value => {
 	  return value.replace('{{', '<span translate="no">').replace('}}', '</span>');
