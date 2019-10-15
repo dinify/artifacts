@@ -1,16 +1,16 @@
 {
   "menu": {
     "title": "Jídelní lístek",
-    "caption": "Vše, co můžete dostat do {{restaurant.name}}"
+    "caption": "Nabídka {{restaurant.name}}"
   },
   "address": "Adresa",
   "hours": {
-    "open": "Otevřít teď",
+    "open": "Otevřeno",
     "closed": "Zavřeno",
-    "opens_at": "Otevírá se {{time, time:short}}",
-    "closes_at": "Zavírá na {{time, time:short}}"
+    "opens_at": "Otevírá v {{time, time:short}}",
+    "closes_at": "Zavírá v {{time, time:short}}"
   },
-  "website": "Webová stránka",
+  "website": "Web",
   "nav": {
     "explore": "Prozkoumat",
     "eat": "Jíst",
@@ -31,46 +31,46 @@
       "title": "Kamera není k dispozici",
       "subtitle": "Kamera prohlížeče není k dispozici v tomto zařízení"
     },
-    "takePhoto": "Vyfoťte ji",
+    "takePhoto": "Vyfoťte ho",
     "header": "Fotoaparát"
   },
   "service": {
-    "title": "Volání na službu",
+    "title": "Volání obsluhy",
     "subtitle": "Díky této funkci můžete požádat o jakýkoliv druh koření nebo nádobí na váš stůl.",
-    "instruction": "Příjezd skenováním QR kód v restauraci v blízkosti, abyste mohli začít.",
+    "instruction": "Začněte skenováním QR kódu v na vašem stole.",
     "types": {
       "tableware": "Stolování",
       "condiments": "Koření"
     },
-    "header": "Služby"
+    "header": "Volání obsluhy"
   },
   "bill": {
-    "title": "Účtovat",
+    "title": "Účet",
     "split": "Rozdělit",
-    "selecting": "Vyberte položky v návrhu zákona",
-    "splittingWith": "Je rozdělena mezi:",
+    "selecting": "Vyberte položky",
+    "splittingWith": "Rozděleno mezi:",
     "splittingWith_zero": "Vyberte uživatele",
     "splittingCount": "{{count, number}} osoba",
     "splittingCount_plural": "{{count, number}} osoby",
     "itemCountSelected": "{{count, number}} vybraná položka",
     "itemCountSelected_plural": "{{count, number}} vybrané položky",
-    "itemCountSelected_none": "Žádné položky vybrané",
+    "itemCountSelected_none": "Nejsou vybrány žádné položky",
     "section": {
-      "waiting": "Čeká na potvrzení",
-      "confirmed": "Potvrzené objednávky",
+      "waiting": "Čeká se na potvrzení",
+      "confirmed": "Objednávka potvrzena",
       "empty": "Jakmile budou vaše objednávky potvrzeny, přičtou se k celkovému účtu"
     }
   },
   "gratuity": "Spropitné",
   "pay": "Platit",
   "paymentPending": "Čekání na platbu...",
-  "editing": "Editace",
+  "editing": "Upravit",
   "profile": "Profil",
-  "dashboard": "Přístrojová deska",
+  "dashboard": "Dashboard",
   "currency": {
-    "title": "Displej měny",
-    "set": "Nastavena měna display",
-    "original": "Zobrazující ceny v původní měně",
+    "title": "Zobrazené měny",
+    "set": "Nastavena měna",
+    "original": "Ceny v původní měně",
     "other": "Ostatní měny"
   },
   "roles": {
@@ -99,7 +99,7 @@
     "itemCount_plural": "{{count, number}} kusy",
     "itemCount_none": "Prázdný",
     "add": "Přidat do košíku",
-    "checkInInstructions": "Chcete-li začít, skenování QR kódu v restauraci poblíž"
+    "checkInInstructions": "Chcete-li začít, vyfoťte QR kód na stole"
   },
   "nutrition": {
     "facts": "Nutriční údaje",
@@ -109,8 +109,8 @@
     "calories": "Kalorie"
   },
   "appBar": {
-    "back": "Zadní",
-    "cancel": "Zrušení",
+    "back": "Zpět",
+    "cancel": "Zavřít",
     "edit": "Upravit",
     "done": "Hotovo"
   },
@@ -118,11 +118,11 @@
     "checkedin": "jste aktuálně přihlášeni",
     "actions": "Akce",
     "seeMenu": "Viz menu restaurace",
-    "callService": "Zavolejte službu"
+    "callService": "Zavolejte obsluhu"
   },
   "checkIn": "Check in",
-  "checkedIn": "Kontrolováno",
-  "total": "Celkový",
+  "checkedIn": "Checked-in",
+  "total": "Celkem",
   "totalConverted": "Celkem ( {{currencyname}} )",
   "orderConfirmed": "Objednávka potvrzena",
   "orderCancelled": "Objednávka byla zrušena",
@@ -139,17 +139,17 @@
     "nightModeOff": "Vypněte noční režim"
   },
   "successMessages": {
-    "added-to-cart": "Přidáno do košíku",
-    "removed-from-cart": "Odebráno z košíku",
+    "added-to-cart": "Přidáno k objednávce",
+    "removed-from-cart": "Odebráno z objednávky",
     "order-has-been-placed": "Objednávka byla zadána",
     "you-are-now-checked-in": "Nyní jste přihlášeni",
-    "service-called": "Služba volala",
+    "service-called": "Obsluha přivolána",
     "payment-request-sent": "Žádost o platbu byla odeslána"
   },
   "guestJoinedTable": "Nový host se připojil ke stolu",
   "guestLeftTable": "Host opustil stůl",
-  "newBillSplitItems": "Bill obdržel rozdělené položky",
-  "checkedOut": "Byli jste odhlášeni z tabulky.",
-  "serviceCallConfirmed": "Servisní volání bylo potvrzeno",
-  "serviceCallCancelled": "Servisní hovor byl zrušen"
+  "newBillSplitItems": "Účet obdržel rozdělené položky",
+  "checkedOut": "Byli jste odhlášeni od stolu.",
+  "serviceCallConfirmed": "Volání obsluhy bylo potvrzeno",
+  "serviceCallCancelled": "Volání obsluhy bylo zrušeno"
 }
