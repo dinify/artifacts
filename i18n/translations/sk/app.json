@@ -1,17 +1,17 @@
 {
   "menu": {
     "title": "Ponuka",
-    "caption": "Všetko, čo môžete získať v {{restaurant.name}}"
+    "caption": "Všetko, čo si môžete objednať v {{restaurant.name}}"
   },
   "address": "Adresa",
   "appBar": {
     "back": "Späť",
     "cancel": "Zrušiť",
     "edit": "Editovať",
-    "done": "Hotový"
+    "done": "Hotovo"
   },
   "hours": {
-    "open": "Otvorené teraz",
+    "open": "Otvorené",
     "closed": "Zatvorené",
     "opens_at": "Otvára sa v {{time, time:short}}",
     "closes_at": "Zatvára v {{time, time:short}}"
@@ -28,15 +28,15 @@
   "dinein": {
     "checkedin": "momentálne ste prihlásení",
     "actions": "Akcia",
-    "seeMenu": "Pozri menu reštaurácie",
-    "callService": "Zavolajte službu"
+    "seeMenu": "Pozrite si menu reštaurácie",
+    "callService": "Zavolajte obsluhu"
   },
-  "checkIn": "Nahlásiť sa",
-  "checkedIn": "Nahlásené",
-  "ingredients": "Prísady",
-  "addons": "Addony",
+  "checkIn": "CHECK IN",
+  "checkedIn": "CHECKED IN",
+  "ingredients": "Ingrediencie",
+  "addons": "Navyše",
   "subtotal": "Medzisúčet",
-  "total": "Totálnej",
+  "total": "Celkovo",
   "totalConverted": "Celkom (meno {{currencyname}} )",
   "serviceFee": "Poplatok za služby",
   "order": "Objednať",
@@ -52,8 +52,8 @@
   },
   "service": {
     "header": "Služby",
-    "title": "Zavolajte službu",
-    "subtitle": "Pomocou tejto funkcie môžete do svojho stolu požiadať o akékoľvek korenie alebo riad.",
+    "title": "Zavolajte obsluhu",
+    "subtitle": "Pomocou tejto funkcie môžete požiadať o akékoľvek korenie alebo príbor.",
     "instruction": "Začnite tým, že naskenujete qr kód v reštaurácii vo vašom okolí.",
     "types": {
       "tableware": "Stolovanie",
@@ -66,9 +66,9 @@
       "confirmed": "Potvrdené objednávky",
       "empty": "Po potvrdení vašich objednávok sa tieto pripočítajú k celkovej sume faktúry"
     },
-    "title": "Zmenka",
+    "title": "Účet",
     "split": "Rozdeliť",
-    "selecting": "Vyberte položky faktúry, ktoré chcete rozdeliť s ostatnými",
+    "selecting": "Vyberte položky, ktoré chcete rozdeliť s ostatnými",
     "splittingWith": "Rozdelenie na {{list, list}}",
     "splittingWith_zero": "Vyberte používateľov, s ktorými sa chcete rozdeliť",
     "splittingCount": "Delenie s {{count, number}} osôb",
@@ -81,13 +81,13 @@
   "gratuity": "Prepitné",
   "pay": "Platiť",
   "paymentPending": "Čaká sa na potvrdenie platby ...",
-  "paymentConfirmed": "Platba potvrdená",
-  "paymentCancelled": "Platba zrušená",
-  "editing": "editácia",
+  "paymentConfirmed": "Platba bola potvrdená",
+  "paymentCancelled": "Platba bola zrušená",
+  "editing": "upraviť",
   "profile": "Profil",
   "currency": {
     "title": "Zobraziť menu",
-    "set": "Nastavte menu displeja",
+    "set": "Nastavte menu",
     "original": "Zobrazujú sa ceny v pôvodnej mene",
     "other": "Ostatné meny"
   },
@@ -109,8 +109,8 @@
     "addOther": "Pridajte ďalší jazyk"
   },
   "toggle": {
-    "on": "momentálne zapnuté",
-    "off": "momentálne vypnuté"
+    "on": "zapnuté",
+    "off": "vypnuté"
   },
   "theme": {
     "title": "Téma",
@@ -118,7 +118,7 @@
     "nightModeOff": "Vypnite nočný režim"
   },
   "cart": {
-    "title": "Vozík",
+    "title": "Košík",
     "itemCount": "{{count, number}} položka",
     "itemCount_plural": "{{count, number}} položiek",
     "itemCount_none": "žiadne položky",
@@ -140,10 +140,10 @@
     "service-called": "Služba sa volá",
     "payment-request-sent": "Žiadosť o platbu bola odoslaná"
   },
-  "guestJoinedTable": "Pripojil sa nový hosť",
+  "guestJoinedTable": "Prisadol si nový hosť",
   "guestLeftTable": "Hosť opustil stôl",
-  "newBillSplitItems": "Bill dostal rozdelené položky",
-  "checkedOut": "Boli ste odhlásený z tabuľky.",
-  "serviceCallConfirmed": "Servisné volanie bolo potvrdené",
-  "serviceCallCancelled": "Servisné volanie bolo zrušené"
+  "newBillSplitItems": "Na účet vám pribudli rozdelené položky",
+  "checkedOut": "Boli ste odhlásený od stola.",
+  "serviceCallConfirmed": "Privolanie obsluhy bolo potvrdené",
+  "serviceCallCancelled": "Privolanie oblsuhy bolo zrušené"
 }
