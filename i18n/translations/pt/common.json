@@ -49,7 +49,7 @@
   "errorMessages": {
     "ingredient-not-found": "Ingrediente não encontrado",
     "restaurant-not-found": "Restaurante não encontrado",
-    "seat-table-not-found": "Assento na mesa não encontrado",
+    "seat-table-not-found": "Assento à mesa não encontrado",
     "transaction-not-found": "Transação não encontrada",
     "waiterboard-not-found": "Waiterboard não encontrado",
     "menu-item-not-found": "Item de menu não encontrado",

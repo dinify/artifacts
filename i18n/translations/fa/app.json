@@ -85,8 +85,6 @@
   "paymentCancelled": "پرداخت لغو شد",
   "editing": "ویرایش",
   "profile": "مشخصات",
-  "dashboard": "داشبورد",
-  "waiterboard": "صفحه پیشخدمت",
   "currency": {
     "title": "نمایش ارز",
     "set": "تنظیم ارز نمایش",
@@ -147,5 +145,5 @@
   "newBillSplitItems": "بیل موارد تقسیم شده را دریافت کرد",
   "checkedOut": "شما از جدول بررسی شده اید.",
   "serviceCallConfirmed": "تماس تلفنی تأیید شد",
-  "serviceCallCancelled": "تماس تلفنی لغو شد"
+  "serviceCallCancelled": "تماس خدمات لغو شد"
 }

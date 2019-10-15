@@ -85,8 +85,6 @@
   "paymentCancelled": "결제 취소",
   "editing": "편집",
   "profile": "프로필",
-  "dashboard": "계기반",
-  "waiterboard": "웨이터 보드",
   "currency": {
     "title": "통화 표시",
     "set": "표시 통화 설정",

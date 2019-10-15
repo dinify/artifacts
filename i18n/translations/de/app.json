@@ -85,8 +85,6 @@
   "paymentCancelled": "Zahlung storniert",
   "editing": "bearbeitung",
   "profile": "Profil",
-  "dashboard": "Instrumententafel",
-  "waiterboard": "Kellnerbrett",
   "currency": {
     "title": "Währung anzeigen",
     "set": "Anzeigewährung einstellen",
@@ -117,7 +115,7 @@
   "theme": {
     "title": "Thema",
     "nightModeOn": "Schalten sie den nachtmodus ein",
-    "nightModeOff": "Nachtmodus ausschalten"
+    "nightModeOff": "Schalten sie den nachtmodus aus"
   },
   "cart": {
     "title": "Wagen",

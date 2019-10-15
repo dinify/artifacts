@@ -53,7 +53,7 @@
   "service": {
     "header": "サービス",
     "title": "サービスを呼び出す",
-    "subtitle": "この機能を使用すると、テーブルにあらゆる種類の調味料や食器をリクエストできます。",
+    "subtitle": "この機能を使用すると、あらゆる種類の調味料や食器をテーブルにリクエストできます。",
     "instruction": "開始するには、お近くのレストランでqrコードをスキャンしてチェックインしてください。",
     "types": {
       "tableware": "食器",
@@ -85,8 +85,6 @@
   "paymentCancelled": "支払いがキャンセルされました",
   "editing": "編集",
   "profile": "プロフィール",
-  "dashboard": "ダッシュボード",
-  "waiterboard": "ウェイターボード",
   "currency": {
     "title": "通貨を表示",
     "set": "表示通貨を設定",
@@ -138,7 +136,7 @@
     "added-to-cart": "カートに追加しました",
     "removed-from-cart": "カートから削除しました",
     "order-has-been-placed": "注文されました",
-    "you-are-now-checked-in": "チェックインされました",
+    "you-are-now-checked-in": "これでチェックインされました",
     "service-called": "呼び出されるサービス",
     "payment-request-sent": "支払請求が送信されました"
   },

@@ -75,6 +75,6 @@
     "transaction-unprocessed-exists": "Er is minimaal één onverwerkte transactie",
     "cart-already-exists": "Je hebt al een aantal artikelen in de winkelwagen van een ander restaurant",
     "cart-empty": "Winkelwagen is leeg",
-    "transaction-processed-already": "Transactie was al verwerkt"
+    "transaction-processed-already": "Transactie is al verwerkt"
   }
 }

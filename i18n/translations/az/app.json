@@ -53,8 +53,8 @@
   "service": {
     "header": "Xidmətlər",
     "title": "Bir xidmətə zəng edin",
-    "subtitle": "Bu xüsusiyyət ilə, masanıza hər cür çirk və ya süfrə istəyə bilərsiniz.",
-    "instruction": "İşə başlamaq üçün yaxınlığındakı bir restoranda qr kodunu skan edərək yoxlayın.",
+    "subtitle": "Bu xüsusiyyət ilə masanıza hər cür çirk və ya qab süfrəsi istəyə bilərsiniz.",
+    "instruction": "Başlamaq üçün yaxın bir restoranda qr kodunu skan edərək yoxlayın.",
     "types": {
       "tableware": "Süfrə qabları",
       "condiments": "Şirniyyat"
@@ -85,8 +85,6 @@
   "paymentCancelled": "Ödəniş ləğv edildi",
   "editing": "redaktə",
   "profile": "Profil",
-  "dashboard": "İdarə paneli",
-  "waiterboard": "Ofisiant",
   "currency": {
     "title": "Valyuta göstərin",
     "set": "Ekran valyutasını təyin edin",
@@ -125,7 +123,7 @@
     "itemCount_plural": "{{count, number}} əşyaları",
     "itemCount_none": "maddələr yoxdur",
     "add": "Səbətə əlavə et",
-    "checkInInstructions": "İşə başlamaq üçün yaxınlığındakı bir restoranda qr kodunu skan edərək yoxlayın."
+    "checkInInstructions": "Başlamaq üçün yaxın bir restoranda qr kodunu skan edərək yoxlayın."
   },
   "nutrition": {
     "facts": "Qidalanma faktları",

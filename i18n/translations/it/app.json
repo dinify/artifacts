@@ -85,8 +85,6 @@
   "paymentCancelled": "Pagamento annullato",
   "editing": "la modifica",
   "profile": "Profilo",
-  "dashboard": "Cruscotto",
-  "waiterboard": "Waiterboard",
   "currency": {
     "title": "Visualizza valuta",
     "set": "Imposta la valuta di visualizzazione",
@@ -142,7 +140,7 @@
     "service-called": "Servizio chiamato",
     "payment-request-sent": "Richiesta di pagamento inviata"
   },
-  "guestJoinedTable": "Nuovo ospite unito al tavolo",
+  "guestJoinedTable": "New guest si è unito al tavolo",
   "guestLeftTable": "Ospite lasciato tavolo",
   "newBillSplitItems": "Bill ha ricevuto articoli divisi",
   "checkedOut": "Sei stato estratto dal tavolo.",

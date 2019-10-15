@@ -74,7 +74,7 @@
     "splittingCount": "Dela med {{count, number}} personer",
     "splittingCount_plural": "Dela upp mellan {{count, number}} personer",
     "itemCountSelected": "{{count, number}} vald artikel",
-    "itemCountSelected_plural": "{{count, number}} valda ",
+    "itemCountSelected_plural": "{{count, number}} objekt valda",
     "itemCountSelected_none": "inga objekt valda"
   },
   "meParentheses": "(mig)",
@@ -85,8 +85,6 @@
   "paymentCancelled": "Betalning avbruten",
   "editing": "redigering",
   "profile": "Profil",
-  "dashboard": "Instrumentbräda",
-  "waiterboard": "Waiterboard",
   "currency": {
     "title": "Visa valuta",
     "set": "Ställ in visningsvaluta",
@@ -117,7 +115,7 @@
   "theme": {
     "title": "Tema",
     "nightModeOn": "Slå på nattläge",
-    "nightModeOff": "Stäng av nattläget"
+    "nightModeOff": "Stäng av nattläge"
   },
   "cart": {
     "title": "Vagn",

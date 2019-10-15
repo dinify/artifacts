@@ -23,11 +23,11 @@
     "dineIn": "在用餐",
     "account": "帳戶",
     "menu": "菜單",
-    "settings": "設置"
+    "settings": "設定值"
   },
   "dinein": {
     "checkedin": "您目前已簽到",
-    "actions": "操作",
+    "actions": "動作",
     "seeMenu": "查看餐廳菜單",
     "callService": "致電服務"
   },
@@ -53,7 +53,7 @@
   "service": {
     "header": "服務",
     "title": "致電服務",
-    "subtitle": "使用此功能，您可以向餐桌索取任何調味品或餐具。",
+    "subtitle": "使用此功能，您可以向桌上索取任何調味品或餐具。",
     "instruction": "通過掃描附近餐廳的qr碼開始入住。",
     "types": {
       "tableware": "餐具",
@@ -78,15 +78,13 @@
     "itemCountSelected_none": "未選擇任何項目"
   },
   "meParentheses": "（我）",
-  "gratuity": "賞錢",
+  "gratuity": "小費",
   "pay": "工資",
   "paymentPending": "等待付款確認...",
   "paymentConfirmed": "付款確認成功",
   "paymentCancelled": "付款已取消",
   "editing": "編輯",
   "profile": "輪廓",
-  "dashboard": "儀表板",
-  "waiterboard": "Waiterboard",
   "currency": {
     "title": "顯示貨幣",
     "set": "設定顯示貨幣",
@@ -94,7 +92,7 @@
     "other": "其他貨幣"
   },
   "roles": {
-    "title": "角色",
+    "title": "的角色",
     "at": "在{{restaurant}}",
     "restaurant": {
       "owner": "餐廳老闆",
@@ -129,9 +127,9 @@
   },
   "nutrition": {
     "facts": "營養成分",
-    "fats": "脂肪",
+    "fats": "脂肪類",
     "carbs": "碳水化合物",
-    "proteins": "蛋白質",
+    "proteins": "蛋白質類",
     "calories": "卡路里"
   },
   "successMessages": {

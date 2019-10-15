@@ -85,8 +85,6 @@
   "paymentCancelled": "Платеж отменен",
   "editing": "редактирование",
   "profile": "Профиль",
-  "dashboard": "Приборная доска",
-  "waiterboard": "Waiterboard",
   "currency": {
     "title": "Показать валюту",
     "set": "Установить отображаемую валюту",

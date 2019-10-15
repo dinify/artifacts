@@ -13,7 +13,7 @@
   },
   "auth": {
     "appFormSubtitle": "restorandaki personel ile sipariş verebilmek, ödeme yapabilmek ve etkileşimde bulunmak için",
-    "dashboardFormSubtitle": "bir şeyler ayarlamaya başlamak için e-posta veya sosyal medya hesabınızla oturum açın",
+    "dashboardFormSubtitle": "bir şeyler ayarlamaya başlamak için e-posta adresiniz veya sosyal medya hesabınızla oturum açın.",
     "forgotPwdFormSubtitle": "şifre sıfırlama e-postası almak için oturum açmak için kullandığınız e-posta adresini girin",
     "signInWithPassword": "Şifre ile giriş yap",
     "createAccount": "Hesap oluştur",

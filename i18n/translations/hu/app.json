@@ -85,8 +85,6 @@
   "paymentCancelled": "A fizetés törölve",
   "editing": "szerkesztés",
   "profile": "Profil",
-  "dashboard": "Irányítópult",
-  "waiterboard": "Waiterboard",
   "currency": {
     "title": "Kijelző pénznem",
     "set": "Állítsa be a megjelenítési pénznemet",

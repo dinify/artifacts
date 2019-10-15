@@ -73,7 +73,7 @@
     "no-users-for-checkout": "هیچ کاربر برای پرداخت پول وجود ندارد",
     "order-already-confirmed": "سفارش قبلاً تأیید شد",
     "transaction-unprocessed-exists": "حداقل یک معامله پردازش نشده وجود دارد",
-    "cart-already-exists": "شما قبلاً در رستوران های مختلف چند مورد را در سبد خرید دارید",
+    "cart-already-exists": "شما قبلاً از رستوران های مختلف چند مورد در سبد خرید دارید",
     "cart-empty": "سبد خرید خالی است",
     "transaction-processed-already": "معامله قبلاً پردازش شده بود"
   }

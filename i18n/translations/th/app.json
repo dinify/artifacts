@@ -85,8 +85,6 @@
   "paymentCancelled": "การชำระเงินถูกยกเลิก",
   "editing": "การตัดต่อ",
   "profile": "ข้อมูลส่วนตัว",
-  "dashboard": "แผงควบคุม",
-  "waiterboard": "Waiterboard",
   "currency": {
     "title": "แสดงสกุลเงิน",
     "set": "กำหนดสกุลเงินที่แสดง",

@@ -12,7 +12,7 @@
     "long": "電子メールアドレス"
   },
   "auth": {
-    "appFormSubtitle": "レストランのスタッフを注文し、支払い、やり取りできるようにするため",
+    "appFormSubtitle": "レストランのスタッフを注文、支払い、やり取りできるようにするため",
     "dashboardFormSubtitle": "設定を開始するには、メールまたはソーシャルメディアアカウントでサインインします",
     "forgotPwdFormSubtitle": "パスワードリセットメールを取得するためにサインインに使用するメールアドレスを入力します",
     "signInWithPassword": "パスワードでサインインする",
@@ -75,6 +75,6 @@
     "transaction-unprocessed-exists": "少なくとも1つの未処理のトランザクションがあります",
     "cart-already-exists": "すでに別のレストランのカートにいくつかのアイテムがあります",
     "cart-empty": "カートは空です",
-    "transaction-processed-already": "トランザクションはすでに処理されました"
+    "transaction-processed-already": "トランザクションは既に処理されました"
   }
 }

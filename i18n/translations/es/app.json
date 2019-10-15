@@ -73,7 +73,7 @@
     "splittingWith_zero": "Seleccionar usuarios para dividir con",
     "splittingCount": "Separación con {{count, number}} persona",
     "splittingCount_plural": "División entre {{count, number}} personas",
-    "itemCountSelected": "{{count, number}} artículo seleccionado",
+    "itemCountSelected": "{{count, number}} elemento seleccionado",
     "itemCountSelected_plural": "{{count, number}} elementos seleccionados",
     "itemCountSelected_none": "no hay elementos seleccionados"
   },
@@ -85,8 +85,6 @@
   "paymentCancelled": "Pago cancelado",
   "editing": "edición",
   "profile": "Perfil",
-  "dashboard": "Tablero",
-  "waiterboard": "Waiterboard",
   "currency": {
     "title": "Mostrar moneda",
     "set": "Establecer moneda de visualización",

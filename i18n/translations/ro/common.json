@@ -14,7 +14,7 @@
   "auth": {
     "appFormSubtitle": "pentru a putea comanda, plăti și interacționa cu personalul din restaurant",
     "dashboardFormSubtitle": "pentru a începe să configurați lucrurile, conectați-vă cu contul de e-mail sau de social media",
-    "forgotPwdFormSubtitle": "introduceți adresa de e-mail pe care o utilizați pentru a vă conecta pentru a primi un e-mail de resetare a parolei",
+    "forgotPwdFormSubtitle": "introduceți adresa de e-mail pe care o utilizați pentru a vă conecta pentru a obține o resetare a parolei",
     "signInWithPassword": "Conectați-vă cu parola",
     "createAccount": "Creează cont",
     "forgotPassword": "Ați uitat parola",

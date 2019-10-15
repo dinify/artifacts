@@ -68,7 +68,7 @@
     },
     "title": "Conta",
     "split": "Dividido",
-    "selecting": "Selecione itens de fatura para dividir com outras pessoas",
+    "selecting": "Selecione itens de fatura para dividir com outros",
     "splittingWith": "Divisão com {{list, list}}",
     "splittingWith_zero": "Selecione os usuários com quem dividir",
     "splittingCount": "Divisão com {{count, number}} pessoas",
@@ -85,8 +85,6 @@
   "paymentCancelled": "Pagamento cancelado",
   "editing": "edição",
   "profile": "Perfil",
-  "dashboard": "Painel de controle",
-  "waiterboard": "Garçom",
   "currency": {
     "title": "Moeda de exibição",
     "set": "Definir moeda de exibição",

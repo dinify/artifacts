@@ -85,8 +85,6 @@
   "paymentCancelled": "Გადახდა გაუქმებულია",
   "editing": "რედაქტირება",
   "profile": "Პროფილი",
-  "dashboard": "Დაფა",
-  "waiterboard": "Მიმტანი",
   "currency": {
     "title": "Ვალუტის ჩვენება",
     "set": "Ეკრანის ვალუტის დაყენება",

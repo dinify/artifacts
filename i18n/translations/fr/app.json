@@ -85,8 +85,6 @@
   "paymentCancelled": "Paiement annulé",
   "editing": "montage",
   "profile": "Profil",
-  "dashboard": "Tableau de bord",
-  "waiterboard": "Waiterboard",
   "currency": {
     "title": "Monnaie d'affichage",
     "set": "Définir la devise d'affichage",

@@ -74,7 +74,7 @@
     "splittingCount": "Jakaminen {{count, number}} henkilöllä",
     "splittingCount_plural": "Jako {{count, number}} ihmisten välillä",
     "itemCountSelected": "{{count, number}} valittu",
-    "itemCountSelected_plural": "{{count, number}} valittujen kohteiden ",
+    "itemCountSelected_plural": "{{count, number}} valittujen tuotteiden ",
     "itemCountSelected_none": "ei kohteita valittu"
   },
   "meParentheses": "(minä)",
@@ -85,10 +85,8 @@
   "paymentCancelled": "Maksu peruutettu",
   "editing": "editointi",
   "profile": "Profiili",
-  "dashboard": "Kojelauta",
-  "waiterboard": "Waiterboard",
   "currency": {
-    "title": "Näytä valuutta",
+    "title": "Näyttövaluutta",
     "set": "Aseta näyttövaluutta",
     "original": "Näytetään hinnat alkuperäisessä valuutassa",
     "other": "Muut valuutat"
@@ -122,7 +120,7 @@
   "cart": {
     "title": "Kärry",
     "itemCount": "{{count, number}}",
-    "itemCount_plural": "{{count, number}} kohteita",
+    "itemCount_plural": "{{count, number}}",
     "itemCount_none": "ei tuotteita",
     "add": "Lisää koriin",
     "checkInInstructions": "Kirjaudu sisään skannaamalla qr-koodi lähelläsi olevassa ravintolassa aloittaaksesi."

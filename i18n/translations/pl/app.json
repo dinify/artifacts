@@ -26,7 +26,7 @@
     "settings": "Ustawienia"
   },
   "dinein": {
-    "checkedin": "jesteś aktualnie zalogowany",
+    "checkedin": "jesteś aktualnie zameldowany",
     "actions": "Działania",
     "seeMenu": "Zobacz menu restauracji",
     "callService": "Wezwać serwis"
@@ -53,7 +53,7 @@
   "service": {
     "header": "Usługi",
     "title": "Wezwać serwis",
-    "subtitle": "Dzięki tej funkcji możesz zamówić do stołu dowolny rodzaj przyprawy lub zastawy stołowej.",
+    "subtitle": "Dzięki tej funkcji możesz zamówić do stołu dowolną przyprawę lub zastawę stołową.",
     "instruction": "Aby rozpocząć, zaloguj się, skanując kod qr w pobliskiej restauracji.",
     "types": {
       "tableware": "Zastawa stołowa",
@@ -74,7 +74,7 @@
     "splittingCount": "Podział z {{count, number}} osób",
     "splittingCount_plural": "Podział na {{count, number}} osób",
     "itemCountSelected": "{{count, number}} wybrano element ",
-    "itemCountSelected_plural": "{{count, number}} wybranych elementów",
+    "itemCountSelected_plural": "{{count, number}} wybrano ",
     "itemCountSelected_none": "nie wybrano żadnych elementów"
   },
   "meParentheses": "(mnie)",
@@ -85,8 +85,6 @@
   "paymentCancelled": "Płatność anulowana",
   "editing": "redagowanie",
   "profile": "Profil",
-  "dashboard": "Deska rozdzielcza",
-  "waiterboard": "Kelnerka",
   "currency": {
     "title": "Wyświetl walutę",
     "set": "Ustaw wyświetlaną walutę",
