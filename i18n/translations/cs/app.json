@@ -14,7 +14,12 @@
   "nav": {
     "explore": "Prozkoumat",
     "eat": "Jíst",
-    "service": "Služba"
+    "service": "Služba",
+    "browse": "Procházet",
+    "dineIn": "Dine in",
+    "account": "Účet",
+    "menu": "Jídelní lístek",
+    "settings": "Nastavení"
   },
   "ingredients": "Přísady",
   "addons": "Doplněk",
@@ -26,7 +31,8 @@
       "title": "Kamera není k dispozici",
       "subtitle": "Kamera prohlížeče není k dispozici v tomto zařízení"
     },
-    "takePhoto": "Vyfoťte ji"
+    "takePhoto": "Vyfoťte ji",
+    "header": "Fotoaparát"
   },
   "service": {
     "title": "Volání na službu",
@@ -35,7 +41,8 @@
     "types": {
       "tableware": "Stolování",
       "condiments": "Koření"
-    }
+    },
+    "header": "Služby"
   },
   "bill": {
     "title": "Účtovat",
@@ -47,7 +54,12 @@
     "splittingCount_plural": "{{count, number}} osoby",
     "itemCountSelected": "{{count, number}} vybraná položka",
     "itemCountSelected_plural": "{{count, number}} vybrané položky",
-    "itemCountSelected_none": "Žádné položky vybrané"
+    "itemCountSelected_none": "Žádné položky vybrané",
+    "section": {
+      "waiting": "Čeká na potvrzení",
+      "confirmed": "Potvrzené objednávky",
+      "empty": "Jakmile budou vaše objednávky potvrzeny, přičtou se k celkovému účtu"
+    }
   },
   "gratuity": "Spropitné",
   "pay": "Platit",
@@ -66,7 +78,14 @@
     "manager": "Manažer",
     "waiter": "Číšník",
     "cook": "Kuchařka",
-    "proofreader": "Korektor"
+    "proofreader": "Korektor",
+    "at": "v {{restaurant}}",
+    "restaurant": {
+      "owner": "Majitel restaurace",
+      "manager": "Manažer restaurace",
+      "waiter": "Číšník",
+      "cook": "Kuchařka"
+    }
   },
   "language": {
     "setPrimary": "Nastavit primární jazyk",
@@ -88,5 +107,49 @@
     "carbs": "Sacharidy",
     "proteins": "Bílkoviny",
     "calories": "Kalorie"
-  }
+  },
+  "appBar": {
+    "back": "Zadní",
+    "cancel": "Zrušení",
+    "edit": "Upravit",
+    "done": "Hotovo"
+  },
+  "dinein": {
+    "checkedin": "jste aktuálně přihlášeni",
+    "actions": "Akce",
+    "seeMenu": "Viz menu restaurace",
+    "callService": "Zavolejte službu"
+  },
+  "checkIn": "Check in",
+  "checkedIn": "Kontrolováno",
+  "total": "Celkový",
+  "totalConverted": "Celkem ( {{currencyname}} )",
+  "orderConfirmed": "Objednávka potvrzena",
+  "orderCancelled": "Objednávka byla zrušena",
+  "meParentheses": "(mě)",
+  "paymentConfirmed": "Platba potvrzena",
+  "paymentCancelled": "Platba zrušena",
+  "toggle": {
+    "on": "v současné době",
+    "off": "momentálně vypnuto"
+  },
+  "theme": {
+    "title": "Téma",
+    "nightModeOn": "Zapněte noční režim",
+    "nightModeOff": "Vypněte noční režim"
+  },
+  "successMessages": {
+    "added-to-cart": "Přidáno do košíku",
+    "removed-from-cart": "Odebráno z košíku",
+    "order-has-been-placed": "Objednávka byla zadána",
+    "you-are-now-checked-in": "Nyní jste přihlášeni",
+    "service-called": "Služba volala",
+    "payment-request-sent": "Žádost o platbu byla odeslána"
+  },
+  "guestJoinedTable": "Nový host se připojil ke stolu",
+  "guestLeftTable": "Host opustil stůl",
+  "newBillSplitItems": "Bill obdržel rozdělené položky",
+  "checkedOut": "Byli jste odhlášeni z tabulky.",
+  "serviceCallConfirmed": "Servisní volání bylo potvrzeno",
+  "serviceCallCancelled": "Servisní hovor byl zrušen"
 }
