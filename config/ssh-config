@@ -1,0 +1,11 @@
+#
+# Add this if getting this error:
+# git@gitlab.com: Permission denied (publickey).
+#
+# Default location for this file: ~/.ssh/config
+# Assuming ~/.ssh/id_rsa.pub has been uploaded to gitlab.com public keys
+#
+
+Host gitlab.com
+     IdentityFile ~/.ssh/id_rsa
+     IdentitiesOnly yes
