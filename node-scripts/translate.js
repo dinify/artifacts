@@ -9,9 +9,9 @@ const englishStrings = {
 };
 const { flatten, deflatten } = require('./lib/json');
 
-const includeLanguages = [];
+const includeLanguages = ['es', 'fr', 'it', 'de', 'ru'];
 const excludeLanguages = ['en', 'cs'];
-const namespaces = ['app', 'common']; //, 'dashboard', 'landing'];
+const namespaces = ['landing']; //, 'dashboard', 'landing'];
 
 const levenshteinDistance = (a, b) => {
 	const distanceMatrix = Array(b.length + 1).fill(null).map(() => Array(a.length + 1).fill(null));
@@ -122,7 +122,10 @@ const translate = ({input, target, source, model='nmt'}) => {
   const url = `${root}?${qs}&target=${target}&format=html&model=${model}${specifiedSource}&key=${apiKey}`;
   // console.log(url);
   return fetch(url)
-			.then(response => response.json())
+			.then(response => {
+				response.text().then(t => console.log(t));
+				return response.json();
+			})
 			.then(json => {
         // console.log(json.data);
 				let flatResult = {};
