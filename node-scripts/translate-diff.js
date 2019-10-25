@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { translate } = require('./translate');
+// const { translate } = require('./translate');
 const { flatten, deflatten } = require('./lib/json');
 
 const getProp = ( object, keys, defaultVal ) => {
@@ -87,17 +87,18 @@ else {
     if (d.length === 0) console.log('No difference');
     else {
       console.log('Translating ', d.length);
+      console.log(d);
       const diffInput = {};
-      d.map(key => [key, getIn(source, key)])
-        .filter(([key, val]) => val !== undefined)
-        .forEach(([key, val]) => setIn(diffInput, key, val));
-      translate({ input: diffInput, target: toL, source: fromL, model: 'nmt' }).then(result => {
-        Object.keys(flatten(result)).map(key => [key, getIn(result, key)])
-          .forEach(([key, val]) => setIn(original, key, val));
+      // d.map(key => [key, getIn(source, key)])
+      //   .filter(([key, val]) => val !== undefined)
+      //   .forEach(([key, val]) => setIn(diffInput, key, val));
+      // translate({ input: diffInput, target: toL, source: fromL, model: 'nmt' }).then(result => {
+      //   Object.keys(flatten(result)).map(key => [key, getIn(result, key)])
+      //     .forEach(([key, val]) => setIn(original, key, val));
 
-        fs.writeFileSync(`../i18n/translations/${toL}/${namespace}.json`, JSON.stringify(original, null, 2));
-        console.log(`i18n/translations/${toL}/${namespace}.json`);
-      });
+      //   fs.writeFileSync(`../i18n/translations/${toL}/${namespace}.json`, JSON.stringify(original, null, 2));
+      //   console.log(`i18n/translations/${toL}/${namespace}.json`);
+      // });
     }
   }
   catch (e) {
