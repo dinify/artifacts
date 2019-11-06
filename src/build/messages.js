@@ -5,7 +5,7 @@
 require("dotenv").config();
 const cliProgress = require("cli-progress");
 const { flatten, deflatten } = require("../lib/json");
-const defaultLanguages = require("../i18n/default-languages.json");
+const defaultLanguages = require("../i18n/supplemental/default-languages.json");
 const { toPairs, keys, values, pipe } = require("ramda");
 const yargs = require("yargs");
 const fs = require("fs");

@@ -11,7 +11,7 @@ const {
   lt
 } = require("ramda");
 const { flattenObj, deflatten } = require("./lib/json");
-const defaultLanguages = require("../i18n/default-languages.json");
+const defaultLanguages = require("../i18n/supplemental/default-languages.json");
 
 const printHelp = () => {
   console.log(`
