@@ -104,8 +104,7 @@ const jaroWinklerSimilarity = (s1, s2, options) => {
 };
 
 const translate = ({ input, target, source, model = "nmt" }) => {
-  let flat = flatten(input);
-  let translateArr = Object.values(flat).map(value => {
+  let translateArr = input.map(value => {
     return value
       .replace("{{", '<span translate="no">')
       .replace("}}", "</span>");
@@ -128,10 +127,8 @@ const translate = ({ input, target, source, model = "nmt" }) => {
     })
     .then(json => {
       if (!json.error) {
-        let flatResult = {};
+        let flatResult = [];
         json.translations.forEach((translation, index) => {
-          const currentKey = Object.keys(flat)[index];
-          const splitCurrentKey = currentKey.split(".");
           const format = str => {
             while (str.includes('<span translate="no">')) {
               str = str
@@ -149,13 +146,11 @@ const translate = ({ input, target, source, model = "nmt" }) => {
 
           let replaced = format(translation.translatedText);
           replaced = replaced.replace("&#39;", "'");
-          const firstChar = flat[currentKey].charAt(0);
+          const firstChar = input[index].charAt(0);
           const upperCase = firstChar == firstChar.toUpperCase();
-          flatResult[currentKey] = upperCase
-            ? firstUpperCase(replaced)
-            : replaced;
+          flatResult[index] = upperCase ? firstUpperCase(replaced) : replaced;
         });
-        return deflatten(flatResult);
+        return flatResult;
       } else {
         console.log(JSON.stringify(json, null, 2));
         return null;

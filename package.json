@@ -5,12 +5,14 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./src/build.js",
+    "build": "node ./src/build/index.js",
+    "build:messages": "node ./src/build/messages.js",
+    "build:packs": "node ./src/build/packs.js",
     "deploy": "export ENV=staging & ./bash-scripts/deploy.sh",
     "deploy:dev": "export ENV=staging & ./bash-scripts/deploy.sh",
     "deploy:prod": "export ENV=production & ./bash-scripts/deploy.sh"
   },
-  "author": "",
+  "author": "Máté Homolya <mate.homolya@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@google-cloud/translate": "^5.0.1",
