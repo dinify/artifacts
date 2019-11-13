@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build:messages && npm run build:packs && npm run build:supplemental",
+    "build": "npm run build:schema && npm run build:messages && npm run build:packs && npm run build:supplemental",
+    "build:schema": "node ./src/build/schema.js",
     "build:messages": "node ./src/build/messages.js",
     "build:packs": "./bash-scripts/build-packs.sh",
     "build:supplemental": "./bash-scripts/build-supplemental.sh",

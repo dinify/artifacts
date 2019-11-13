@@ -5,12 +5,12 @@
 require("dotenv").config();
 const cliProgress = require("cli-progress");
 const { flatten, deflatten } = require("../lib/json");
-const defaultLanguages = require("../i18n/supplemental/default-languages.json");
 const { toPairs, keys, values, pipe } = require("ramda");
 const yargs = require("yargs");
 const fs = require("fs");
 const rimraf = require("rimraf");
 const { translate } = require("../translate");
+const config = require("./config");
 
 const argv = yargs
   .option("source", {
@@ -21,20 +21,7 @@ const argv = yargs
   .help()
   .alias("help", "h").argv;
 
-// read configuration
-// source language: en by default, read from CLI argv
-// languages for landing: ['en', 'cs', 'es', 'de', 'fr', 'it', 'ru']
-// languages for app and core: default languages (40)
-// languages for dashboard and waiterboard: en, cs, es
-const config = {
-  sourceLanguage: argv.source || "en",
-  namespaces: {
-    landing: ["en", "cs", "es", "de", "fr", "it", "ru"],
-    "core.app": defaultLanguages,
-    "core.dashboard": ["en", "cs", "es"]
-    // 'core.waiterboard': ["en", "cs", "es"]
-  }
-};
+config.sourceLanguage = argv.source || "en";
 
 const total = toPairs(config.namespaces)
   .map(([ns, ls]) => ls.length)
@@ -49,7 +36,6 @@ const progressBar = new cliProgress.Bar(
 progressBar.start(total, 0);
 let progressCounter = 0;
 
-rimraf.sync("./dist/i18n/schemas");
 rimraf.sync("./dist/i18n/messages");
 
 const tryMkdir = dir => {
@@ -67,7 +53,6 @@ const root = `.`; // relative to package root
 tryMkdir(`${root}/dist`);
 tryMkdir(`${root}/dist/i18n`);
 tryMkdir(`${root}/dist/i18n/messages`);
-tryMkdir(`${root}/dist/i18n/schemas`);
 
 toPairs(config.namespaces).forEach(([namespace, languages]) => {
   let source = {};
@@ -77,10 +62,6 @@ toPairs(config.namespaces).forEach(([namespace, languages]) => {
   });
   const flatSource = flatten(source);
   const schema = keys(flatSource);
-  fs.writeFileSync(
-    `${root}/dist/i18n/schemas/${namespace}`,
-    JSON.stringify(schema)
-  );
 
   languages.forEach(async language => {
     let result = {};
@@ -107,13 +88,13 @@ toPairs(config.namespaces).forEach(([namespace, languages]) => {
         existingSchema.length === input.length
           ? `all (${input.length})`
           : input.length;
-      progressBar.update(progressCounter, {
-        currentPath: `Translating ${msg} messages for ${language} in ${namespace}`
-      });
       const translations = await translate({
         input,
         target: language,
         source: config.sourceLanguage
+      });
+      progressBar.update(progressCounter, {
+        currentPath: `Translating ${msg} messages for ${language} in ${namespace}`
       });
       translations.map((t, i) => {
         result[diffResult.left[i]] = t;
@@ -156,11 +137,12 @@ toPairs(config.namespaces).forEach(([namespace, languages]) => {
         currentPath: destFile
       });
     }
+    if (progressCounter >= total) {
+      progressBar.update(total, {
+        currentPath: `done`
+      });
+      progressBar.stop();
+      console.log("\n");
+    }
   });
 });
-
-progressBar.update(total, {
-  currentPath: `done`
-});
-progressBar.stop();
-console.log("\n");
