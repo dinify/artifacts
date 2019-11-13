@@ -59,7 +59,7 @@
       "subtitle": "A restaurant menu that speaks 40 languages.",
       "cta": "Get Started",
       "caption": "Start a 30-Day free trial",
-      "continueWith": "Continue with {{email}}"
+      "continueWith": "Continue with {email}"
     },
     "sections": {
       "waiterboard": {
@@ -143,7 +143,7 @@
       "terms": "Terms of Service"
     },
     "copyright": "Copyright",
-    "withlove": "Made with {{love}} by Dinify",
+    "withlove": "Made with {love} by Dinify",
     "contact": "Contact us",
     "language": "Language"
   }

@@ -1,7 +1,7 @@
 {
   "menu": {
     "title": "Menu",
-    "caption": "Everything you can get in {{restaurant.name}}"
+    "caption": "Everything you can get in {restaurant.name}"
   },
   "address": "Address",
   "appBar": {
@@ -13,8 +13,8 @@
   "hours": {
     "open": "Open now",
     "closed": "Closed",
-    "opens_at": "Opens at {{time, time:short}}",
-    "closes_at": "Closes at {{time, time:short}}"
+    "opens_at": "Opens at {time, time, short}",
+    "closes_at": "Closes at {time, time, short}"
   },
   "website": "Website",
   "nav": {
@@ -37,7 +37,7 @@
   "addons": "Addons",
   "subtotal": "Subtotal",
   "total": "Total",
-  "totalConverted": "Total ({{currencyName}})",
+  "totalConverted": "Total {localized}",
   "serviceFee": "Service fee",
   "order": {
     "title": "Order",
@@ -76,12 +76,12 @@
     "title": "Bill",
     "split": "Split",
     "selecting": "Select bill items to split with others",
-    "splittingWith": "Splitting with {{list, list}}",
+    "splittingWith": "Splitting with {list, list}",
     "splittingWith_zero": "Select users to split with",
-    "splittingCount": "Splitting with {{count, number}} person",
-    "splittingCount_plural": "Splitting between {{count, number}} people",
-    "itemCountSelected": "{{count, number}} item selected",
-    "itemCountSelected_plural": "{{count, number}} items selected",
+    "splittingCount": "Splitting with {count, number} person",
+    "splittingCount_plural": "Splitting between {count, number} people",
+    "itemCountSelected": "{count, number} item selected",
+    "itemCountSelected_plural": "{count, number} items selected",
     "itemCountSelected_none": "no items selected"
   },
   "meParentheses": "(me)",
@@ -100,7 +100,7 @@
   },
   "roles": {
     "title": "Roles",
-    "at": "at {{restaurant}}",
+    "at": "at {restaurant}",
     "restaurant": {
       "owner": "Restaurant Owner",
       "manager": "Restaurant Manager",
@@ -126,8 +126,8 @@
   },
   "cart": {
     "title": "Cart",
-    "itemCount": "{{count, number}} item",
-    "itemCount_plural": "{{count, number}} items",
+    "itemCount": "{count, number} item",
+    "itemCount_plural": "{count, number} items",
     "itemCount_none": "no items",
     "add": "Add to cart"
   },

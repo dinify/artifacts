@@ -43,8 +43,12 @@
   "select": "Select",
   "clear": "Clear",
   "search": "Search",
+  "cancel": "Cancel",
+  "edit": "Edit",
+  "done": "Done",
+  "other": "Other",
   "loadingEllipsis": "Loading...",
-  "saved": "Saved successfully ✅",
+  "saved": "Saved successfully",
   "saveFailed": "Updating failed, check entered information",
   "errorMessages": {
     "ingredient-not-found": "Ingredient not found",

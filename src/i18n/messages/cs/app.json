@@ -1,14 +1,14 @@
 {
   "menu": {
     "title": "Jídelní lístek",
-    "caption": "Nabídka {{restaurant.name}}"
+    "caption": "Nabídka {restaurant.name}"
   },
   "address": "Adresa",
   "hours": {
     "open": "Otevřeno",
     "closed": "Zavřeno",
-    "opens_at": "Otevírá v {{time, time:short}}",
-    "closes_at": "Zavírá v {{time, time:short}}"
+    "opens_at": "Otevírá v {time, time, short}",
+    "closes_at": "Zavírá v {time, time, short}"
   },
   "website": "Web",
   "nav": {
@@ -50,10 +50,10 @@
     "selecting": "Vyberte položky",
     "splittingWith": "Rozděleno mezi:",
     "splittingWith_zero": "Vyberte uživatele",
-    "splittingCount": "{{count, number}} osoba",
-    "splittingCount_plural": "{{count, number}} osoby",
-    "itemCountSelected": "{{count, number}} vybraná položka",
-    "itemCountSelected_plural": "{{count, number}} vybrané položky",
+    "splittingCount": "{count, number} osoba",
+    "splittingCount_plural": "{count, number} osoby",
+    "itemCountSelected": "{count, number} vybraná položka",
+    "itemCountSelected_plural": "{count, number} vybrané položky",
     "itemCountSelected_none": "Nejsou vybrány žádné položky",
     "section": {
       "waiting": "Čeká se na potvrzení",
@@ -79,7 +79,7 @@
     "waiter": "Číšník",
     "cook": "Kuchařka",
     "proofreader": "Korektor",
-    "at": "v {{restaurant}}",
+    "at": "v {restaurant}",
     "restaurant": {
       "owner": "Majitel restaurace",
       "manager": "Manažer restaurace",
@@ -95,8 +95,8 @@
   },
   "cart": {
     "title": "Košík",
-    "itemCount": "{{count, number}} kus",
-    "itemCount_plural": "{{count, number}} kusy",
+    "itemCount": "{count, number} kus",
+    "itemCount_plural": "{count, number} kusy",
     "itemCount_none": "Prázdný",
     "add": "Přidat do košíku",
     "checkInInstructions": "Chcete-li začít, vyfoťte QR kód na stole"
@@ -123,7 +123,7 @@
   "checkIn": "Check in",
   "checkedIn": "Checked-in",
   "total": "Celkem",
-  "totalConverted": "Celkem ( {{currencyname}} )",
+  "totalConverted": "Celkem {localized}",
   "orderConfirmed": "Objednávka potvrzena",
   "orderCancelled": "Objednávka byla zrušena",
   "meParentheses": "(mě)",

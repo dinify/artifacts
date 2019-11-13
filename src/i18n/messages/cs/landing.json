@@ -63,7 +63,7 @@
     "hero": {
       "title": "Přinášíme revoluci v gastro podnicích",
       "subtitle": "Posuňte s námi váš podnik na novou úroveň",
-      "continueWith": "Pokračovat jako {{email}}",
+      "continueWith": "Pokračovat jako {email}",
       "cta": "Začněte",
       "caption": "Vyzkoušejte na 30 dní zdarma"
     },
