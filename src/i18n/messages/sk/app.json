@@ -1,7 +1,7 @@
 {
   "menu": {
     "title": "Ponuka",
-    "caption": "Všetko, čo si môžete objednať v {restaurant.name}"
+    "caption": "Všetko, čo si môžete objednať v {0}"
   },
   "address": "Adresa",
   "appBar": {
@@ -13,8 +13,8 @@
   "hours": {
     "open": "Otvorené",
     "closed": "Zatvorené",
-    "opens_at": "Otvára sa v {time, time, short}",
-    "closes_at": "Zatvára v {time, time, short}"
+    "opens_at": "Otvára sa v {0 time short}",
+    "closes_at": "Zatvára v {0 time short}"
   },
   "website": "Webové stránky",
   "nav": {
@@ -31,13 +31,13 @@
     "seeMenu": "Pozrite si menu reštaurácie",
     "callService": "Zavolajte obsluhu"
   },
-  "checkIn": "CHECK IN",
-  "checkedIn": "CHECKED IN",
+  "checkIn": "Check in",
+  "checkedIn": "Checked in",
   "ingredients": "Ingrediencie",
   "addons": "Navyše",
   "subtotal": "Medzisúčet",
   "total": "Celkovo",
-  "totalConverted": "Celkom {localized}",
+  "totalConverted": "Celkom {0}",
   "serviceFee": "Poplatok za služby",
   "order": "Objednať",
   "orderConfirmed": "Objednávka bola potvrdená",
@@ -69,12 +69,12 @@
     "title": "Účet",
     "split": "Rozdeliť",
     "selecting": "Vyberte položky, ktoré chcete rozdeliť s ostatnými",
-    "splittingWith": "Rozdelenie na {list, list}",
+    "splittingWith": "Rozdelenie na {0 list and}",
     "splittingWith_zero": "Vyberte používateľov, s ktorými sa chcete rozdeliť",
-    "splittingCount": "Delenie s {count, number} osôb",
-    "splittingCount_plural": "Rozdelenie na {count, number} ľudí",
-    "itemCountSelected": "{count, number} vybraná položka ",
-    "itemCountSelected_plural": "{count, number} vybrané položky",
+    "splittingCount": "Delenie s {0 decimal short} osôb",
+    "splittingCount_plural": "Rozdelenie na {0 decimal short} ľudí",
+    "itemCountSelected": "{0 decimal short} vybraná položka ",
+    "itemCountSelected_plural": "{0 decimal short} vybrané položky",
     "itemCountSelected_none": "nie sú vybrané žiadne položky"
   },
   "meParentheses": "(me)",
@@ -93,7 +93,7 @@
   },
   "roles": {
     "title": "Role",
-    "at": "v {restaurant}",
+    "at": "v {0}",
     "restaurant": {
       "owner": "Majiteľ reštaurácie",
       "manager": "Manažér reštaurácie",
@@ -119,8 +119,8 @@
   },
   "cart": {
     "title": "Košík",
-    "itemCount": "{count, number} položka",
-    "itemCount_plural": "{count, number} položiek",
+    "itemCount": "{0 decimal short} položka",
+    "itemCount_plural": "{0 decimal short} položiek",
     "itemCount_none": "žiadne položky",
     "add": "Pridať do košíka",
     "checkInInstructions": "Začnite tým, že naskenujete qr kód v reštaurácii vo vašom okolí."

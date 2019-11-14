@@ -28,7 +28,7 @@ const writeSchema = (object, namespace) => {
 
   tryMkdir(`${root}/dist/i18n/modules/${namespace}`);
   fs.writeFileSync(
-    `${root}/dist/i18n/modules/${namespace}/messages.d.ts`,
+    `${root}/dist/i18n/modules/${namespace}/messages.ts`,
     `
 export const schema: MessageKey[] = ${JSON.stringify(schemaKeys)};
 export type MessageKey = "${schemaKeys.join('"|"')}";

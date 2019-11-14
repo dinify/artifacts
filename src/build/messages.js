@@ -24,7 +24,7 @@ const argv = yargs
 config.sourceLanguage = argv.source || "en";
 
 const total = toPairs(config.namespaces)
-  .map(([ns, ls]) => ls.length)
+  .map(([ns, { languages }]) => languages.length)
   .reduce((p, c) => p + c);
 const progressBar = new cliProgress.Bar(
   {
@@ -54,7 +54,7 @@ tryMkdir(`${root}/dist`);
 tryMkdir(`${root}/dist/i18n`);
 tryMkdir(`${root}/dist/i18n/messages`);
 
-toPairs(config.namespaces).forEach(([namespace, languages]) => {
+toPairs(config.namespaces).forEach(([namespace, { languages, extras }]) => {
   let source = {};
   namespace.split(".").map(namespaceSegment => {
     const part = require(`../i18n/messages/${config.sourceLanguage}/${namespaceSegment}.json`);
@@ -90,6 +90,7 @@ toPairs(config.namespaces).forEach(([namespace, languages]) => {
           : input.length;
       const translations = await translate({
         input,
+        extras,
         target: language,
         source: config.sourceLanguage
       });

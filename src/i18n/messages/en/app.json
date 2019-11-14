@@ -1,7 +1,7 @@
 {
   "menu": {
     "title": "Menu",
-    "caption": "Everything you can get in {restaurant.name}"
+    "caption": "Everything you can get in {0}"
   },
   "address": "Address",
   "appBar": {
@@ -13,8 +13,8 @@
   "hours": {
     "open": "Open now",
     "closed": "Closed",
-    "opens_at": "Opens at {time, time, short}",
-    "closes_at": "Closes at {time, time, short}"
+    "opens_at": "Opens at {0 time short}",
+    "closes_at": "Closes at {0 time short}"
   },
   "website": "Website",
   "nav": {
@@ -37,7 +37,7 @@
   "addons": "Addons",
   "subtotal": "Subtotal",
   "total": "Total",
-  "totalConverted": "Total {localized}",
+  "totalConverted": "Total {0}",
   "serviceFee": "Service fee",
   "order": {
     "title": "Order",
@@ -76,12 +76,12 @@
     "title": "Bill",
     "split": "Split",
     "selecting": "Select bill items to split with others",
-    "splittingWith": "Splitting with {list, list}",
+    "splittingWith": "Splitting with {0 list and}",
     "splittingWith_zero": "Select users to split with",
-    "splittingCount": "Splitting with {count, number} person",
-    "splittingCount_plural": "Splitting between {count, number} people",
-    "itemCountSelected": "{count, number} item selected",
-    "itemCountSelected_plural": "{count, number} items selected",
+    "splittingCount": "Splitting with {0 decimal short} person",
+    "splittingCount_plural": "Splitting between {0 decimal short} people",
+    "itemCountSelected": "{0 decimal short} item selected",
+    "itemCountSelected_plural": "{0 decimal short} items selected",
     "itemCountSelected_none": "no items selected"
   },
   "meParentheses": "(me)",
@@ -100,7 +100,7 @@
   },
   "roles": {
     "title": "Roles",
-    "at": "at {restaurant}",
+    "at": "at {0}",
     "restaurant": {
       "owner": "Restaurant Owner",
       "manager": "Restaurant Manager",
@@ -126,9 +126,7 @@
   },
   "cart": {
     "title": "Cart",
-    "itemCount": "{count, number} item",
-    "itemCount_plural": "{count, number} items",
-    "itemCount_none": "no items",
+    "itemCount": "{count, plural, =0 {empty} one {# item} other {# items} }",
     "add": "Add to cart"
   },
   "nutrition": {
