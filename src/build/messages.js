@@ -5,7 +5,7 @@
 require("dotenv").config();
 const cliProgress = require("cli-progress");
 const { flatten, deflatten } = require("../lib/json");
-const { toPairs, keys, values, pipe } = require("ramda");
+const { fromPairs, toPairs, keys, values, pipe } = require("ramda");
 const yargs = require("yargs");
 const fs = require("fs");
 const rimraf = require("rimraf");
@@ -131,6 +131,10 @@ toPairs(config.namespaces).forEach(([namespace, { languages, extras }]) => {
     } else {
       const destPath = `${root}/dist/i18n/messages/${language}`;
       const destFile = `${destPath}/${namespace}`;
+      // sort result for same order in schema
+      result = fromPairs(
+        toPairs(result).sort(([k], [k2]) => k.localeCompare(k2))
+      );
       tryMkdir(destPath);
       fs.writeFileSync(destFile, JSON.stringify(values(result)));
       progressCounter++;

@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/translate": "^5.0.1",
-    "@phensley/cldr": "^0.21.0",
+    "@phensley/cldr": "^0.22.3",
     "cli-progress": "^3.3.1",
     "csvtojson": "^2.0.10",
     "dotenv": "^8.2.0",

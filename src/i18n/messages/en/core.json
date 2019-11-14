@@ -34,10 +34,19 @@
     "user-not-found": "No account found with this email",
     "wrong-password": "The passoword is incorrect"
   },
+  "nutrition": {
+    "facts": "Nutrition facts",
+    "fats": "Fats",
+    "carbs": "Carbs",
+    "proteins": "Proteins",
+    "calories": "Calories"
+  },
   "suggested": "Suggested",
   "selectLanguage": "Select language",
   "selectCountry": "Select country",
   "selectCurrency": "Select currency",
+  "add": "Add",
+  "save": "Save",
   "back": "Back",
   "next": "Next",
   "select": "Select",
@@ -46,6 +55,7 @@
   "cancel": "Cancel",
   "edit": "Edit",
   "done": "Done",
+  "delete": "Delete",
   "other": "Other",
   "loadingEllipsis": "Loading...",
   "saved": "Saved successfully",

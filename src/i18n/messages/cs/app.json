@@ -95,9 +95,7 @@
   },
   "cart": {
     "title": "Košík",
-    "itemCount": "{0 decimal short} kus",
-    "itemCount_plural": "{0 decimal short} kusy",
-    "itemCount_none": "Prázdný",
+    "itemCount": "{count, plural, =0 {prázdný} one {# kus} few {# kusy} other {# kusů} }",
     "add": "Přidat do košíku",
     "checkInInstructions": "Chcete-li začít, vyfoťte QR kód na stole"
   },
