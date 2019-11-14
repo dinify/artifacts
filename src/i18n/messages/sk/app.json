@@ -125,13 +125,6 @@
     "add": "Pridať do košíka",
     "checkInInstructions": "Začnite tým, že naskenujete qr kód v reštaurácii vo vašom okolí."
   },
-  "nutrition": {
-    "facts": "Nutričné hodnoty",
-    "fats": "Tuky",
-    "carbs": "Sacharidy",
-    "proteins": "Bielkoviny",
-    "calories": "Kalórií"
-  },
   "successMessages": {
     "added-to-cart": "Pridané do košíka",
     "removed-from-cart": "Odstránené z košíka",

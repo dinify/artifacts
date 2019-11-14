@@ -34,6 +34,13 @@
     "user-not-found": "S týmto e-mailom sa nenašiel žiadny účet",
     "wrong-password": "Heslo je nesprávne"
   },
+  "nutrition": {
+    "facts": "Nutričné hodnoty",
+    "fats": "Tuky",
+    "carbs": "Sacharidy",
+    "proteins": "Bielkoviny",
+    "calories": "Kalórií"
+  },
   "suggested": "Odporúčané",
   "selectLanguage": "Zvoľte jazyk",
   "selectCountry": "Vyberte krajinu",
@@ -44,7 +51,7 @@
   "clear": "Jasný",
   "search": "Vyhľadávanie",
   "loadingEllipsis": "Načítava...",
-  "saved": "Úspešne uložené ✅",
+  "saved": "Úspešne uložené",
   "saveFailed": "Aktualizácia zlyhala, skontrolujte zadané informácie",
   "errorMessages": {
     "ingredient-not-found": "Ingrediencia sa nenašla",

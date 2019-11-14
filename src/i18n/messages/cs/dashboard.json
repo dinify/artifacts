@@ -90,13 +90,6 @@
   "addLanguage": "Přidat jazyk",
   "selectLanguage": "Zvolte jeden z vybraných jazyků",
   "selectLanguagePlaceholder": "Vybrat jazyk",
-  "nutrition": {
-    "facts": "Nutriční údaje",
-    "fats": "Tuky (g)",
-    "carbs": "Sacharidy (g)",
-    "proteins": "Bílkoviny (g)",
-    "calories": "Kalorie (kcal)"
-  },
   "delete": "Smazat",
   "published": "Zobrazené",
   "unpublished": "Skryté",

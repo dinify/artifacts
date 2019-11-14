@@ -99,13 +99,6 @@
     "add": "Přidat do košíku",
     "checkInInstructions": "Chcete-li začít, vyfoťte QR kód na stole"
   },
-  "nutrition": {
-    "facts": "Nutriční údaje",
-    "fats": "Tuky",
-    "carbs": "Sacharidy",
-    "proteins": "Bílkoviny",
-    "calories": "Kalorie"
-  },
   "appBar": {
     "back": "Zpět",
     "cancel": "Zavřít",

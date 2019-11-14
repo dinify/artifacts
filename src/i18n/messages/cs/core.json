@@ -34,6 +34,13 @@
     "user-not-found": "Pro tento e-mail neexistuje účet",
     "wrong-password": "Nesprávné heslo"
   },
+  "nutrition": {
+    "facts": "Nutriční údaje",
+    "fats": "Tuky",
+    "carbs": "Sacharidy",
+    "proteins": "Bílkoviny",
+    "calories": "Kalorie"
+  },
   "suggested": "Doporučené",
   "selectLanguage": "Zvolte jazyk",
   "selectCountry": "Vyberte zemi",
@@ -44,7 +51,7 @@
   "clear": "Zrušit výběr",
   "search": "Vyhledávání",
   "loadingEllipsis": "Načítání...",
-  "saved": "Úspěšně uloženo ✅",
+  "saved": "Úspěšně uloženo",
   "saveFailed": "Ukládání se nezdařilo, zkontrolujte zadané údaje",
   "errorMessages": {
     "ingredient-not-found": "Složka nebyla nalezena",
