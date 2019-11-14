@@ -86,10 +86,12 @@
   },
   "meParentheses": "(me)",
   "gratuity": "Gratuity",
-  "pay": "Pay",
-  "paymentPending": "Awaiting payment confirmation...",
-  "paymentConfirmed": "Payment confirmed",
-  "paymentCancelled": "Payment cancelled",
+  "pay": {
+    "title": "Pay",
+    "pending": "Awaiting payment confirmation...",
+    "confirmed": "Payment confirmed",
+    "cancelled": "Payment cancelled"
+  },
   "editing": "editing",
   "profile": "Profile",
   "currency": {
@@ -128,13 +130,6 @@
     "title": "Cart",
     "itemCount": "{count, plural, =0 {empty} one {# item} other {# items} }",
     "add": "Add to cart"
-  },
-  "nutrition": {
-    "facts": "Nutrition facts",
-    "fats": "Fats",
-    "carbs": "Carbs",
-    "proteins": "Proteins",
-    "calories": "Calories"
   },
   "successMessages": {
     "check-in-for-menu": "To continue to the menu, sign in or create an account",

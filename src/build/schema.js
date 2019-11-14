@@ -1,5 +1,5 @@
 const { flatten, deflatten } = require("../lib/json");
-const { keys, toPairs } = require("ramda");
+const { keys, toPairs, fromPairs } = require("ramda");
 const config = require("./config");
 const fs = require("fs");
 const rimraf = require("rimraf");
@@ -11,37 +11,35 @@ const tryMkdir = dir => {
 };
 
 const root = `.`; // relative to package root
-rimraf.sync("./dist/i18n/modules");
-tryMkdir(`${root}/dist/i18n/modules`);
+rimraf.sync("./dist/i18n/common");
+tryMkdir(`${root}/dist/i18n/common`);
 
-const writeSchema = (object, namespace) => {
-  const flatObject = flatten(object);
-  const flatTypedef = {};
-  toPairs(flatObject).forEach(([k, v]) => {
-    flatTypedef[k] = "string";
-  });
-  const schemaKeys = keys(flatObject);
+// export type MessageKey = "${schemaKeys.join('"|"')}";
+// export interface Messages ${schemaString};
 
-  let schemaString = JSON.stringify(deflatten(flatTypedef), null, 2);
-  while (schemaString.includes('"string"'))
-    schemaString = schemaString.replace('"string"', "string");
-
-  tryMkdir(`${root}/dist/i18n/modules/${namespace}`);
-  fs.writeFileSync(
-    `${root}/dist/i18n/modules/${namespace}/messages.ts`,
-    `
-export const schema: MessageKey[] = ${JSON.stringify(schemaKeys)};
-export type MessageKey = "${schemaKeys.join('"|"')}";
-export interface Messages ${schemaString};
-`
-  );
+fs.writeFileSync(
+  `${root}/dist/i18n/common/schemas.ts`,
+  `
+export type KeyedSchemas = {
+  [namespace: string]: {
+    schema: string[]
+  }
 };
-
-toPairs(config.namespaces).forEach(([namespace, languages]) => {
-  let source = {};
-  namespace.split(".").map(namespaceSegment => {
-    const part = require(`../i18n/messages/${config.sourceLanguage}/${namespaceSegment}.json`);
-    source = { ...source, ...part };
-  });
-  writeSchema(source, namespace);
-});
+const schemas: KeyedSchemas = {
+  ${toPairs(config.namespaces)
+    .map(([namespace, languages]) => {
+      let source = {};
+      namespace.split(".").map(namespaceSegment => {
+        const part = require(`../i18n/messages/${config.sourceLanguage}/${namespaceSegment}.json`);
+        source = { ...source, ...part };
+      });
+      const flatObject = fromPairs(
+        toPairs(flatten(source)).sort(([k], [k2]) => k.localeCompare(k2))
+      );
+      const schemaKeys = keys(flatObject);
+      return `"${namespace}": { schema: ${JSON.stringify(schemaKeys)} }`;
+    })
+    .join(",\n  ")}
+};
+export default schemas;`
+);
