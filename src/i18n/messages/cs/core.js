@@ -54,7 +54,7 @@ module.exports = {
   clear: "Zrušit výběr",
   search: "Vyhledávání",
   itemCount:
-    "{count, plural, =0 {prázdný} one {# kus} few {# kusy} other {# kusů} }",
+    "{0, plural, =0 {prázdný} one {# kus} few {# kusy} other {# kusů} }",
   loadingEllipsis: "Načítání...",
   saved: "Úspěšně uloženo",
   saveFailed: "Ukládání se nezdařilo, zkontrolujte zadané údaje",

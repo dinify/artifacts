@@ -60,7 +60,7 @@ module.exports = {
   done: "Done",
   delete: "Delete",
   other: "Other",
-  itemCount: `{count, plural, 
+  itemCount: `{0, plural, 
       =0 {empty} 
       one {# item} 
       other {# items} 
