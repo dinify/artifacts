@@ -1,7 +1,6 @@
 const fetch = require("node-fetch");
 const { flatten, deflatten } = require("./lib/json");
 const { TranslationServiceClient } = require("@google-cloud/translate");
-const { buildMessageMatcher, parseMessagePattern } = require("@phensley/cldr");
 
 const projectId = "dinify";
 const location = "global";
@@ -104,53 +103,11 @@ const jaroWinklerSimilarity = (s1, s2, options) => {
   return weight;
 };
 
-const messageMatcher = buildMessageMatcher([]);
-const parse = message => parseMessagePattern(message, messageMatcher);
-
-const extra = ["empty", "item", "items"];
-
-const translate = ({ input, target, source, model = "nmt", extras = [] }) => {
-  let translateArr = input.map((value, index) => {
-    return value.replace("{", '<span translate="no">').replace("}", "</span>");
-  });
-  const format = str => {
-    while (str.includes('<span translate="no">')) {
-      str = str.replace('<span translate="no">', "{").replace("</span>", "}");
-    }
-    if (str.includes("{0 decimal short}")) {
-      str = str
-        .split("")
-        .reverse()
-        .join("")
-        .replace("}trohs lamiced 0{", "")
-        .split("")
-        .reverse()
-        .join("")
-        .replace("  ", " ")
-        .trim();
-    }
-    const dedupe = w => {
-      let position = str.indexOf(w);
-      while (position > 0) {
-        position = str.indexOf(w, position);
-        if (position > 0) str = str.replace(w, "");
-      }
-    };
-    dedupe("{count decimal short} ");
-
-    return str;
-  };
-
-  const contents = [];
-  extras.forEach(extra => {
-    const { terms } = extra;
-    contents.push(...terms);
-  });
-
+const translate = ({ input, target, source }) => {
   const request = {
     parent: `projects/${projectId}/locations/${location}`,
     model: `projects/${projectId}/locations/${location}/models/general/nmt`,
-    contents: [...translateArr, ...contents],
+    contents: input,
     mimeType: "text/html",
     sourceLanguageCode: source,
     targetLanguageCode: target
@@ -164,30 +121,16 @@ const translate = ({ input, target, source, model = "nmt", extras = [] }) => {
     })
     .then(json => {
       if (!json.error) {
-        let flatResult = [];
-        const t = json.translations;
-        const l = t.length;
-        t.forEach((translation, index) => {
-          if (index < l - extra.length) {
-            const firstUpperCase = str =>
-              str.charAt(0).toUpperCase() + str.slice(1);
+        return json.translations.map((translation, index) => {
+          const firstUpperCase = str =>
+            str.charAt(0).toUpperCase() + str.slice(1);
 
-            let replaced = format(translation.translatedText);
-            replaced = replaced.replace("&#39;", "'");
-            const firstChar = input[index].charAt(0);
-            const upperCase = firstChar == firstChar.toUpperCase();
-            flatResult[index] = upperCase ? firstUpperCase(replaced) : replaced;
-          }
+          let replaced = translation.translatedText;
+          replaced = replaced.replace("&#39;", "'");
+          const firstChar = input[index].charAt(0);
+          const upperCase = firstChar == firstChar.toUpperCase();
+          return upperCase ? firstUpperCase(replaced) : replaced;
         });
-        extras.forEach(extra => {
-          const { matcher, message } = extra;
-          let savedIndex = input.map(i => parse(i)).findIndex(matcher);
-          const texts = t
-            .map(t_ => t_.translatedText)
-            .filter((v, i) => i >= t.length - contents.length);
-          flatResult[savedIndex] = message(...texts);
-        });
-        return flatResult;
       } else {
         console.log(JSON.stringify(json, null, 2));
         return null;

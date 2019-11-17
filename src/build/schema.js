@@ -30,7 +30,7 @@ const schemas: KeyedSchemas = {
     .map(([namespace, languages]) => {
       let source = {};
       namespace.split(".").map(namespaceSegment => {
-        const part = require(`../i18n/messages/${config.sourceLanguage}/${namespaceSegment}.json`);
+        const part = require(`../i18n/messages/${config.sourceLanguage}/${namespaceSegment}`);
         source = { ...source, ...part };
       });
       const flatObject = fromPairs(

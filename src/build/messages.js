@@ -10,6 +10,7 @@ const yargs = require("yargs");
 const fs = require("fs");
 const rimraf = require("rimraf");
 const { translate } = require("../translate");
+const { preprocess, postprocess } = require("./process");
 const config = require("./config");
 
 const argv = yargs
@@ -33,7 +34,7 @@ const progressBar = new cliProgress.Bar(
   },
   cliProgress.Presets.shades_classic
 );
-progressBar.start(total, 0);
+// progressBar.start(total, 0);
 let progressCounter = 0;
 
 rimraf.sync("./dist/i18n/messages");
@@ -57,7 +58,7 @@ tryMkdir(`${root}/dist/i18n/messages`);
 toPairs(config.namespaces).forEach(([namespace, { languages, extras }]) => {
   let source = {};
   namespace.split(".").map(namespaceSegment => {
-    const part = require(`../i18n/messages/${config.sourceLanguage}/${namespaceSegment}.json`);
+    const part = require(`../i18n/messages/${config.sourceLanguage}/${namespaceSegment}`);
     source = { ...source, ...part };
   });
   const flatSource = flatten(source);
@@ -67,27 +68,32 @@ toPairs(config.namespaces).forEach(([namespace, { languages, extras }]) => {
     let result = {};
     let existingTarget = {};
     namespace.split(".").map(namespaceSegment => {
-      const targetFile = `${root}/src/i18n/messages/${language}/${namespaceSegment}.json`;
-      if (fs.existsSync(targetFile)) {
-        const flatTarget = pipe(
-          fs.readFileSync,
-          JSON.parse,
-          flatten
-        )(targetFile);
-        existingTarget = { ...existingTarget, ...flatTarget };
+      try {
+        const targetFile = require(`../i18n/messages/${language}/${namespaceSegment}`);
+        existingTarget = { ...existingTarget, ...flatten(targetFile) };
+      } catch (e) {
+        // console.log(e);
       }
     });
     const existingSchema = keys(existingTarget);
-    const diffResult = diffArrays(schema, existingSchema);
+    const { left: added, right: removed } = diffArrays(schema, existingSchema);
     // added
-    if (diffResult.left.length > 0) {
-      const input = toPairs(flatSource)
-        .filter(([k]) => diffResult.left.includes(k))
+    if (added.length > 0) {
+      const messageformats = toPairs(flatSource)
+        .filter(([k]) => added.includes(k))
         .map(([, v]) => v);
+      const { input, map } = preprocess(messageformats);
+
+      // existingSchema         The original keys array
+      // added                  Array of keys that were added in the source
+      // input                  The messageformats have been expanded to strings
+      // messageformats         Collection of messageformats
       const msg =
-        existingSchema.length === input.length
-          ? `all (${input.length})`
-          : input.length;
+        existingSchema.length === messageformats.length
+          ? `all (${messageformats.length})`
+          : messageformats.length;
+
+      // const translations = input;
       const translations = await translate({
         input,
         extras,
@@ -97,21 +103,21 @@ toPairs(config.namespaces).forEach(([namespace, { languages, extras }]) => {
       progressBar.update(progressCounter, {
         currentPath: `Translating ${msg} messages for ${language} in ${namespace}`
       });
-      translations.map((t, i) => {
-        result[diffResult.left[i]] = t;
+      postprocess(translations, map).map((t, i) => {
+        result[added[i]] = t;
       });
     }
     // existing
     if (existingSchema.length > 0) {
       const filtered = toPairs(existingTarget).filter(
-        ([k]) => !diffResult.right.includes(k)
+        ([k]) => !removed.includes(k)
       );
       progressBar.update(progressCounter, {
         currentPath: `Copying ${filtered.length} out of ${existingSchema.length} messages for ${language} in ${namespace}`
       });
-      if (diffResult.right.length > 0) {
+      if (removed.length > 0) {
         progressBar.update(progressCounter, {
-          currentPath: `Removing ${diffResult.right.length} out of ${existingSchema.length} messages for ${language} in ${namespace}`
+          currentPath: `Removing ${removed.length} out of ${existingSchema.length} messages for ${language} in ${namespace}`
         });
       }
 
