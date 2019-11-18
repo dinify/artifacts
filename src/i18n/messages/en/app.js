@@ -92,7 +92,11 @@ module.exports = {
     title: "Pay",
     pending: "Awaiting payment confirmation...",
     confirmed: "Payment confirmed",
-    cancelled: "Payment cancelled"
+    cancelled: "Payment cancelled",
+    method: {
+      cash: "Cash",
+      card: "Card"
+    }
   },
   editing: "editing",
   profile: "Profile",
@@ -129,7 +133,11 @@ module.exports = {
   },
   cart: {
     title: "Cart",
-    add: "Add to cart"
+    add: "Add to cart",
+    item: {
+      original: "original",
+      customized: "customized"
+    }
   },
   successMessages: {
     "check-in-for-menu":

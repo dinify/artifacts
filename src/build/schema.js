@@ -37,7 +37,7 @@ const schemas: KeyedSchemas = {
         toPairs(flatten(source)).sort(([k], [k2]) => k.localeCompare(k2))
       );
       const schemaKeys = keys(flatObject);
-      return `"${namespace}": { schema: ${JSON.stringify(schemaKeys)} }`;
+      return `"${namespace}": { schema: ["${schemaKeys.join('", "')}"] }`;
     })
     .join(",\n  ")}
 };
