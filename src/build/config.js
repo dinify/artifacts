@@ -1,34 +1,23 @@
 const defaultLanguages = require("../i18n/supplemental/default-languages.json");
 
 const test = false;
-const constants = {
-  plural: 2
-};
 const common = {
-  sourceLanguage: "en",
-  constants
+  sourceLanguage: "en"
 };
 const config = test
   ? {
       ...common,
       namespaces: {
-        "core.app": {
-          languages: ["en", "es"]
-        }
+        "core.app": ["en", "es"]
       }
     }
   : {
       ...common,
       namespaces: {
-        landing: {
-          languages: ["en", "cs", "es", "de", "fr", "it", "ru"]
-        },
-        "core.app": {
-          languages: defaultLanguages
-        },
-        "core.dashboard": {
-          languages: ["en", "cs", "es"]
-        }
+        landing: ["en", "cs", "es", "de", "fr", "it", "ru"],
+        core: ["en", "cs", "es"],
+        "core.app": defaultLanguages,
+        "core.dashboard": ["en", "cs", "es"]
         // 'core.waiterboard': { languages: ["en", "cs", "es"] }
       }
     };

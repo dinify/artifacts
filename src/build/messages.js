@@ -25,7 +25,7 @@ const argv = yargs
 config.sourceLanguage = argv.source || "en";
 
 const total = toPairs(config.namespaces)
-  .map(([ns, { languages }]) => languages.length)
+  .map(([ns, languages]) => languages.length)
   .reduce((p, c) => p + c);
 const progressBar = new cliProgress.Bar(
   {
@@ -34,7 +34,7 @@ const progressBar = new cliProgress.Bar(
   },
   cliProgress.Presets.shades_classic
 );
-// progressBar.start(total, 0);
+progressBar.start(total, 0);
 let progressCounter = 0;
 
 rimraf.sync("./dist/i18n/messages");
@@ -55,7 +55,7 @@ tryMkdir(`${root}/dist`);
 tryMkdir(`${root}/dist/i18n`);
 tryMkdir(`${root}/dist/i18n/messages`);
 
-toPairs(config.namespaces).forEach(([namespace, { languages, extras }]) => {
+toPairs(config.namespaces).forEach(([namespace, languages]) => {
   let source = {};
   namespace.split(".").map(namespaceSegment => {
     const part = require(`../i18n/messages/${config.sourceLanguage}/${namespaceSegment}`);
@@ -96,7 +96,6 @@ toPairs(config.namespaces).forEach(([namespace, { languages, extras }]) => {
       // const translations = input;
       const translations = await translate({
         input,
-        extras,
         target: language,
         source: config.sourceLanguage
       });
