@@ -134,6 +134,7 @@ module.exports = {
   cart: {
     title: "Cart",
     add: "Add to cart",
+    requiredChoices: "Required choices",
     item: {
       original: "original",
       customized: "customized"

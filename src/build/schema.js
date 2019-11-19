@@ -17,6 +17,24 @@ tryMkdir(`${root}/dist/i18n/common`);
 // export type MessageKey = "${schemaKeys.join('"|"')}";
 // export interface Messages ${schemaString};
 
+const getSchemaString = namespace => {
+  let source = {};
+  namespace.split(".").map(namespaceSegment => {
+    const part = require(`../i18n/messages/${config.sourceLanguage}/${namespaceSegment}`);
+    source = { ...source, ...part };
+  });
+  const flatObject = fromPairs(
+    toPairs(flatten(source)).sort(([k], [k2]) => k.localeCompare(k2))
+  );
+  const schemaKeys = keys(flatObject);
+  return `["${schemaKeys.join('", "')}"]`;
+};
+toPairs(config.namespaces).forEach(([namespace]) => {
+  fs.writeFileSync(
+    `${root}/dist/i18n/common/${namespace}`,
+    getSchemaString(namespace)
+  );
+});
 fs.writeFileSync(
   `${root}/dist/i18n/common/schemas.ts`,
   `
@@ -27,18 +45,10 @@ export type KeyedSchemas = {
 };
 const schemas: KeyedSchemas = {
   ${toPairs(config.namespaces)
-    .map(([namespace, languages]) => {
-      let source = {};
-      namespace.split(".").map(namespaceSegment => {
-        const part = require(`../i18n/messages/${config.sourceLanguage}/${namespaceSegment}`);
-        source = { ...source, ...part };
-      });
-      const flatObject = fromPairs(
-        toPairs(flatten(source)).sort(([k], [k2]) => k.localeCompare(k2))
-      );
-      const schemaKeys = keys(flatObject);
-      return `"${namespace}": { schema: ["${schemaKeys.join('", "')}"] }`;
-    })
+    .map(
+      ([namespace]) =>
+        `"${namespace}": { schema: ${getSchemaString(namespace)} }`
+    )
     .join(",\n  ")}
 };
 export default schemas;`
