@@ -10,6 +10,7 @@
     "build:messages": "node ./src/build/messages.js",
     "build:packs": "./bash-scripts/build-packs.sh",
     "build:supplemental": "./bash-scripts/build-supplemental.sh",
+    "generate:sheet": "node ./src/generate/sheet.js",
     "include:messages": "node ./src/include/messages.js",
     "include:test": "npm run include:messages -- -l es -n core -k itemCount -k itemCountSelected -w",
     "deploy": "export ENV=staging & ./bash-scripts/deploy.sh",
