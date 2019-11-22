@@ -103,17 +103,11 @@ const jaroWinklerSimilarity = (s1, s2, options) => {
   return weight;
 };
 
-const translate = ({ input, target, source, model = "nmt" }) => {
-  let translateArr = input.map(value => {
-    return value
-      .replace("{{", '<span translate="no">')
-      .replace("}}", "</span>");
-  });
-
+const translate = ({ input, target, source }) => {
   const request = {
     parent: `projects/${projectId}/locations/${location}`,
     model: `projects/${projectId}/locations/${location}/models/general/nmt`,
-    contents: translateArr,
+    contents: input,
     mimeType: "text/html",
     sourceLanguageCode: source,
     targetLanguageCode: target
@@ -127,30 +121,16 @@ const translate = ({ input, target, source, model = "nmt" }) => {
     })
     .then(json => {
       if (!json.error) {
-        let flatResult = [];
-        json.translations.forEach((translation, index) => {
-          const format = str => {
-            while (str.includes('<span translate="no">')) {
-              str = str
-                .replace('<span translate="no">', "{{")
-                .replace("</span>", "}}");
-            }
-            if (str.split("{{count, number}}").length === 3) {
-              const arr = str.split("{{count, number}}");
-              str = `${arr[0]}{{count, number}}${arr[1]}`;
-            }
-            return str;
-          };
+        return json.translations.map((translation, index) => {
           const firstUpperCase = str =>
             str.charAt(0).toUpperCase() + str.slice(1);
 
-          let replaced = format(translation.translatedText);
+          let replaced = translation.translatedText;
           replaced = replaced.replace("&#39;", "'");
           const firstChar = input[index].charAt(0);
           const upperCase = firstChar == firstChar.toUpperCase();
-          flatResult[index] = upperCase ? firstUpperCase(replaced) : replaced;
+          return upperCase ? firstUpperCase(replaced) : replaced;
         });
-        return flatResult;
       } else {
         console.log(JSON.stringify(json, null, 2));
         return null;
@@ -168,8 +148,8 @@ let qualityCheck = ({ original, translated, source, target = "en" }) => {
   }).then(result => {
     const flatResult = {};
     Object.entries(flatten(result)).forEach(([key, translated]) => {
-      const original = flat[key].replace(/{{.+}}/g, "");
-      const trans = translated.replace(/{{.+}}/g, "");
+      const original = flat[key].replace(/{.+}/g, "");
+      const trans = translated.replace(/{.+}/g, "");
       const similarity = jaroWinklerSimilarity(original, translated);
       flatResult[key] = Math.floor(similarity * 1000) / 1000;
     });

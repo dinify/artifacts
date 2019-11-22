@@ -5,10 +5,13 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build:messages && npm run build:packs && npm run build:supplemental",
+    "build": "npm run build:schema && npm run build:messages && npm run build:packs && npm run build:supplemental",
+    "build:schema": "node ./src/build/schema.js",
     "build:messages": "node ./src/build/messages.js",
     "build:packs": "./bash-scripts/build-packs.sh",
     "build:supplemental": "./bash-scripts/build-supplemental.sh",
+    "include:messages": "node ./src/include/messages.js",
+    "include:test": "npm run include:messages -- -l es -n core -k itemCount -k itemCountSelected -w",
     "deploy": "export ENV=staging & ./bash-scripts/deploy.sh",
     "deploy:dev": "export ENV=staging & ./bash-scripts/deploy.sh",
     "deploy:prod": "export ENV=production & ./bash-scripts/deploy.sh"
@@ -17,7 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/translate": "^5.0.1",
-    "@phensley/cldr": "^0.21.0",
+    "@phensley/cldr": "^0.22.3",
     "cli-progress": "^3.3.1",
     "csvtojson": "^2.0.10",
     "dotenv": "^8.2.0",

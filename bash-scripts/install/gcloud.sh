@@ -1,3 +1,6 @@
+#!/bin/zsh
+
+# Google Cloud SDK
 # https://cloud.google.com/storage/docs/gsutil_install
 # https://cloud.google.com/sdk/docs/quickstart-macos
 
