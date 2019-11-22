@@ -17,8 +17,8 @@ const config = test
         landing: ["en", "cs", "es", "de", "fr", "it", "ru"],
         core: ["en", "cs", "es"],
         "core.app": defaultLanguages,
-        "core.dashboard": ["en", "cs", "es"]
-        // 'core.waiterboard': { languages: ["en", "cs", "es"] }
+        "core.dashboard": ["en", "cs", "es"],
+        "core.waiterboard": ["en", "cs", "es"]
       }
     };
 
