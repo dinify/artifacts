@@ -24,14 +24,12 @@ const preprocess = messageformats => {
       }
     };
     recurse([parsed]);
-    if (text.length > 1) {
-      map[idx] = [
-        output.length,
-        text.length,
-        messageformat,
-        text.sort((a, b) => b.length - a.length)
-      ];
-    } else map[idx] = output.length;
+    map[idx] = [
+      output.length,
+      text.length,
+      messageformat,
+      text.sort((a, b) => b.length - a.length)
+    ];
     output.push(...text);
   });
   return { input: output, map };
