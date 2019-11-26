@@ -10,12 +10,13 @@
     "build:messages": "node ./src/build/messages.js",
     "build:packs": "./bash-scripts/build-packs.sh",
     "build:supplemental": "./bash-scripts/build-supplemental.sh",
+    "build:typography": "node ./src/build/typography/index.js",
     "generate:sheet": "node ./src/generate/sheet.js",
     "include:messages": "node ./src/include/messages.js",
     "include:test": "npm run include:messages -- -l es -n core -k itemCount -k itemCountSelected -w",
-    "deploy": "export ENV=staging & ./bash-scripts/deploy.sh",
-    "deploy:dev": "export ENV=staging & ./bash-scripts/deploy.sh",
-    "deploy:prod": "export ENV=production & ./bash-scripts/deploy.sh"
+    "deploy": "ENV=staging ./bash-scripts/deploy.sh",
+    "deploy:dev": "ENV=staging ./bash-scripts/deploy.sh",
+    "deploy:prod": "ENV=production ./bash-scripts/deploy.sh"
   },
   "author": "Máté Homolya <mate.homolya@gmail.com>",
   "license": "ISC",

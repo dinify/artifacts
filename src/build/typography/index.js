@@ -2,20 +2,35 @@ const { toPairs } = require("ramda");
 const specification = require("./spec");
 const theme = require("./theme");
 const typefaces = require("./typefaces");
+const yargs = require("yargs");
+const fs = require("fs");
+
+const argv = yargs
+  .option("theme", {
+    alias: "t",
+    description: "Selects the fonts to ouput",
+    choices: ["main", "ios", "material"]
+  })
+  .help()
+  .alias("help", "h").argv;
 
 const rootEm = 16; // px
 const typeGrid = 4; // dp
 const typeScale = {};
 const native = {
-  ios: "SF Pro Text"
+  ios: "SF Pro Text",
+  material: "Roboto"
 };
 
 toPairs(specification).map(([scaleCategory, spec]) => {
-  const themeSpec = theme[scaleCategory];
-  // const themeSpec = {
-  //   typeface: native.ios,
-  //   weight: spec.weight
-  // };
+  const themeSpec =
+    argv.theme === "main"
+      ? theme[scaleCategory]
+      : {
+          typeface: native[argv.theme],
+          weight: spec.weight, // original spec weight
+          lineHeight: theme[scaleCategory].lineHeight // corrected lineheight
+        };
 
   const pick = name => (themeSpec[name] ? themeSpec[name] : spec[name]);
   const selectedTypeface = typefaces[themeSpec.typeface][themeSpec.weight];
@@ -47,15 +62,28 @@ toPairs(specification).map(([scaleCategory, spec]) => {
 });
 
 // console.log(robotoXHeight, robotoXHeight2);
-toPairs(typeScale).map(([scaleCategory, spec]) => {
-  console.log(`$mdc-typography-styles-${scaleCategory}: (
+const result = toPairs(typeScale).reduce((p, [scaleCategory, spec]) => {
+  return (
+    p +
+    `$mdc-typography-styles-${scaleCategory}: (
   font-family: unquote("${spec.fontFamily}"),
   font-weight: ${spec.fontWeight},
   font-size: ${spec.fontSize},
   letter-spacing: ${spec.letterSpacing},
   line-height: ${spec.lineHeight}
-);`);
-});
+);
+`
+  );
+}, "");
+const tryMkdir = dir => {
+  try {
+    fs.mkdirSync(dir);
+  } catch (e) {}
+};
+tryMkdir("./dist/typography");
+fs.writeFileSync(`./dist/typography/${argv.theme}.scss`, result);
+console.log(`Created ./dist/typography/${argv.theme}.scss`);
+// console.log(result);
 
 // toPairs(typeScale).map(([scaleCategory, spec]) => {
 //   console.log(`&.mdc-typography--${scaleCategory} {
