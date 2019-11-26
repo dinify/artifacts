@@ -26,6 +26,7 @@
     "csvtojson": "^2.0.10",
     "dotenv": "^8.2.0",
     "event-stream": "^4.0.1",
+    "fontkit": "^1.8.0",
     "node-fetch": "^2.6.0",
     "ramda": "^0.26.1",
     "rimraf": "^3.0.0",
