@@ -10,7 +10,7 @@ module.exports = {
   headline3: {
     typeface: "Google Sans",
     weight: 500,
-    lineHeight: 3
+    lineHeight: 3 // correct lineheight for 4dp baseline grid
   },
   headline4: {
     typeface: "Google Sans",
@@ -25,33 +25,26 @@ module.exports = {
     weight: 700
   },
   subtitle1: {
-    typeface: "Lato",
-    weight: 400
+    typeface: "Lato"
   },
   subtitle2: {
     typeface: "Lato",
-    weight: 500,
-    lineHeight: 1.5
+    lineHeight: 1.5 // correct lineheight for 4dp baseline grid
   },
   body1: {
-    typeface: "Lato",
-    weight: 400
+    typeface: "Lato"
   },
   body2: {
-    typeface: "Lato",
-    weight: 400
+    typeface: "Lato"
   },
   button: {
-    typeface: "Lato",
-    weight: 500
+    typeface: "Lato"
   },
   caption: {
-    typeface: "Lato",
-    weight: 400
+    typeface: "Lato"
   },
   overline: {
     typeface: "Lato",
-    weight: 400,
     size: 12 // override 10sp in original specification
   }
 };

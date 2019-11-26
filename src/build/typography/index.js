@@ -1,6 +1,5 @@
-const { toPairs } = require("ramda");
+const { toPairs, keys } = require("ramda");
 const specification = require("./spec");
-const theme = require("./theme");
 const typefaces = require("./typefaces");
 const yargs = require("yargs");
 const fs = require("fs");
@@ -9,7 +8,17 @@ const argv = yargs
   .option("theme", {
     alias: "t",
     description: "Selects the fonts to ouput",
-    choices: ["main", "ios", "material"]
+    choices: ["main", "ios", "material", "ios-mono", "material-mono"]
+  })
+  .option("monospace", {
+    alias: "m",
+    description: "Whether to use monospace fonts to generate the output",
+    type: "boolean"
+  })
+  .option("all", {
+    alias: "a",
+    description: "Generate all variants for output",
+    type: "boolean"
   })
   .help()
   .alias("help", "h").argv;
@@ -17,29 +26,39 @@ const argv = yargs
 const rootEm = 16; // px
 const typeGrid = 4; // dp
 const typeScale = {};
-const native = {
-  ios: "SF Pro Text",
-  material: "Roboto"
-};
+
+const matchWeight = (weight, availableWeights) =>
+  parseInt(
+    availableWeights.reduce((prev, curr) =>
+      Math.abs(curr - weight) < Math.abs(prev - weight) ? curr : prev
+    )
+  );
+
+const theme = require(`./themes/${argv.theme}`);
 
 toPairs(specification).map(([scaleCategory, spec]) => {
-  const themeSpec =
-    argv.theme === "main"
-      ? theme[scaleCategory]
-      : {
-          typeface: native[argv.theme],
-          weight: spec.weight, // original spec weight
-          lineHeight: theme[scaleCategory].lineHeight // corrected lineheight
-        };
-
+  const themeSpec = theme[scaleCategory];
+  const log = s => console.log(`[${scaleCategory}]\t${s}`);
   const pick = name => (themeSpec[name] ? themeSpec[name] : spec[name]);
-  const selectedTypeface = typefaces[themeSpec.typeface][themeSpec.weight];
+  const fontFamily = pick("typeface");
+  const selectedTypeface = typefaces[fontFamily];
+  if (!selectedTypeface) log(`Error: Typeface not available: ${fontFamily}`);
+
+  let fontWeight = pick("weight");
+  const matchedWeight = matchWeight(fontWeight, keys(selectedTypeface));
+  if (matchedWeight !== fontWeight) {
+    log(`Warning: Weight ${matchedWeight} not available, using ${fontWeight}`);
+    fontWeight = matchedWeight;
+  }
+
+  const selectedFont = selectedTypeface[fontWeight]();
+
+  // can be substituted for this version of Roboto
   // const robotoXHeight = 0.5283203125;
-  const robotoXHeight =
-    typefaces.Roboto[spec.weight].xHeight /
-    typefaces.Roboto[spec.weight].unitsPerEm;
-  const themeXHeight = selectedTypeface.xHeight / selectedTypeface.unitsPerEm;
-  const relativeXHeight = themeXHeight / robotoXHeight;
+  const specFont = typefaces[spec.typeface][spec.weight]();
+  const specXHeight = specFont.xHeight / specFont.unitsPerEm;
+  const themeXHeight = selectedFont.xHeight / selectedFont.unitsPerEm;
+  const relativeXHeight = themeXHeight / specXHeight;
 
   const fontSizePx = relativeXHeight * pick("size");
   const fontSize = `${fontSizePx / rootEm}rem`;
@@ -47,14 +66,14 @@ toPairs(specification).map(([scaleCategory, spec]) => {
   const lineHeight = `${pick("lineHeight")}rem`;
 
   if (pick("lineHeight") < fontSizePx / rootEm) {
-    console.log(
+    log(
       `Warning: line height (${lineHeight}) is smaller than font size ${fontSize} `
     );
   }
 
   typeScale[scaleCategory] = {
-    fontFamily: themeSpec.typeface,
-    fontWeight: themeSpec.weight,
+    fontFamily,
+    fontWeight,
     fontSize,
     letterSpacing,
     lineHeight
@@ -81,8 +100,11 @@ const tryMkdir = dir => {
   } catch (e) {}
 };
 tryMkdir("./dist/typography");
-fs.writeFileSync(`./dist/typography/${argv.theme}.scss`, result);
-console.log(`Created ./dist/typography/${argv.theme}.scss`);
+const file = `./dist/typography/${argv.theme}${
+  argv.monospace ? "-mono" : ""
+}.scss`;
+fs.writeFileSync(file, result);
+console.log(`Created ${file}`);
 // console.log(result);
 
 // toPairs(typeScale).map(([scaleCategory, spec]) => {
