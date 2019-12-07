@@ -85,11 +85,11 @@ const result = toPairs(typeScale).reduce((p, [scaleCategory, spec]) => {
   return (
     p +
     `$mdc-typography-styles-${scaleCategory}: (
-  font-family: unquote("${spec.fontFamily}"),
-  font-weight: ${spec.fontWeight},
-  font-size: ${spec.fontSize},
-  letter-spacing: ${spec.letterSpacing},
-  line-height: ${spec.lineHeight}
+  font-family: unquote("${spec.fontFamily}") !important,
+  font-weight: ${spec.fontWeight} !important,
+  font-size: ${spec.fontSize} !important,
+  letter-spacing: ${spec.letterSpacing} !important,
+  line-height: ${spec.lineHeight} !important
 );
 `
   );

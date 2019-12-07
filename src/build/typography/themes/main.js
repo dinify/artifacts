@@ -1,11 +1,11 @@
 module.exports = {
   headline1: {
     typeface: "Google Sans",
-    weight: 500
+    weight: 400
   },
   headline2: {
     typeface: "Google Sans",
-    weight: 500
+    weight: 400
   },
   headline3: {
     typeface: "Google Sans",
@@ -22,7 +22,7 @@ module.exports = {
   },
   headline6: {
     typeface: "Google Sans",
-    weight: 700
+    weight: 500
   },
   subtitle1: {
     typeface: "Lato"
