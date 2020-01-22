@@ -1,15 +1,13 @@
 //@ts-nocheck
+'use strict';
 const { google } = require('googleapis');
 const fs = require('fs');
-const { flatten, deflatten } = require('../../lib/json');
-
-const FILES = ['APP', 'CORE', 'WAITERBOARD', 'DASHBOARD'];
+const { deflatten } = require('../../lib/json');
 const TRANSLATIONS_DIR = './translations';
 const SHEET_ID = '1y53cv1-nIGVPBm8Z-vMPxpqOKq70ah0lhfvSzto-Aeo';
 const SHEET = `NO_NEED`;
-const LANGS_RANGE = `${SHEET}!D1:AP1`;
-const KEYS_RANGE = `${SHEET}!A3:B310`;
-const TEST_RANGE = `${SHEET}!A3:C104`;
+const LANGS_RANGE = `${SHEET}!C1:AP1`;
+const CONTENT_RANGE = `${SHEET}!A2:AP302`;
 
 /**
  * Fetch, format and save translation strings.
@@ -28,78 +26,60 @@ const saveTranslations = async auth => {
     const langs = res1.data.values;
     console.log(`LANGS: ${langs}`);
     // create dirs
-    // TODO: uncomment
-    // createDirs(langs[0], TRANSLATIONS_DIR);
+    createDirs(langs[0], TRANSLATIONS_DIR);
 
     const res2 = await sheets.spreadsheets.values.get({
       spreadsheetId: SHEET_ID,
-      range: TEST_RANGE,
+      range: CONTENT_RANGE,
       majorDimension: 'ROWS'
     });
     const rows = res2.data.values;
-    console.log(JSON.stringify(rows, null, 2));
-    createKeysObject(rows, langs[0]);
-    // const formated = formatForSave(langs[0]);
-    // return formated;
+    for (const [i, lang] of langs[0].entries()) {
+      console.log(`LANG: ${lang}`);
+      saveForLanguage(rows, lang, i);
+    }
+    return true;
   } catch (error) {
     throw error;
   }
 };
 
-const formatForLanguage = cols => {
-  const keys = {}; // todo: take column with keys and format it
-  const forSaving = [];
-  // todo: get translations for each language and assing the keys,
-  // todo: create
-  const langFolders = rows[0];
-  return rows;
-
-  // todo: return array of keyObjects (one for each of 'FILES')
-};
-
-const createKeysObject = (rows, langs) => {
+/**
+ * Saves translations for a single language.
+ *
+ * @param {Array<string[]>} rows
+ * @param {string} lang
+ * @param {number} langIndex
+ */
+const saveForLanguage = (rows, lang, langIndex) => {
   let keysObj = {};
-  // TODO: assign 'FOLDERS' first
-  // TODO: iterate over languages
   // row
-  // ["APP", "..."]
-  // ["", "kokot.pica"]
+  // ["APP"]
+  // ["", "translation.key", "Translation Value", "translations Value", ...]
   let fileKey = '';
   for (const row of rows) {
-    // assign fileKey
-    if (row[0].length) {
+    // create object when not at fileKey
+    if (row.length > 1) {
+      keysObj = {
+        ...keysObj,
+        [row[1]]: row[langIndex + 2]
+      };
+    }
+    // save translations when at fileKey row
+    if (row.length === 1 || !row.length) {
       // save object to file
-      if (Object.keys(keysObj).length > 0) {
-        console.log(JSON.stringify(keysObj, null, 2));
+      if (Object.keys(keysObj) && Object.keys(keysObj).length > 0) {
+        const filePath = `${TRANSLATIONS_DIR}/${lang}/${fileKey}.json`;
         const obj = deflatten(keysObj);
-        const filePath = `${TRANSLATIONS_DIR}/${langs[0]}/${fileKey}.json`;
-        console.log(`SAVING TO FILE ${filePath}`);
-        // console.log(JSON.stringify(obj, null, 2));
-        // TODO: save, and crete new object
         writeToFile(filePath, obj);
       }
-      fileKey = row[0].toLowerCase();
-      console.log('NEW FILE KEY');
+      if (row.length === 1) {
+        fileKey = row[0].toLowerCase();
+        console.log(`NEW FILE KEY ${fileKey}`);
+        keysObj = {};
+      }
     }
-    let attrs = fileKey + '.' + row[1];
-    let val = row[2];
-
-    keysObj = {
-      ...keysObj,
-      [attrs]: val
-    };
   }
-
-  return keysObj;
-};
-
-// todo: take rows of one languages column and assign values to keys
-const assignKeys = (rows, keysObj) => {
-  for (const key of keysObj) {
-    i++;
-    keysObj[key] = rows[i];
-  }
-  return {};
 };
 
 /**
@@ -114,49 +94,28 @@ const createDirs = (dirnames, path) => {
   if (!fs.existsSync(path)) {
     fs.mkdirSync(path);
   }
-  console.log(`DIRNAMES: ${dirnames}`);
-
   // create dirs for languages
   for (const dirname of dirnames) {
     const dirPath = `${path}/${dirname}`;
-    // TODO: remove lowercase when langs
     if (!fs.existsSync(dirPath)) {
       fs.mkdirSync(dirPath);
     }
-    createFiles(FILES, dirPath, { hello: 'hey' });
-  }
-};
-
-/**
- * Creates files for translations.
- *
- * @param {*string} filenames
- * @param {*} path
- */
-const createFiles = (filenames, path) => {
-  // create file for each part of the translation strings
-  console.log(`DIRNAMES: ${filenames}`);
-  for (const filename of filenames) {
-    // TODO: remove lowercase when langs
-    fs.writeFileSync(`${path}/${filename.toLowerCase()}.json`, '');
   }
 };
 
 /**
  * Write to file on a given path
  *
- * @param {string} path
+ * @param {string} path file path
  * @param {*} data
  */
 const writeToFile = (path, data) => {
   try {
+    console.log(`SAVING TO FILE ${path}`);
     fs.writeFileSync(path, JSON.stringify(data, null, 2));
   } catch (err) {
     throw new Error(`Error writing to file ${path}: ` + err);
   }
 };
-
-// TODO: create keys
-// TODO: read by column
 
 module.exports = saveTranslations;

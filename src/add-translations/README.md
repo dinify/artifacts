@@ -5,6 +5,10 @@ The sheet must be shared with the email account connected with this service acco
 
 ## Add translations strings
 
-1. The script creates folders where translations are saved.
+In order to save translations strings, you first need to authorize a Google auth client by calling `const client = await authorizeClient();`;
+
+The `saveTransaltions(auth)` takes thsi client as argument.
+The sheet used is specified as `SHEET_ID` const.
+The translations will be saved to `./translations/{lang}/{fileKey}.js` directory.
 
 ## Add ingredients translations

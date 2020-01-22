@@ -2,5 +2,6 @@ token.json
 service-account.json
 translations
 node_modules
+translations.zip
 lib
 .vscode
