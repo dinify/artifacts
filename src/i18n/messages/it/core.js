@@ -2,13 +2,13 @@ module.exports = {
   add: "Aggiungi",
   auth: {
     appFormSubtitle:
-      "ordinare, pagare e chiamare i servizi utilizzando l'app Dinify",
+      "Ordinare, pagare e chiamare i servizi utilizzando l'app Dinify",
     continueWithEmail: "Continua con l'email",
     continueWithFacebook: "Continua con Facebook",
     continueWithGoogle: "Continua con Google",
     createAccount: "Crea un profilo",
     dashboardFormSubtitle:
-      "per creare o gestire il tuo menu, accedi o crea un nuovo account con la tua e-mail o social media",
+      "Per creare o gestire il tuo menu, accedi o crea un nuovo account con la tua e-mail o social media",
     "email-already-in-use": "Questo indirizzo e-mail è già in uso",
     firstName: "nome di battesimo",
     forgotPassword: "Ha dimenticato la password",
