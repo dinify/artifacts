@@ -43,9 +43,9 @@ module.exports = {
     noTableware: "Zatím jste nenastavili žádné služby",
     noCondiments: "Zatím jste nenastavili žádné služby",
     step1:
-      "1. Vyberte ikonu, která nejlépe reprezentuje službu kterou chcete přidat",
-    step2: "2. Vyplňte název služby",
-    step3: "3. Klikněte na tlačítko Přidat"
+      "Vyberte ikonu, která nejlépe reprezentuje službu kterou chcete přidat",
+    step2: "Vyplňte název služby",
+    step3: "Klikněte na tlačítko {0}"
   },
   tableNumber: "Číslo stolu",
   tableCapacity: "Počet míst",
