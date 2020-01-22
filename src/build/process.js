@@ -3,6 +3,10 @@ const { toPairs } = require("ramda");
 const messageMatcher = buildMessageMatcher([]);
 const parse = message => parseMessagePattern(message, messageMatcher);
 
+/**
+ * The preprocess function takes an array of ICU messages, 
+ * and outputs a array of strings contained within those messageformats. 
+ */
 const filter = ["0 list and"];
 const preprocess = messageformats => {
   const output = [];
