@@ -79,21 +79,41 @@ toPairs(specification).map(([scaleCategory, spec]) => {
     lineHeight
   };
 });
-
+const ext = (type = "sass") => {
+  if (type === "sass") return ".scss";
+  else if (type === "less") return ".less";
+  else return `.${type}`;
+};
 // console.log(robotoXHeight, robotoXHeight2);
-const result = toPairs(typeScale).reduce((p, [scaleCategory, spec]) => {
-  return (
-    p +
-    `$mdc-typography-styles-${scaleCategory}: (
-  font-family: unquote("${spec.fontFamily}") !important,
-  font-weight: ${spec.fontWeight} !important,
-  font-size: ${spec.fontSize} !important,
-  letter-spacing: ${spec.letterSpacing} !important,
-  line-height: ${spec.lineHeight} !important
+const outputType = "less";
+let result = toPairs(typeScale).reduce((p, [scaleCategory, spec]) => {
+  const template = (type = "sass") => {
+    if (type === "sass")
+      return `$mdc-typography-styles-${scaleCategory}: (
+  font-family: unquote("${spec.fontFamily}"),
+  font-weight: ${spec.fontWeight},
+  font-size: ${spec.fontSize},
+  letter-spacing: ${spec.letterSpacing},
+  line-height: ${spec.lineHeight}
 );
-`
-  );
+`;
+    else if (type === "less")
+      return `.${scaleCategory} {
+    font-family: ${spec.fontFamily};
+    font-weight: ${spec.fontWeight};
+    font-size: ${spec.fontSize};
+    letter-spacing: ${spec.letterSpacing};
+    line-height: ${spec.lineHeight};
+}`;
+  };
+  return p + template(outputType);
 }, "");
+
+if (outputType === "less") {
+  result = `#typography() {
+${result}
+}`;
+}
 const tryMkdir = dir => {
   try {
     fs.mkdirSync(dir);
@@ -102,7 +122,7 @@ const tryMkdir = dir => {
 tryMkdir("./dist/typography");
 const file = `./dist/typography/${argv.theme}${
   argv.monospace ? "-mono" : ""
-}.scss`;
+}${ext(outputType)}`;
 fs.writeFileSync(file, result);
 console.log(`Created ${file}`);
 // console.log(result);
