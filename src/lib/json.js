@@ -67,6 +67,11 @@ const deflatten = paths => {
   return result;
 };
 
+const diffArrays = (a, b) => ({
+  left: a.filter(a_ => !b.includes(a_)),
+  right: b.filter(b_ => !a.includes(b_))
+});
+
 // Source
 // https://github.com/ramda/ramda/wiki/Cookbook#flatten-a-nested-object-into-dot-separated-key--value-pairs
 const flattenObj = obj => {
@@ -125,3 +130,4 @@ module.exports.groupObjBy = groupObjBy;
 
 module.exports.flatten = flatten;
 module.exports.deflatten = deflatten;
+module.exports.diffArrays = diffArrays;

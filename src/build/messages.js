@@ -4,7 +4,7 @@
 // sets GOOGLE_APPLICATION_CREDENTIALS
 require("dotenv").config();
 const cliProgress = require("cli-progress");
-const { flatten, deflatten } = require("../lib/json");
+const { diffArrays, flatten, deflatten } = require("../lib/json");
 const { fromPairs, toPairs, keys, values, pipe } = require("ramda");
 const yargs = require("yargs");
 const fs = require("fs");
@@ -45,10 +45,7 @@ const tryMkdir = dir => {
   } catch (e) {}
 };
 
-const diffArrays = (a, b) => ({
-  left: a.filter(a_ => !b.includes(a_)),
-  right: b.filter(b_ => !a.includes(b_))
-});
+module.exports.diffArrays = diffArrays;
 
 const root = `.`; // relative to package root
 tryMkdir(`${root}/dist`);

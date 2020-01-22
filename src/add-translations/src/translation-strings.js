@@ -7,7 +7,7 @@ const TRANSLATIONS_DIR = './translations';
 const SHEET_ID = '1y53cv1-nIGVPBm8Z-vMPxpqOKq70ah0lhfvSzto-Aeo';
 const SHEET = `NO_NEED`;
 const LANGS_RANGE = `${SHEET}!C1:AP1`;
-const CONTENT_RANGE = `${SHEET}!A2:AP302`;
+const CONTENT_RANGE = `${SHEET}!A2:AP300`;
 
 /**
  * Fetch, format and save translation strings.
