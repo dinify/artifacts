@@ -1,5 +1,7 @@
 const defaultLanguages = require("../i18n/supplemental/default-languages.json");
 
+const managedLanguages = ["en", "cs", "es", "fr", "it", "de", "ru", "zh-Hans", "ko"];
+
 const test = false;
 const common = {
   sourceLanguage: "en"
@@ -15,10 +17,10 @@ const config = test
       ...common,
       namespaces: {
         landing: ["en", "cs", "es", "de", "fr", "it", "ru"],
-        core: ["en", "cs", "es"],
+        core: managedLanguages,
         "core.app": defaultLanguages,
-        "core.dashboard": ["en", "cs", "es"],
-        "core.waiterboard": ["en", "cs", "es"]
+        "core.dashboard": managedLanguages,
+        "core.waiterboard": managedLanguages
       }
     };
 

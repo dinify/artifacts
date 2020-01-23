@@ -58,7 +58,7 @@ module.exports = {
   },
   gratuity: "Spropitné",
   pay: "Platit",
-  paymentPending: "Čekání na platbu...",
+  paymentPending: "Čekání na platbu",
   editing: "Upravit",
   profile: "Profil",
   dashboard: "Dashboard",
