@@ -41,7 +41,20 @@ module.exports = {
       original: "Original"
     },
     requiredChoices: "Must select an item per each option",
-    title: "Cart"
+    title: "Cart",
+    scanInstruction: "Show this code to the waiter to make an order"
+  },
+  dialogs: {
+    check: "Don't show again",
+    logOut: {
+      title: "Are you sure?",
+      message:
+        "If you log out, you won't be able to use favorites, and a lot of other useful features."
+    },
+    clearOrder: {
+      title: "Clear order?",
+      message: "Would you like to clear your current order?"
+    }
   },
   checkedIn: "Checked in",
   checkedOut: "Checked out from the restaurant",
