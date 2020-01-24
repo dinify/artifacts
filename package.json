@@ -12,8 +12,10 @@
     "build:supplemental": "./bash-scripts/build-supplemental.sh",
     "build:typography": "node ./src/build/typography/index.js",
     "generate:sheet": "node ./src/generate/sheet.js",
-    "include:messages": "node ./src/include/messages.js",
-    "include:test": "npm run include:messages -- -l es -n core -k itemCount -k itemCountSelected -w",
+    "messages:include": "node ./src/messages/include.js",
+    "messages:migrate": "node ./src/messages/migrate.js",
+    "messages:include:test": "npm run messages:include -- -l es -n core -k itemCountSelected -k itemCount",
+    "messages:migrate:test": "npm run messages:migrate -- -l en -n dashboard -k menu.price -k menu.addons -k menu.choices -k menu.ingredients -a",
     "deploy": "ENV=staging ./bash-scripts/deploy.sh",
     "deploy:dev": "ENV=staging ./bash-scripts/deploy.sh",
     "deploy:prod": "ENV=production ./bash-scripts/deploy.sh"

@@ -15,6 +15,8 @@ const config = test
     }
   : {
       ...common,
+      defaultLanguages,
+      managedLanguages,
       namespaces: {
         landing: ["en", "cs", "es", "de", "fr", "it", "ru"],
         core: managedLanguages,

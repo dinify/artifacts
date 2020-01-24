@@ -3,6 +3,7 @@
 const { google } = require('googleapis');
 const fs = require('fs');
 const { deflatten } = require('../../lib/json');
+const { stringify } = require('../../lib/es6');
 const TRANSLATIONS_DIR = './translations';
 const SHEET_ID = '1y53cv1-nIGVPBm8Z-vMPxpqOKq70ah0lhfvSzto-Aeo';
 const SHEET = `NO_NEED`;
@@ -112,25 +113,10 @@ const createDirs = (dirnames, path) => {
 const writeToFile = (path, data) => {
   try {
     console.log(`SAVING TO FILE ${path}`);
-    fs.writeFileSync(path, `module.exports = ${stringify(data)};`);
+    fs.writeFileSync(path, stringify(data));
   } catch (err) {
     throw new Error(`Error writing to file ${path}: ` + err);
   }
 };
-
-function stringify(param) {
-  if (typeof param === "string") {
-    return param.includes("\n") ? `\`${param}\`` : JSON.stringify(param);
-  } else if (typeof param !== "object" || Array.isArray(param)) {
-    return JSON.stringify(param);
-  }
-  let props = Object.keys(param)
-    .map(key => {
-      if (key.includes('-')) return `"${key}": ${stringify(param[key])}`;
-      return `${key}: ${stringify(param[key])}`;
-    })
-    .join(",\n  ");
-  return `{\n  ${props}\n}`;
-}
 
 module.exports = saveTranslations;
