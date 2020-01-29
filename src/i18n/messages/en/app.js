@@ -52,8 +52,11 @@ module.exports = {
         "If you log out, you won't be able to use favorites, and a lot of other useful features."
     },
     clearOrder: {
-      title: "Clear order?",
-      message: "Would you like to clear your current order?"
+      title: "Delete order?",
+      error:
+        "You already have some items in your order from different restaurant.",
+      message: "Would you like to delete your current order?",
+      action: "Delete order"
     }
   },
   checkedIn: "Checked in",

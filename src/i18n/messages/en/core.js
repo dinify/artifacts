@@ -29,6 +29,7 @@ module.exports = {
   cancel: "Cancel",
   clear: "Clear",
   delete: "Delete",
+  dismiss: "Dismiss",
   done: "Done",
   edit: "Edit",
   email: {
@@ -97,6 +98,7 @@ module.exports = {
   selectCurrency: "Select currency",
   selectLanguage: "Select language",
   suggested: "Suggested",
+  undo: "Undo",
   user: {
     logOut: "Log out",
     signIn: "Sign in"
