@@ -15,7 +15,8 @@
     "messages:include": "node ./src/messages/include.js",
     "messages:migrate": "node ./src/messages/migrate.js",
     "messages:include:test": "npm run messages:include -- -l es -n core -k itemCountSelected -k itemCount",
-    "messages:migrate:test": "npm run messages:migrate -- -l en -n dashboard -k menu.price -k menu.addons -k menu.choices -k menu.ingredients -a",
+    "messages:migrate:test": "npm run messages:migrate -- -l en",
+    "messages:migrate:test2": "npm run messages:migrate -- -l en",
     "deploy": "ENV=staging ./bash-scripts/deploy.sh",
     "deploy:dev": "ENV=staging ./bash-scripts/deploy.sh",
     "deploy:prod": "ENV=production ./bash-scripts/deploy.sh"
@@ -24,7 +25,7 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/translate": "^5.0.1",
-    "@phensley/cldr": "^0.22.3",
+    "@phensley/cldr": "^0.25.3",
     "cli-progress": "^3.3.1",
     "csvtojson": "^2.0.10",
     "dotenv": "^8.2.0",
