@@ -3,30 +3,26 @@ const request = require('request');
 const { google } = require('googleapis');
 
 const TRANSLATION_API = 'http://localhost:3000/translations/addForLanguage';
-// const SPREADHEET_ID = '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms';
 const SPREADHEET_ID = '1ah2DrY3s66tdGYQ5gRhlEf0qptUC9CfIK_6VccC54_Y';
-const RANGE = 'Sheet7!A1:C';
+const RANGE = 'Sheet7!A1:AN';
 const OVERWRITE = true;
 
-/**
- *
- * @param {*} body
- */
-export function post(body) {
-  request.post(
-    TRANSLATION_API,
-    {
-      json: body
-    },
-    (err, res) => {
-      if (err) throw new Error('Request error!');
-      console.log(JSON.stringify(res.body, null, 2));
-    }
-  );
-}
+const post = async body => {
+  return new Promise((resolve, reject) => {
+    request.post(
+      TRANSLATION_API,
+      {
+        json: body
+      },
+      (err, res) => {
+        if (err) reject(err);
+        resolve(res.body);
+      }
+    );
+  });
+};
 
-function buildBody(sheet) {
-  let column = 2;
+const buildBody = (sheet, column) => {
   let body = {
     language: '',
     overwrite: OVERWRITE,
@@ -46,29 +42,25 @@ function buildBody(sheet) {
     }
   });
   return body;
-}
+};
 
-/**
- * Uploads translations from sheet to dictionary.
- *
- * @see https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
- */
-export function postTranslations(auth) {
-  const sheets = google.sheets({ version: 'v4', auth });
-  sheets.spreadsheets.values.get(
-    {
+const postTranslations = async auth => {
+  try {
+    const sheets = google.sheets({ version: 'v4', auth });
+    const res = await sheets.spreadsheets.values.get({
       spreadsheetId: SPREADHEET_ID,
       range: RANGE
-    },
-    (err, res) => {
-      if (err) return console.log('The API returned an error: ' + err);
-      const rows = res.data.values;
-      const body = buildBody(rows);
-      console.log(JSON.stringify(body, null, 2));
-      post(body);
+    });
+    const rows = res.data.values;
+    for (let i = 0; i < rows[0].length; i++) {
+      const body = buildBody(rows, i);
+      const upload = await post(body);
+      console.log(upload);
     }
-  );
-}
+    return 0;
+  } catch (error) {
+    throw error;
+  }
+};
 
-// todo: do multiple requests
-// todo: pass arguments from cmd line l(ang, sheet and range)
+module.exports = postTranslations;
