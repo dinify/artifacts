@@ -1,7 +1,7 @@
 const fontkit = require("fontkit");
 
 const root = "./brand/fonts";
-const o = s => () => fontkit.openSync(`${root}/${s}`);
+const o = (s) => () => fontkit.openSync(`${root}/${s}`);
 module.exports = {
   Roboto: {
     100: o("roboto/Roboto-Thin.ttf"),
@@ -9,7 +9,7 @@ module.exports = {
     400: o("roboto/Roboto-Regular.ttf"),
     500: o("roboto/Roboto-Medium.ttf"),
     700: o("roboto/Roboto-Bold.ttf"),
-    900: o("roboto/Roboto-Black.ttf")
+    900: o("roboto/Roboto-Black.ttf"),
   },
   Lato: {
     100: o("lato/Lato-Hairline.ttf"),
@@ -20,12 +20,12 @@ module.exports = {
     600: o("lato/Lato-Semibold.ttf"),
     700: o("lato/Lato-Bold.ttf"),
     800: o("lato/Lato-Heavy.ttf"),
-    900: o("lato/Lato-Black.ttf")
+    900: o("lato/Lato-Black.ttf"),
   },
   "Google Sans": {
     400: o("google-sans/GoogleSans-Regular.ttf"),
     500: o("google-sans/GoogleSans-Medium.ttf"),
-    700: o("google-sans/GoogleSans-Bold.ttf")
+    700: o("google-sans/GoogleSans-Bold.ttf"),
   },
   "SF Pro Text": {
     100: o("sf-pro-text/SF-Pro-Text-Ultralight.otf"),
@@ -36,7 +36,7 @@ module.exports = {
     600: o("sf-pro-text/SF-Pro-Text-Semibold.otf"),
     700: o("sf-pro-text/SF-Pro-Text-Bold.otf"),
     800: o("sf-pro-text/SF-Pro-Text-Heavy.otf"),
-    900: o("sf-pro-text/SF-Pro-Text-Black.otf")
+    900: o("sf-pro-text/SF-Pro-Text-Black.otf"),
   },
   "SF Pro Display": {
     100: o("sf-pro-display/SF-Pro-Display-Ultralight.otf"),
@@ -47,13 +47,25 @@ module.exports = {
     600: o("sf-pro-display/SF-Pro-Display-Semibold.otf"),
     700: o("sf-pro-display/SF-Pro-Display-Bold.otf"),
     800: o("sf-pro-display/SF-Pro-Display-Heavy.otf"),
-    900: o("sf-pro-display/SF-Pro-Display-Black.otf")
+    900: o("sf-pro-display/SF-Pro-Display-Black.otf"),
   },
   "Roboto Mono": {
     400: o("roboto-mono/RobotoMono-Regular.ttf"),
-    500: o("roboto-mono/RobotoMono-Medium.ttf")
+    500: o("roboto-mono/RobotoMono-Medium.ttf"),
   },
   "SF Mono": {
-    400: o("sf-mono/SFMono.ttf")
-  }
+    400: o("sf-mono/SFMono.ttf"),
+  },
+  "Segoe UI": {
+    400: o("segoe-ui/segoeui.ttf"),
+  },
+  "Helvetica Neue": {
+    400: o("helvetica-neue/HelveticaNeue.ttf"),
+  },
+  "Arial": {
+    400: o("arial/Arial.ttf"),
+  },
+  "Noto Sans": {
+    400: o("noto-sans/NotoSans-Regular.ttf"),
+  },
 };
